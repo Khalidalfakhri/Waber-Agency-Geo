@@ -1,0 +1,38 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "EfuOJi_QrGNYnvlh4_2oJ"
+uri = "file://artifacts/loop-agency/public/hero-bg.png"
+type = "image"
+title = "Abstract dark fluid waves"
+
+[[generated]]
+id = "KCxvljki7N_FE3BAtgnQ1"
+uri = "file://artifacts/loop-agency/public/services-production.png"
+type = "image"
+title = "Professional camera lens macro"
+
+[[generated]]
+id = "ID3ckuOaTjFQByRDlZU80"
+uri = "file://artifacts/loop-agency/public/approach-bg.png"
+type = "image"
+title = "Abstract dark minimal architecture"
+
+[[generated]]
+id = "5Fq0ZZzn_BekL9zM_mCtO"
+uri = "file://artifacts/loop-agency/public/work-brand.png"
+type = "image"
+title = "Modern brand identity mockup"
+
+[[generated]]
+id = "8V4V-9F-I8-x3KXviiQJS"
+uri = "file://artifacts/loop-agency/public/work-digital.png"
+type = "image"
+title = "Digital app UI design"
+
+[[generated]]
+id = "MiLH2Fgc4RI5WlrIlpoKr"
+uri = "file://artifacts/loop-agency/public/work-campaign.png"
+type = "image"
+title = "Social media campaign visual"

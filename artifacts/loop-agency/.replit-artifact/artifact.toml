@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Loop Creative Agency"
+version = "1.0.0"
+id = "artifacts/loop-agency"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 20773
+
+[services.development]
+run = "pnpm --filter @workspace/loop-agency run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/loop-agency", "run", "build" ]
+publicDir = "artifacts/loop-agency/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "20773"
+BASE_PATH = "/"
