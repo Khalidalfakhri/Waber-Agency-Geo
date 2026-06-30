@@ -290,7 +290,7 @@ export default function Home() {
           <img src="/desert-dunes.png" alt="Desert Dunes" className="w-full h-full object-cover" />
         </div>
         <div className="container relative z-20 mx-auto px-6 md:px-12">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-12 text-center">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-x-6 sm:gap-x-10 gap-y-14 text-center">
             {[
               { num: "2,500+", ar: "مشروع منجز", en: "Projects" },
               { num: "1,000+", ar: "عميل سعيد", en: "Clients" },
@@ -303,9 +303,9 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: idx * 0.1 }}
-                className="flex flex-col items-center"
+                className="flex flex-col items-center px-1"
               >
-                <h3 dir="ltr" className="en text-4xl sm:text-5xl md:text-7xl font-bold mb-4 text-foreground relative inline-block">
+                <h3 dir="ltr" className="en text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-foreground relative inline-block whitespace-nowrap tabular-nums">
                   {stat.num}
                   <span className="absolute -bottom-2 left-0 right-0 h-1 bg-accent/40" />
                 </h3>
