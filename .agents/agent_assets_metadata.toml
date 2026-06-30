@@ -23,28 +23,52 @@ title = "dark geometric architecture"
 id = "5Fq0ZZzn_BekL9zM_mCtO"
 uri = "file://artifacts/loop-agency/public/work-brand.png"
 type = "image"
-title = "brand identity mockup"
+title = "Luxury brand stationery"
 
 [[generated]]
 id = "8V4V-9F-I8-x3KXviiQJS"
 uri = "file://artifacts/loop-agency/public/work-digital.png"
 type = "image"
-title = "digital app mockup"
+title = "Dark mode UI mockup"
 
 [[generated]]
 id = "MiLH2Fgc4RI5WlrIlpoKr"
 uri = "file://artifacts/loop-agency/public/work-campaign.png"
 type = "image"
-title = "editorial campaign photography"
+title = "High fashion editorial"
 
 [[generated]]
 id = "yR-_NIdJo7PeWmfckkSSd"
 uri = "file://artifacts/loop-agency/public/production.png"
 type = "image"
-title = "cinema camera production"
+title = "Professional cinema camera"
 
 [[generated]]
 id = "Nw-SQeDY8qK6N4pNQF3mY"
 uri = "file://artifacts/loop-agency/public/work-4.png"
 type = "image"
 title = "luxury interior photography"
+
+[[generated]]
+id = "B2AbvUGtd_1Ujx7FH7PjE"
+uri = "file://artifacts/loop-agency/public/hero-riyadh.png"
+type = "image"
+title = "Riyadh skyline dusk"
+
+[[generated]]
+id = "Pov_1HoJoJpLiSXt1ILlK"
+uri = "file://artifacts/loop-agency/public/about-diriyah.png"
+type = "image"
+title = "Diriyah historic architecture"
+
+[[generated]]
+id = "sxYaZYxVLBGiDpnZ6czkI"
+uri = "file://artifacts/loop-agency/public/desert-dunes.png"
+type = "image"
+title = "Saudi desert dunes"
+
+[[generated]]
+id = "p2_Tp3uBkirdSzTBukMVR"
+uri = "file://artifacts/loop-agency/public/work-event.png"
+type = "image"
+title = "Corporate event stage"
