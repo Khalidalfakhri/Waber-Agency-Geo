@@ -54,9 +54,9 @@ export default function Home() {
         <div className="container mx-auto px-6 md:px-12 flex items-center justify-between">
           <a href="#" className="flex items-center group" data-testid="link-home">
             <img
-              src="/loop-logo-light.png"
-              alt="Loop Agency Logo"
-              className="h-14 md:h-16 w-auto transition-transform duration-500 group-hover:scale-105"
+              src="/wabar-logo.png"
+              alt="Wabar Agency Logo"
+              className="h-16 md:h-20 w-auto transition-transform duration-500 group-hover:scale-105"
             />
           </a>
 
@@ -375,15 +375,15 @@ export default function Home() {
             </div>
             <div className="en text-right space-y-6 text-foreground/60 text-xl font-light">
               <p className="hover:text-accent transition-colors cursor-pointer">Riyadh, Saudi Arabia</p>
-              <p className="hover:text-accent transition-colors cursor-pointer">hello@loopcreative.sa</p>
+              <p className="hover:text-accent transition-colors cursor-pointer">hello@wabar.sa</p>
               <p className="hover:text-accent transition-colors cursor-pointer">+966 50 123 4567</p>
             </div>
           </div>
           
           <div className="flex flex-col md:flex-row justify-between items-center pt-10 border-t border-border/50 gap-6">
-            <img src="/loop-logo-light.png" alt="Loop" className="h-12 w-auto" />
+            <img src="/wabar-logo.png" alt="Wabar Agency" className="h-16 w-auto" />
             <p className="en text-sm text-foreground/40">
-              © {new Date().getFullYear()} Loop Creative Agency. All rights reserved.
+              © {new Date().getFullYear()} Wabar Agency. All rights reserved.
             </p>
             <div className="flex gap-8 en text-sm text-foreground/60 uppercase tracking-widest">
               <a href="#" className="hover:text-accent transition-colors">Instagram</a>
