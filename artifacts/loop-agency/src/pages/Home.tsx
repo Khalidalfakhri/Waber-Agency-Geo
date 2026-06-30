@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { motion, useScroll, useTransform, AnimatePresence } from "framer-motion";
-import { ArrowLeft, ArrowRight, ChevronLeft, Menu, X, Play, Globe, Camera, PenTool, LayoutGrid, Megaphone } from "lucide-react";
+import { ArrowLeft, Menu, X, Play, Globe, Camera, PenTool, LayoutGrid, Megaphone, ArrowUpRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const navLinks = [
@@ -10,40 +10,42 @@ const navLinks = [
   { ar: "تواصل", en: "Contact", href: "#contact" },
 ];
 
+const tickerItems = [
+  { ar: "الهوية البصرية", en: "Brand Identity" },
+  { ar: "التسويق الرقمي", en: "Digital Marketing" },
+  { ar: "إنتاج سينمائي", en: "Cinematic Production" },
+  { ar: "تصميم المواقع", en: "Web Design" },
+];
+
 const services = [
   {
-    ar: "الهوية البصرية والاستراتيجية",
-    en: "Brand Identity & Strategy",
-    desc_ar: "نبني هويات بصرية راسخة وأنظمة بصرية تُعرّف قادة الصناعة وتميّزهم.",
-    desc_en: "Foundational narratives and visual systems that define industry leaders.",
+    ar: "الهوية البصرية",
+    en: "Brand Identity",
+    desc: "نبني هويات بصرية راسخة وأنظمة بصرية تُعرّف قادة الصناعة وتميّزهم.",
     icon: <LayoutGrid className="w-6 h-6" />,
   },
   {
-    ar: "التسويق الرقمي والتواصل الاجتماعي",
-    en: "Digital Marketing & Social Media",
-    desc_ar: "حملات تسويقية مدفوعة بالبيانات، تستحوذ على الانتباه وتحوّل الجمهور بمقياس واسع.",
-    desc_en: "Data-driven campaigns that capture attention and convert audiences at scale.",
+    ar: "التسويق الرقمي",
+    en: "Digital Marketing",
+    desc: "حملات تسويقية مدفوعة بالبيانات، تستحوذ على الانتباه وتحوّل الجمهور بمقياس واسع.",
     icon: <Megaphone className="w-6 h-6" />,
   },
   {
-    ar: "تصميم المواقع والتطبيقات",
+    ar: "تصميم المواقع",
     en: "Web & App Design",
-    desc_ar: "تجارب رقمية غامرة مصممة للأداء العالي والتفوق الجمالي.",
-    desc_en: "Immersive digital experiences engineered for performance and aesthetic dominance.",
+    desc: "تجارب رقمية غامرة مصممة للأداء العالي والتفوق الجمالي.",
     icon: <PenTool className="w-6 h-6" />,
   },
   {
-    ar: "الإنتاج الإبداعي",
+    ar: "الإنتاج السينمائي",
     en: "Creative Production",
-    desc_ar: "تصوير سينمائي وإنتاج فيديو يرفع المستوى البصري لعلامتك التجارية.",
-    desc_en: "Cinematic photography and video production that elevates your visual standard.",
+    desc: "تصوير سينمائي وإنتاج فيديو يرفع المستوى البصري لعلامتك التجارية.",
     icon: <Camera className="w-6 h-6" />,
   },
   {
     ar: "إنتاج المحتوى",
     en: "Content Creation",
-    desc_ar: "محتوى أصيل يروي قصة علامتك ويبني علاقة حقيقية مع جمهورك.",
-    desc_en: "Authentic content that tells your story and builds genuine audience connections.",
+    desc: "محتوى أصيل يروي قصة علامتك ويبني علاقة حقيقية مع جمهورك.",
     icon: <Globe className="w-6 h-6" />,
   },
 ];
@@ -51,51 +53,48 @@ const services = [
 const projects = [
   {
     ar: "أورا ريزيدنس",
-    en: "Aura Residence",
-    cat_ar: "الهوية البصرية والاستراتيجية",
-    cat_en: "Brand Identity & Strategy",
+    en: "Brand Identity & Strategy",
     img: "/work-brand.png",
     aspect: "aspect-[4/3]",
   },
   {
     ar: "منصة فولت",
-    en: "Vault Platform",
-    cat_ar: "تصميم المواقع والتطبيقات",
-    cat_en: "Web & App Design",
+    en: "Web & App Design",
     img: "/work-digital.png",
     aspect: "aspect-[3/4]",
   },
   {
     ar: "نوفا ستوديوز",
-    en: "Nova Studios",
-    cat_ar: "التسويق الرقمي",
-    cat_en: "Digital Marketing",
+    en: "Digital Marketing",
     img: "/work-campaign.png",
     aspect: "aspect-square",
+  },
+  {
+    ar: "أبيكس للتطوير",
+    en: "Interior & Architecture",
+    img: "/work-4.png",
+    aspect: "aspect-[4/3]",
   },
 ];
 
 const steps = [
   {
-    num: "٠١",
+    num: "01",
     ar: "الاكتشاف والتحليل",
     en: "Discovery & Audit",
-    desc_ar: "نفكك وضعك الراهن للوصول إلى الحقيقة الجوهرية لعلامتك التجارية.",
-    desc_en: "We deconstruct your current positioning to uncover the core truth of your brand.",
+    desc: "نفكك وضعك الراهن للوصول إلى الحقيقة الجوهرية لعلامتك التجارية لضمان تأثير حقيقي.",
   },
   {
-    num: "٠٢",
+    num: "02",
     ar: "الرؤية الاستراتيجية",
     en: "Strategic Vision",
-    desc_ar: "نهندس مكانة فريدة في السوق لا يمكن لأي منافس تكرارها.",
-    desc_en: "Architecting a unique market position that competitors cannot replicate.",
+    desc: "نهندس مكانة فريدة في السوق لا يمكن لأي منافس تكرارها بناءً على رؤية واضحة.",
   },
   {
-    num: "٠٣",
+    num: "03",
     ar: "التنفيذ المتقن",
     en: "Flawless Execution",
-    desc_ar: "نُجسّد الرؤية عبر نقاط الاتصال الرقمية والمادية والتجريبية كافة.",
-    desc_en: "Bringing the vision to life across digital, physical, and experiential touchpoints.",
+    desc: "نُجسّد الرؤية عبر نقاط الاتصال الرقمية والمادية والتجريبية كافة بدقة متناهية.",
   },
 ];
 
@@ -115,26 +114,19 @@ export default function Home() {
   }, []);
 
   return (
-    <div dir="rtl" className="bg-background text-foreground min-h-screen overflow-x-hidden selection:bg-primary selection:text-primary-foreground">
-
-      {/* Navigation */}
+    <div dir="rtl" className="bg-background text-foreground min-h-screen overflow-x-hidden">
+      
+      {/* 1. Navigation */}
       <header
         className={`fixed top-0 w-full z-50 transition-all duration-500 border-b border-transparent ${
-          isScrolled
-            ? "bg-background/90 backdrop-blur-xl border-border py-4"
-            : "bg-transparent py-6"
+          isScrolled ? "bg-background/90 backdrop-blur-xl border-border py-4" : "bg-transparent py-6"
         }`}
         data-testid="navbar"
       >
         <div className="container mx-auto px-6 md:px-12 flex items-center justify-between">
-          {/* Logo — right side in RTL */}
           <a href="#" className="flex items-center gap-3 group" data-testid="link-home">
-            <div className="overflow-hidden flex items-center justify-center transition-transform duration-500 group-hover:scale-105">
-              <img
-                src="/loop-logo.jpeg"
-                alt="Loop Agency Logo"
-                className="h-9 w-auto"
-              />
+            <div className="bg-[#f0ede4] rounded-full px-4 py-2 flex items-center justify-center transition-transform duration-500 group-hover:scale-105">
+              <img src="/loop-logo.jpeg" alt="Loop Agency Logo" className="h-6 w-auto mix-blend-multiply" />
             </div>
           </a>
 
@@ -143,7 +135,7 @@ export default function Home() {
               <a
                 key={link.ar}
                 href={link.href}
-                className="text-sm font-medium tracking-wide text-muted-foreground hover:text-foreground transition-colors"
+                className="text-sm font-bold tracking-wide text-foreground/70 hover:text-foreground transition-colors"
                 data-testid={`link-${link.en.toLowerCase()}`}
               >
                 {link.ar}
@@ -154,7 +146,7 @@ export default function Home() {
           <div className="hidden md:block">
             <Button
               data-testid="button-start-project"
-              className="rounded-none bg-primary text-primary-foreground hover:bg-primary/85 uppercase tracking-widest font-bold text-xs px-8 py-6 en-label"
+              className="rounded-none bg-primary text-primary-foreground hover:bg-primary/90 uppercase font-bold px-8 py-6"
             >
               ابدأ مشروعك
             </Button>
@@ -165,7 +157,7 @@ export default function Home() {
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             data-testid="button-mobile-menu"
           >
-            {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            {mobileMenuOpen ? <X className="w-8 h-8" /> : <Menu className="w-8 h-8" />}
           </button>
         </div>
       </header>
@@ -174,9 +166,9 @@ export default function Home() {
       <AnimatePresence>
         {mobileMenuOpen && (
           <motion.div
-            initial={{ opacity: 0, x: 40 }}
-            animate={{ opacity: 1, x: 0 }}
-            exit={{ opacity: 0, x: 40 }}
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -20 }}
             className="fixed inset-0 z-40 bg-background pt-28 px-6 pb-12 flex flex-col justify-between md:hidden"
           >
             <nav className="flex flex-col gap-8">
@@ -194,71 +186,56 @@ export default function Home() {
                 </motion.a>
               ))}
             </nav>
-            <Button className="rounded-none bg-primary text-primary-foreground w-full font-bold text-sm py-8">
+            <Button className="rounded-none bg-primary text-primary-foreground w-full font-bold text-lg py-8">
               ابدأ مشروعك
             </Button>
           </motion.div>
         )}
       </AnimatePresence>
 
-      {/* Hero Section */}
-      <section
-        className="relative min-h-screen flex items-center overflow-hidden"
-        data-testid="section-hero"
-      >
-        {/* Background texture — subtle warm gradient */}
-        <motion.div
-          className="absolute inset-0 z-0"
-          style={{ y: heroY, opacity: heroOpacity }}
-        >
-          <div className="absolute inset-0 bg-gradient-to-bl from-[#f0ede0] via-background to-[#e8e3cc] opacity-80" />
-          {/* Decorative large circle echo of the logo's pill shape */}
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[70vw] h-[30vw] rounded-full border border-foreground/8 opacity-40" />
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[85vw] h-[40vw] rounded-full border border-foreground/5 opacity-30" />
-          <div className="absolute top-[20%] right-[10%] w-48 h-48 rounded-full border border-foreground/10 opacity-50" />
-          <div className="absolute bottom-[15%] left-[8%] w-24 h-24 rounded-full border border-foreground/10 opacity-50" />
+      {/* 2. Hero */}
+      <section className="relative min-h-screen flex items-center overflow-hidden" data-testid="section-hero">
+        <motion.div className="absolute inset-0 z-0" style={{ y: heroY, opacity: heroOpacity }}>
+          <div className="absolute inset-0 bg-background/60 bg-gradient-to-b from-transparent to-background z-10" />
+          <img src="/hero-bg.png" alt="" className="w-full h-full object-cover" />
         </motion.div>
 
-        <div className="container relative z-10 mx-auto px-6 md:px-12 pt-28 pb-20">
-          <div className="max-w-5xl">
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 0.5 }}
-            >
-              <span className="en-label text-xs uppercase tracking-[0.3em] text-muted-foreground block mb-6">
-                Creative Agency — Saudi Arabia
-              </span>
-            </motion.div>
+        <div className="container relative z-20 mx-auto px-6 md:px-12 pt-32 pb-20 flex flex-col justify-center min-h-screen">
+          <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5 }} className="w-full flex justify-end mb-8">
+            <span className="en text-xs uppercase tracking-widest text-foreground/50 border border-foreground/20 px-3 py-1 rounded-full">
+              CREATIVE AGENCY — KSA
+            </span>
+          </motion.div>
 
+          <div className="max-w-5xl">
             <motion.h1
               initial={{ opacity: 0, y: 40 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
-              className="text-6xl md:text-8xl lg:text-[9rem] font-display font-black leading-[0.9] mb-6 text-foreground"
+              className="text-7xl md:text-8xl lg:text-[130px] font-display font-black leading-[1.1] mb-6 text-foreground"
               data-testid="hero-headline"
             >
-              تجاوز
+              صانعو
               <br />
-              <span className="text-foreground/25">المألوف</span>
+              المستحيل
             </motion.h1>
 
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.9, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
-              className="text-xl md:text-2xl text-muted-foreground max-w-xl font-light mb-3 leading-relaxed"
+              className="text-xl md:text-3xl text-foreground/80 max-w-2xl font-light mb-3 leading-relaxed"
             >
-              وكالة إبداعية سعودية متكاملة، نصنع هويات بصرية وتجارب رقمية وإنتاجاً سينمائياً يستحيل تجاهله.
+              وكالة إبداعية سعودية نحول الرؤى إلى تجارب لا تُنسى
             </motion.p>
 
             <motion.p
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.9, delay: 0.3 }}
-              className="en-label text-sm text-muted-foreground/60 mb-12"
+              className="en text-sm text-foreground/50 mb-12 max-w-xl"
             >
-              A Saudi creative powerhouse — brand identities, digital experiences, cinematic production.
+              A Saudi creative agency transforming visions into unforgettable experiences.
             </motion.p>
 
             <motion.div
@@ -269,401 +246,272 @@ export default function Home() {
             >
               <Button
                 data-testid="button-view-work"
-                className="rounded-none bg-primary text-primary-foreground hover:bg-primary/85 h-14 px-10 text-base font-bold group"
+                className="rounded-none bg-primary text-primary-foreground hover:bg-primary/90 h-16 px-10 text-lg font-bold group"
               >
-                <ArrowLeft className="ml-3 w-4 h-4 transition-transform group-hover:-translate-x-1" />
+                <ArrowLeft className="ml-3 w-5 h-5 transition-transform group-hover:-translate-x-1" />
                 استعرض أعمالنا
               </Button>
-              <button
-                data-testid="button-showreel"
-                className="flex items-center gap-4 text-sm font-bold hover:text-foreground/60 transition-colors group"
-              >
-                <div className="w-14 h-14 rounded-full border-2 border-foreground/20 flex items-center justify-center group-hover:border-foreground transition-colors">
-                  <Play className="w-4 h-4 mr-0.5" fill="currentColor" />
+              <button data-testid="button-showreel" className="flex items-center gap-4 text-base font-bold hover:text-accent transition-colors group">
+                <div className="w-16 h-16 rounded-full border border-foreground/20 flex items-center justify-center group-hover:border-accent transition-colors">
+                  <Play className="w-5 h-5 mr-1" fill="currentColor" />
                 </div>
                 <span>شاهد الشوريل</span>
               </button>
             </motion.div>
           </div>
 
-          {/* Stats bar */}
           <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.9, delay: 0.7 }}
-            className="mt-24 pt-10 border-t border-border grid grid-cols-3 md:grid-cols-3 gap-8 max-w-2xl"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 1.5 }}
+            className="absolute bottom-10 left-8 flex flex-col items-center gap-2 text-xs text-foreground/50 en tracking-widest"
           >
-            {[
-              { num: "+١٠", ar: "سنوات خبرة", en: "Years Experience" },
-              { num: "+٥٠", ar: "علامة تجارية", en: "Brands Elevated" },
-              { num: "١٢", ar: "جائزة دولية", en: "Awards" },
-            ].map((stat, i) => (
-              <div key={i} data-testid={`stat-${i}`}>
-                <h3 className="text-3xl md:text-4xl font-display font-black mb-1">{stat.num}</h3>
-                <p className="text-sm text-foreground/70 mb-0.5">{stat.ar}</p>
-                <p className="en-label text-xs text-muted-foreground/50">{stat.en}</p>
-              </div>
-            ))}
+            <div className="w-px h-16 bg-gradient-to-b from-foreground/40 to-transparent" />
+            <span style={{ writingMode: "vertical-rl" }}>SCROLL</span>
           </motion.div>
         </div>
-
-        {/* Scroll indicator */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 1.5 }}
-          className="absolute bottom-10 left-8 flex flex-col items-center gap-2 text-xs text-muted-foreground en-label tracking-widest"
-        >
-          <div className="w-px h-12 bg-gradient-to-b from-foreground/40 to-transparent" />
-          <span style={{ writingMode: "vertical-rl" }}>SCROLL</span>
-        </motion.div>
       </section>
 
-      {/* Manifesto / Agency Section */}
-      <section id="agency" className="py-28 md:py-40 border-t border-border" data-testid="section-agency">
-        <div className="container mx-auto px-6 md:px-12">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
-            <div className="lg:col-span-4">
-              <span className="en-label text-xs uppercase tracking-[0.25em] text-muted-foreground block mb-4">01 / The Agency</span>
-              <h2 className="text-3xl md:text-5xl font-display font-black leading-tight">
-                صُنعنا
-                <br />
-                للجريئين
-              </h2>
-              <p className="en-label text-sm text-muted-foreground mt-3">Built for the bold.</p>
+      {/* 3. Ticker Bar */}
+      <div className="w-full bg-secondary border-y border-border py-4 overflow-hidden relative flex items-center">
+        <div className="flex w-max animate-ticker whitespace-nowrap">
+          {[...Array(6)].map((_, i) => (
+            <div key={i} className="flex items-center">
+              {tickerItems.map((item, j) => (
+                <div key={j} className="flex items-center">
+                  <span className="text-foreground/80 font-bold text-lg px-6">{item.ar}</span>
+                  <span className="w-1.5 h-1.5 rounded-full bg-accent mx-2" />
+                  <span className="en text-foreground/50 text-sm px-6 uppercase tracking-wider">{item.en}</span>
+                  <span className="w-1.5 h-1.5 rounded-full bg-accent mx-2" />
+                </div>
+              ))}
             </div>
-            <div className="lg:col-span-7 lg:col-start-6">
-              <motion.div
-                initial={{ opacity: 0, y: 40 }}
+          ))}
+        </div>
+      </div>
+
+      {/* 4. Manifesto / Agency */}
+      <section id="agency" className="py-32 bg-background border-b border-border" data-testid="section-agency">
+        <div className="container mx-auto px-6 md:px-12">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-16">
+            <div className="lg:col-span-4">
+              <span className="en text-sm text-accent tracking-widest block mb-4">01 / عن الوكالة</span>
+            </div>
+            <div className="lg:col-span-8">
+              <motion.h2 
+                initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: "-80px" }}
-                transition={{ duration: 0.8 }}
+                viewport={{ once: true }}
+                className="text-3xl md:text-5xl font-display font-bold leading-relaxed mb-16 text-foreground/90"
               >
-                <p className="text-2xl md:text-3xl leading-snug font-light text-foreground/85 mb-12">
-                  لا نؤمن بالاندماج في الضجيج. في سوق مشبع، التشابه فشل في الخيال. لوب وُجدت لترفع العلامات التجارية السعودية إلى معايير عالمية عبر استراتيجية لا تهادن، وتصميم يستفز الحواس، وتنفيذ سينمائي لا مثيل له.
-                </p>
-                <p className="en-label text-base text-muted-foreground font-light border-r-2 border-border pr-6">
-                  We don't do subtle. Blending in is a failure of imagination. Loop elevates Saudi brands to global standards through uncompromising strategy, visceral design, and cinematic execution.
-                </p>
-              </motion.div>
+                لا نؤمن بالاندماج في الضجيج. لوب وُجدت لترفع العلامات التجارية السعودية إلى معايير عالمية عبر استراتيجية لا تهادن، وتصميم يستفز الحواس.
+              </motion.h2>
+
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-12 pt-12 border-t border-border/50">
+                {[
+                  { num: "10+", ar: "سنوات خبرة" },
+                  { num: "50+", ar: "علامة تجارية" },
+                  { num: "12", ar: "جائزة دولية" },
+                ].map((stat, i) => (
+                  <motion.div 
+                    key={i} 
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ delay: i * 0.1 }}
+                  >
+                    <h3 className="en text-5xl font-bold mb-2 text-foreground">{stat.num}</h3>
+                    <p className="text-foreground/60 text-lg">{stat.ar}</p>
+                  </motion.div>
+                ))}
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Selected Work */}
-      <section id="work" className="py-28 border-t border-border" data-testid="section-work">
+      {/* 5. Selected Work */}
+      <section id="work" className="py-32 bg-background border-b border-border" data-testid="section-work">
         <div className="container mx-auto px-6 md:px-12">
           <div className="flex flex-col md:flex-row md:items-end justify-between mb-20 gap-8">
             <div>
-              <span className="en-label text-xs uppercase tracking-[0.25em] text-muted-foreground block mb-4">02 / Selected Work</span>
-              <h2 className="text-4xl md:text-6xl font-display font-black leading-none">دراسات الحالة</h2>
-              <p className="en-label text-sm text-muted-foreground mt-2">Case Studies</p>
+              <span className="en text-sm text-accent tracking-widest block mb-4">02 / Selected Work</span>
+              <h2 className="text-5xl md:text-7xl font-display font-black text-foreground">أعمالنا</h2>
             </div>
-            <Button
-              data-testid="button-all-work"
-              variant="outline"
-              className="rounded-none border-foreground text-foreground hover:bg-primary hover:text-primary-foreground h-12 px-8 text-sm font-bold hidden md:inline-flex"
-            >
-              عرض كل الأعمال
+            <Button variant="outline" className="rounded-none border-foreground/20 hover:bg-foreground hover:text-background h-14 px-8 text-lg hidden md:inline-flex group">
+              عرض الكل
+              <ArrowLeft className="w-4 h-4 mr-2 transition-transform group-hover:-translate-x-1" />
             </Button>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-16">
             {projects.map((project, idx) => (
               <motion.div
                 key={idx}
                 initial={{ opacity: 0, y: 40 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                transition={{ duration: 0.7, delay: idx * 0.15 }}
-                className={`group cursor-pointer ${idx === 1 ? "md:mt-20" : ""}`}
-                data-testid={`card-project-${idx}`}
+                transition={{ duration: 0.7 }}
+                className={`group cursor-pointer ${idx % 2 === 1 ? "md:mt-24" : ""}`}
               >
-                <div className={`overflow-hidden mb-5 relative bg-muted ${project.aspect}`}>
-                  <img
-                    src={project.img}
-                    alt={project.ar}
-                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                  />
-                  <div className="absolute inset-0 bg-foreground/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                <div className={`overflow-hidden mb-6 relative bg-card ${project.aspect}`}>
+                  <img src={project.img} alt={project.ar} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
                 </div>
                 <div className="flex justify-between items-start">
                   <div>
-                    <h3 className="text-2xl md:text-3xl font-display font-bold mb-1 group-hover:opacity-60 transition-opacity">
-                      {project.ar}
-                    </h3>
-                    <p className="text-muted-foreground font-light text-sm">{project.cat_ar}</p>
-                    <p className="en-label text-xs text-muted-foreground/50 mt-0.5">{project.cat_en}</p>
+                    <h3 className="text-3xl font-display font-bold mb-2">{project.ar}</h3>
+                    <p className="en text-sm text-foreground/50">{project.en}</p>
                   </div>
-                  <div className="w-10 h-10 rounded-full border border-border flex items-center justify-center rotate-45 group-hover:rotate-0 group-hover:border-foreground transition-all duration-300 mt-1">
-                    <ArrowLeft className="w-4 h-4" />
+                  <div className="w-12 h-12 rounded-full border border-foreground/20 flex items-center justify-center group-hover:bg-foreground group-hover:text-background transition-colors">
+                    <ArrowUpRight className="w-5 h-5 -rotate-90" />
                   </div>
                 </div>
               </motion.div>
             ))}
           </div>
-
-          <div className="mt-12 md:hidden">
-            <Button className="w-full rounded-none bg-primary text-primary-foreground h-14 font-bold">
-              عرض كل الأعمال
-            </Button>
-          </div>
         </div>
       </section>
 
-      {/* Services Section */}
-      <section id="services" className="py-28 border-t border-border bg-card" data-testid="section-services">
+      {/* 6. Services Grid */}
+      <section id="services" className="py-32 bg-secondary" data-testid="section-services">
         <div className="container mx-auto px-6 md:px-12">
-          <div className="flex flex-col md:flex-row md:items-end justify-between mb-20 gap-8">
-            <div>
-              <span className="en-label text-xs uppercase tracking-[0.25em] text-muted-foreground block mb-4">03 / Services</span>
-              <h2 className="text-4xl md:text-6xl font-display font-black leading-none">قدراتنا</h2>
-              <p className="en-label text-sm text-muted-foreground mt-2">Capabilities</p>
-            </div>
-            <p className="text-muted-foreground max-w-xs text-base font-light leading-relaxed">
-              حلول إبداعية شاملة مصممة للتفوق في المشهد الرقمي.
-            </p>
+          <div className="mb-20">
+            <span className="en text-sm text-accent tracking-widest block mb-4">03 / Services</span>
+            <h2 className="text-5xl md:text-7xl font-display font-black text-foreground">الخدمات</h2>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-border">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {services.map((service, idx) => (
               <motion.div
                 key={idx}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                transition={{ delay: idx * 0.08, duration: 0.6 }}
-                className="bg-card p-10 group hover:bg-accent transition-colors duration-400"
-                data-testid={`card-service-${idx}`}
+                transition={{ delay: idx * 0.1 }}
+                className="bg-card p-10 group hover:-translate-y-2 hover:shadow-2xl hover:shadow-accent/5 transition-all duration-300 border border-transparent hover:border-foreground/10"
               >
-                <div className="w-12 h-12 border border-border flex items-center justify-center mb-8 text-foreground group-hover:border-foreground transition-colors">
-                  {service.icon}
-                </div>
-                <h3 className="text-xl md:text-2xl font-display font-bold mb-1">{service.ar}</h3>
-                <p className="en-label text-xs text-muted-foreground/60 mb-4">{service.en}</p>
-                <p className="text-muted-foreground leading-relaxed text-base font-light mb-6">
-                  {service.desc_ar}
-                </p>
-                <a
-                  href="#"
-                  className="inline-flex items-center text-xs font-bold tracking-widest text-foreground/50 hover:text-foreground transition-colors en-label"
-                >
-                  <ChevronLeft className="ml-1 w-4 h-4" /> Explore
-                </a>
+                <div className="text-accent mb-8">{service.icon}</div>
+                <h3 className="text-2xl font-display font-bold mb-2 text-foreground">{service.ar}</h3>
+                <p className="en text-xs text-foreground/40 mb-6 uppercase tracking-wider">{service.en}</p>
+                <p className="text-foreground/70 leading-relaxed text-base">{service.desc}</p>
               </motion.div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Full-bleed Production Break */}
-      <section className="py-32 relative min-h-[70vh] flex items-center border-t border-border overflow-hidden" data-testid="section-production">
-        {/* Warm geometric background */}
-        <div className="absolute inset-0 z-0 bg-[#ede9d8]">
-          <div className="absolute inset-0 opacity-30"
-            style={{
-              backgroundImage: "radial-gradient(circle at 20% 50%, #d4c99a 0%, transparent 50%), radial-gradient(circle at 80% 50%, #c9c09a 0%, transparent 50%)"
-            }}
-          />
-          <div className="absolute top-0 left-0 w-full h-full"
-            style={{
-              backgroundImage: "repeating-linear-gradient(0deg, transparent, transparent 79px, hsl(45 25% 75% / 0.15) 79px, hsl(45 25% 75% / 0.15) 80px), repeating-linear-gradient(90deg, transparent, transparent 79px, hsl(45 25% 75% / 0.15) 79px, hsl(45 25% 75% / 0.15) 80px)"
-            }}
-          />
+      {/* 7. Production Feature */}
+      <section className="relative py-40 flex items-center overflow-hidden" data-testid="section-production">
+        <div className="absolute inset-0 z-0">
+          <div className="absolute inset-0 bg-background/80 z-10" />
+          <img src="/production.png" alt="" className="w-full h-full object-cover" />
         </div>
-        <div className="container relative z-10 mx-auto px-6 md:px-12">
+        
+        <div className="container relative z-20 mx-auto px-6 md:px-12 text-center">
           <motion.div
-            initial={{ opacity: 0, x: 50 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.8 }}
-            className="max-w-2xl"
+            className="max-w-3xl mx-auto flex flex-col items-center"
           >
-            <span className="en-label text-xs uppercase tracking-[0.25em] text-foreground/50 block mb-8">Cinematic Production</span>
-            <h2 className="text-5xl md:text-7xl font-display font-black leading-none mb-6">
-              الإنتاج
-              <br />
-              السينمائي
-            </h2>
-            <p className="text-xl text-foreground/70 font-light mb-4 max-w-md leading-relaxed">
-              نصوّر بكاميرات السينما الاحترافية لنقدم دقة بصرية تُميّز العلامات المتميزة عن الضجيج.
+            <span className="en text-sm text-accent tracking-widest block mb-6">CINEMATIC PRODUCTION</span>
+            <h2 className="text-5xl md:text-8xl font-display font-black mb-8">إنتاج يرتقي بالمعايير</h2>
+            <p className="en text-lg text-foreground/70 mb-12 max-w-xl">
+              Industry-leading cinema cameras delivering visual fidelity that separates premium brands from the noise.
             </p>
-            <p className="en-label text-sm text-foreground/45 mb-10">
-              We shoot on industry-leading cinema cameras to deliver visual fidelity that separates premium brands from the noise.
-            </p>
-            <Button
-              data-testid="button-production-reel"
-              variant="outline"
-              className="rounded-none border-foreground text-foreground hover:bg-foreground hover:text-background h-14 px-8 text-sm font-bold"
-            >
-              شاهد شريل الإنتاج
+            <Button className="rounded-none bg-primary text-primary-foreground hover:bg-primary/90 h-16 px-12 text-lg font-bold">
+              شاهد الأعمال السينمائية
             </Button>
           </motion.div>
         </div>
       </section>
 
-      {/* Approach */}
-      <section className="py-28 border-t border-border" data-testid="section-approach">
+      {/* 8. Approach */}
+      <section className="py-32 bg-background border-y border-border" data-testid="section-approach">
         <div className="container mx-auto px-6 md:px-12">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
             <div>
-              <span className="en-label text-xs uppercase tracking-[0.25em] text-muted-foreground block mb-4">04 / Approach</span>
-              <h2 className="text-4xl md:text-5xl font-display font-black leading-tight mb-3">
-                الدقة تلتقي
-                <br />
-                بالجرأة
-              </h2>
-              <p className="en-label text-sm text-muted-foreground mb-12">Precision meets provocation.</p>
-
-              <div className="space-y-12">
-                {steps.map((step, i) => (
-                  <motion.div
-                    key={i}
+              <span className="en text-sm text-accent tracking-widest block mb-4">04 / Approach</span>
+              <h2 className="text-5xl md:text-7xl font-display font-black mb-16">منهجيتنا</h2>
+              
+              <div className="flex flex-col gap-12">
+                {steps.map((step, idx) => (
+                  <motion.div 
+                    key={idx}
                     initial={{ opacity: 0, x: 20 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true }}
-                    transition={{ delay: i * 0.15, duration: 0.6 }}
-                    className="flex gap-8 group"
-                    data-testid={`step-${i}`}
+                    transition={{ delay: idx * 0.2 }}
+                    className="flex gap-6 border-b border-border/50 pb-8 last:border-0"
                   >
-                    <span className="text-2xl font-display font-black text-foreground/15 group-hover:text-foreground/40 transition-colors pt-1 shrink-0">
-                      {step.num}
-                    </span>
+                    <span className="en text-2xl font-light text-foreground/30 mt-1">{step.num}</span>
                     <div>
-                      <h4 className="text-xl md:text-2xl font-display font-bold mb-1">{step.ar}</h4>
-                      <p className="en-label text-xs text-muted-foreground mb-3">{step.en}</p>
-                      <p className="text-muted-foreground font-light leading-relaxed">{step.desc_ar}</p>
+                      <h3 className="text-2xl font-bold mb-1">{step.ar}</h3>
+                      <p className="en text-xs text-accent mb-4 tracking-wider uppercase">{step.en}</p>
+                      <p className="text-foreground/70 leading-relaxed text-lg">{step.desc}</p>
                     </div>
                   </motion.div>
                 ))}
               </div>
             </div>
-
-            {/* Decorative visual panel — logo-inspired shape */}
-            <motion.div
-              initial={{ opacity: 0, scale: 0.95 }}
-              whileInView={{ opacity: 1, scale: 1 }}
+            
+            <motion.div 
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.9 }}
-              className="relative hidden lg:flex items-center justify-center"
+              className="relative h-[600px] hidden lg:block"
             >
-              <div className="w-full aspect-square bg-[#ede9d8] relative overflow-hidden">
-                {/* Large pill shape echoing the logo */}
-                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[70%] h-[30%] rounded-full border-4 border-foreground/20" />
-                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[85%] h-[40%] rounded-full border border-foreground/10" />
-                {/* Circle (the O in logo) */}
-                <div className="absolute top-1/2 -translate-y-1/2 right-[20%] w-[22%] aspect-square rounded-full border-4 border-foreground/20" />
-                <div className="absolute bottom-10 left-10 text-xs en-label text-foreground/30 tracking-widest uppercase">
-                  Loop Creative Agency
-                </div>
-                <div className="absolute top-10 right-10 text-xs en-label text-foreground/30 tracking-widest uppercase">
-                  Est. 2015
-                </div>
-              </div>
+              <img src="/approach-bg.png" alt="" className="w-full h-full object-cover grayscale opacity-80" />
             </motion.div>
           </div>
         </div>
       </section>
 
-      {/* Clients Marquee */}
-      <section className="py-20 border-t border-border overflow-hidden" data-testid="section-clients">
-        <div className="container mx-auto px-6 md:px-12 mb-12">
-          <span className="en-label text-xs uppercase tracking-[0.25em] text-muted-foreground block mb-3">05 / Partners</span>
-          <h2 className="text-3xl md:text-4xl font-display font-black">يثق بنا أصحاب الرؤية</h2>
-          <p className="en-label text-sm text-muted-foreground mt-2">Trusted by visionaries.</p>
-        </div>
-
-        <div className="relative flex overflow-x-hidden">
-          <div className="absolute top-0 bottom-0 right-0 w-32 bg-gradient-to-l from-background to-transparent z-10" />
-          <div className="absolute top-0 bottom-0 left-0 w-32 bg-gradient-to-r from-background to-transparent z-10" />
-
-          <div className="py-6 animate-marquee whitespace-nowrap flex items-center gap-16 md:gap-24">
-            {[...clients, ...clients].map((client, i) => (
-              <span
-                key={i}
-                className="text-4xl md:text-6xl font-display font-black text-foreground/10 hover:text-foreground/40 transition-colors cursor-default"
-              >
-                {client}
-              </span>
-            ))}
-          </div>
+      {/* 9. Clients Marquee */}
+      <section className="py-24 bg-background overflow-hidden flex items-center border-b border-border">
+        <div className="flex w-max animate-ticker whitespace-nowrap">
+          {[...Array(3)].map((_, i) => (
+            <div key={i} className="flex items-center gap-16 px-8">
+              {clients.map((client, j) => (
+                <span key={j} className="text-6xl md:text-8xl font-display font-black text-transparent" style={{ WebkitTextStroke: "1px rgba(240, 237, 228, 0.2)" }}>
+                  {client}
+                </span>
+              ))}
+            </div>
+          ))}
         </div>
       </section>
 
-      {/* Footer / CTA */}
-      <footer id="contact" className="pt-28 pb-12 border-t border-border bg-card" data-testid="section-footer">
+      {/* 10. Footer / CTA */}
+      <footer id="contact" className="pt-32 pb-12 bg-secondary" data-testid="section-footer">
         <div className="container mx-auto px-6 md:px-12">
-          <div className="max-w-4xl mb-28">
-            <span className="en-label text-xs uppercase tracking-[0.25em] text-muted-foreground block mb-6">06 / Contact</span>
-            <h2 className="text-5xl md:text-7xl lg:text-[6rem] font-display font-black leading-none mb-4">
-              مستعد
-              <br />
-              للتميّز؟
-            </h2>
-            <p className="en-label text-sm text-muted-foreground mb-10">Ready to stand out?</p>
-            <Button
-              data-testid="button-start-conversation"
-              className="rounded-none bg-primary text-primary-foreground hover:bg-primary/85 h-14 px-10 text-base font-bold group"
-            >
-              <ArrowLeft className="ml-3 w-4 h-4 transition-transform group-hover:-translate-x-1" />
-              ابدأ المحادثة
-            </Button>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-12 pt-12 border-t border-border">
-            <div className="col-span-1 md:col-span-2">
-              <div className="inline-block mb-6">
-                <img
-                  src="/loop-logo.jpeg"
-                  alt="Loop Agency Logo"
-                  className="h-10 w-auto"
-                />
-              </div>
-              <p className="text-muted-foreground max-w-sm font-light leading-relaxed">
-                وكالة إبداعية متميزة مقرها الرياض، المملكة العربية السعودية — نهندس علامات تقود السوق.
-              </p>
-              <p className="en-label text-xs text-muted-foreground/50 mt-2">
-                A premium creative agency based in Riyadh, KSA.
-              </p>
-            </div>
-
+          <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-32 gap-12">
             <div>
-              <h5 className="font-display font-bold text-sm mb-6 text-foreground">تواصل معنا</h5>
-              <ul className="space-y-4">
-                <li>
-                  <a href="mailto:hello@loopcreative.sa" className="text-muted-foreground hover:text-foreground transition-colors font-light text-sm en-label" data-testid="link-email">
-                    hello@loopcreative.sa
-                  </a>
-                </li>
-                <li>
-                  <a href="tel:+966501234567" className="text-muted-foreground hover:text-foreground transition-colors font-light text-sm en-label" data-testid="link-phone">
-                    +966 50 123 4567
-                  </a>
-                </li>
-                <li>
-                  <span className="text-muted-foreground font-light text-sm">الرياض، المملكة العربية السعودية</span>
-                </li>
-              </ul>
+              <h2 className="text-6xl md:text-9xl font-display font-black mb-8 text-foreground">مستعد<br/>للتميز؟</h2>
+              <Button className="rounded-none bg-primary text-primary-foreground hover:bg-primary/90 h-16 px-12 text-lg font-bold group">
+                تواصل معنا
+                <ArrowLeft className="mr-3 w-5 h-5 transition-transform group-hover:-translate-x-1" />
+              </Button>
             </div>
-
-            <div>
-              <h5 className="font-display font-bold text-sm mb-6 text-foreground">تابعنا</h5>
-              <ul className="space-y-4">
-                {["Instagram", "Twitter / X", "LinkedIn", "Behance"].map((s) => (
-                  <li key={s}>
-                    <a href="#" className="text-muted-foreground hover:text-foreground transition-colors font-light text-sm en-label" data-testid={`link-${s.toLowerCase().replace(/\s|\//g, "-")}`}>
-                      {s}
-                    </a>
-                  </li>
-                ))}
-              </ul>
+            <div className="en text-right space-y-4 text-foreground/60 text-lg">
+              <p>Riyadh, Saudi Arabia</p>
+              <p>hello@loopagency.sa</p>
+              <p>+966 50 000 0000</p>
             </div>
           </div>
-
-          <div className="mt-20 flex flex-col md:flex-row items-center justify-between text-xs text-muted-foreground en-label tracking-widest uppercase">
-            <p>&copy; {new Date().getFullYear()} Loop Creative Agency</p>
-            <p className="mt-4 md:mt-0">All Rights Reserved — جميع الحقوق محفوظة</p>
+          
+          <div className="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-border/50 gap-6">
+            <div className="bg-[#f0ede4] rounded-full px-4 py-2">
+              <img src="/loop-logo.jpeg" alt="Loop" className="h-5 w-auto mix-blend-multiply" />
+            </div>
+            <p className="en text-sm text-foreground/40">
+              © {new Date().getFullYear()} Loop Creative Agency. All rights reserved.
+            </p>
+            <div className="flex gap-6 en text-sm text-foreground/60">
+              <a href="#" className="hover:text-foreground">Instagram</a>
+              <a href="#" className="hover:text-foreground">LinkedIn</a>
+              <a href="#" className="hover:text-foreground">Behance</a>
+            </div>
           </div>
         </div>
       </footer>

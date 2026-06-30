@@ -5,7 +5,7 @@ outputs = []
 id = "EfuOJi_QrGNYnvlh4_2oJ"
 uri = "file://artifacts/loop-agency/public/hero-bg.png"
 type = "image"
-title = "Abstract dark fluid waves"
+title = "hero dark ink swirls"
 
 [[generated]]
 id = "KCxvljki7N_FE3BAtgnQ1"
@@ -17,22 +17,34 @@ title = "Professional camera lens macro"
 id = "ID3ckuOaTjFQByRDlZU80"
 uri = "file://artifacts/loop-agency/public/approach-bg.png"
 type = "image"
-title = "Abstract dark minimal architecture"
+title = "dark geometric architecture"
 
 [[generated]]
 id = "5Fq0ZZzn_BekL9zM_mCtO"
 uri = "file://artifacts/loop-agency/public/work-brand.png"
 type = "image"
-title = "Modern brand identity mockup"
+title = "brand identity mockup"
 
 [[generated]]
 id = "8V4V-9F-I8-x3KXviiQJS"
 uri = "file://artifacts/loop-agency/public/work-digital.png"
 type = "image"
-title = "Digital app UI design"
+title = "digital app mockup"
 
 [[generated]]
 id = "MiLH2Fgc4RI5WlrIlpoKr"
 uri = "file://artifacts/loop-agency/public/work-campaign.png"
 type = "image"
-title = "Social media campaign visual"
+title = "editorial campaign photography"
+
+[[generated]]
+id = "yR-_NIdJo7PeWmfckkSSd"
+uri = "file://artifacts/loop-agency/public/production.png"
+type = "image"
+title = "cinema camera production"
+
+[[generated]]
+id = "Nw-SQeDY8qK6N4pNQF3mY"
+uri = "file://artifacts/loop-agency/public/work-4.png"
+type = "image"
+title = "luxury interior photography"
