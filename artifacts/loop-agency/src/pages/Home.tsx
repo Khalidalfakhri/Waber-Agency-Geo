@@ -1,12 +1,11 @@
 import { useEffect, useState } from "react";
 import { motion, useScroll, useTransform, AnimatePresence } from "framer-motion";
-import { ArrowLeft, Menu, X, Play, Globe, Camera, PenTool, LayoutGrid, Megaphone, ArrowUpRight, CheckCircle2 } from "lucide-react";
+import { ArrowLeft, Menu, X, Play, Globe, Camera, PenTool, LayoutGrid, Megaphone, CheckCircle2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const navLinks = [
   { ar: "من نحن", en: "About", href: "#about" },
   { ar: "خدماتنا", en: "Services", href: "#services" },
-  { ar: "أعمالنا", en: "Work", href: "#work" },
   { ar: "عملاؤنا", en: "Clients", href: "#clients" },
 ];
 
@@ -25,13 +24,6 @@ const services = [
   { ar: "الإنتاج السينمائي", en: "Cinematic Production", desc: "تصوير سينمائي وإنتاج فيديو يرفع المستوى البصري لعلامتك التجارية.", icon: <Camera className="w-6 h-6" /> },
   { ar: "تصميم المواقع والتطبيقات", en: "Web & App Design", desc: "تجارب رقمية غامرة مصممة للأداء العالي والتفوق الجمالي.", icon: <PenTool className="w-6 h-6" /> },
   { ar: "تنظيم الفعاليات", en: "Events & Activations", desc: "نبتكر تجارب وفعاليات حية تترك انطباعاً مذهلاً لدى حضورك.", icon: <CheckCircle2 className="w-6 h-6" /> },
-];
-
-const projects = [
-  { ar: "أورا ريزيدنس", en: "Brand Identity", img: "/work-brand.png", aspect: "aspect-[4/3]" },
-  { ar: "منصة فولت", en: "Web & App", img: "/work-digital.png", aspect: "aspect-[3/4]" },
-  { ar: "نوفا ستوديوز", en: "Digital Marketing", img: "/work-campaign.png", aspect: "aspect-square" },
-  { ar: "ملتقى الرياض", en: "Events", img: "/work-event.png", aspect: "aspect-[4/3]" },
 ];
 
 const clients = ["أرامكو", "stc", "الراجحي", "نيوم", "البنك الأهلي", "موبايلي", "أكوا باور", "صندوق الاستثمارات"];
@@ -60,10 +52,12 @@ export default function Home() {
         data-testid="navbar"
       >
         <div className="container mx-auto px-6 md:px-12 flex items-center justify-between">
-          <a href="#" className="flex items-center gap-3 group" data-testid="link-home">
-            <div className="bg-[#f0ede4] rounded-full px-4 py-2 flex items-center justify-center transition-transform duration-500 group-hover:scale-105">
-              <img src="/loop-logo.jpeg" alt="Loop Agency Logo" className="h-6 w-auto mix-blend-multiply" />
-            </div>
+          <a href="#" className="flex items-center group" data-testid="link-home">
+            <img
+              src="/loop-logo-light.png"
+              alt="Loop Agency Logo"
+              className="h-14 md:h-16 w-auto transition-transform duration-500 group-hover:scale-105"
+            />
           </a>
 
           <nav className="hidden md:flex items-center gap-10">
@@ -311,7 +305,7 @@ export default function Home() {
                 transition={{ delay: idx * 0.1 }}
                 className="flex flex-col items-center"
               >
-                <h3 className="en text-5xl md:text-7xl font-bold mb-4 text-foreground relative inline-block">
+                <h3 dir="ltr" className="en text-4xl sm:text-5xl md:text-7xl font-bold mb-4 text-foreground relative inline-block">
                   {stat.num}
                   <span className="absolute -bottom-2 left-0 right-0 h-1 bg-accent/40" />
                 </h3>
@@ -351,51 +345,9 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 7. Selected Work */}
-      <section id="work" className="py-32 bg-background border-b border-border" data-testid="section-work">
-        <div className="container mx-auto px-6 md:px-12">
-          <div className="flex flex-col md:flex-row md:items-end justify-between mb-20 gap-8">
-            <div>
-              <span className="en text-sm text-accent tracking-widest block mb-4">03 / SELECTED WORK</span>
-              <h2 className="text-5xl md:text-7xl font-display font-black text-foreground">أعمالنا</h2>
-            </div>
-            <Button variant="outline" className="rounded-none border-foreground/20 hover:bg-foreground hover:text-background h-14 px-8 text-lg hidden md:inline-flex group">
-              عرض الكل
-              <ArrowLeft className="w-4 h-4 mr-2 transition-transform group-hover:-translate-x-1" />
-            </Button>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-20">
-            {projects.map((project, idx) => (
-              <motion.div
-                key={idx}
-                initial={{ opacity: 0, y: 40 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.7 }}
-                className={`group cursor-pointer ${idx % 2 === 1 ? "md:mt-32" : ""}`}
-              >
-                <div className={`overflow-hidden mb-6 relative bg-card ${project.aspect}`}>
-                  <img src={project.img} alt={project.ar} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
-                </div>
-                <div className="flex justify-between items-start">
-                  <div>
-                    <h3 className="text-3xl font-display font-bold mb-2 group-hover:text-accent transition-colors">{project.ar}</h3>
-                    <p className="en text-sm text-foreground/50 uppercase tracking-wider">{project.en}</p>
-                  </div>
-                  <div className="w-12 h-12 rounded-full border border-foreground/20 flex items-center justify-center group-hover:bg-accent group-hover:border-accent group-hover:text-background transition-colors">
-                    <ArrowUpRight className="w-5 h-5 -rotate-90" />
-                  </div>
-                </div>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* 8. Clients Marquee */}
+      {/* 7. Clients Marquee */}
       <section id="clients" className="py-24 bg-background overflow-hidden flex items-center border-b border-border flex-col" data-testid="section-clients">
-        <span className="en text-sm text-accent tracking-widest block mb-12">04 / OUR CLIENTS</span>
+        <span className="en text-sm text-accent tracking-widest block mb-12">03 / OUR CLIENTS</span>
         <div className="flex w-max animate-ticker whitespace-nowrap">
           {[...Array(4)].map((_, i) => (
             <div key={i} className="flex items-center gap-16 px-8">
@@ -414,7 +366,7 @@ export default function Home() {
         <div className="container mx-auto px-6 md:px-12">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-32 gap-12">
             <div>
-              <span className="en text-sm text-accent tracking-widest block mb-4">05 / GET IN TOUCH</span>
+              <span className="en text-sm text-accent tracking-widest block mb-4">04 / GET IN TOUCH</span>
               <h2 className="text-5xl md:text-8xl font-display font-black mb-12 text-foreground">هل أنت مستعد<br/>لإحداث الأثر؟</h2>
               <Button className="rounded-none bg-primary text-primary-foreground hover:bg-primary/90 h-16 px-12 text-xl font-bold group">
                 ابدأ مشروعك معنا
@@ -429,9 +381,7 @@ export default function Home() {
           </div>
           
           <div className="flex flex-col md:flex-row justify-between items-center pt-10 border-t border-border/50 gap-6">
-            <div className="bg-[#f0ede4] rounded-full px-4 py-2">
-              <img src="/loop-logo.jpeg" alt="Loop" className="h-5 w-auto mix-blend-multiply" />
-            </div>
+            <img src="/loop-logo-light.png" alt="Loop" className="h-12 w-auto" />
             <p className="en text-sm text-foreground/40">
               © {new Date().getFullYear()} Loop Creative Agency. All rights reserved.
             </p>
