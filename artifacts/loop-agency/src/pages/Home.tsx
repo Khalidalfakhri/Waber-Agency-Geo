@@ -18,12 +18,12 @@ const tickerItems = [
 ];
 
 const services = [
-  { ar: "الهوية البصرية", en: "Brand Identity", desc: "نبني هويات بصرية راسخة وأنظمة بصرية تُعرّف قادة الصناعة وتميّزهم.", icon: <LayoutGrid className="w-6 h-6" /> },
-  { ar: "التسويق الرقمي", en: "Digital Marketing", desc: "حملات تسويقية مدفوعة بالبيانات، تستحوذ على الانتباه وتحوّل الجمهور بمقياس واسع.", icon: <Megaphone className="w-6 h-6" /> },
-  { ar: "إدارة وسائل التواصل", en: "Social Media Management", desc: "استراتيجيات تواصل ذكية لبناء مجتمعات نشطة وزيادة الولاء للعلامة التجارية.", icon: <Globe className="w-6 h-6" /> },
-  { ar: "الإنتاج السينمائي", en: "Cinematic Production", desc: "تصوير سينمائي وإنتاج فيديو يرفع المستوى البصري لعلامتك التجارية.", icon: <Camera className="w-6 h-6" /> },
-  { ar: "تصميم المواقع والتطبيقات", en: "Web & App Design", desc: "تجارب رقمية غامرة مصممة للأداء العالي والتفوق الجمالي.", icon: <PenTool className="w-6 h-6" /> },
-  { ar: "تنظيم الفعاليات", en: "Events & Activations", desc: "نبتكر تجارب وفعاليات حية تترك انطباعاً مذهلاً لدى حضورك.", icon: <CheckCircle2 className="w-6 h-6" /> },
+  { ar: "الهوية البصرية", en: "Brand Identity", desc: "نصمم لك هوية بصرية واضحة وثابتة تميزك عن المنافسين وتبقى في ذهن عميلك.", icon: <LayoutGrid className="w-6 h-6" /> },
+  { ar: "التسويق الرقمي", en: "Digital Marketing", desc: "حملات تسويقية ذكية توصل رسالتك للناس الصح، في الوقت الصح.", icon: <Megaphone className="w-6 h-6" /> },
+  { ar: "إدارة التواصل الاجتماعي", en: "Social Media Management", desc: "ندير قنواتك بمحتوى يشغّل الناس ويبني ولاء حقيقي لعلامتك التجارية.", icon: <Globe className="w-6 h-6" /> },
+  { ar: "الإنتاج المرئي", en: "Video Production", desc: "نصور محتوى يلفت الأنظار ويحكي قصة علامتك بصدق واحتراف.", icon: <Camera className="w-6 h-6" /> },
+  { ar: "تصميم المواقع والتطبيقات", en: "Web & App Design", desc: "نصمم مواقع وتطبيقات سهلة الاستخدام وجميلة المظهر تخدم أهدافك.", icon: <PenTool className="w-6 h-6" /> },
+  { ar: "تنظيم الفعاليات", en: "Events", desc: "ننظم فعاليات لا تُنسى تترك أثراً حقيقياً في ذهن كل حاضر.", icon: <CheckCircle2 className="w-6 h-6" /> },
 ];
 
 const clients = ["أرامكو", "stc", "الراجحي", "نيوم", "البنك الأهلي", "موبايلي", "أكوا باور", "صندوق الاستثمارات"];
@@ -156,7 +156,7 @@ export default function Home() {
               transition={{ duration: 0.9, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
               className="text-xl md:text-3xl text-foreground/80 max-w-2xl font-light mb-3 leading-relaxed"
             >
-              وكالة إبداعية سعودية نمزج بين الإبداع والاستراتيجية لنصنع علامات تجارية تترك أثراً حقيقياً.
+              من الرياض — نبني علامات تجارية تتحدث عن نفسها.
             </motion.p>
 
             <motion.p
@@ -165,7 +165,7 @@ export default function Home() {
               transition={{ duration: 0.9, delay: 0.3 }}
               className="en text-sm text-foreground/50 mb-12 max-w-xl"
             >
-              A Saudi creative agency blending creativity and strategy to build brands that leave a real impact.
+              From Riyadh — we build brands that speak for themselves.
             </motion.p>
 
             <motion.div
@@ -232,7 +232,7 @@ export default function Home() {
                 viewport={{ once: true }}
                 className="text-4xl md:text-6xl font-display font-bold leading-[1.3] mb-8 text-foreground/90"
               >
-                الشغف والإبداع في قلب كل ما نقوم به
+                شغوفون بما نصنع، جادّون في النتائج
               </motion.h2>
               <motion.p
                 initial={{ opacity: 0, y: 20 }}
@@ -241,7 +241,7 @@ export default function Home() {
                 transition={{ delay: 0.1 }}
                 className="text-lg md:text-xl text-foreground/70 leading-relaxed mb-12 max-w-2xl font-light"
               >
-                نحن وكالة سعودية رائدة تتجاوز حدود المألوف لتبتكر حلولاً إبداعية غير تقليدية. نؤمن بأن كل علامة تجارية تمتلك قصة تستحق أن تُروى بطريقة استثنائية تعكس هويتها وتترك بصمة خالدة في أذهان جمهورها.
+                وبر وكالة إبداعية من الرياض. نساعد الشركات على بناء هوية قوية وحضور رقمي واضح. نشتغل بصدق، ونسلّم نتائج حقيقية.
               </motion.p>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -253,7 +253,7 @@ export default function Home() {
                   className="bg-card p-8 border-t-2 border-accent"
                 >
                   <h3 className="text-2xl font-bold mb-4">رؤيتنا</h3>
-                  <p className="text-foreground/70 leading-relaxed">أن نكون الشريك الإبداعي الأول لكل علامة طموحة.</p>
+                  <p className="text-foreground/70 leading-relaxed">نكون الخيار الأول لكل علامة تجارية تبي تنمو وتترك أثراً.</p>
                 </motion.div>
                 <motion.div
                   initial={{ opacity: 0, y: 20 }}
@@ -263,7 +263,7 @@ export default function Home() {
                   className="bg-card p-8 border-t-2 border-accent"
                 >
                   <h3 className="text-2xl font-bold mb-4">رسالتنا</h3>
-                  <p className="text-foreground/70 leading-relaxed">ابتكار حلول إبداعية تصنع الفارق لشركائنا.</p>
+                  <p className="text-foreground/70 leading-relaxed">نقدم شغل يفرق، بفهم عميق لاحتياجات عميلنا.</p>
                 </motion.div>
               </div>
             </div>
@@ -367,9 +367,9 @@ export default function Home() {
           <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-32 gap-12">
             <div>
               <span className="en text-sm text-accent tracking-widest block mb-4">04 / GET IN TOUCH</span>
-              <h2 className="text-5xl md:text-8xl font-display font-black mb-12 text-foreground">هل أنت مستعد<br/>لإحداث الأثر؟</h2>
+              <h2 className="text-5xl md:text-8xl font-display font-black mb-12 text-foreground">خلّنا<br/>نشتغل سوا</h2>
               <Button className="rounded-none bg-primary text-primary-foreground hover:bg-primary/90 h-16 px-12 text-xl font-bold group">
-                ابدأ مشروعك معنا
+                ابدأ مشروعك
                 <ArrowLeft className="mr-3 w-6 h-6 transition-transform group-hover:-translate-x-1" />
               </Button>
             </div>
