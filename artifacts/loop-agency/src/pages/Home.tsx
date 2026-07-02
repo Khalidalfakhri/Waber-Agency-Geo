@@ -70,8 +70,8 @@ export default function Home() {
       
       {/* 1. Navigation */}
       <header
-        className={`fixed top-0 w-full z-50 transition-all duration-500 border-b border-transparent ${
-          isScrolled ? "bg-background/90 backdrop-blur-xl border-border py-4" : "bg-transparent py-6"
+        className={`fixed top-0 w-full z-50 transition-all duration-500 bg-primary text-primary-foreground ${
+          isScrolled ? "py-3 shadow-lg" : "py-4"
         }`}
         data-testid="navbar"
       >
@@ -80,7 +80,7 @@ export default function Home() {
             <img
               src="/wabar-logo.png"
               alt="Wabar Agency Logo"
-              className="h-16 md:h-20 w-auto transition-transform duration-500 group-hover:scale-105"
+              className="h-12 md:h-14 w-auto transition-transform duration-500 group-hover:scale-105"
             />
           </a>
 
@@ -89,7 +89,7 @@ export default function Home() {
               <a
                 key={link.ar}
                 href={link.href}
-                className="text-sm font-bold tracking-wide text-foreground/70 hover:text-foreground transition-colors"
+                className="text-sm font-bold tracking-wide text-primary-foreground/70 hover:text-primary-foreground transition-colors"
                 data-testid={`link-${link.en.toLowerCase()}`}
               >
                 {link.ar}
@@ -100,14 +100,14 @@ export default function Home() {
           <div className="hidden md:block">
             <Button
               data-testid="button-start-project"
-              className="rounded-none bg-primary text-primary-foreground hover:bg-primary/90 uppercase font-bold px-8 py-6"
+              className="rounded-full bg-background text-foreground hover:bg-background/90 font-bold px-8 py-6"
             >
               تواصل معنا
             </Button>
           </div>
 
           <button
-            className="md:hidden text-foreground"
+            className="md:hidden text-primary-foreground"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             data-testid="button-mobile-menu"
           >
@@ -135,12 +135,13 @@ export default function Home() {
                   href={link.href}
                   className="text-4xl font-display font-black"
                   onClick={() => setMobileMenuOpen(false)}
+                  data-testid={`link-mobile-${link.en.toLowerCase()}`}
                 >
                   {link.ar}
                 </motion.a>
               ))}
             </nav>
-            <Button className="rounded-none bg-primary text-primary-foreground w-full font-bold text-lg py-8">
+            <Button className="rounded-full bg-accent text-accent-foreground w-full font-bold text-lg py-8" data-testid="button-contact-mobile">
               تواصل معنا
             </Button>
           </motion.div>
@@ -177,12 +178,12 @@ export default function Home() {
               initial={{ opacity: 0, y: 40 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
-              className="text-7xl md:text-8xl lg:text-[140px] font-display font-black leading-[1.1] mb-6 text-foreground"
+              className="text-4xl md:text-6xl lg:text-7xl font-display font-black leading-[1.4] mb-8 text-foreground"
               data-testid="hero-headline"
             >
-              نصنع علامات
+              نغوص في عُمقِ الفكرة،
               <br />
-              <span className="text-accent">تُلهم</span>
+              ونصنع علاماتٍ تجاريةً <span className="text-accent">تُلهم</span>
             </motion.h1>
 
             <motion.p
@@ -211,7 +212,7 @@ export default function Home() {
             >
               <Button
                 data-testid="button-contact-hero"
-                className="rounded-none bg-primary text-primary-foreground hover:bg-primary/90 h-16 px-10 text-lg font-bold group"
+                className="rounded-full bg-accent text-accent-foreground hover:bg-accent/90 h-16 px-10 text-lg font-bold group"
               >
                 <ArrowLeft className="ml-3 w-5 h-5 transition-transform group-hover:-translate-x-1" />
                 تواصل معنا
@@ -260,9 +261,12 @@ export default function Home() {
         <div className="container mx-auto px-6 md:px-12">
           <div className="mb-16 max-w-3xl">
             <span className="en text-sm text-accent tracking-widest block mb-4">01 / أعمالنا - OUR WORK</span>
-            <h2 className="text-4xl md:text-6xl font-display font-bold mb-6 text-foreground">
-              أفكار نطلقها إلى العالم على هيئة قصص تستحق أن تُروى
+            <h2 className="text-4xl md:text-6xl font-display font-black mb-6 text-foreground">
+              صنعنا الأثر
             </h2>
+            <p className="text-xl text-foreground/80 leading-relaxed font-light mb-2">
+              أفكار نطلقها إلى العالم على هيئة قصص تستحق أن تُروى.
+            </p>
             <p className="text-lg text-foreground/70 leading-relaxed font-light">
               نشارككم هنا بعضاً من أعمالنا التي صُممت بإبداع، ونُفّذت باحترافية، وتركت أثراً حقيقياً لدى عملائنا.
             </p>
@@ -276,7 +280,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: idx * 0.1 }}
-                className="group relative aspect-[4/3] overflow-hidden bg-card cursor-pointer"
+                className="group relative aspect-[4/3] overflow-hidden bg-card cursor-pointer rounded-3xl"
                 data-testid={`portfolio-card-${idx}`}
               >
                 <img
@@ -339,7 +343,7 @@ export default function Home() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: 0.2 }}
-                  className="bg-card p-8 border-t-2 border-accent"
+                  className="bg-card p-8 border-t-2 border-accent rounded-2xl"
                 >
                   <h3 className="text-2xl font-bold mb-4">رؤيتنا</h3>
                   <p className="text-foreground/70 leading-relaxed">أن نكون الخيار الأول لكل علامة تجارية تسعى إلى النمو والتأثير.</p>
@@ -349,7 +353,7 @@ export default function Home() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: 0.3 }}
-                  className="bg-card p-8 border-t-2 border-accent"
+                  className="bg-card p-8 border-t-2 border-accent rounded-2xl"
                 >
                   <h3 className="text-2xl font-bold mb-4">رسالتنا</h3>
                   <p className="text-foreground/70 leading-relaxed">تقديم عمل يُحدث فارقاً، بفهم عميق لاحتياجات عملائنا.</p>
@@ -362,7 +366,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.8 }}
-                className="relative aspect-square lg:aspect-[4/5] overflow-hidden"
+                className="relative aspect-square lg:aspect-[4/5] overflow-hidden rounded-3xl"
               >
                 <img src="/about-diriyah.png" alt="Diriyah Architecture" className="w-full h-full object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-background/40 to-transparent" />
@@ -458,7 +462,11 @@ export default function Home() {
 
       {/* 7. Clients Marquee */}
       <section id="clients" className="py-24 bg-background overflow-hidden flex items-center border-b border-border flex-col" data-testid="section-clients">
-        <span className="en text-sm text-accent tracking-widest block mb-12">04 / OUR CLIENTS</span>
+        <span className="en text-sm text-accent tracking-widest block mb-4">04 / OUR CLIENTS</span>
+        <h2 className="text-4xl md:text-6xl font-display font-black mb-4 text-foreground">شركاء النجاح</h2>
+        <p className="text-lg text-foreground/70 font-light mb-12 px-6 text-center max-w-xl">
+          مع كل عميل، نضيف قصة جديدة إلى سجل أعمالنا.
+        </p>
         <div className="flex w-max animate-ticker whitespace-nowrap">
           {[...Array(4)].map((_, i) => (
             <div key={i} className="flex items-center gap-16 px-8">
@@ -479,15 +487,26 @@ export default function Home() {
             <div>
               <span className="en text-sm text-accent tracking-widest block mb-4">05 / GET IN TOUCH</span>
               <h2 className="text-5xl md:text-8xl font-display font-black mb-12 text-foreground">هيا<br/>نبدأ معاً</h2>
-              <Button className="rounded-none bg-primary text-primary-foreground hover:bg-primary/90 h-16 px-12 text-xl font-bold group">
-                ابدأ مشروعك
-                <ArrowLeft className="mr-3 w-6 h-6 transition-transform group-hover:-translate-x-1" />
-              </Button>
+              <div className="flex flex-wrap gap-4">
+                <Button className="rounded-full bg-accent text-accent-foreground hover:bg-accent/90 h-16 px-12 text-xl font-bold group" data-testid="button-start-project-footer">
+                  ابدأ مشروعك
+                  <ArrowLeft className="mr-3 w-6 h-6 transition-transform group-hover:-translate-x-1" />
+                </Button>
+                <a
+                  href="https://wa.me/966501234567"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center rounded-full border border-foreground/30 hover:border-accent hover:text-accent transition-colors h-16 px-10 text-lg font-bold"
+                  data-testid="link-whatsapp"
+                >
+                  تواصل معنا على واتس آب
+                </a>
+              </div>
             </div>
             <div className="en text-right space-y-6 text-foreground/60 text-xl font-light">
-              <p className="hover:text-accent transition-colors cursor-pointer">Riyadh, Saudi Arabia</p>
-              <p className="hover:text-accent transition-colors cursor-pointer">hello@wabar.sa</p>
-              <p className="hover:text-accent transition-colors cursor-pointer">+966 50 123 4567</p>
+              <p data-testid="text-location">Riyadh, Saudi Arabia</p>
+              <a href="mailto:hello@wabar.sa" className="block hover:text-accent transition-colors" data-testid="link-email">hello@wabar.sa</a>
+              <a href="tel:+966501234567" className="block hover:text-accent transition-colors" data-testid="link-phone">+966 50 123 4567</a>
             </div>
           </div>
           
@@ -497,9 +516,9 @@ export default function Home() {
               © {new Date().getFullYear()} Wabar Agency. All rights reserved.
             </p>
             <div className="flex gap-8 en text-sm text-foreground/60 uppercase tracking-widest">
-              <a href="#" className="hover:text-accent transition-colors">Instagram</a>
-              <a href="#" className="hover:text-accent transition-colors">LinkedIn</a>
-              <a href="#" className="hover:text-accent transition-colors">Behance</a>
+              <a href="#" className="hover:text-accent transition-colors" data-testid="link-instagram">Instagram</a>
+              <a href="#" className="hover:text-accent transition-colors" data-testid="link-linkedin">LinkedIn</a>
+              <a href="#" className="hover:text-accent transition-colors" data-testid="link-behance">Behance</a>
             </div>
           </div>
         </div>
