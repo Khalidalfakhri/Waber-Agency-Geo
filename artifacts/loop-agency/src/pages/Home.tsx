@@ -1,12 +1,27 @@
 import { useEffect, useState } from "react";
 import { motion, useScroll, useTransform, AnimatePresence } from "framer-motion";
-import { ArrowLeft, Menu, X, Play, Globe, Camera, PenTool, LayoutGrid, Megaphone, CheckCircle2 } from "lucide-react";
+import { ArrowLeft, Menu, X, Play, Globe, Camera, PenTool, LayoutGrid, Megaphone, CheckCircle2, Plus } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const navLinks = [
+  { ar: "أعمالنا", en: "Work", href: "#work" },
   { ar: "من نحن", en: "About", href: "#about" },
   { ar: "خدماتنا", en: "Services", href: "#services" },
   { ar: "عملاؤنا", en: "Clients", href: "#clients" },
+];
+
+const heroTags = [
+  "إبداع يصنع الأثر",
+  "قصص تُروى بإتقان",
+  "هوية تدوم",
+  "نتائج تُقاس وتُرى",
+];
+
+const portfolioProjects = [
+  { title: "حملة اليوم الوطني السعودي", client: "هيئة الترفيه", year: "2025", tags: ["إبداعي", "إنتاج"], img: "/work-campaign.png" },
+  { title: "إطلاق هوية بصرية لعلامة ناشئة", client: "شركة تقنية سعودية", year: "2025", tags: ["الهوية البصرية"], img: "/work-brand.png" },
+  { title: "حملة تسويق رقمي لمنتج استهلاكي", client: "قطاع التجزئة", year: "2024", tags: ["التسويق الرقمي"], img: "/work-digital.png" },
+  { title: "تغطية فعالية كبرى", client: "جهة حكومية", year: "2024", tags: ["تنظيم الفعاليات", "إنتاج مرئي"], img: "/work-event.png" },
 ];
 
 const tickerItems = [
@@ -31,6 +46,8 @@ const clients = ["أرامكو", "stc", "الراجحي", "نيوم", "البن�
 export default function Home() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [activeTag, setActiveTag] = useState(0);
+  const [activeService, setActiveService] = useState(0);
   const { scrollYProgress } = useScroll();
   const heroY = useTransform(scrollYProgress, [0, 0.5], ["0%", "30%"]);
   const heroOpacity = useTransform(scrollYProgress, [0, 0.25], [1, 0]);
@@ -39,6 +56,13 @@ export default function Home() {
     const handleScroll = () => setIsScrolled(window.scrollY > 50);
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setActiveTag((prev) => (prev + 1) % heroTags.length);
+    }, 2600);
+    return () => clearInterval(interval);
   }, []);
 
   return (
@@ -132,9 +156,20 @@ export default function Home() {
 
         <div className="container relative z-20 mx-auto px-6 md:px-12 pt-32 pb-20 flex flex-col justify-center min-h-screen">
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5 }} className="w-full flex justify-end mb-8">
-            <span className="en text-xs uppercase tracking-widest text-foreground/50 border border-foreground/20 px-3 py-1 rounded-full">
-              SAUDI CREATIVE AGENCY
-            </span>
+            <div className="border border-foreground/20 px-4 py-2 rounded-full overflow-hidden h-9 flex items-center" data-testid="hero-rotating-tag">
+              <AnimatePresence mode="wait">
+                <motion.span
+                  key={activeTag}
+                  initial={{ y: 16, opacity: 0 }}
+                  animate={{ y: 0, opacity: 1 }}
+                  exit={{ y: -16, opacity: 0 }}
+                  transition={{ duration: 0.4 }}
+                  className="text-xs md:text-sm font-bold text-foreground/70 whitespace-nowrap"
+                >
+                  {heroTags[activeTag]}
+                </motion.span>
+              </AnimatePresence>
+            </div>
           </motion.div>
 
           <div className="max-w-5xl">
@@ -220,12 +255,66 @@ export default function Home() {
         </div>
       </div>
 
-      {/* 4. About */}
+      {/* 4. Portfolio / Work */}
+      <section id="work" className="py-32 bg-background border-b border-border" data-testid="section-work">
+        <div className="container mx-auto px-6 md:px-12">
+          <div className="mb-16 max-w-3xl">
+            <span className="en text-sm text-accent tracking-widest block mb-4">01 / أعمالنا - OUR WORK</span>
+            <h2 className="text-4xl md:text-6xl font-display font-bold mb-6 text-foreground">
+              أفكار نطلقها إلى العالم على هيئة قصص تستحق أن تُروى
+            </h2>
+            <p className="text-lg text-foreground/70 leading-relaxed font-light">
+              نشارككم هنا بعضاً من أعمالنا التي صُممت بإبداع، ونُفّذت باحترافية، وتركت أثراً حقيقياً لدى عملائنا.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {portfolioProjects.map((project, idx) => (
+              <motion.div
+                key={idx}
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: idx * 0.1 }}
+                className="group relative aspect-[4/3] overflow-hidden bg-card cursor-pointer"
+                data-testid={`portfolio-card-${idx}`}
+              >
+                <img
+                  src={project.img}
+                  alt={project.title}
+                  className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-background via-background/30 to-transparent" />
+                <div className="absolute inset-0 p-8 flex flex-col justify-between">
+                  <div className="flex justify-between items-start">
+                    <span className="en text-xs text-foreground/70 uppercase tracking-widest border border-foreground/30 rounded-full px-3 py-1 bg-background/40 backdrop-blur-sm">
+                      {project.year}
+                    </span>
+                    <span className="text-sm text-foreground/70">{project.client}</span>
+                  </div>
+                  <div>
+                    <h3 className="text-2xl md:text-3xl font-display font-bold text-foreground mb-3">{project.title}</h3>
+                    <div className="flex flex-wrap gap-2">
+                      {project.tags.map((tag) => (
+                        <span key={tag} className="text-xs text-accent border border-accent/40 rounded-full px-3 py-1">
+                          {tag}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 5. About */}
       <section id="about" className="py-32 bg-background border-b border-border" data-testid="section-about">
         <div className="container mx-auto px-6 md:px-12">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
             <div className="lg:col-span-6">
-              <span className="en text-sm text-accent tracking-widest block mb-4">01 / من نحن - ABOUT US</span>
+              <span className="en text-sm text-accent tracking-widest block mb-4">02 / من نحن - ABOUT US</span>
               <motion.h2 
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -317,37 +406,59 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 6. Services Grid */}
+      {/* 6. Services Accordion */}
       <section id="services" className="py-32 bg-secondary" data-testid="section-services">
         <div className="container mx-auto px-6 md:px-12">
           <div className="mb-20">
-            <span className="en text-sm text-accent tracking-widest block mb-4">02 / SERVICES</span>
+            <span className="en text-sm text-accent tracking-widest block mb-4">03 / SERVICES</span>
             <h2 className="text-5xl md:text-7xl font-display font-black text-foreground">خدماتنا</h2>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {services.map((service, idx) => (
-              <motion.div
-                key={idx}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: idx * 0.1 }}
-                className="bg-card p-10 group hover:-translate-y-2 hover:shadow-2xl hover:shadow-accent/5 transition-all duration-300 border border-transparent hover:border-accent/30"
-              >
-                <div className="text-accent mb-8 bg-background inline-flex p-4 rounded-xl">{service.icon}</div>
-                <h3 className="text-2xl font-display font-bold mb-2 text-foreground">{service.ar}</h3>
-                <p className="en text-xs text-foreground/40 mb-6 uppercase tracking-wider">{service.en}</p>
-                <p className="text-foreground/70 leading-relaxed text-base">{service.desc}</p>
-              </motion.div>
-            ))}
+          <div className="border-t border-border">
+            {services.map((service, idx) => {
+              const isActive = activeService === idx;
+              return (
+                <div key={idx} className="border-b border-border">
+                  <button
+                    onClick={() => setActiveService(isActive ? -1 : idx)}
+                    className="w-full flex items-center justify-between gap-6 py-8 text-right group"
+                    data-testid={`service-toggle-${idx}`}
+                  >
+                    <span className="en text-sm text-foreground/40 tabular-nums w-12 shrink-0">{String(idx + 1).padStart(3, "0")}</span>
+                    <div className="flex-1 flex items-center gap-4">
+                      <span className="text-accent">{service.icon}</span>
+                      <h3 className="text-2xl md:text-3xl font-display font-bold text-foreground group-hover:text-accent transition-colors">
+                        {service.ar}
+                      </h3>
+                    </div>
+                    <Plus className={`w-6 h-6 shrink-0 text-foreground/60 transition-transform duration-300 ${isActive ? "rotate-45 text-accent" : ""}`} />
+                  </button>
+                  <AnimatePresence initial={false}>
+                    {isActive && (
+                      <motion.div
+                        initial={{ height: 0, opacity: 0 }}
+                        animate={{ height: "auto", opacity: 1 }}
+                        exit={{ height: 0, opacity: 0 }}
+                        transition={{ duration: 0.3 }}
+                        className="overflow-hidden"
+                      >
+                        <div className="pb-10 pr-16 max-w-2xl">
+                          <p className="en text-xs text-foreground/40 mb-3 uppercase tracking-wider">{service.en}</p>
+                          <p className="text-foreground/70 leading-relaxed text-lg">{service.desc}</p>
+                        </div>
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
+                </div>
+              );
+            })}
           </div>
         </div>
       </section>
 
       {/* 7. Clients Marquee */}
       <section id="clients" className="py-24 bg-background overflow-hidden flex items-center border-b border-border flex-col" data-testid="section-clients">
-        <span className="en text-sm text-accent tracking-widest block mb-12">03 / OUR CLIENTS</span>
+        <span className="en text-sm text-accent tracking-widest block mb-12">04 / OUR CLIENTS</span>
         <div className="flex w-max animate-ticker whitespace-nowrap">
           {[...Array(4)].map((_, i) => (
             <div key={i} className="flex items-center gap-16 px-8">
@@ -366,7 +477,7 @@ export default function Home() {
         <div className="container mx-auto px-6 md:px-12">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-32 gap-12">
             <div>
-              <span className="en text-sm text-accent tracking-widest block mb-4">04 / GET IN TOUCH</span>
+              <span className="en text-sm text-accent tracking-widest block mb-4">05 / GET IN TOUCH</span>
               <h2 className="text-5xl md:text-8xl font-display font-black mb-12 text-foreground">هيا<br/>نبدأ معاً</h2>
               <Button className="rounded-none bg-primary text-primary-foreground hover:bg-primary/90 h-16 px-12 text-xl font-bold group">
                 ابدأ مشروعك
