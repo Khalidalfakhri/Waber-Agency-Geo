@@ -48,6 +48,7 @@ export default function Home() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [activeTag, setActiveTag] = useState(0);
   const [activeService, setActiveService] = useState(0);
+  const [showreelOpen, setShowreelOpen] = useState(false);
   const { scrollYProgress } = useScroll();
   const heroY = useTransform(scrollYProgress, [0, 0.5], ["0%", "30%"]);
   const heroOpacity = useTransform(scrollYProgress, [0, 0.25], [1, 0]);
@@ -217,7 +218,11 @@ export default function Home() {
                 <ArrowLeft className="ml-3 w-5 h-5 transition-transform group-hover:-translate-x-1" />
                 تواصل معنا
               </Button>
-              <button data-testid="button-showreel" className="flex items-center gap-4 text-base font-bold hover:text-accent transition-colors group">
+              <button
+                data-testid="button-showreel"
+                onClick={() => setShowreelOpen(true)}
+                className="flex items-center gap-4 text-base font-bold hover:text-accent transition-colors group"
+              >
                 <div className="w-16 h-16 rounded-full border border-foreground/20 flex items-center justify-center group-hover:border-accent transition-colors">
                   <Play className="w-5 h-5 mr-1" fill="currentColor" />
                 </div>
@@ -523,6 +528,45 @@ export default function Home() {
           </div>
         </div>
       </footer>
+
+      {/* Showreel Modal */}
+      <AnimatePresence>
+        {showreelOpen && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            className="fixed inset-0 z-[100] flex items-center justify-center bg-black/95"
+            onClick={() => setShowreelOpen(false)}
+            data-testid="showreel-modal"
+          >
+            <button
+              className="absolute top-6 left-6 text-white/70 hover:text-white transition-colors"
+              onClick={() => setShowreelOpen(false)}
+              data-testid="button-close-showreel"
+            >
+              <X className="w-10 h-10" />
+            </button>
+            <motion.div
+              initial={{ scale: 0.92, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              exit={{ scale: 0.92, opacity: 0 }}
+              transition={{ duration: 0.35, ease: [0.16, 1, 0.3, 1] }}
+              className="w-full max-w-5xl px-4"
+              onClick={(e) => e.stopPropagation()}
+            >
+              <video
+                src="/showreel.mp4"
+                controls
+                autoPlay
+                className="w-full rounded-2xl shadow-2xl"
+                data-testid="showreel-video"
+              />
+              <p className="text-center text-white/50 text-sm mt-4 en">KSA 40 Years Anniversary · Wabar Agency</p>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   );
 }

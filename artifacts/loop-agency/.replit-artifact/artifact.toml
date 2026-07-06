@@ -1,6 +1,6 @@
 kind = "web"
 previewPath = "/"
-title = "Loop Creative Agency"
+title = "Waber Creative Agency"
 version = "1.0.0"
 id = "artifacts/loop-agency"
 router = "path"
