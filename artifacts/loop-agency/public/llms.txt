@@ -1,0 +1,31 @@
+# Wabar Agency — llms.txt
+
+> وكالة وبار الإبداعية (Wabar Agency) is a creative agency based in Riyadh, Saudi Arabia.
+> We specialize in brand identity, digital marketing, social media management, video production,
+> web and app design, and event management.
+> Contact: Info@waberagency.com | +966511830757
+
+## Site
+
+- Homepage: https://www.waberagency.com/
+
+## About
+
+Wabar Agency is a Riyadh-based creative agency serving clients across Saudi Arabia and the region.
+We help brands grow through strategic visual identity, compelling digital campaigns, and professional
+content production. Our clients include leading organizations in the public and private sectors.
+
+## Services
+
+- Brand Identity (الهوية البصرية): Logo design, visual systems, and brand guidelines.
+- Digital Marketing (التسويق الرقمي): Paid campaigns and performance marketing.
+- Social Media Management (إدارة التواصل الاجتماعي): Content creation and community management.
+- Video Production (الإنتاج المرئي): Commercials, documentary, and cinematic content.
+- Web & App Design (تصميم المواقع والتطبيقات): UI/UX design for web and mobile.
+- Events (تنظيم الفعاليات): Full-service event production and management.
+
+## Contact
+
+Email: Info@waberagency.com
+Phone: +966511830757
+Location: Riyadh, Saudi Arabia
