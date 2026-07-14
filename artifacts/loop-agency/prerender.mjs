@@ -55,7 +55,13 @@ if (typeof window === "undefined") {
     createElementNS: () => ({ setAttribute: noop, appendChild: noop }),
   };
 
-  global.navigator = { userAgent: "Node.js SSR" };
+  try {
+    Object.defineProperty(global, "navigator", {
+      value: { userAgent: "Node.js SSR" },
+      writable: true,
+      configurable: true,
+    });
+  } catch (_) {}
   global.requestAnimationFrame = (cb) => setTimeout(cb, 16);
   global.cancelAnimationFrame = clearTimeout;
 }
