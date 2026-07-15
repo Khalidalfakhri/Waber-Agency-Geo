@@ -47,7 +47,7 @@ export const blogPosts: BlogPost[] = [
 <p>التسويق الحقيقي يصنعه بشر يحملون شغفاً وخبرة، لا خوارزميات جاهزة. تعرّف على الفريق الذي سيتولى مشروعك: من هم؟ ما خلفياتهم الإبداعية والتسويقية؟ وكيف يتعاملون مع تحديات السوق السعودي الفريدة؟ الوكالة التي يُحدّثك فريقها عن مشاريعها بشغف وتفصيل هي الوكالة التي ستمنح مشروعك نفس الاهتمام.</p>
 
 <h2>خلاصة: اختر الشريك لا المورّد</h2>
-<p>الفرق بين وكالة التسويق الصحيحة والخاطئة يمكن أن يحدد مسار علامتك التجارية لسنوات. ابحث عن شريك استراتيجي يفهم سوقك ويحترم جمهورك ويُحوّل أهدافك إلى نتائج قابلة للقياس. في <strong>وكالة وبار الإبداعية في الرياض</strong>، نحن لا نقدم خدمات فحسب — نبني معك علامة تجارية تدوم وتُلهم.</p>
+<p>الفرق بين وكالة التسويق الصحيحة والخاطئة يمكن أن يحدد مسار علامتك التجارية لسنوات. ابحث عن شريك استراتيجي يفهم سوقك ويحترم جمهورك ويُحوّل أهدافك إلى نتائج قابلة للقياس. في <strong>وبر الإبداعية في الرياض</strong>، نحن لا نقدم خدمات فحسب — نبني معك علامة تجارية تدوم وتُلهم.</p>
     `,
     contentEn: `
 <h2>Why Choosing a Marketing Agency Is a Critical Decision</h2>
@@ -66,7 +66,7 @@ export const blogPosts: BlogPost[] = [
 <p>Saudi Arabia is undergoing a historic transformation under Vision 2030. An agency that understands this shift and incorporates it into its strategies gives you a real competitive edge. The biggest marketing opportunities today lie in entertainment, tourism, digital economy, and entrepreneurship — sectors expanding rapidly and requiring both creativity and strategic precision.</p>
 
 <h2>Conclusion: Choose a Partner, Not a Vendor</h2>
-<p>The difference between the right and wrong marketing agency can define your brand's trajectory for years. Look for a strategic partner who understands your market, respects your audience, and turns your goals into measurable results. At <strong>Wabar Creative Agency in Riyadh</strong>, we don't just provide services — we build brands that last.</p>
+<p>The difference between the right and wrong marketing agency can define your brand's trajectory for years. Look for a strategic partner who understands your market, respects your audience, and turns your goals into measurable results. At <strong>Waber Creative Agency in Riyadh</strong>, we don't just provide services — we build brands that last.</p>
     `,
   },
   {
@@ -105,7 +105,7 @@ export const blogPosts: BlogPost[] = [
 <p>مع التحولات الكبرى التي تشهدها المملكة في إطار رؤية 2030، وظهور قطاعات جديدة كالترفيه والسياحة والاقتصاد الإبداعي، أصبح السوق السعودي يستقطب استثمارات ومستهلكين من داخل المملكة وخارجها. هذا يعني أن <strong>هوية بصرية محترفة وثنائية اللغة</strong> باتت ضرورة لا ترفاً — هوية تتحدث العربية لقلب السعودي، وتتحدث الإنجليزية لعين المستثمر والزائر الدولي.</p>
 
 <h2>متى تحتاج إلى تجديد هويتك البصرية؟</h2>
-<p>إذا كانت هويتك البصرية الحالية لا تعكس جودة خدماتك، أو إذا شعرت أن جمهورك لا يتعرف على علامتك بسهولة، أو إذا كانت هويتك تبدو قديمة مقارنة بمنافسيك — فهذه إشارات واضحة لأن الوقت حان لبداية جديدة. في <strong>وكالة وبار الإبداعية</strong>، نُعيد بناء هويات بصرية تليق بطموح شركتك ومستوى السوق الذي تستهدفه.</p>
+<p>إذا كانت هويتك البصرية الحالية لا تعكس جودة خدماتك، أو إذا شعرت أن جمهورك لا يتعرف على علامتك بسهولة، أو إذا كانت هويتك تبدو قديمة مقارنة بمنافسيك — فهذه إشارات واضحة لأن الوقت حان لبداية جديدة. في <strong>وبر الإبداعية</strong>، نُعيد بناء هويات بصرية تليق بطموح شركتك ومستوى السوق الذي تستهدفه.</p>
     `,
     contentEn: `
 <h2>What Is Brand Identity and How Is It Different from a Logo?</h2>
@@ -127,7 +127,7 @@ export const blogPosts: BlogPost[] = [
 <p>With Saudi Arabia's transformations under Vision 2030 and the emergence of new sectors in entertainment, tourism, and the creative economy, the Saudi market is attracting investments and consumers from inside and outside the Kingdom. A professional, bilingual brand identity is now a necessity — one that speaks Arabic to the Saudi heart and English to the international investor's eye.</p>
 
 <h2>Conclusion</h2>
-<p>At <strong>Wabar Creative Agency</strong>, we build brand identities worthy of your company's ambition and the market level you're targeting. A strong visual identity is the foundation everything else is built on.</p>
+<p>At <strong>Waber Creative Agency</strong>, we build brand identities worthy of your company's ambition and the market level you're targeting. A strong visual identity is the foundation everything else is built on.</p>
     `,
   },
   {
@@ -224,7 +224,7 @@ export const blogPosts: BlogPost[] = [
 <p>لا يوجد عدد مثالي واحد يناسب الجميع، لكن الأبحاث تُشير إلى أن الاتساق أهم من الكثافة. من الأفضل النشر ثلاث مرات في الأسبوع بمحتوى عالي الجودة على النشر يومياً بمحتوى عادي. القاعدة الذهبية: الجودة تسبق الكمية دائماً.</p>
 
 <h2>قياس الأداء: ما يُقاس يتحسّن</h2>
-<p>تتبّع مؤشرات الأداء الصحيحة هو الفارق بين إدارة سوشيال ميديا فعّالة وإدارة تصبّ في فراغ. ابحث عن: معدل التفاعل (Engagement Rate)، الوصول العضوي، معدل نمو المتابعين، والتحويلات إلى موقع الإلكتروني أو استفسارات مباشرة. في وكالة وبار، نُقدم تقارير شفافة تُريك أثر كل منشور على أهداف عملك الحقيقية.</p>
+<p>تتبّع مؤشرات الأداء الصحيحة هو الفارق بين إدارة سوشيال ميديا فعّالة وإدارة تصبّ في فراغ. ابحث عن: معدل التفاعل (Engagement Rate)، الوصول العضوي، معدل نمو المتابعين، والتحويلات إلى موقع الإلكتروني أو استفسارات مباشرة. في وبر الإبداعية، نُقدم تقارير شفافة تُريك أثر كل منشور على أهداف عملك الحقيقية.</p>
     `,
     contentEn: `
 <h2>Saudi Arabia and Social Media: The Numbers Speak</h2>
@@ -243,7 +243,7 @@ export const blogPosts: BlogPost[] = [
 <p>Successful social media content varies between educational content answering your audience's questions, emotional content telling your brand story, and entertainment that drives engagement. A professional <strong>social media management agency in Riyadh</strong> balances these types according to a thoughtful content calendar serving brand growth goals.</p>
 
 <h2>Measuring Performance: What Gets Measured Gets Improved</h2>
-<p>Track: Engagement Rate, organic reach, follower growth rate, and conversions to website visits or direct inquiries. At Wabar Agency, we provide transparent reports showing the impact of every post on your real business goals.</p>
+<p>Track: Engagement Rate, organic reach, follower growth rate, and conversions to website visits or direct inquiries. At Waber Agency, we provide transparent reports showing the impact of every post on your real business goals.</p>
     `,
   },
   {
@@ -278,7 +278,7 @@ export const blogPosts: BlogPost[] = [
 <p>ليس كل محتوى مرئي يحتاج إلى إنتاج ضخم. المحتوى اليومي على السوشيال ميديا يمكن إنتاجه بأدوات بسيطة. لكن الفيديو المؤسسي، وفيديوهات إطلاق المنتجات، والحملات الكبرى — هذه تستوجب <strong>وكالة إنتاج مرئي احترافية في الرياض</strong> تفهم كيف يُترجَم المحتوى إلى مشاعر تُحرّك الناس.</p>
 
 <h2>الإنتاج المرئي في عصر رؤية 2030</h2>
-<p>مع التحولات الكبرى التي تشهدها المملكة — يوم وطني، موسم الرياض، موسم جدة، الفعاليات الكبرى — أصبحت الفرص الذهبية للإنتاج المرئي تتكاثر بشكل غير مسبوق. وكالة وبار الإبداعية رافقت شركات ومؤسسات سعودية في إنتاج محتوى مرئي استثنائي خلال هذه المناسبات، وتركت أثراً يُروى ويُشارَك.</p>
+<p>مع التحولات الكبرى التي تشهدها المملكة — يوم وطني، موسم الرياض، موسم جدة، الفعاليات الكبرى — أصبحت الفرص الذهبية للإنتاج المرئي تتكاثر بشكل غير مسبوق. وبر الإبداعية رافقت شركات ومؤسسات سعودية في إنتاج محتوى مرئي استثنائي خلال هذه المناسبات، وتركت أثراً يُروى ويُشارَك.</p>
 
 <h2>كيف تقيس أثر محتواك المرئي؟</h2>
 <p>عدد المشاهدات مؤشر واحد فقط. الأهم هو: معدل الإكمال (هل يُكمل المشاهد الفيديو؟)، معدل التفاعل، وأثره على قرارات الشراء والاستفسار. الإنتاج المرئي الجيد يُخلق موجات من التأثير لا تتوقف عند المنشور الأول.</p>
@@ -332,10 +332,10 @@ export const blogPosts: BlogPost[] = [
 <p>الموقع البطيء يكلف عملاء فعليين. الدراسات تُثبت أن كل ثانية تأخير في تحميل الصفحة تُقلّص معدل التحويل بنسبة 7%. محركات البحث مثل جوجل تُعاقب المواقع البطيئة بتصنيفات أدنى. <strong>تصميم مواقع الرياض</strong> الاحترافي يعني الاهتمام بالأداء التقني بنفس القدر الذي يهتم بالجمال البصري.</p>
 
 <h2>SEO من اليوم الأول: بنِ موقعاً تجده جوجل</h2>
-<p>الموقع الجميل الذي لا يظهر في نتائج جوجل لا قيمة تجارية له. تحسين محركات البحث (SEO) يجب أن يكون جزءاً من تصميم الموقع منذ اليوم الأول — من بنية الروابط، إلى سرعة التحميل، إلى المحتوى المكتوب بذكاء. في وكالة وبار، نبني مواقع تجدها محركات البحث وتُعجب بها المستخدمون في نفس الوقت.</p>
+<p>الموقع الجميل الذي لا يظهر في نتائج جوجل لا قيمة تجارية له. تحسين محركات البحث (SEO) يجب أن يكون جزءاً من تصميم الموقع منذ اليوم الأول — من بنية الروابط، إلى سرعة التحميل، إلى المحتوى المكتوب بذكاء. في وبر الإبداعية، نبني مواقع تجدها محركات البحث وتُعجب بها المستخدمون في نفس الوقت.</p>
 
 <h2>متى تعرف أن موقعك يحتاج إلى تجديد؟</h2>
-<p>إذا كان موقعك لا يُحوّل زواره إلى استفسارات أو مبيعات، أو إذا كان بطيئاً على الموبايل، أو إذا كان تصميمه لا يعكس مستوى خدماتك — فالوقت حان. في وكالة وبار الإبداعية، نُصمم مواقع تعكس طموح علامتك التجارية وتخدم أهدافها التجارية بكفاءة عالية.</p>
+<p>إذا كان موقعك لا يُحوّل زواره إلى استفسارات أو مبيعات، أو إذا كان بطيئاً على الموبايل، أو إذا كان تصميمه لا يعكس مستوى خدماتك — فالوقت حان. في وبر الإبداعية، نُصمم مواقع تعكس طموح علامتك التجارية وتخدم أهدافها التجارية بكفاءة عالية.</p>
     `,
     contentEn: `
 <h2>A Website: More Than Just a Digital Business Card</h2>
@@ -351,7 +351,7 @@ export const blogPosts: BlogPost[] = [
 <p>Every second of page load delay reduces conversion rates by 7%. Google penalizes slow sites with lower rankings. Professional <strong>web design in Riyadh</strong> means caring about technical performance as much as visual aesthetics.</p>
 
 <h2>Conclusion</h2>
-<p>At Wabar Creative Agency, we build websites that search engines find and users love — simultaneously. Because a beautiful website that doesn't appear in Google results has no commercial value.</p>
+<p>At Waber Creative Agency, we build websites that search engines find and users love — simultaneously. Because a beautiful website that doesn't appear in Google results has no commercial value.</p>
     `,
   },
 ];

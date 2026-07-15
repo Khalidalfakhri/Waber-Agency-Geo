@@ -28,7 +28,7 @@ export default function BlogPost() {
   if (!post) return <NotFound />;
 
   const shareUrl = `https://www.waberagency.com/blog/${post.slug}`;
-  const shareText = `${post.title.ar} — وكالة وبار الإبداعية`;
+  const shareText = `${post.title.ar} — وبر الإبداعية`;
 
   return (
     <div dir="rtl" className="bg-background text-foreground min-h-screen">
@@ -36,7 +36,7 @@ export default function BlogPost() {
       <header className="fixed top-0 w-full z-50 bg-primary text-primary-foreground py-4 shadow-md">
         <div className="container mx-auto px-6 md:px-12 flex items-center justify-between">
           <Link href="/" className="flex items-center group">
-            <img src="/wabar-logo.png" alt="Wabar Agency" className="h-12 w-auto" />
+            <img src="/wabar-logo.png" alt="Weber Agency" className="h-12 w-auto" />
           </Link>
           <Link
             href="/blog"
@@ -99,8 +99,8 @@ export default function BlogPost() {
               {post.readTime} دقائق قراءة
             </span>
             <span className="flex items-center gap-2">
-              <img src="/wabar-logo.png" alt="Wabar Agency" className="h-5 w-auto opacity-60" />
-              وكالة وبار
+              <img src="/wabar-logo.png" alt="Weber Agency" className="h-5 w-auto opacity-60" />
+              وبر الإبداعية
             </span>
           </div>
         </div>
@@ -177,10 +177,10 @@ export default function BlogPost() {
                   هل تحتاج خدمات تسويقية في الرياض؟
                 </h3>
                 <p className="text-foreground/60 text-sm mb-6 leading-relaxed">
-                  فريق وبار مستعد لمساعدتك في بناء علامة تجارية تُلهم.
+                  فريق وبر الإبداعية مستعد لمساعدتك في بناء علامة تجارية تُلهم.
                 </p>
                 <a
-                  href="https://wa.me/966511830757?text=مرحباً%20وبار%20أجنسي،%20قرأت%20مدونتكم%20وأود%20الاستفسار%20عن%20خدماتكم"
+                  href="https://wa.me/966511830757?text=مرحباً%20وبر%20الإبداعية،%20قرأت%20مدونتكم%20وأود%20الاستفسار%20عن%20خدماتكم"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block w-full text-center bg-accent text-accent-foreground hover:bg-accent/90 rounded-2xl px-6 py-4 font-bold transition-all hover:scale-[1.02]"
@@ -244,8 +244,8 @@ export default function BlogPost() {
       {/* Footer mini */}
       <footer className="py-8 bg-secondary border-t border-border">
         <div className="container mx-auto px-6 md:px-12 flex flex-col md:flex-row justify-between items-center gap-4">
-          <img src="/wabar-logo.png" alt="Wabar Agency" className="h-10 w-auto" />
-          <p className="en text-sm text-foreground/40">© {new Date().getFullYear()} Wabar Agency. All rights reserved.</p>
+          <img src="/wabar-logo.png" alt="Weber Agency" className="h-10 w-auto" />
+          <p className="en text-sm text-foreground/40">© {new Date().getFullYear()} Waber Agency. All rights reserved.</p>
           <Link href="/" className="en text-sm text-accent hover:underline">waberagency.com</Link>
         </div>
       </footer>

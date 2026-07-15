@@ -15,27 +15,27 @@ const navLinks = [
 
 const faqItems = [
   {
-    q: "ما الخدمات التي تقدمها وكالة وبار الإبداعية؟",
+    q: "ما الخدمات التي تقدمها وبر الإبداعية؟",
     a: "نقدم ستة خدمات رئيسية: الهوية البصرية، التسويق الرقمي، إدارة السوشيال ميديا، الإنتاج المرئي، تصميم المواقع والتطبيقات، وتنظيم الفعاليات — كل ذلك مصمم خصيصاً للسوق السعودي.",
   },
   {
-    q: "كيف أبدأ مشروعاً مع وكالة وبار؟",
+    q: "كيف أبدأ مشروعاً مع وبر الإبداعية؟",
     a: "تواصل معنا عبر واتس آب أو البريد الإلكتروني وسيتواصل معك فريقنا خلال 24 ساعة لمناقشة مشروعك وتحديد أفضل الحلول التسويقية المناسبة لأهدافك وميزانيتك.",
   },
   {
-    q: "هل تعمل وكالة وبار مع الشركات الصغيرة والمتوسطة؟",
+    q: "هل تعمل وبر الإبداعية مع الشركات الصغيرة والمتوسطة؟",
     a: "نعم، نعمل مع الشركات بجميع أحجامها — من رواد الأعمال والشركات الناشئة في الرياض إلى المؤسسات الكبرى. نصمم حلولاً تسويقية تناسب ميزانيتك وطموحاتك.",
   },
   {
     q: "ما الفرق بين وكالة التسويق ووكالة الإعلان؟",
-    a: "وكالة الإعلان تركز على شراء مساحات إعلانية وإنتاج مواد ترويجية. وكالة التسويق الشاملة كوبار تتبنى استراتيجية متكاملة تشمل الهوية البصرية والمحتوى والحملات الرقمية والبيانات — كل شيء تحت سقف واحد.",
+    a: "وكالة الإعلان تركز على شراء مساحات إعلانية وإنتاج مواد ترويجية. وبر الإبداعية كوكالة تسويق شاملة تتبنى استراتيجية متكاملة تشمل الهوية البصرية والمحتوى والحملات الرقمية والبيانات — كل شيء تحت سقف واحد.",
   },
   {
-    q: "هل تقدم وكالة وبار تقارير أداء شهرية؟",
+    q: "هل تقدم وبر الإبداعية تقارير أداء شهرية؟",
     a: "نعم، نُقدم تقارير شهرية مفصّلة تشمل جميع مؤشرات الأداء الرئيسية (KPIs) لكل خدمة، مع توصيات واضحة لتحسين النتائج وزيادة العائد على الاستثمار.",
   },
   {
-    q: "ما المنطقة الجغرافية التي تخدمها وكالة وبار؟",
+    q: "ما المنطقة الجغرافية التي تخدمها وبر الإبداعية؟",
     a: "مقرّنا الرياض، ونخدم العملاء في جميع مناطق المملكة العربية السعودية — الرياض، جدة، الدمام، المدينة المنورة — فضلاً عن إمكانية العمل مع عملاء خليجيين ودوليين.",
   },
 ];
@@ -113,7 +113,7 @@ export default function Home() {
           <a href="#" className="flex items-center group" data-testid="link-home">
             <img
               src="/wabar-logo.png"
-              alt="Wabar Agency Logo"
+              alt="Waber Agency Logo"
               className="h-12 md:h-14 w-auto transition-transform duration-500 group-hover:scale-105"
             />
           </a>
@@ -640,7 +640,7 @@ export default function Home() {
                   <ArrowLeft className="mr-3 w-6 h-6 transition-transform group-hover:-translate-x-1" />
                 </Button>
                 <a
-                  href="https://wa.me/966511830757?text=مرحباً%20وبار%20أجنسي،%20أود%20الاستفسار%20عن%20خدماتكم"
+                  href="https://wa.me/966511830757?text=مرحباً%20وبر%20الإبداعية،%20أود%20الاستفسار%20عن%20خدماتكم"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-3 rounded-full bg-[#25D366] text-white hover:bg-[#20b858] transition-colors h-16 px-10 text-lg font-bold"
@@ -654,19 +654,19 @@ export default function Home() {
             <div className="text-right space-y-6 text-foreground/60 text-xl font-light">
               <p data-testid="text-location">الرياض، المملكة العربية السعودية</p>
               <a href="mailto:Info@waberagency.com" className="block hover:text-accent transition-colors en" data-testid="link-email">Info@waberagency.com</a>
-              <a href="https://wa.me/966511830757?text=مرحباً%20وبار%20أجنسي،%20أود%20الاستفسار%20عن%20خدماتكم" target="_blank" rel="noopener noreferrer" className="block hover:text-accent transition-colors en" data-testid="link-phone">+966 51 183 0757</a>
+              <a href="https://wa.me/966511830757?text=مرحباً%20وبر%20الإبداعية،%20أود%20الاستفسار%20عن%20خدماتكم" target="_blank" rel="noopener noreferrer" className="block hover:text-accent transition-colors en" data-testid="link-phone">+966 51 183 0757</a>
             </div>
           </div>
           
           <div className="flex flex-col md:flex-row justify-between items-center pt-10 border-t border-border/50 gap-6">
-            <img src="/wabar-logo.png" alt="Wabar Agency" className="h-16 w-auto" />
+            <img src="/wabar-logo.png" alt="Waber Agency" className="h-16 w-auto" />
             <p className="en text-sm text-foreground/40">
-              © {new Date().getFullYear()} Wabar Agency. All rights reserved.
+              © {new Date().getFullYear()} Waber Agency. All rights reserved.
             </p>
             <div className="flex gap-8 en text-sm text-foreground/60 uppercase tracking-widest">
-              <a href="#" className="hover:text-accent transition-colors" data-testid="link-instagram">Instagram</a>
-              <a href="#" className="hover:text-accent transition-colors" data-testid="link-linkedin">LinkedIn</a>
-              <a href="#" className="hover:text-accent transition-colors" data-testid="link-behance">Behance</a>
+              <a href="https://www.instagram.com/waberagency/" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors" data-testid="link-instagram">Instagram</a>
+              <a href="https://www.linkedin.com/in/waber-agency-407a31420/" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors" data-testid="link-linkedin">LinkedIn</a>
+              <a href="https://x.com/Waberagency" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors" data-testid="link-x">X / Twitter</a>
             </div>
           </div>
         </div>
@@ -674,7 +674,7 @@ export default function Home() {
 
       {/* Floating WhatsApp Button */}
       <a
-        href="https://wa.me/966511830757?text=مرحباً%20وبار%20أجنسي،%20أود%20الاستفسار%20عن%20خدماتكم"
+        href="https://wa.me/966511830757?text=مرحباً%20وبر%20الإبداعية،%20أود%20الاستفسار%20عن%20خدماتكم"
         target="_blank"
         rel="noopener noreferrer"
         data-testid="button-whatsapp-float"
@@ -712,7 +712,7 @@ export default function Home() {
 
               <div className="flex flex-col gap-4">
                 <a
-                  href="https://wa.me/966511830757?text=مرحباً%20وبار%20أجنسي،%20أود%20الاستفسار%20عن%20خدماتكم"
+                  href="https://wa.me/966511830757?text=مرحباً%20وبر%20الإبداعية،%20أود%20الاستفسار%20عن%20خدماتكم"
                   target="_blank"
                   rel="noopener noreferrer"
                   data-testid="contact-modal-whatsapp"
@@ -783,7 +783,7 @@ export default function Home() {
                 className="w-full rounded-2xl shadow-2xl"
                 data-testid="showreel-video"
               />
-              <p className="text-center text-white/50 text-sm mt-4 en">KSA 40 Years Anniversary · Wabar Agency</p>
+              <p className="text-center text-white/50 text-sm mt-4 en">KSA 40 Years Anniversary · Waber Agency</p>
             </motion.div>
           </motion.div>
         )}

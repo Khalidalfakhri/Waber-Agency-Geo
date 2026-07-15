@@ -21,7 +21,7 @@ export default function Blog() {
       <header className="fixed top-0 w-full z-50 bg-primary text-primary-foreground py-4 shadow-md">
         <div className="container mx-auto px-6 md:px-12 flex items-center justify-between">
           <Link href="/" className="flex items-center group" data-testid="blog-link-home">
-            <img src="/wabar-logo.png" alt="Wabar Agency" className="h-12 w-auto" />
+            <img src="/wabar-logo.png" alt="Waber Agency" className="h-12 w-auto" />
           </Link>
           <Link
             href="/"
@@ -133,10 +133,10 @@ export default function Blog() {
             هل أنت مستعد لتنمية علامتك التجارية؟
           </h2>
           <p className="text-foreground/60 text-lg mb-10 max-w-lg mx-auto">
-            تحدث مع فريق وبار اليوم وابدأ مشروعك التسويقي في الرياض.
+            تحدث مع فريق وبر الإبداعية اليوم وابدأ مشروعك التسويقي في الرياض.
           </p>
           <a
-            href="https://wa.me/966511830757?text=مرحباً%20وبار%20أجنسي،%20قرأت%20مدونتكم%20وأود%20الاستفسار%20عن%20خدماتكم"
+            href="https://wa.me/966511830757?text=مرحباً%20وبر%20الإبداعية،%20قرأت%20مدونتكم%20وأود%20الاستفسار%20عن%20خدماتكم"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 bg-accent text-accent-foreground hover:bg-accent/90 rounded-full px-12 py-5 text-xl font-bold transition-all hover:scale-105"
@@ -151,8 +151,8 @@ export default function Blog() {
       {/* Footer mini */}
       <footer className="py-8 bg-background border-t border-border">
         <div className="container mx-auto px-6 md:px-12 flex flex-col md:flex-row justify-between items-center gap-4">
-          <img src="/wabar-logo.png" alt="Wabar Agency" className="h-10 w-auto" />
-          <p className="en text-sm text-foreground/40">© {new Date().getFullYear()} Wabar Agency. All rights reserved.</p>
+          <img src="/wabar-logo.png" alt="Waber Agency" className="h-10 w-auto" />
+          <p className="en text-sm text-foreground/40">© {new Date().getFullYear()} Waber Agency. All rights reserved.</p>
           <Link href="/" className="en text-sm text-accent hover:underline">waberagency.com</Link>
         </div>
       </footer>
