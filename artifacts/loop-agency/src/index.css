@@ -210,3 +210,82 @@
     100% { transform: translateX(0%); }
   }
 }
+
+/* Blog article prose styles */
+.prose-blog h2 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: hsl(var(--foreground));
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  line-height: 1.4;
+  font-family: var(--font-display, inherit);
+}
+.prose-blog h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: hsl(var(--foreground));
+  margin-top: 1.8rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.5;
+}
+.prose-blog p {
+  margin-bottom: 1.4rem;
+  line-height: 2;
+  color: hsl(var(--foreground) / 0.8);
+}
+.prose-blog ul {
+  margin-bottom: 1.4rem;
+  padding-right: 1.5rem;
+  list-style: none;
+}
+.prose-blog ul li {
+  position: relative;
+  padding-right: 1.5rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.9;
+  color: hsl(var(--foreground) / 0.75);
+}
+.prose-blog ul li::before {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0.65em;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: hsl(var(--accent));
+}
+.prose-blog strong {
+  color: hsl(var(--foreground));
+  font-weight: 700;
+}
+
+/* English prose (LTR) */
+.prose-blog-en h2 {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: hsl(var(--foreground));
+  margin-top: 2.2rem;
+  margin-bottom: 0.9rem;
+  line-height: 1.4;
+}
+.prose-blog-en p {
+  margin-bottom: 1.2rem;
+  line-height: 1.9;
+  color: hsl(var(--foreground) / 0.75);
+}
+.prose-blog-en ul {
+  margin-bottom: 1.2rem;
+  padding-left: 1.5rem;
+  list-style: disc;
+}
+.prose-blog-en ul li {
+  margin-bottom: 0.6rem;
+  line-height: 1.8;
+  color: hsl(var(--foreground) / 0.7);
+}
+.prose-blog-en strong {
+  color: hsl(var(--foreground));
+  font-weight: 700;
+}

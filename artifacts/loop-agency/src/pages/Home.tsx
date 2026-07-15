@@ -1,13 +1,43 @@
 import { useEffect, useState } from "react";
 import { motion, useScroll, useTransform, AnimatePresence } from "framer-motion";
-import { ArrowLeft, Menu, X, Play, Globe, Camera, PenTool, LayoutGrid, Megaphone, CheckCircle2, Plus } from "lucide-react";
+import { ArrowLeft, Menu, X, Play, Globe, Camera, PenTool, LayoutGrid, Megaphone, CheckCircle2, Plus, Clock, BookOpen } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Link } from "wouter";
+import { getLatestPosts } from "@/data/blog";
 
 const navLinks = [
   { ar: "أعمالنا", en: "Work", href: "#work" },
   { ar: "من نحن", en: "About", href: "#about" },
   { ar: "خدماتنا", en: "Services", href: "#services" },
   { ar: "عملاؤنا", en: "Clients", href: "#clients" },
+  { ar: "المدونة", en: "Blog", href: "/blog" },
+];
+
+const faqItems = [
+  {
+    q: "ما الخدمات التي تقدمها وكالة وبار الإبداعية؟",
+    a: "نقدم ستة خدمات رئيسية: الهوية البصرية، التسويق الرقمي، إدارة السوشيال ميديا، الإنتاج المرئي، تصميم المواقع والتطبيقات، وتنظيم الفعاليات — كل ذلك مصمم خصيصاً للسوق السعودي.",
+  },
+  {
+    q: "كيف أبدأ مشروعاً مع وكالة وبار؟",
+    a: "تواصل معنا عبر واتس آب أو البريد الإلكتروني وسيتواصل معك فريقنا خلال 24 ساعة لمناقشة مشروعك وتحديد أفضل الحلول التسويقية المناسبة لأهدافك وميزانيتك.",
+  },
+  {
+    q: "هل تعمل وكالة وبار مع الشركات الصغيرة والمتوسطة؟",
+    a: "نعم، نعمل مع الشركات بجميع أحجامها — من رواد الأعمال والشركات الناشئة في الرياض إلى المؤسسات الكبرى. نصمم حلولاً تسويقية تناسب ميزانيتك وطموحاتك.",
+  },
+  {
+    q: "ما الفرق بين وكالة التسويق ووكالة الإعلان؟",
+    a: "وكالة الإعلان تركز على شراء مساحات إعلانية وإنتاج مواد ترويجية. وكالة التسويق الشاملة كوبار تتبنى استراتيجية متكاملة تشمل الهوية البصرية والمحتوى والحملات الرقمية والبيانات — كل شيء تحت سقف واحد.",
+  },
+  {
+    q: "هل تقدم وكالة وبار تقارير أداء شهرية؟",
+    a: "نعم، نُقدم تقارير شهرية مفصّلة تشمل جميع مؤشرات الأداء الرئيسية (KPIs) لكل خدمة، مع توصيات واضحة لتحسين النتائج وزيادة العائد على الاستثمار.",
+  },
+  {
+    q: "ما المنطقة الجغرافية التي تخدمها وكالة وبار؟",
+    a: "مقرّنا الرياض، ونخدم العملاء في جميع مناطق المملكة العربية السعودية — الرياض، جدة، الدمام، المدينة المنورة — فضلاً عن إمكانية العمل مع عملاء خليجيين ودوليين.",
+  },
 ];
 
 const heroTags = [
@@ -50,6 +80,8 @@ export default function Home() {
   const [activeService, setActiveService] = useState(0);
   const [showreelOpen, setShowreelOpen] = useState(false);
   const [contactOpen, setContactOpen] = useState(false);
+  const [activeFaq, setActiveFaq] = useState<number | null>(null);
+  const latestPosts = getLatestPosts(3);
   const { scrollYProgress } = useScroll();
   const heroY = useTransform(scrollYProgress, [0, 0.5], ["0%", "30%"]);
   const heroOpacity = useTransform(scrollYProgress, [0, 0.25], [1, 0]);
@@ -485,6 +517,113 @@ export default function Home() {
               ))}
             </div>
           ))}
+        </div>
+      </section>
+
+      {/* 8. FAQ Section */}
+      <section id="faq" className="py-32 bg-background border-b border-border" data-testid="section-faq">
+        <div className="container mx-auto px-6 md:px-12">
+          <div className="mb-20">
+            <span className="en text-sm text-accent tracking-widest block mb-4">05 / FAQ</span>
+            <h2 className="text-5xl md:text-7xl font-display font-black text-foreground">الأسئلة<br/>الشائعة</h2>
+          </div>
+          <div className="border-t border-border max-w-4xl">
+            {faqItems.map((item, idx) => {
+              const isOpen = activeFaq === idx;
+              return (
+                <div key={idx} className="border-b border-border">
+                  <button
+                    onClick={() => setActiveFaq(isOpen ? null : idx)}
+                    className="w-full flex items-center justify-between gap-6 py-7 text-right group"
+                    data-testid={`faq-toggle-${idx}`}
+                  >
+                    <h3 className="text-lg md:text-xl font-bold text-foreground group-hover:text-accent transition-colors flex-1">
+                      {item.q}
+                    </h3>
+                    <Plus className={`w-5 h-5 shrink-0 text-foreground/50 transition-transform duration-300 ${isOpen ? "rotate-45 text-accent" : ""}`} />
+                  </button>
+                  <AnimatePresence initial={false}>
+                    {isOpen && (
+                      <motion.div
+                        initial={{ height: 0, opacity: 0 }}
+                        animate={{ height: "auto", opacity: 1 }}
+                        exit={{ height: 0, opacity: 0 }}
+                        transition={{ duration: 0.3 }}
+                        className="overflow-hidden"
+                      >
+                        <p className="pb-8 text-foreground/65 leading-relaxed text-base max-w-2xl">
+                          {item.a}
+                        </p>
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* Blog Preview Section */}
+      <section id="blog" className="py-32 bg-secondary" data-testid="section-blog">
+        <div className="container mx-auto px-6 md:px-12">
+          <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-8">
+            <div>
+              <span className="en text-sm text-accent tracking-widest block mb-4">06 / INSIGHTS</span>
+              <h2 className="text-5xl md:text-7xl font-display font-black text-foreground">المدونة</h2>
+            </div>
+            <a
+              href="/blog"
+              className="group flex items-center gap-3 text-accent font-bold text-lg hover:gap-4 transition-all"
+              data-testid="link-all-posts"
+            >
+              <span>جميع المقالات</span>
+              <ArrowLeft className="w-5 h-5 group-hover:-translate-x-1 transition-transform" />
+            </a>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {latestPosts.map((post, idx) => (
+              <motion.article
+                key={post.slug}
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: idx * 0.1 }}
+                data-testid={`home-blog-card-${idx}`}
+              >
+                <a href={`/blog/${post.slug}`} className="block group">
+                  <div
+                    className="h-44 rounded-3xl mb-5 relative overflow-hidden transition-transform duration-300 group-hover:scale-[1.02]"
+                    style={{ background: `linear-gradient(135deg, ${post.accentColor}33, ${post.accentColor}88)` }}
+                  >
+                    <span
+                      className="absolute bottom-4 right-4 en text-xs font-bold tracking-widest px-3 py-1 rounded-full text-white"
+                      style={{ backgroundColor: post.accentColor }}
+                    >
+                      {post.category.en.toUpperCase()}
+                    </span>
+                  </div>
+                  <div className="flex items-center gap-3 text-xs text-foreground/40 mb-3">
+                    <span className="flex items-center gap-1">
+                      <Clock className="w-3 h-3" />
+                      {post.readTime} دقائق
+                    </span>
+                    <BookOpen className="w-3 h-3" />
+                    <span>{post.tags[0]}</span>
+                  </div>
+                  <h3 className="text-lg font-display font-black text-foreground group-hover:text-accent transition-colors leading-snug mb-3">
+                    {post.title.ar}
+                  </h3>
+                  <p className="text-sm text-foreground/55 leading-relaxed line-clamp-2">{post.excerpt.ar}</p>
+                  <div className="flex items-center gap-2 mt-4 text-accent text-sm font-bold">
+                    <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
+                    <span>اقرأ المقال</span>
+                  </div>
+                </a>
+              </motion.article>
+            ))}
+          </div>
         </div>
       </section>
 
