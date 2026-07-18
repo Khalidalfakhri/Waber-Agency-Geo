@@ -600,10 +600,10 @@ export default function Home() {
                 </div>
 
                 <h3 className="text-2xl md:text-3xl font-display font-black text-white mb-3 leading-snug">
-                  إنتاج محتوى إبداعي<br/>لمنصة تعليم اللغة الإنجليزية
+                  محتوى فيديو إبداعي<br/>لمنصة تعلّم الإنجليزية الحقيقية
                 </h3>
                 <p className="text-white/60 leading-relaxed mb-6 text-sm">
-                  أنتجنا لكامبلي محتوى فيديو إبداعياً يخاطب الجمهور السعودي — فكرة إعلانية ذكية تُبرز الفرق بين تعلّم اللغة والفهم الحقيقي لها، تُشغّل الفضول وتدفع نحو التجربة.
+                  أنتجنا لكامبلي إعلاناً إبداعياً يخاطب الجمهور السعودي بلغته — فكرة ذكية تُبرز الفرق بين حفظ القواعد والتحدث الحقيقي مع أهل اللغة، في أي وقت وأي مكان، على مدار الساعة.
                 </p>
 
                 <div className="flex flex-wrap gap-2 mb-8">
@@ -616,8 +616,8 @@ export default function Home() {
 
                 {/* Quote from the video */}
                 <div className="mt-auto border-r-2 border-[#FFCA00] pr-4">
-                  <p className="text-white/80 text-sm italic leading-relaxed">
-                    "تعرف الفرق؟ كامبلي يفهمك ويفهّمك"
+                  <p className="text-white/80 text-sm leading-relaxed">
+                    "تعرف الفرق؟ — كامبلي يفهمك ويفهّمك"
                   </p>
                   <p className="text-white/40 text-xs mt-1">— الفكرة الإبداعية للإعلان</p>
                 </div>
