@@ -71,7 +71,7 @@ const services = [
   { ar: "تنظيم الفعاليات", en: "Events", desc: "ننظم فعاليات لا تُنسى تترك أثراً حقيقياً في ذهن كل حاضر.", icon: <CheckCircle2 className="w-6 h-6" /> },
 ];
 
-const clients = ["أرامكو", "stc", "الراجحي", "نيوم", "البنك الأهلي", "موبايلي", "أكوا باور", "صندوق الاستثمارات", "موطن", "مواسم", "كادن", "كامبلي"];
+const clients = ["أرامكو", "stc", "الراجحي", "نيوم", "البنك الأهلي", "موبايلي", "أكوا باور", "صندوق الاستثمارات", "موطن", "مواسم", "كادن", "كامبلي", "أرز العائلة"];
 
 export default function Home() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -621,6 +621,75 @@ export default function Home() {
                   </p>
                   <p className="text-white/40 text-xs mt-1">— الفكرة الإبداعية للإعلان</p>
                 </div>
+              </div>
+            </div>
+          </motion.div>
+
+          {/* ── Featured Client: AlAila Rice ── */}
+          <motion.div
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.7 }}
+            className="mb-6 rounded-3xl overflow-hidden bg-[#05111f] border border-white/5"
+            data-testid="portfolio-card-alaila"
+          >
+            <div className="grid grid-cols-1 lg:grid-cols-2 min-h-[520px]">
+              {/* Left: content */}
+              <div className="flex flex-col p-8 lg:p-12 order-2 lg:order-1">
+                {/* Header */}
+                <div className="flex items-center justify-between mb-8">
+                  <div>
+                    <span className="en text-xs text-[#3b9ddd]/80 uppercase tracking-widest border border-[#3b9ddd]/30 rounded-full px-3 py-1 mb-3 inline-block">
+                      2025
+                    </span>
+                    <div className="flex items-center gap-3 mt-3">
+                      <div className="h-10 px-4 rounded-lg flex items-center justify-center bg-[#3b9ddd]/10 border border-[#3b9ddd]/20">
+                        <span className="text-[#3b9ddd] font-black text-base">أرز العائلة</span>
+                      </div>
+                      <div>
+                        <p className="text-white/50 text-xs">العميل</p>
+                        <p className="font-bold text-white">AlAila Rice</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <h3 className="text-2xl md:text-3xl font-display font-black text-white mb-3 leading-snug">
+                  فيديو إعلاني للأرز المدعّم<br/>بكل جمعة ومع كل وجبة
+                </h3>
+                <p className="text-white/60 leading-relaxed mb-6 text-sm">
+                  أنتجنا لأرز العائلة فيديو إعلانياً يُبرز قيمة الأرز المدعّم بفيتامينات ومعادن أساسية — محتوى يخاطب المرأة السعودية ويُعزّز قيمة الاختيار الصحي لعائلتها في كل وجبة.
+                </p>
+
+                <div className="flex flex-wrap gap-2 mb-8">
+                  {["إنتاج فيديو", "محتوى سوشيال", "تصوير المنتج", "إعلانات رقمية"].map((tag) => (
+                    <span key={tag} className="text-xs text-[#3b9ddd] border border-[#3b9ddd]/40 rounded-full px-3 py-1">
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+
+                <div className="mt-auto border-r-2 border-[#3b9ddd] pr-4">
+                  <p className="text-white/80 text-sm leading-relaxed">
+                    "بكل جمعة ومع كل وجبة — العائلة أولاً"
+                  </p>
+                  <p className="text-white/40 text-xs mt-1">— شعار العلامة</p>
+                </div>
+              </div>
+
+              {/* Right: video */}
+              <div className="relative overflow-hidden min-h-[320px] lg:min-h-0 order-1 lg:order-2">
+                <video
+                  src="/clients/alaila-video.mp4"
+                  autoPlay
+                  muted
+                  loop
+                  playsInline
+                  className="absolute inset-0 w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-r from-[#05111f] via-transparent to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#05111f] via-transparent to-transparent lg:bg-none" />
               </div>
             </div>
           </motion.div>
