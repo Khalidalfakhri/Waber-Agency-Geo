@@ -71,7 +71,7 @@ const services = [
   { ar: "تنظيم الفعاليات", en: "Events", desc: "ننظم فعاليات لا تُنسى تترك أثراً حقيقياً في ذهن كل حاضر.", icon: <CheckCircle2 className="w-6 h-6" /> },
 ];
 
-const clients = ["أرامكو", "stc", "الراجحي", "نيوم", "البنك الأهلي", "موبايلي", "أكوا باور", "صندوق الاستثمارات", "موطن", "مواسم", "كادن"];
+const clients = ["أرامكو", "stc", "الراجحي", "نيوم", "البنك الأهلي", "موبايلي", "أكوا باور", "صندوق الاستثمارات", "موطن", "مواسم", "كادن", "كامبلي"];
 
 export default function Home() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -550,6 +550,76 @@ export default function Home() {
                       />
                     </div>
                   ))}
+                </div>
+              </div>
+            </div>
+          </motion.div>
+
+          {/* ── Featured Client: Cambly ── */}
+          <motion.div
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.7 }}
+            className="mb-6 rounded-3xl overflow-hidden bg-[#12100a] border border-white/5"
+            data-testid="portfolio-card-cambly"
+          >
+            <div className="grid grid-cols-1 lg:grid-cols-2 min-h-[520px]">
+              {/* Left: video */}
+              <div className="relative overflow-hidden min-h-[320px] lg:min-h-0 order-1">
+                <video
+                  src="/clients/cambly-video.mp4"
+                  autoPlay
+                  muted
+                  loop
+                  playsInline
+                  className="absolute inset-0 w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-l from-[#12100a] via-transparent to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#12100a] via-transparent to-transparent lg:bg-none" />
+              </div>
+
+              {/* Right: content */}
+              <div className="flex flex-col p-8 lg:p-12 order-2">
+                {/* Header */}
+                <div className="flex items-center justify-between mb-8">
+                  <div>
+                    <span className="en text-xs text-[#FFCA00]/80 uppercase tracking-widest border border-[#FFCA00]/30 rounded-full px-3 py-1 mb-3 inline-block">
+                      2025
+                    </span>
+                    <div className="flex items-center gap-3 mt-3">
+                      <div className="h-10 px-4 rounded-lg flex items-center justify-center bg-[#FFCA00]/10 border border-[#FFCA00]/20">
+                        <span className="en text-[#FFCA00] font-black tracking-wide text-lg">cambly</span>
+                      </div>
+                      <div>
+                        <p className="text-white/50 text-xs">العميل</p>
+                        <p className="font-bold text-white">كامبلي</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <h3 className="text-2xl md:text-3xl font-display font-black text-white mb-3 leading-snug">
+                  إنتاج محتوى إبداعي<br/>لمنصة تعليم اللغة الإنجليزية
+                </h3>
+                <p className="text-white/60 leading-relaxed mb-6 text-sm">
+                  أنتجنا لكامبلي محتوى فيديو إبداعياً يخاطب الجمهور السعودي — فكرة إعلانية ذكية تُبرز الفرق بين تعلّم اللغة والفهم الحقيقي لها، تُشغّل الفضول وتدفع نحو التجربة.
+                </p>
+
+                <div className="flex flex-wrap gap-2 mb-8">
+                  {["إنتاج فيديو", "محتوى سوشيال", "إعلانات رقمية", "كتابة إبداعية"].map((tag) => (
+                    <span key={tag} className="text-xs text-[#FFCA00] border border-[#FFCA00]/40 rounded-full px-3 py-1">
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+
+                {/* Quote from the video */}
+                <div className="mt-auto border-r-2 border-[#FFCA00] pr-4">
+                  <p className="text-white/80 text-sm italic leading-relaxed">
+                    "تعرف الفرق؟ كامبلي يفهمك ويفهّمك"
+                  </p>
+                  <p className="text-white/40 text-xs mt-1">— الفكرة الإبداعية للإعلان</p>
                 </div>
               </div>
             </div>
