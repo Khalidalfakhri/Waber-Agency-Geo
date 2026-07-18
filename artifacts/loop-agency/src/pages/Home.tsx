@@ -458,9 +458,6 @@ export default function Home() {
                     { src: "/clients/mawasem-logo-green.jpg", alt: "شعار مواسم - أخضر على بيج" },
                     { src: "/clients/mawasem-logo-beige.jpg", alt: "شعار مواسم - بيج على أخضر" },
                     { src: "/clients/mawasem-logo-v-green.jpg", alt: "شعار مواسم عمودي - أخضر" },
-                    { src: "/clients/mawasem-h-green.jpg", alt: "شعار مواسم أفقي - أخضر" },
-                    { src: "/clients/mawasem-v-beige.jpg", alt: "شعار مواسم عمودي - بيج" },
-                    { src: "/clients/mawasem-h-beige.jpg", alt: "شعار مواسم أفقي - بيج" },
                   ].map((img, i) => (
                     <div key={i} className="aspect-square rounded-xl overflow-hidden">
                       <img
@@ -548,9 +545,6 @@ export default function Home() {
                     { src: "/clients/kaden-2.png", alt: "كادن - خطوتك نحو أحلام مستدامة" },
                     { src: "/clients/kaden-3.png", alt: "كادن - نمكّن الأحلام" },
                     { src: "/clients/kaden-4.png", alt: "كادن - مشروع 4" },
-                    { src: "/clients/kaden-5.png", alt: "كادن - مشروع 5" },
-                    { src: "/clients/kaden-11.png", alt: "كادن - شعار" },
-                    { src: "/clients/kaden-12.png", alt: "كادن - شعار 2" },
                   ].map((img, i) => (
                     <div key={i} className="aspect-square rounded-xl overflow-hidden bg-white/5">
                       <img
