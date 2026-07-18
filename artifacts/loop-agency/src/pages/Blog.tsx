@@ -3,6 +3,26 @@ import { ArrowLeft, Clock, Tag } from "lucide-react";
 import { Link } from "wouter";
 import { blogPosts } from "@/data/blog";
 
+const CATEGORY_IMAGE: Record<string, string> = {
+  "Strategy":             "/blog-images/strategy.svg",
+  "Digital Marketing":    "/blog-images/digital-marketing.svg",
+  "Brand Identity":       "/blog-images/brand-identity.svg",
+  "SEO":                  "/blog-images/seo.svg",
+  "Platforms":            "/blog-images/platforms.svg",
+  "Content":              "/blog-images/content.svg",
+  "Influencer Marketing": "/blog-images/influencer.svg",
+  "Vision 2030":          "/blog-images/vision-2030.svg",
+  "Budget":               "/blog-images/budget.svg",
+  "Startups":             "/blog-images/startup.svg",
+  "E-Commerce":           "/blog-images/ecommerce.svg",
+  "Advertising":          "/blog-images/advertising.svg",
+  "Performance Marketing":"/blog-images/performance.svg",
+  "Conversion":           "/blog-images/conversion.svg",
+  "Social Media":         "/blog-images/social-media.svg",
+  "Video Production":     "/blog-images/video-production.svg",
+  "Web Design":           "/blog-images/web-design.svg",
+};
+
 const MONTHS_AR: Record<string, string> = {
   "01": "يناير", "02": "فبراير", "03": "مارس", "04": "أبريل",
   "05": "مايو", "06": "يونيو", "07": "يوليو", "08": "أغسطس",
@@ -65,17 +85,24 @@ export default function Blog() {
                 data-testid={`blog-card-${post.slug}`}
               >
                 <Link href={`/blog/${post.slug}`} className="block group">
-                  {/* Card Color Block */}
+                  {/* Card Image Block */}
                   <div
-                    className="h-48 rounded-3xl mb-6 flex items-end p-6 relative overflow-hidden transition-transform duration-300 group-hover:scale-[1.02]"
-                    style={{ background: `linear-gradient(135deg, ${post.accentColor}33, ${post.accentColor}99)` }}
+                    className="h-52 rounded-3xl mb-6 flex items-end p-5 relative overflow-hidden transition-transform duration-300 group-hover:scale-[1.02]"
                   >
+                    {/* SVG illustration background */}
+                    <img
+                      src={CATEGORY_IMAGE[post.category.en] ?? "/blog-images/strategy.svg"}
+                      alt=""
+                      aria-hidden="true"
+                      className="absolute inset-0 w-full h-full object-cover rounded-3xl"
+                    />
+                    {/* Dark gradient overlay for readability */}
                     <div
-                      className="absolute inset-0 opacity-10"
-                      style={{ background: `radial-gradient(circle at 30% 70%, ${post.accentColor}, transparent 70%)` }}
+                      className="absolute inset-0 rounded-3xl"
+                      style={{ background: `linear-gradient(to top, ${post.accentColor}cc 0%, ${post.accentColor}22 50%, transparent 100%)` }}
                     />
                     <span
-                      className="en text-xs font-bold tracking-widest px-3 py-1 rounded-full text-white"
+                      className="en relative z-10 text-xs font-bold tracking-widest px-3 py-1 rounded-full text-white"
                       style={{ backgroundColor: post.accentColor }}
                     >
                       {post.category.en.toUpperCase()}

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#1a0c04"/>
+      <stop offset="100%" stop-color="#0a0318"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <g stroke="#ffffff" stroke-opacity="0.04" stroke-width="1">
+    <line x1="0" y1="75" x2="800" y2="75"/><line x1="0" y1="150" x2="800" y2="150"/>
+    <line x1="0" y1="225" x2="800" y2="225"/><line x1="0" y1="300" x2="800" y2="300"/>
+    <line x1="0" y1="375" x2="800" y2="375"/>
+    <line x1="100" y1="0" x2="100" y2="450"/><line x1="200" y1="0" x2="200" y2="450"/>
+    <line x1="300" y1="0" x2="300" y2="450"/><line x1="400" y1="0" x2="400" y2="450"/>
+    <line x1="500" y1="0" x2="500" y2="450"/><line x1="600" y1="0" x2="600" y2="450"/>
+    <line x1="700" y1="0" x2="700" y2="450"/>
+  </g>
+  <!-- Large Arabic calligraphy-inspired text background -->
+  <text x="400" y="280" text-anchor="middle" font-size="200" fill="#ea580c" fill-opacity="0.06" font-family="Arial">ع</text>
+  <!-- Speech bubble main -->
+  <rect x="200" y="120" width="320" height="180" rx="20" fill="#1a0a00" stroke="#ea580c" stroke-width="2.5" stroke-opacity="0.7"/>
+  <polygon points="280,300 260,340 320,300" fill="#1a0a00" stroke="#ea580c" stroke-width="2" stroke-opacity="0.5"/>
+  <!-- Arabic text lines in bubble -->
+  <rect x="220" y="145" width="250" height="12" rx="4" fill="#ea580c" fill-opacity="0.5"/>
+  <rect x="220" y="167" width="280" height="10" rx="4" fill="#f5f0e8" fill-opacity="0.25"/>
+  <rect x="220" y="187" width="240" height="10" rx="4" fill="#f5f0e8" fill-opacity="0.2"/>
+  <rect x="220" y="207" width="270" height="10" rx="4" fill="#ea580c" fill-opacity="0.3"/>
+  <rect x="220" y="227" width="220" height="10" rx="4" fill="#f5f0e8" fill-opacity="0.18"/>
+  <rect x="220" y="247" width="260" height="10" rx="4" fill="#f5f0e8" fill-opacity="0.15"/>
+  <!-- +40% conversion badge -->
+  <rect x="480" y="140" width="130" height="70" rx="12" fill="#ea580c" fill-opacity="0.2" stroke="#ea580c" stroke-width="2" stroke-opacity="0.7"/>
+  <text x="545" y="173" text-anchor="middle" font-size="26" font-weight="900" fill="#ea580c" font-family="Arial">+40%</text>
+  <text x="545" y="196" text-anchor="middle" font-size="11" fill="#f5f0e8" fill-opacity="0.6" font-family="Arial">Conversion</text>
+  <!-- Pen/pencil -->
+  <g transform="translate(560, 260) rotate(-35)">
+    <rect x="-6" y="-80" width="12" height="70" rx="3" fill="#ea580c" fill-opacity="0.7"/>
+    <polygon points="-6,-10 6,-10 0,10" fill="#f5f0e8" fill-opacity="0.8"/>
+    <rect x="-6" y="-92" width="12" height="14" rx="2" fill="#f5f0e8" fill-opacity="0.3"/>
+    <rect x="-6" y="-80" width="12" height="6" fill="#ea580c" fill-opacity="0.4"/>
+  </g>
+  <!-- Conversion upward arrow bottom right -->
+  <g transform="translate(660, 380)" opacity="0.4">
+    <line x1="0" y1="0" x2="60" y2="-80" stroke="#ea580c" stroke-width="2.5" stroke-linecap="round"/>
+    <polygon points="60,-80 42,-72 52,-58" fill="#ea580c"/>
+  </g>
+  <!-- Small text "بالعامية" -->
+  <text x="150" y="200" text-anchor="middle" font-size="18" fill="#ea580c" fill-opacity="0.5" font-family="Arial">بالعامية</text>
+  <text x="150" y="225" text-anchor="middle" font-size="13" fill="#f5f0e8" fill-opacity="0.3" font-family="Arial">السعودية</text>
+</svg>

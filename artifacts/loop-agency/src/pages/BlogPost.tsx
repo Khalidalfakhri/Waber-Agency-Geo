@@ -5,6 +5,26 @@ import { Link, useParams } from "wouter";
 import { getBlogPost, getLatestPosts } from "@/data/blog";
 import NotFound from "@/pages/not-found";
 
+const CATEGORY_IMAGE: Record<string, string> = {
+  "Strategy":             "/blog-images/strategy.svg",
+  "Digital Marketing":    "/blog-images/digital-marketing.svg",
+  "Brand Identity":       "/blog-images/brand-identity.svg",
+  "SEO":                  "/blog-images/seo.svg",
+  "Platforms":            "/blog-images/platforms.svg",
+  "Content":              "/blog-images/content.svg",
+  "Influencer Marketing": "/blog-images/influencer.svg",
+  "Vision 2030":          "/blog-images/vision-2030.svg",
+  "Budget":               "/blog-images/budget.svg",
+  "Startups":             "/blog-images/startup.svg",
+  "E-Commerce":           "/blog-images/ecommerce.svg",
+  "Advertising":          "/blog-images/advertising.svg",
+  "Performance Marketing":"/blog-images/performance.svg",
+  "Conversion":           "/blog-images/conversion.svg",
+  "Social Media":         "/blog-images/social-media.svg",
+  "Video Production":     "/blog-images/video-production.svg",
+  "Web Design":           "/blog-images/web-design.svg",
+};
+
 const MONTHS_AR: Record<string, string> = {
   "01": "يناير", "02": "فبراير", "03": "مارس", "04": "أبريل",
   "05": "مايو", "06": "يونيو", "07": "يوليو", "08": "أغسطس",
@@ -51,7 +71,7 @@ export default function BlogPost() {
 
       {/* Article Header */}
       <section
-        className="pt-40 pb-20 border-b border-border relative overflow-hidden"
+        className="pt-40 pb-0 border-b border-border relative overflow-hidden"
         style={{ background: `linear-gradient(135deg, ${post.accentColor}18, transparent)` }}
       >
         <div
@@ -59,49 +79,75 @@ export default function BlogPost() {
           style={{ background: `radial-gradient(circle at 20% 50%, ${post.accentColor}, transparent 60%)` }}
         />
         <div className="container mx-auto px-6 md:px-12 relative">
-          {/* Breadcrumb */}
-          <nav className="flex items-center gap-2 text-sm text-foreground/40 mb-8" aria-label="breadcrumb">
-            <Link href="/" className="hover:text-accent transition-colors">الرئيسية</Link>
-            <span>/</span>
-            <Link href="/blog" className="hover:text-accent transition-colors">المدونة</Link>
-            <span>/</span>
-            <span className="text-foreground/60 line-clamp-1">{post.title.ar}</span>
-          </nav>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-end">
+            {/* Left: text content */}
+            <div className="pb-20">
+              {/* Breadcrumb */}
+              <nav className="flex items-center gap-2 text-sm text-foreground/40 mb-8" aria-label="breadcrumb">
+                <Link href="/" className="hover:text-accent transition-colors">الرئيسية</Link>
+                <span>/</span>
+                <Link href="/blog" className="hover:text-accent transition-colors">المدونة</Link>
+                <span>/</span>
+                <span className="text-foreground/60 line-clamp-1">{post.title.ar}</span>
+              </nav>
 
-          {/* Category */}
-          <span
-            className="en text-xs font-bold tracking-widest px-3 py-1 rounded-full text-white inline-block mb-6"
-            style={{ backgroundColor: post.accentColor }}
-          >
-            {post.category.en.toUpperCase()}
-          </span>
+              {/* Category */}
+              <span
+                className="en text-xs font-bold tracking-widest px-3 py-1 rounded-full text-white inline-block mb-6"
+                style={{ backgroundColor: post.accentColor }}
+              >
+                {post.category.en.toUpperCase()}
+              </span>
 
-          <motion.h1
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="text-4xl md:text-6xl font-display font-black mb-6 text-foreground leading-tight max-w-4xl"
-          >
-            {post.title.ar}
-          </motion.h1>
+              <motion.h1
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                className="text-4xl md:text-5xl font-display font-black mb-6 text-foreground leading-tight"
+              >
+                {post.title.ar}
+              </motion.h1>
 
-          <p className="text-xl text-foreground/60 max-w-2xl leading-relaxed mb-8">
-            {post.excerpt.ar}
-          </p>
+              <p className="text-lg text-foreground/60 leading-relaxed mb-8">
+                {post.excerpt.ar}
+              </p>
 
-          {/* Meta */}
-          <div className="flex flex-wrap items-center gap-6 text-sm text-foreground/40">
-            <span className="flex items-center gap-2">
-              <Calendar className="w-4 h-4" />
-              {formatDateAr(post.publishedAt)}
-            </span>
-            <span className="flex items-center gap-2">
-              <Clock className="w-4 h-4" />
-              {post.readTime} دقائق قراءة
-            </span>
-            <span className="flex items-center gap-2">
-              <img src="/wabar-logo.png" alt="Weber Agency" className="h-5 w-auto opacity-60" />
-              وبر الإبداعية
-            </span>
+              {/* Meta */}
+              <div className="flex flex-wrap items-center gap-6 text-sm text-foreground/40">
+                <span className="flex items-center gap-2">
+                  <Calendar className="w-4 h-4" />
+                  {formatDateAr(post.publishedAt)}
+                </span>
+                <span className="flex items-center gap-2">
+                  <Clock className="w-4 h-4" />
+                  {post.readTime} دقائق قراءة
+                </span>
+                <span className="flex items-center gap-2">
+                  <img src="/wabar-logo.png" alt="Waber Agency" className="h-5 w-auto opacity-60" />
+                  وبر الإبداعية
+                </span>
+              </div>
+            </div>
+
+            {/* Right: topic illustration */}
+            <motion.div
+              initial={{ opacity: 0, x: 30 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+              className="hidden lg:block relative"
+            >
+              <div className="relative rounded-t-3xl overflow-hidden" style={{ height: "340px" }}>
+                <img
+                  src={CATEGORY_IMAGE[post.category.en] ?? "/blog-images/strategy.svg"}
+                  alt={post.category.ar}
+                  className="w-full h-full object-cover"
+                />
+                {/* Bottom fade into page */}
+                <div
+                  className="absolute bottom-0 left-0 right-0 h-24"
+                  style={{ background: `linear-gradient(to top, ${post.accentColor}22, transparent)` }}
+                />
+              </div>
+            </motion.div>
           </div>
         </div>
       </section>

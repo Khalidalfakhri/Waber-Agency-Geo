@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#1a0e00"/>
+      <stop offset="100%" stop-color="#080400"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <g stroke="#ffffff" stroke-opacity="0.04" stroke-width="1">
+    <line x1="0" y1="75" x2="800" y2="75"/><line x1="0" y1="150" x2="800" y2="150"/>
+    <line x1="0" y1="225" x2="800" y2="225"/><line x1="0" y1="300" x2="800" y2="300"/>
+    <line x1="0" y1="375" x2="800" y2="375"/>
+    <line x1="100" y1="0" x2="100" y2="450"/><line x1="200" y1="0" x2="200" y2="450"/>
+    <line x1="300" y1="0" x2="300" y2="450"/><line x1="400" y1="0" x2="400" y2="450"/>
+    <line x1="500" y1="0" x2="500" y2="450"/><line x1="600" y1="0" x2="600" y2="450"/>
+    <line x1="700" y1="0" x2="700" y2="450"/>
+  </g>
+  <!-- Coin stacks -->
+  <g opacity="0.8">
+    <!-- Stack 1 (short) -->
+    <ellipse cx="200" cy="320" rx="40" ry="12" fill="#b45309" fill-opacity="0.5"/>
+    <rect x="160" y="280" width="80" height="40" fill="#b45309" fill-opacity="0.35"/>
+    <ellipse cx="200" cy="280" rx="40" ry="12" fill="#b45309" fill-opacity="0.6"/>
+    <!-- Stack 2 (medium) -->
+    <ellipse cx="310" cy="320" rx="40" ry="12" fill="#b45309" fill-opacity="0.5"/>
+    <rect x="270" y="230" width="80" height="90" fill="#b45309" fill-opacity="0.35"/>
+    <ellipse cx="310" cy="230" rx="40" ry="12" fill="#b45309" fill-opacity="0.65"/>
+    <!-- Stack 3 (tall) -->
+    <ellipse cx="420" cy="320" rx="40" ry="12" fill="#b45309" fill-opacity="0.5"/>
+    <rect x="380" y="170" width="80" height="150" fill="#b45309" fill-opacity="0.4"/>
+    <ellipse cx="420" cy="170" rx="40" ry="12" fill="#b45309" fill-opacity="0.7"/>
+    <!-- Coin lines on stacks -->
+    <line x1="162" y1="300" x2="238" y2="300" stroke="#f5f0e8" stroke-width="1" stroke-opacity="0.2"/>
+    <line x1="162" y1="290" x2="238" y2="290" stroke="#f5f0e8" stroke-width="1" stroke-opacity="0.15"/>
+    <line x1="272" y1="260" x2="348" y2="260" stroke="#f5f0e8" stroke-width="1" stroke-opacity="0.2"/>
+    <line x1="272" y1="250" x2="348" y2="250" stroke="#f5f0e8" stroke-width="1" stroke-opacity="0.15"/>
+    <line x1="272" y1="240" x2="348" y2="240" stroke="#f5f0e8" stroke-width="1" stroke-opacity="0.1"/>
+    <line x1="382" y1="200" x2="458" y2="200" stroke="#f5f0e8" stroke-width="1" stroke-opacity="0.2"/>
+    <line x1="382" y1="215" x2="458" y2="215" stroke="#f5f0e8" stroke-width="1" stroke-opacity="0.15"/>
+    <line x1="382" y1="230" x2="458" y2="230" stroke="#f5f0e8" stroke-width="1" stroke-opacity="0.12"/>
+    <line x1="382" y1="190" x2="458" y2="190" stroke="#f5f0e8" stroke-width="1" stroke-opacity="0.1"/>
+  </g>
+  <!-- Pie chart right side -->
+  <g transform="translate(620, 210)">
+    <circle cx="0" cy="0" r="90" fill="#1a0e00" stroke="#b45309" stroke-width="2" stroke-opacity="0.4"/>
+    <!-- Paid Ads 40% -->
+    <path d="M0,0 L90,0 A90,90 0 0,1 27.8,85.2 Z" fill="#b45309" fill-opacity="0.6"/>
+    <!-- Content 30% -->
+    <path d="M0,0 L27.8,85.2 A90,90 0 0,1 -77.9,41.4 Z" fill="#b45309" fill-opacity="0.4"/>
+    <!-- Influencer 20% -->
+    <path d="M0,0 L-77.9,41.4 A90,90 0 0,1 -55.5,-72.6 Z" fill="#b45309" fill-opacity="0.25"/>
+    <!-- SEO 10% -->
+    <path d="M0,0 L-55.5,-72.6 A90,90 0 0,1 90,0 Z" fill="#b45309" fill-opacity="0.15"/>
+    <!-- Center circle -->
+    <circle cx="0" cy="0" r="30" fill="#1a0e00"/>
+    <!-- Riyal symbol -->
+    <text x="0" y="7" text-anchor="middle" font-size="20" font-weight="900" fill="#b45309" font-family="Arial">﷼</text>
+  </g>
+  <!-- Legend items -->
+  <g transform="translate(510, 320)" opacity="0.7">
+    <rect x="0" y="0" width="12" height="12" rx="2" fill="#b45309" fill-opacity="0.6"/>
+    <text x="18" y="11" font-size="11" fill="#f5f0e8" fill-opacity="0.5" font-family="Arial">Paid Ads 40%</text>
+    <rect x="0" y="20" width="12" height="12" rx="2" fill="#b45309" fill-opacity="0.4"/>
+    <text x="18" y="31" font-size="11" fill="#f5f0e8" fill-opacity="0.5" font-family="Arial">Content 30%</text>
+    <rect x="0" y="40" width="12" height="12" rx="2" fill="#b45309" fill-opacity="0.25"/>
+    <text x="18" y="51" font-size="11" fill="#f5f0e8" fill-opacity="0.5" font-family="Arial">Influencer 20%</text>
+    <rect x="0" y="60" width="12" height="12" rx="2" fill="#b45309" fill-opacity="0.15"/>
+    <text x="18" y="71" font-size="11" fill="#f5f0e8" fill-opacity="0.5" font-family="Arial">SEO 10%</text>
+  </g>
+  <!-- Title -->
+  <text x="140" y="160" font-size="18" fill="#b45309" fill-opacity="0.6" font-family="Arial" font-weight="bold">2026 Budget Guide</text>
+  <text x="140" y="185" font-size="13" fill="#f5f0e8" fill-opacity="0.3" font-family="Arial">دليل الميزانية التسويقية</text>
+</svg>

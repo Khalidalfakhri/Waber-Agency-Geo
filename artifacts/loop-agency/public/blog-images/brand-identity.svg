@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#1e0d3e"/>
+      <stop offset="100%" stop-color="#0a0318"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <!-- Grid -->
+  <g stroke="#ffffff" stroke-opacity="0.04" stroke-width="1">
+    <line x1="0" y1="75" x2="800" y2="75"/><line x1="0" y1="150" x2="800" y2="150"/>
+    <line x1="0" y1="225" x2="800" y2="225"/><line x1="0" y1="300" x2="800" y2="300"/>
+    <line x1="0" y1="375" x2="800" y2="375"/>
+    <line x1="100" y1="0" x2="100" y2="450"/><line x1="200" y1="0" x2="200" y2="450"/>
+    <line x1="300" y1="0" x2="300" y2="450"/><line x1="400" y1="0" x2="400" y2="450"/>
+    <line x1="500" y1="0" x2="500" y2="450"/><line x1="600" y1="0" x2="600" y2="450"/>
+    <line x1="700" y1="0" x2="700" y2="450"/>
+  </g>
+  <!-- Overlapping circles - brand mark concept -->
+  <circle cx="350" cy="200" r="120" fill="#7c3aed" fill-opacity="0.25" stroke="#7c3aed" stroke-width="2" stroke-opacity="0.6"/>
+  <circle cx="450" cy="200" r="120" fill="#0d9488" fill-opacity="0.25" stroke="#0d9488" stroke-width="2" stroke-opacity="0.6"/>
+  <circle cx="400" cy="290" r="120" fill="#db2777" fill-opacity="0.2" stroke="#db2777" stroke-width="2" stroke-opacity="0.5"/>
+  <!-- Center intersection highlight -->
+  <ellipse cx="400" cy="235" rx="40" ry="35" fill="#f5f0e8" fill-opacity="0.12"/>
+  <!-- Color palette dots -->
+  <circle cx="160" cy="340" r="20" fill="#7c3aed"/>
+  <circle cx="210" cy="340" r="20" fill="#0d9488"/>
+  <circle cx="260" cy="340" r="20" fill="#db2777"/>
+  <circle cx="310" cy="340" r="20" fill="#ea580c"/>
+  <circle cx="360" cy="340" r="20" fill="#2563eb"/>
+  <!-- Palette base -->
+  <rect x="140" y="360" width="240" height="4" rx="2" fill="#f5f0e8" fill-opacity="0.15"/>
+  <!-- Brand "B" letter mark -->
+  <text x="400" y="248" text-anchor="middle" font-family="Georgia, serif" font-size="80" font-weight="900" fill="#f5f0e8" fill-opacity="0.08">B</text>
+  <!-- Triangle top right accent -->
+  <polygon points="620,80 720,80 670,170" fill="none" stroke="#7c3aed" stroke-width="2" stroke-opacity="0.4"/>
+  <polygon points="640,95 700,95 670,145" fill="#7c3aed" fill-opacity="0.15"/>
+  <!-- Small diamond bottom right -->
+  <polygon points="660,360 690,330 720,360 690,390" fill="none" stroke="#0d9488" stroke-width="2" stroke-opacity="0.5"/>
+</svg>

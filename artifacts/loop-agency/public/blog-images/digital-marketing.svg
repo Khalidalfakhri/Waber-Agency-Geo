@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs>
+    <radialGradient id="bg" cx="40%" cy="60%" r="70%">
+      <stop offset="0%" stop-color="#0a1929"/>
+      <stop offset="100%" stop-color="#060d18"/>
+    </radialGradient>
+    <linearGradient id="bar1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0891b2"/>
+      <stop offset="100%" stop-color="#0891b2" stop-opacity="0.3"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <g stroke="#ffffff" stroke-opacity="0.04" stroke-width="1">
+    <line x1="0" y1="75" x2="800" y2="75"/><line x1="0" y1="150" x2="800" y2="150"/>
+    <line x1="0" y1="225" x2="800" y2="225"/><line x1="0" y1="300" x2="800" y2="300"/>
+    <line x1="0" y1="375" x2="800" y2="375"/>
+    <line x1="100" y1="0" x2="100" y2="450"/><line x1="200" y1="0" x2="200" y2="450"/>
+    <line x1="300" y1="0" x2="300" y2="450"/><line x1="400" y1="0" x2="400" y2="450"/>
+    <line x1="500" y1="0" x2="500" y2="450"/><line x1="600" y1="0" x2="600" y2="450"/>
+    <line x1="700" y1="0" x2="700" y2="450"/>
+  </g>
+  <!-- Monitor screen -->
+  <rect x="180" y="120" width="440" height="240" rx="12" fill="#0d1f35" stroke="#0891b2" stroke-width="2" stroke-opacity="0.5"/>
+  <rect x="180" y="120" width="440" height="28" rx="12" fill="#0891b2" fill-opacity="0.3"/>
+  <circle cx="200" cy="134" r="5" fill="#f5f0e8" fill-opacity="0.4"/>
+  <circle cx="216" cy="134" r="5" fill="#f5f0e8" fill-opacity="0.4"/>
+  <circle cx="232" cy="134" r="5" fill="#f5f0e8" fill-opacity="0.4"/>
+  <!-- Bar chart inside monitor -->
+  <g transform="translate(220, 320)">
+    <rect x="0" y="-60" width="28" height="60" rx="3" fill="#0891b2" fill-opacity="0.6"/>
+    <rect x="38" y="-100" width="28" height="100" rx="3" fill="#0891b2" fill-opacity="0.75"/>
+    <rect x="76" y="-75" width="28" height="75" rx="3" fill="#0891b2" fill-opacity="0.6"/>
+    <rect x="114" y="-130" width="28" height="130" rx="3" fill="#0891b2" fill-opacity="0.85"/>
+    <rect x="152" y="-100" width="28" height="100" rx="3" fill="#0891b2" fill-opacity="0.7"/>
+    <rect x="190" y="-155" width="28" height="155" rx="3" fill="#0d9488"/>
+    <rect x="228" y="-140" width="28" height="140" rx="3" fill="#0891b2" fill-opacity="0.8"/>
+    <rect x="266" y="-170" width="28" height="170" rx="3" fill="#0d9488"/>
+  </g>
+  <!-- Line graph overlay -->
+  <polyline points="220,320 258,260 296,285 334,235 372,265 410,215 448,230 486,200 524,170" 
+    fill="none" stroke="#f5f0e8" stroke-width="2.5" stroke-opacity="0.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Dots on line -->
+  <circle cx="524" cy="170" r="5" fill="#0d9488"/>
+  <circle cx="410" cy="215" r="4" fill="#f5f0e8" fill-opacity="0.7"/>
+  <!-- Growth arrow top right -->
+  <g opacity="0.5" transform="translate(640,140)">
+    <line x1="0" y1="80" x2="80" y2="0" stroke="#0d9488" stroke-width="3" stroke-linecap="round"/>
+    <polygon points="80,0 58,8 72,22" fill="#0d9488"/>
+  </g>
+  <!-- Monitor stand -->
+  <rect x="376" y="360" width="48" height="10" rx="3" fill="#0891b2" fill-opacity="0.3"/>
+  <rect x="388" y="358" width="24" height="14" rx="2" fill="#0891b2" fill-opacity="0.2"/>
+</svg>

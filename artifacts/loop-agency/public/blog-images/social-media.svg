@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#200a2a"/>
+      <stop offset="100%" stop-color="#0a0318"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <g stroke="#ffffff" stroke-opacity="0.04" stroke-width="1">
+    <line x1="0" y1="75" x2="800" y2="75"/><line x1="0" y1="150" x2="800" y2="150"/>
+    <line x1="0" y1="225" x2="800" y2="225"/><line x1="0" y1="300" x2="800" y2="300"/>
+    <line x1="0" y1="375" x2="800" y2="375"/>
+    <line x1="100" y1="0" x2="100" y2="450"/><line x1="200" y1="0" x2="200" y2="450"/>
+    <line x1="300" y1="0" x2="300" y2="450"/><line x1="400" y1="0" x2="400" y2="450"/>
+    <line x1="500" y1="0" x2="500" y2="450"/><line x1="600" y1="0" x2="600" y2="450"/>
+    <line x1="700" y1="0" x2="700" y2="450"/>
+  </g>
+  <!-- Phone body -->
+  <rect x="310" y="80" width="180" height="300" rx="24" fill="#1a0830" stroke="#db2777" stroke-width="2.5" stroke-opacity="0.7"/>
+  <rect x="320" y="100" width="160" height="260" rx="8" fill="#0f0520"/>
+  <!-- Phone camera notch -->
+  <rect x="368" y="86" width="64" height="10" rx="5" fill="#db2777" fill-opacity="0.4"/>
+  <!-- Screen content: feed items -->
+  <rect x="328" y="112" width="144" height="60" rx="6" fill="#1e0d3e"/>
+  <circle cx="344" cy="130" r="10" fill="#db2777" fill-opacity="0.6"/>
+  <rect x="360" y="124" width="80" height="6" rx="3" fill="#f5f0e8" fill-opacity="0.4"/>
+  <rect x="360" y="136" width="60" height="5" rx="2.5" fill="#f5f0e8" fill-opacity="0.2"/>
+  <rect x="328" y="148" width="144" height="18" rx="3" fill="#f5f0e8" fill-opacity="0.05"/>
+  <rect x="328" y="180" width="144" height="60" rx="6" fill="#1e0d3e"/>
+  <circle cx="344" cy="198" r="10" fill="#0d9488" fill-opacity="0.6"/>
+  <rect x="360" y="192" width="70" height="6" rx="3" fill="#f5f0e8" fill-opacity="0.4"/>
+  <rect x="360" y="204" width="50" height="5" rx="2.5" fill="#f5f0e8" fill-opacity="0.2"/>
+  <!-- Heart icon -->
+  <path d="M338,235 C338,231 331,227 328,231 C325,227 318,231 318,235 C318,239 328,247 328,247 C328,247 338,239 338,235Z" fill="#db2777" fill-opacity="0.6" transform="translate(74,10)"/>
+  <!-- Floating bubbles -->
+  <g opacity="0.85">
+    <!-- Like bubble -->
+    <circle cx="170" cy="160" r="36" fill="#db2777" fill-opacity="0.2" stroke="#db2777" stroke-width="1.5"/>
+    <text x="170" y="167" text-anchor="middle" font-size="22" fill="#db2777">♥</text>
+    <line x1="200" y1="175" x2="310" y2="200" stroke="#db2777" stroke-width="1" stroke-opacity="0.3" stroke-dasharray="4 4"/>
+    <!-- Comment bubble -->
+    <rect x="570" y="130" width="80" height="52" rx="12" fill="#0891b2" fill-opacity="0.2" stroke="#0891b2" stroke-width="1.5"/>
+    <rect x="580" y="142" width="60" height="5" rx="2.5" fill="#0891b2" fill-opacity="0.5"/>
+    <rect x="580" y="153" width="45" height="5" rx="2.5" fill="#0891b2" fill-opacity="0.35"/>
+    <rect x="580" y="164" width="50" height="5" rx="2.5" fill="#0891b2" fill-opacity="0.3"/>
+    <line x1="574" y1="175" x2="490" y2="200" stroke="#0891b2" stroke-width="1" stroke-opacity="0.3" stroke-dasharray="4 4"/>
+    <!-- Share bubble -->
+    <circle cx="640" cy="300" r="30" fill="#7c3aed" fill-opacity="0.2" stroke="#7c3aed" stroke-width="1.5"/>
+    <text x="640" y="308" text-anchor="middle" font-size="18" fill="#7c3aed" opacity="0.8">↗</text>
+    <line x1="614" y1="286" x2="490" y2="260" stroke="#7c3aed" stroke-width="1" stroke-opacity="0.3" stroke-dasharray="4 4"/>
+    <!-- Notification -->
+    <circle cx="155" cy="300" r="24" fill="#ea580c" fill-opacity="0.2" stroke="#ea580c" stroke-width="1.5"/>
+    <text x="155" y="307" text-anchor="middle" font-size="14" fill="#ea580c" font-weight="bold" opacity="0.8">+47</text>
+    <line x1="176" y1="292" x2="310" y2="260" stroke="#ea580c" stroke-width="1" stroke-opacity="0.3" stroke-dasharray="4 4"/>
+  </g>
+</svg>

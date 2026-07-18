@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#200820"/>
+      <stop offset="100%" stop-color="#0a0318"/>
+    </radialGradient>
+    <radialGradient id="personGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#db2777" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#db2777" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <g stroke="#ffffff" stroke-opacity="0.04" stroke-width="1">
+    <line x1="0" y1="75" x2="800" y2="75"/><line x1="0" y1="150" x2="800" y2="150"/>
+    <line x1="0" y1="225" x2="800" y2="225"/><line x1="0" y1="300" x2="800" y2="300"/>
+    <line x1="0" y1="375" x2="800" y2="375"/>
+    <line x1="100" y1="0" x2="100" y2="450"/><line x1="200" y1="0" x2="200" y2="450"/>
+    <line x1="300" y1="0" x2="300" y2="450"/><line x1="400" y1="0" x2="400" y2="450"/>
+    <line x1="500" y1="0" x2="500" y2="450"/><line x1="600" y1="0" x2="600" y2="450"/>
+    <line x1="700" y1="0" x2="700" y2="450"/>
+  </g>
+  <!-- Central person glow -->
+  <ellipse cx="400" cy="250" rx="140" ry="160" fill="url(#personGlow)"/>
+  <!-- Central influencer figure -->
+  <circle cx="400" cy="155" r="50" fill="#1a0820" stroke="#db2777" stroke-width="2.5" stroke-opacity="0.7"/>
+  <circle cx="400" cy="150" r="30" fill="#db2777" fill-opacity="0.25"/>
+  <!-- Head -->
+  <circle cx="400" cy="140" r="22" fill="#db2777" fill-opacity="0.4"/>
+  <!-- Body -->
+  <path d="M365,195 Q365,250 400,255 Q435,250 435,195 Q420,185 400,185 Q380,185 365,195Z" fill="#db2777" fill-opacity="0.3"/>
+  <!-- Megaphone -->
+  <g transform="translate(435, 160) rotate(-30)">
+    <rect x="0" y="-8" width="30" height="16" rx="4" fill="#db2777" fill-opacity="0.7"/>
+    <polygon points="30,-16 30,16 55,24 55,-24" fill="#db2777" fill-opacity="0.5"/>
+    <line x1="40" y1="-28" x2="40" y2="-20" stroke="#db2777" stroke-width="2" stroke-opacity="0.6"/>
+    <line x1="50" y1="-22" x2="50" y2="-14" stroke="#db2777" stroke-width="2" stroke-opacity="0.5"/>
+    <line x1="58" y1="-14" x2="58" y2="-6" stroke="#db2777" stroke-width="2" stroke-opacity="0.4"/>
+  </g>
+  <!-- Follower nodes radiating outward -->
+  <g opacity="0.6">
+    <!-- Node 1 -->
+    <circle cx="160" cy="160" r="28" fill="#db2777" fill-opacity="0.15" stroke="#db2777" stroke-width="1.5"/>
+    <circle cx="160" cy="150" r="12" fill="#db2777" fill-opacity="0.3"/>
+    <line x1="186" y1="165" x2="350" y2="185" stroke="#db2777" stroke-width="1" stroke-opacity="0.3" stroke-dasharray="6 4"/>
+    <!-- Node 2 -->
+    <circle cx="130" cy="300" r="24" fill="#db2777" fill-opacity="0.12" stroke="#db2777" stroke-width="1.5"/>
+    <circle cx="130" cy="292" r="10" fill="#db2777" fill-opacity="0.3"/>
+    <line x1="153" y1="295" x2="360" y2="250" stroke="#db2777" stroke-width="1" stroke-opacity="0.25" stroke-dasharray="6 4"/>
+    <!-- Node 3 -->
+    <circle cx="640" cy="155" r="26" fill="#db2777" fill-opacity="0.13" stroke="#db2777" stroke-width="1.5"/>
+    <circle cx="640" cy="146" r="11" fill="#db2777" fill-opacity="0.3"/>
+    <line x1="616" y1="162" x2="455" y2="185" stroke="#db2777" stroke-width="1" stroke-opacity="0.28" stroke-dasharray="6 4"/>
+    <!-- Node 4 -->
+    <circle cx="660" cy="310" r="22" fill="#db2777" fill-opacity="0.12" stroke="#db2777" stroke-width="1.5"/>
+    <circle cx="660" cy="301" r="10" fill="#db2777" fill-opacity="0.28"/>
+    <line x1="638" y1="305" x2="444" y2="255" stroke="#db2777" stroke-width="1" stroke-opacity="0.22" stroke-dasharray="6 4"/>
+    <!-- Node 5 -->
+    <circle cx="400" cy="380" r="22" fill="#db2777" fill-opacity="0.12" stroke="#db2777" stroke-width="1.5"/>
+    <circle cx="400" cy="372" r="10" fill="#db2777" fill-opacity="0.28"/>
+    <line x1="400" y1="360" x2="400" y2="280" stroke="#db2777" stroke-width="1" stroke-opacity="0.22" stroke-dasharray="6 4"/>
+  </g>
+  <!-- Stars sparkles -->
+  <g fill="#db2777" opacity="0.6">
+    <text x="260" y="120" font-size="18">★</text>
+    <text x="510" y="105" font-size="14">★</text>
+    <text x="540" y="340" font-size="12">★</text>
+    <text x="230" y="360" font-size="10">★</text>
+  </g>
+  <!-- Follower count -->
+  <rect x="330" y="290" width="140" height="40" rx="10" fill="#db2777" fill-opacity="0.2" stroke="#db2777" stroke-width="1.5" stroke-opacity="0.5"/>
+  <text x="400" y="316" text-anchor="middle" font-size="16" font-weight="900" fill="#db2777" font-family="Arial">2.4M متابع</text>
+</svg>

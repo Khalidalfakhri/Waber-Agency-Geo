@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#200404"/>
+      <stop offset="100%" stop-color="#0a0000"/>
+    </radialGradient>
+    <radialGradient id="rocketGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#dc2626" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#dc2626" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <g stroke="#ffffff" stroke-opacity="0.04" stroke-width="1">
+    <line x1="0" y1="75" x2="800" y2="75"/><line x1="0" y1="150" x2="800" y2="150"/>
+    <line x1="0" y1="225" x2="800" y2="225"/><line x1="0" y1="300" x2="800" y2="300"/>
+    <line x1="0" y1="375" x2="800" y2="375"/>
+    <line x1="100" y1="0" x2="100" y2="450"/><line x1="200" y1="0" x2="200" y2="450"/>
+    <line x1="300" y1="0" x2="300" y2="450"/><line x1="400" y1="0" x2="400" y2="450"/>
+    <line x1="500" y1="0" x2="500" y2="450"/><line x1="600" y1="0" x2="600" y2="450"/>
+    <line x1="700" y1="0" x2="700" y2="450"/>
+  </g>
+  <!-- Rocket glow -->
+  <ellipse cx="400" cy="250" rx="200" ry="200" fill="url(#rocketGlow)"/>
+  <!-- Rocket body -->
+  <g transform="translate(400, 300) rotate(-45)">
+    <!-- Body -->
+    <rect x="-24" y="-100" width="48" height="130" rx="8" fill="#1a0404" stroke="#dc2626" stroke-width="2.5" stroke-opacity="0.7"/>
+    <!-- Nose cone -->
+    <polygon points="-24,-100 24,-100 0,-160" fill="#dc2626" fill-opacity="0.6"/>
+    <!-- Window -->
+    <circle cx="0" cy="-60" r="14" fill="none" stroke="#dc2626" stroke-width="2" stroke-opacity="0.7"/>
+    <circle cx="0" cy="-60" r="8" fill="#dc2626" fill-opacity="0.3"/>
+    <!-- Fins -->
+    <polygon points="-24,20 -50,50 -24,30" fill="#dc2626" fill-opacity="0.5"/>
+    <polygon points="24,20 50,50 24,30" fill="#dc2626" fill-opacity="0.5"/>
+    <!-- Exhaust flames -->
+    <path d="M-16,30 Q0,80 16,30 Q8,60 0,90 Q-8,60 -16,30Z" fill="#dc2626" fill-opacity="0.4"/>
+    <path d="M-8,40 Q0,70 8,40 Q4,55 0,75 Q-4,55 -8,40Z" fill="#ea580c" fill-opacity="0.5"/>
+  </g>
+  <!-- Speedometer gauge top right -->
+  <g transform="translate(620, 180)">
+    <path d="M-80,0 A80,80 0 0,1 80,0" fill="none" stroke="#dc2626" stroke-width="3" stroke-opacity="0.3"/>
+    <path d="M-80,0 A80,80 0 0,1 40,-69.3" fill="none" stroke="#dc2626" stroke-width="4" stroke-opacity="0.7" stroke-linecap="round"/>
+    <!-- Gauge ticks -->
+    <g stroke="#f5f0e8" stroke-opacity="0.3" stroke-width="2">
+      <line x1="-80" y1="0" x2="-70" y2="0"/>
+      <line x1="-69.3" y1="-40" x2="-61.2" y2="-35"/>
+      <line x1="-40" y1="-69.3" x2="-35" y2="-61.2"/>
+      <line x1="0" y1="-80" x2="0" y2="-70"/>
+      <line x1="40" y1="-69.3" x2="35" y2="-61.2"/>
+      <line x1="69.3" y1="-40" x2="61.2" y2="-35"/>
+      <line x1="80" y1="0" x2="70" y2="0"/>
+    </g>
+    <!-- Needle -->
+    <line x1="0" y1="0" x2="35" y2="-62" stroke="#dc2626" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="8" fill="#dc2626"/>
+    <!-- Max label -->
+    <text x="0" y="25" text-anchor="middle" font-size="12" fill="#dc2626" fill-opacity="0.6" font-family="Arial">MAX ROI</text>
+  </g>
+  <!-- Trajectory line -->
+  <path d="M150,380 Q250,320 350,260 Q430,210 480,160" fill="none" stroke="#dc2626" stroke-width="2" stroke-opacity="0.4" stroke-dasharray="8 5"/>
+  <!-- Growth metrics -->
+  <g transform="translate(100, 180)" opacity="0.6">
+    <rect x="0" y="0" width="130" height="60" rx="8" fill="#1a0404" stroke="#dc2626" stroke-width="1.5" stroke-opacity="0.5"/>
+    <text x="65" y="25" text-anchor="middle" font-size="22" font-weight="900" fill="#dc2626" font-family="Arial">ROAS</text>
+    <text x="65" y="48" text-anchor="middle" font-size="18" font-weight="bold" fill="#f5f0e8" fill-opacity="0.7" font-family="Arial">4.8x</text>
+  </g>
+  <!-- Lightning bolt -->
+  <g transform="translate(650, 320)" opacity="0.4">
+    <polygon points="20,0 8,40 18,40 0,80 28,30 16,30" fill="#dc2626" fill-opacity="0.8"/>
+  </g>
+</svg>
