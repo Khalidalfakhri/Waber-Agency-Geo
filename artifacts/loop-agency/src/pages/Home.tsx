@@ -482,7 +482,7 @@ export default function Home() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
-            className="mb-6 rounded-3xl overflow-hidden bg-[#111010] border border-white/5"
+            className="mb-6 rounded-3xl overflow-hidden bg-[#071a19] border border-white/5"
             data-testid="portfolio-card-kaden"
           >
             <div className="grid grid-cols-1 lg:grid-cols-2 min-h-[520px]">
@@ -490,11 +490,11 @@ export default function Home() {
               <div className="relative overflow-hidden min-h-[320px] lg:min-h-0 order-1">
                 <img
                   src="/clients/kaden-1.png"
-                  alt="كادن - هوية بصرية"
+                  alt="كادن للتطوير العقاري - هوية بصرية"
                   className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 hover:scale-105"
                 />
-                <div className="absolute inset-0 bg-gradient-to-l from-[#111010] via-transparent to-transparent" />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#111010] via-transparent to-transparent lg:bg-none" />
+                <div className="absolute inset-0 bg-gradient-to-l from-[#071a19] via-transparent to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#071a19] via-transparent to-transparent lg:bg-none" />
               </div>
 
               {/* Right: content + image grid */}
@@ -502,31 +502,31 @@ export default function Home() {
                 {/* Header */}
                 <div className="flex items-center justify-between mb-8">
                   <div>
-                    <span className="en text-xs text-[#d4a843]/80 uppercase tracking-widest border border-[#d4a843]/30 rounded-full px-3 py-1 mb-3 inline-block">
+                    <span className="en text-xs text-[#2eccc4]/80 uppercase tracking-widest border border-[#2eccc4]/30 rounded-full px-3 py-1 mb-3 inline-block">
                       2025
                     </span>
                     <div className="flex items-center gap-3 mt-3">
-                      <div className="h-10 px-4 rounded-lg flex items-center justify-center bg-white/5 border border-white/10">
-                        <span className="en text-white font-bold tracking-widest text-lg">KADEN</span>
+                      <div className="h-10 px-4 rounded-lg flex items-center justify-center bg-[#2eccc4]/10 border border-[#2eccc4]/20">
+                        <span className="en text-[#2eccc4] font-black tracking-widest text-lg">KADEN</span>
                       </div>
                       <div>
                         <p className="text-white/50 text-xs">العميل</p>
-                        <p className="font-bold text-white">كادن</p>
+                        <p className="font-bold text-white">كادن للتطوير العقاري</p>
                       </div>
                     </div>
                   </div>
                 </div>
 
                 <h3 className="text-2xl md:text-3xl font-display font-black text-white mb-3 leading-snug">
-                  هوية بصرية متكاملة<br/>لعلامة أزياء عصرية
+                  هوية بصرية لمطوّر عقاري<br/>يصنع مدناً داخل المدن
                 </h3>
                 <p className="text-white/60 leading-relaxed mb-6 text-sm">
-                  بنينا لكادن هوية بصرية تعكس روح العلامة الحديثة — شعار نظيف وجريء، منظومة ألوان محكمة، وبراند جايدلاين شامل يضمن تماسك العلامة على كل مواد التواصل الرقمية والمطبوعة.
+                  طوّرنا لكادن منظومة بصرية تعكس طموحها في تشكيل مستقبل التطوير العقاري بالمملكة — هوية راسخة تجمع بين الحداثة والقيم السعودية، تتماشى مع رؤية 2030 وتُعبّر عن مفهوم "مدن داخل المدن".
                 </p>
 
                 <div className="flex flex-wrap gap-2 mb-8">
-                  {["هوية بصرية", "براند جايدلاين", "تصميم شعار", "نظام بصري"].map((tag) => (
-                    <span key={tag} className="text-xs text-[#d4a843] border border-[#d4a843]/40 rounded-full px-3 py-1">
+                  {["هوية بصرية", "براند جايدلاين", "تصميم شعار", "محتوى إبداعي"].map((tag) => (
+                    <span key={tag} className="text-xs text-[#2eccc4] border border-[#2eccc4]/40 rounded-full px-3 py-1">
                       {tag}
                     </span>
                   ))}
@@ -535,12 +535,12 @@ export default function Home() {
                 {/* Image grid */}
                 <div className="grid grid-cols-3 gap-2 mt-auto">
                   {[
-                    { src: "/clients/kaden-2.png", alt: "كادن - تصميم 2" },
-                    { src: "/clients/kaden-3.png", alt: "كادن - تصميم 3" },
-                    { src: "/clients/kaden-4.png", alt: "كادن - تصميم 4" },
-                    { src: "/clients/kaden-7.png", alt: "كادن - تصميم 7" },
-                    { src: "/clients/kaden-8.png", alt: "كادن - تصميم 8" },
-                    { src: "/clients/kaden-11.png", alt: "كادن - تصميم 11" },
+                    { src: "/clients/kaden-2.png", alt: "كادن - مشروع 2" },
+                    { src: "/clients/kaden-3.png", alt: "كادن - مشروع 3" },
+                    { src: "/clients/kaden-4.png", alt: "كادن - مشروع 4" },
+                    { src: "/clients/kaden-7.png", alt: "كادن - مشروع 7" },
+                    { src: "/clients/kaden-8.png", alt: "كادن - مشروع 8" },
+                    { src: "/clients/kaden-11.png", alt: "كادن - مشروع 11" },
                   ].map((img, i) => (
                     <div key={i} className="aspect-square rounded-xl overflow-hidden bg-white/5">
                       <img
