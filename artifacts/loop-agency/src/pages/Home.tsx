@@ -71,7 +71,7 @@ const services = [
   { ar: "تنظيم الفعاليات", en: "Events", desc: "ننظم فعاليات لا تُنسى تترك أثراً حقيقياً في ذهن كل حاضر.", icon: <CheckCircle2 className="w-6 h-6" /> },
 ];
 
-const clients = ["أرامكو", "stc", "الراجحي", "نيوم", "البنك الأهلي", "موبايلي", "أكوا باور", "صندوق الاستثمارات", "موطن"];
+const clients = ["أرامكو", "stc", "الراجحي", "نيوم", "البنك الأهلي", "موبايلي", "أكوا باور", "صندوق الاستثمارات", "موطن", "مواسم"];
 
 export default function Home() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -390,6 +390,88 @@ export default function Home() {
                     </div>
                   ))}
                 </div>
+              </div>
+            </div>
+          </motion.div>
+
+          {/* ── Featured Client: Mawasem ── */}
+          <motion.div
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.7 }}
+            className="mb-6 rounded-3xl overflow-hidden bg-[#0d1f15] border border-white/5"
+            data-testid="portfolio-card-mawasem"
+          >
+            <div className="grid grid-cols-1 lg:grid-cols-2 min-h-[520px]">
+              {/* Left: content + design grid */}
+              <div className="flex flex-col p-8 lg:p-12 order-2 lg:order-1">
+                {/* Header */}
+                <div className="flex items-center justify-between mb-8">
+                  <div>
+                    <span className="en text-xs text-[#c8a84b]/80 uppercase tracking-widest border border-[#c8a84b]/30 rounded-full px-3 py-1 mb-3 inline-block">
+                      2025
+                    </span>
+                    <div className="flex items-center gap-3 mt-3">
+                      <img
+                        src="/clients/mawasem-logo-green.jpg"
+                        alt="مواسم"
+                        className="h-10 w-auto rounded-lg"
+                        style={{ background: "#ebe6d3", padding: "4px 10px" }}
+                      />
+                      <div>
+                        <p className="text-[#ebe6d3]/50 text-xs">العميل</p>
+                        <p className="font-bold text-[#ebe6d3]">مواسم للهدايا</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <h3 className="text-2xl md:text-3xl font-display font-black text-[#ebe6d3] mb-3 leading-snug">
+                  هوية بصرية وبراند غايدلاين<br/>لعلامة هدايا سعودية فاخرة
+                </h3>
+                <p className="text-[#ebe6d3]/60 leading-relaxed mb-6 text-sm">
+                  صممنا لمواسم هوية بصرية متكاملة تمزج بين الموروث الثقافي والحداثة — شعار مستوحى من الهندسة الأرابيسكية، لوحة ألوان تعكس الأناقة والدفء، وبراند غايدلاين شامل يضمن تماسك العلامة عبر كل نقطة تواصل مع العميل.
+                </p>
+
+                <div className="flex flex-wrap gap-2 mb-8">
+                  {["هوية بصرية", "براند غايدلاين", "تصميم شعار", "نظام بصري"].map((tag) => (
+                    <span key={tag} className="text-xs text-[#c8a84b] border border-[#c8a84b]/40 rounded-full px-3 py-1">
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+
+                {/* Logo variations grid */}
+                <div className="grid grid-cols-3 gap-2 mt-auto">
+                  {[
+                    { src: "/clients/mawasem-logo-green.jpg", alt: "شعار مواسم - أخضر على بيج" },
+                    { src: "/clients/mawasem-logo-beige.jpg", alt: "شعار مواسم - بيج على أخضر" },
+                    { src: "/clients/mawasem-logo-v-green.jpg", alt: "شعار مواسم عمودي - أخضر" },
+                    { src: "/clients/mawasem-h-green.jpg", alt: "شعار مواسم أفقي - أخضر" },
+                    { src: "/clients/mawasem-v-beige.jpg", alt: "شعار مواسم عمودي - بيج" },
+                    { src: "/clients/mawasem-h-beige.jpg", alt: "شعار مواسم أفقي - بيج" },
+                  ].map((img, i) => (
+                    <div key={i} className="aspect-square rounded-xl overflow-hidden">
+                      <img
+                        src={img.src}
+                        alt={img.alt}
+                        className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
+                      />
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              {/* Right: hero — logo on green bg */}
+              <div className="relative overflow-hidden min-h-[320px] lg:min-h-0 order-1 lg:order-2">
+                <img
+                  src="/clients/mawasem-logo-beige.jpg"
+                  alt="مواسم - هوية بصرية"
+                  className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-gradient-to-r from-[#0d1f15] via-transparent to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#0d1f15] via-transparent to-transparent lg:bg-none" />
               </div>
             </div>
           </motion.div>
