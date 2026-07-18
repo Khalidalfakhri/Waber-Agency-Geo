@@ -71,7 +71,7 @@ const services = [
   { ar: "تنظيم الفعاليات", en: "Events", desc: "ننظم فعاليات لا تُنسى تترك أثراً حقيقياً في ذهن كل حاضر.", icon: <CheckCircle2 className="w-6 h-6" /> },
 ];
 
-const clients = ["أرامكو", "stc", "الراجحي", "نيوم", "البنك الأهلي", "موبايلي", "أكوا باور", "صندوق الاستثمارات", "موطن", "مواسم"];
+const clients = ["أرامكو", "stc", "الراجحي", "نيوم", "البنك الأهلي", "موبايلي", "أكوا باور", "صندوق الاستثمارات", "موطن", "مواسم", "كادن"];
 
 export default function Home() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -428,14 +428,14 @@ export default function Home() {
                 </div>
 
                 <h3 className="text-2xl md:text-3xl font-display font-black text-[#ebe6d3] mb-3 leading-snug">
-                  هوية بصرية وبراند غايدلاين<br/>لعلامة هدايا سعودية فاخرة
+                  هوية بصرية وبراند جايدلاين<br/>لعلامة هدايا سعودية فاخرة
                 </h3>
                 <p className="text-[#ebe6d3]/60 leading-relaxed mb-6 text-sm">
-                  صممنا لمواسم هوية بصرية متكاملة تمزج بين الموروث الثقافي والحداثة — شعار مستوحى من الهندسة الأرابيسكية، لوحة ألوان تعكس الأناقة والدفء، وبراند غايدلاين شامل يضمن تماسك العلامة عبر كل نقطة تواصل مع العميل.
+                  صممنا لمواسم هوية بصرية متكاملة تمزج بين الموروث الثقافي والحداثة — شعار مستوحى من الهندسة الأرابيسكية، لوحة ألوان تعكس الأناقة والدفء، وبراند جايدلاين شامل يضمن تماسك العلامة عبر كل نقطة تواصل مع العميل.
                 </p>
 
                 <div className="flex flex-wrap gap-2 mb-8">
-                  {["هوية بصرية", "براند غايدلاين", "تصميم شعار", "نظام بصري"].map((tag) => (
+                  {["هوية بصرية", "براند جايدلاين", "تصميم شعار", "نظام بصري"].map((tag) => (
                     <span key={tag} className="text-xs text-[#c8a84b] border border-[#c8a84b]/40 rounded-full px-3 py-1">
                       {tag}
                     </span>
@@ -472,6 +472,85 @@ export default function Home() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-r from-[#0d1f15] via-transparent to-transparent" />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#0d1f15] via-transparent to-transparent lg:bg-none" />
+              </div>
+            </div>
+          </motion.div>
+
+          {/* ── Featured Client: Kaden ── */}
+          <motion.div
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.7 }}
+            className="mb-6 rounded-3xl overflow-hidden bg-[#111010] border border-white/5"
+            data-testid="portfolio-card-kaden"
+          >
+            <div className="grid grid-cols-1 lg:grid-cols-2 min-h-[520px]">
+              {/* Left: hero image */}
+              <div className="relative overflow-hidden min-h-[320px] lg:min-h-0 order-1">
+                <img
+                  src="/clients/kaden-1.png"
+                  alt="كادن - هوية بصرية"
+                  className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-gradient-to-l from-[#111010] via-transparent to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#111010] via-transparent to-transparent lg:bg-none" />
+              </div>
+
+              {/* Right: content + image grid */}
+              <div className="flex flex-col p-8 lg:p-12 order-2">
+                {/* Header */}
+                <div className="flex items-center justify-between mb-8">
+                  <div>
+                    <span className="en text-xs text-[#d4a843]/80 uppercase tracking-widest border border-[#d4a843]/30 rounded-full px-3 py-1 mb-3 inline-block">
+                      2025
+                    </span>
+                    <div className="flex items-center gap-3 mt-3">
+                      <div className="h-10 px-4 rounded-lg flex items-center justify-center bg-white/5 border border-white/10">
+                        <span className="en text-white font-bold tracking-widest text-lg">KADEN</span>
+                      </div>
+                      <div>
+                        <p className="text-white/50 text-xs">العميل</p>
+                        <p className="font-bold text-white">كادن</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <h3 className="text-2xl md:text-3xl font-display font-black text-white mb-3 leading-snug">
+                  هوية بصرية متكاملة<br/>لعلامة أزياء عصرية
+                </h3>
+                <p className="text-white/60 leading-relaxed mb-6 text-sm">
+                  بنينا لكادن هوية بصرية تعكس روح العلامة الحديثة — شعار نظيف وجريء، منظومة ألوان محكمة، وبراند جايدلاين شامل يضمن تماسك العلامة على كل مواد التواصل الرقمية والمطبوعة.
+                </p>
+
+                <div className="flex flex-wrap gap-2 mb-8">
+                  {["هوية بصرية", "براند جايدلاين", "تصميم شعار", "نظام بصري"].map((tag) => (
+                    <span key={tag} className="text-xs text-[#d4a843] border border-[#d4a843]/40 rounded-full px-3 py-1">
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+
+                {/* Image grid */}
+                <div className="grid grid-cols-3 gap-2 mt-auto">
+                  {[
+                    { src: "/clients/kaden-2.png", alt: "كادن - تصميم 2" },
+                    { src: "/clients/kaden-3.png", alt: "كادن - تصميم 3" },
+                    { src: "/clients/kaden-4.png", alt: "كادن - تصميم 4" },
+                    { src: "/clients/kaden-7.png", alt: "كادن - تصميم 7" },
+                    { src: "/clients/kaden-8.png", alt: "كادن - تصميم 8" },
+                    { src: "/clients/kaden-11.png", alt: "كادن - تصميم 11" },
+                  ].map((img, i) => (
+                    <div key={i} className="aspect-square rounded-xl overflow-hidden bg-white/5">
+                      <img
+                        src={img.src}
+                        alt={img.alt}
+                        className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
+                      />
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
           </motion.div>
