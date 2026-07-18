@@ -71,7 +71,7 @@ const services = [
   { ar: "تنظيم الفعاليات", en: "Events", desc: "ننظم فعاليات لا تُنسى تترك أثراً حقيقياً في ذهن كل حاضر.", icon: <CheckCircle2 className="w-6 h-6" /> },
 ];
 
-const clients = ["أرامكو", "stc", "الراجحي", "نيوم", "البنك الأهلي", "موبايلي", "أكوا باور", "صندوق الاستثمارات", "موطن", "مواسم", "كادن", "كامبلي", "أرز العائلة"];
+const clients = ["أرامكو", "stc", "الراجحي", "نيوم", "البنك الأهلي", "موبايلي", "أكوا باور", "صندوق الاستثمارات", "موطن", "مواسم", "كادن", "كامبلي", "أرز العائلة", "جوتن"];
 
 export default function Home() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -690,6 +690,80 @@ export default function Home() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-r from-[#05111f] via-transparent to-transparent" />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#05111f] via-transparent to-transparent lg:bg-none" />
+              </div>
+            </div>
+          </motion.div>
+
+          {/* ── Featured Client: Jotun — Cinematic full-width ── */}
+          <motion.div
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
+            className="mb-6 rounded-3xl overflow-hidden relative min-h-[600px]"
+            data-testid="portfolio-card-jotun"
+          >
+            {/* Full-bleed video background */}
+            <video
+              src="/clients/jotun-video.mp4"
+              autoPlay
+              muted
+              loop
+              playsInline
+              className="absolute inset-0 w-full h-full object-cover"
+            />
+
+            {/* Dark gradient overlays */}
+            <div className="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-black/20" />
+            <div className="absolute inset-0 bg-gradient-to-r from-black/50 via-transparent to-transparent" />
+
+            {/* Large decorative "40" */}
+            <div className="absolute top-6 left-0 right-0 flex justify-center pointer-events-none select-none">
+              <span className="en text-[180px] md:text-[220px] font-black leading-none text-white/5 tracking-tighter">40</span>
+            </div>
+
+            {/* Content overlay */}
+            <div className="relative z-10 h-full min-h-[600px] flex flex-col justify-between p-8 lg:p-14">
+              {/* Top: client badge */}
+              <div className="flex items-center justify-between">
+                <div className="flex items-center gap-4">
+                  <div className="h-11 px-5 rounded-xl flex items-center justify-center bg-[#1D7C4F]/20 border border-[#1D7C4F]/50 backdrop-blur-sm">
+                    <span className="en text-white font-black tracking-widest text-xl">JOTUN</span>
+                  </div>
+                  <div>
+                    <p className="text-white/50 text-xs">العميل</p>
+                    <p className="font-bold text-white text-sm">جوتن السعودية</p>
+                  </div>
+                </div>
+                <span className="en text-xs text-[#1D7C4F] uppercase tracking-widest border border-[#1D7C4F]/50 rounded-full px-4 py-1.5 backdrop-blur-sm bg-black/20">
+                  2025
+                </span>
+              </div>
+
+              {/* Bottom: title + tags + milestone */}
+              <div>
+                {/* Milestone badge */}
+                <div className="flex items-center gap-2 mb-5">
+                  <div className="w-8 h-[2px] bg-[#c8a84b]" />
+                  <span className="text-[#c8a84b] text-sm font-semibold tracking-widest">٤٠ عاماً في المملكة — ١٩٨٥ ← ٢٠٢٥</span>
+                </div>
+
+                <h3 className="text-3xl md:text-5xl font-display font-black text-white mb-4 leading-tight">
+                  فيديو الذكرى السنوية الأربعين<br/>
+                  <span className="text-[#1D7C4F]">لجوتن السعودية</span>
+                </h3>
+
+                <p className="text-white/70 leading-relaxed mb-6 text-sm max-w-xl">
+                  أنتجنا لجوتن فيديو احتفالي يوثّق أربعة عقود من حماية وتجميل أبرز المعالم السعودية — من البنية التحتية للمملكة إلى مشاريع رؤية 2030، رحلة بصرية استثنائية تعكس حجم الأثر.
+                </p>
+
+                <div className="flex flex-wrap gap-2">
+                  {["إنتاج فيديو", "سينما موشن", "هوية الحدث", "محتوى احتفالي"].map((tag) => (
+                    <span key={tag} className="text-xs text-[#1D7C4F] border border-[#1D7C4F]/60 rounded-full px-3 py-1 backdrop-blur-sm bg-black/20">
+                      {tag}
+                    </span>
+                  ))}
+                </div>
               </div>
             </div>
           </motion.div>
