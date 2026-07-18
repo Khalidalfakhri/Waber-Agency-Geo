@@ -535,12 +535,12 @@ export default function Home() {
                 {/* Image grid */}
                 <div className="grid grid-cols-3 gap-2 mt-auto">
                   {[
-                    { src: "/clients/kaden-2.png", alt: "كادن - مشروع 2" },
-                    { src: "/clients/kaden-3.png", alt: "كادن - مشروع 3" },
+                    { src: "/clients/kaden-2.png", alt: "كادن - خطوتك نحو أحلام مستدامة" },
+                    { src: "/clients/kaden-3.png", alt: "كادن - نمكّن الأحلام" },
                     { src: "/clients/kaden-4.png", alt: "كادن - مشروع 4" },
-                    { src: "/clients/kaden-7.png", alt: "كادن - مشروع 7" },
-                    { src: "/clients/kaden-8.png", alt: "كادن - مشروع 8" },
-                    { src: "/clients/kaden-11.png", alt: "كادن - مشروع 11" },
+                    { src: "/clients/kaden-5.png", alt: "كادن - مشروع 5" },
+                    { src: "/clients/kaden-11.png", alt: "كادن - شعار" },
+                    { src: "/clients/kaden-12.png", alt: "كادن - شعار 2" },
                   ].map((img, i) => (
                     <div key={i} className="aspect-square rounded-xl overflow-hidden bg-white/5">
                       <img
