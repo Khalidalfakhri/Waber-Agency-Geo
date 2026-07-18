@@ -187,7 +187,17 @@ export default function Home() {
       <section className="relative min-h-screen flex items-center overflow-hidden" data-testid="section-hero">
         <motion.div className="absolute inset-0 z-0" style={{ y: heroY, opacity: heroOpacity }}>
           <div className="absolute inset-0 bg-background/70 bg-gradient-to-t from-background via-background/40 to-background/70 z-10" />
-          <img src="/hero-riyadh.png" alt="Riyadh Skyline" className="w-full h-full object-cover" />
+          <video
+            autoPlay
+            muted
+            loop
+            playsInline
+            className="w-full h-full object-cover"
+            poster="/hero-riyadh.png"
+          >
+            <source src="/clients/jotun-color-trend.mp4" type="video/mp4" />
+            <img src="/hero-riyadh.png" alt="Riyadh Skyline" className="w-full h-full object-cover" />
+          </video>
         </motion.div>
 
         <div className="container relative z-20 mx-auto px-6 md:px-12 pt-32 pb-20 flex flex-col justify-center min-h-screen">
