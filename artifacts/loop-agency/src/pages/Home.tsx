@@ -71,7 +71,7 @@ const services = [
   { ar: "تنظيم الفعاليات", en: "Events", desc: "ننظم فعاليات لا تُنسى تترك أثراً حقيقياً في ذهن كل حاضر.", icon: <CheckCircle2 className="w-6 h-6" /> },
 ];
 
-const clients = ["أرامكو", "stc", "الراجحي", "نيوم", "البنك الأهلي", "موبايلي", "أكوا باور", "صندوق الاستثمارات"];
+const clients = ["أرامكو", "stc", "الراجحي", "نيوم", "البنك الأهلي", "موبايلي", "أكوا باور", "صندوق الاستثمارات", "موطن"];
 
 export default function Home() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -312,6 +312,89 @@ export default function Home() {
             </p>
           </div>
 
+          {/* ── Featured Client: Mawten ── */}
+          <motion.div
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.7 }}
+            className="mb-6 rounded-3xl overflow-hidden bg-[#0c0005] border border-white/5"
+            data-testid="portfolio-card-mawten"
+          >
+            <div className="grid grid-cols-1 lg:grid-cols-2 min-h-[520px]">
+              {/* Left: hero image */}
+              <div className="relative overflow-hidden min-h-[320px] lg:min-h-0">
+                <img
+                  src="/clients/mawten-5.jpg"
+                  alt="موطن الحرم - مكة المكرمة"
+                  className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-gradient-to-l from-[#0c0005] via-transparent to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#0c0005] via-transparent to-transparent lg:bg-none" />
+              </div>
+
+              {/* Right: content + design grid */}
+              <div className="flex flex-col p-8 lg:p-12">
+                {/* Header */}
+                <div className="flex items-center justify-between mb-8">
+                  <div>
+                    <span className="en text-xs text-[#c0392b]/80 uppercase tracking-widest border border-[#c0392b]/30 rounded-full px-3 py-1 mb-3 inline-block">
+                      2024 – 2025
+                    </span>
+                    <div className="flex items-center gap-3 mt-3">
+                      <img
+                        src="/clients/mawten-logo.png"
+                        alt="موطن"
+                        className="h-10 w-auto rounded-lg"
+                        style={{ background: "#1a0008", padding: "4px 8px" }}
+                      />
+                      <div>
+                        <p className="text-foreground/50 text-xs">العميل</p>
+                        <p className="font-bold text-foreground">موطن للتطوير العقاري</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <h3 className="text-2xl md:text-3xl font-display font-black text-foreground mb-3 leading-snug">
+                  هوية بصرية ومحتوى سوشيال ميديا<br/>لشركة عقارية سعودية
+                </h3>
+                <p className="text-foreground/60 leading-relaxed mb-6 text-sm">
+                  أطلقنا لموطن حملة محتوى شاملة تشمل تصميم المنشورات، والهوية البصرية، وإبراز مشاريعهم السكنية والتجارية في مكة المكرمة والرياض — بصياغة بصرية تعكس مكانة العلامة واحترافيتها.
+                </p>
+
+                <div className="flex flex-wrap gap-2 mb-8">
+                  {["هوية بصرية", "سوشيال ميديا", "تسويق رقمي", "إنتاج مرئي"].map((tag) => (
+                    <span key={tag} className="text-xs text-[#c0392b] border border-[#c0392b]/40 rounded-full px-3 py-1">
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+
+                {/* Design samples grid */}
+                <div className="grid grid-cols-3 gap-2 mt-auto">
+                  {[
+                    { src: "/clients/mawten-6.jpg", alt: "مكة المكرمة - قدسية المكان" },
+                    { src: "/clients/mawten-3.jpg", alt: "التطوير يبدأ من رؤية" },
+                    { src: "/clients/mawten-4.png", alt: "موقع يرتقي بقيمة الاستثمار" },
+                    { src: "/clients/mawten-8.jpg", alt: "خدمات إدارة الممتلكات" },
+                    { src: "/clients/mawten-1.jpg", alt: "هيلتون جاردن إن" },
+                    { src: "/clients/mawten-2.jpg", alt: "بنية تحتية بمعايير عالية" },
+                  ].map((img, i) => (
+                    <div key={i} className="aspect-square rounded-xl overflow-hidden">
+                      <img
+                        src={img.src}
+                        alt={img.alt}
+                        className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
+                      />
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </motion.div>
+
+          {/* ── Regular portfolio grid ── */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {portfolioProjects.map((project, idx) => (
               <motion.div
