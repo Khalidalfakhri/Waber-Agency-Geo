@@ -1406,6 +1406,2121 @@ export const blogPosts: BlogPost[] = [
 <p>Raising your website conversion rate from 1% to 2% means doubling your sales without adding a single riyal to your ad budget. At Waber Creative Agency, we analyze our clients' websites in depth and apply proven CRO strategies that transform your site from a beautiful showcase into an effective sales machine.</p>
     `,
   },
+  // ── 40 NEW POSTS ──────────────────────────────────────────────────────────
+  {
+    slug: "asrar-altasweek-alraqami-alsaudia",
+    publishedAt: "2026-07-25",
+    readTime: 6,
+    category: { ar: "تسويق رقمي", en: "Digital Marketing" },
+    accentColor: "#2563eb",
+    title: {
+      ar: "أسرار التسويق الرقمي الناجح في السوق السعودي",
+      en: "Secrets of Successful Digital Marketing in the Saudi Market",
+    },
+    excerpt: {
+      ar: "السوق السعودي له خصوصية فريدة تجعل التسويق الرقمي فيه مختلفاً تماماً عن غيره. اكتشف الأسرار التي تجعل الحملات الرقمية ناجحة في المملكة.",
+      en: "The Saudi market has unique characteristics that make digital marketing there fundamentally different. Discover the secrets behind successful digital campaigns in the Kingdom.",
+    },
+    tags: ["تسويق رقمي", "السعودية", "الرياض", "حملات إعلانية", "وكالة تسويق"],
+    contentAr: `
+<h2>لماذا التسويق الرقمي في السعودية مختلف؟</h2>
+<p>المملكة العربية السعودية واحدة من أعلى دول العالم في معدلات استخدام الإنترنت والهواتف الذكية، مع نسبة تجاوزت 95% من السكان متصلون رقمياً. هذا يجعل <strong>التسويق الرقمي في السعودية</strong> فرصة ذهبية لكل علامة تجارية تريد الوصول إلى جمهورها بفاعلية وبتكلفة معقولة.</p>
+
+<h2>السر الأول: فهم سلوك المستهلك السعودي الرقمي</h2>
+<p>المستهلك السعودي يقضي في المتوسط أكثر من 9 ساعات يومياً على الإنترنت. وهو يتأثر بشكل كبير بتوصيات الأصدقاء والمؤثرين، ويُفضّل المحتوى بالعربية حين يتعلق الأمر بالقرارات الشرائية المهمة. لذا، فإن <strong>وكالة التسويق الرقمي الناجحة في الرياض</strong> تبني استراتيجيتها على البيانات السلوكية المحلية لا على القوالب العالمية الجاهزة.</p>
+
+<h2>السر الثاني: الجمع بين المنصات بذكاء</h2>
+<p>سناب شات ملك الشباب السعودي، وتيك توك يتسارع نموه، وإنستجرام يُهيمن على قرارات الشراء في الأزياء والمطاعم، بينما لينكد إن يُشكّل فرص B2B. الحملة الرقمية الناجحة لا تضع كل بيضها في سلة واحدة — بل توزّع الميزانية والمحتوى على المنصات وفق الجمهور المستهدف بدقة.</p>
+
+<h2>السر الثالث: المحتوى المحلي الأصيل</h2>
+<p>المحتوى الذي يعكس الثقافة السعودية والمناسبات المحلية — من رمضان إلى اليوم الوطني ومهرجان الرياض — يحصل على تفاعل يفوق المحتوى العالمي الجاهز بمراحل. <strong>وكالة التسويق الإبداعية في الرياض</strong> التي تفهم هذا التفاوت هي التي تُحقق نتائج حقيقية لعملائها.</p>
+
+<h2>السر الرابع: السرعة في التكيّف</h2>
+<p>خوارزميات منصات التواصل الاجتماعي تتغير باستمرار. الوكالة الذكية تراقب هذه التحولات وتُعدّل استراتيجيتها فوراً بدلاً من الانتظار. في <strong>وبر الإبداعية</strong>، فريقنا يُحلّل أداء كل حملة أسبوعياً ويُجري تحسينات مستمرة تضمن أن ريالك التسويقي يعمل بأقصى طاقته.</p>
+
+<h2>خلاصة: الاستراتيجية قبل الأداة</h2>
+<p>النجاح في التسويق الرقمي السعودي لا يأتي من الأدوات وحدها، بل من الاستراتيجية الذكية التي تجمع بين فهم الجمهور والمحتوى الأصيل والبيانات الحية. هذا ما تقدمه <strong>وكالة وبر الإبداعية في الرياض</strong> لكل عميل تعمل معه.</p>
+    `,
+    contentEn: `
+<h2>Why Digital Marketing in Saudi Arabia Is Different</h2>
+<p>Saudi Arabia has one of the world's highest internet and smartphone penetration rates, with over 95% of the population connected digitally. This makes <strong>digital marketing in Saudi Arabia</strong> a golden opportunity for brands seeking to reach their audience effectively.</p>
+
+<h2>Secret 1: Understanding the Saudi Digital Consumer</h2>
+<p>The Saudi consumer spends an average of more than 9 hours daily online. They are heavily influenced by recommendations from friends and influencers, and prefer Arabic content for significant purchasing decisions. A successful <strong>digital marketing agency in Riyadh</strong> builds its strategy on local behavioral data, not generic global templates.</p>
+
+<h2>Secret 2: Smart Multi-Platform Integration</h2>
+<p>Snapchat dominates youth in Saudi Arabia, TikTok is growing rapidly, Instagram drives fashion and restaurant purchases, while LinkedIn shapes B2B opportunities. A successful digital campaign distributes budget and content across platforms according to precisely targeted audiences.</p>
+
+<h2>Conclusion: Strategy Before Tools</h2>
+<p>Success in Saudi digital marketing comes not from tools alone, but from smart strategy combining audience understanding, authentic content, and live data. This is what <strong>Waber Creative Agency in Riyadh</strong> delivers to every client.</p>
+    `,
+  },
+  {
+    slug: "hudur-raqami-qawi-riyadh",
+    publishedAt: "2026-07-24",
+    readTime: 5,
+    category: { ar: "تسويق رقمي", en: "Digital Marketing" },
+    accentColor: "#0891b2",
+    title: {
+      ar: "كيف تبني حضوراً رقمياً قوياً لعلامتك التجارية في الرياض",
+      en: "How to Build a Strong Digital Presence for Your Brand in Riyadh",
+    },
+    excerpt: {
+      ar: "الحضور الرقمي القوي لم يعد خياراً في سوق الرياض — إنه ضرورة حتمية. تعلّم كيف تبني أساساً رقمياً متيناً يجعل علامتك مرئية لكل من يبحث عن خدماتك.",
+      en: "A strong digital presence is no longer optional in the Riyadh market — it's a necessity. Learn how to build a solid digital foundation that makes your brand visible to everyone searching for your services.",
+    },
+    tags: ["حضور رقمي", "تسويق الرياض", "وكالة تسويق رقمي", "brand awareness"],
+    contentAr: `
+<h2>ما معنى الحضور الرقمي القوي؟</h2>
+<p>الحضور الرقمي القوي يعني أن علامتك التجارية تظهر في المكان الصحيح، في الوقت الصحيح، أمام الشخص الصحيح. عندما يبحث أحد عن خدمة تقدمها في الرياض — سواء على جوجل أو إنستجرام أو سناب شات — يجد علامتك قبل أي منافس آخر. هذا هو الهدف الذي تسعى إليه كل <strong>شركة تسويق رقمي في السعودية</strong> محترفة.</p>
+
+<h2>الركيزة الأولى: الموقع الإلكتروني الاحترافي</h2>
+<p>موقعك الإلكتروني هو مقرك الرقمي الدائم. كل منصات التواصل الاجتماعي قد تتغير خوارزمياتها أو تتراجع شعبيتها، لكن موقعك يبقى. الموقع الاحترافي يجب أن يكون سريع التحميل، متوافقاً مع الهاتف الجوال، وواضح الرسالة بالعربية والإنجليزية، ومحسّناً لمحركات البحث SEO.</p>
+
+<h2>الركيزة الثانية: حسابات اجتماعية نشطة ومتسقة</h2>
+<p>الانتظام هو مفتاح النجاح على السوشيال ميديا. خوارزميات المنصات تكافئ الحسابات المنتظمة في النشر بزيادة الوصول العضوي. لكن الانتظام وحده لا يكفي — المحتوى يجب أن يكون ذا قيمة حقيقية للجمهور، لا مجرد صور ترويجية.</p>
+
+<h2>الركيزة الثالثة: إدارة السمعة الإلكترونية</h2>
+<p>ماذا تقول نتائج جوجل الأولى عن علامتك التجارية؟ التعليقات والتقييمات والمحتوى المتعلق بعلامتك يُشكّل انطباع العملاء قبل أن يتواصلوا معك. <strong>وكالة وبر الإبداعية في الرياض</strong> تُساعدك في بناء حضور رقمي إيجابي وإدارة سمعتك بشكل استراتيجي.</p>
+
+<h2>الركيزة الرابعة: استراتيجية SEO محلية</h2>
+<p>تحسين محركات البحث للكلمات المحلية مثل "وكالة تسويق الرياض" أو "شركة تصميم مواقع السعودية" يضعك أمام عملاء يبحثون بنشاط عن خدمتك. هذا النوع من الزيارات هو الأعلى قيمة لأنه يأتي من أشخاص مُستعدّين للشراء.</p>
+    `,
+    contentEn: `
+<h2>What Does Strong Digital Presence Mean?</h2>
+<p>A strong digital presence means your brand appears in the right place, at the right time, in front of the right person. When someone searches for a service you offer in Riyadh — whether on Google, Instagram, or Snapchat — they find your brand before any competitor. This is the goal every professional <strong>digital marketing company in Saudi Arabia</strong> pursues.</p>
+
+<h2>Pillar 1: Professional Website</h2>
+<p>Your website is your permanent digital headquarters. Social media platforms may change their algorithms or decline in popularity, but your website endures. A professional website must be fast-loading, mobile-friendly, clear in its bilingual messaging, and SEO-optimized.</p>
+
+<h2>Conclusion</h2>
+<p><strong>Waber Creative Agency in Riyadh</strong> helps you build a strong digital presence across all fronts — from website to social media to search engines — ensuring your brand is visible exactly where your customers are looking.</p>
+    `,
+  },
+  {
+    slug: "ijraaat-google-ads-lilsharikaat-alsaudiya",
+    publishedAt: "2026-07-23",
+    readTime: 7,
+    category: { ar: "أداء", en: "Performance Marketing" },
+    accentColor: "#ea580c",
+    title: {
+      ar: "دليل إعلانات جوجل للشركات السعودية: من الصفر إلى النتائج",
+      en: "Google Ads Guide for Saudi Companies: From Zero to Results",
+    },
+    excerpt: {
+      ar: "إعلانات جوجل من أقوى أدوات التسويق في السوق السعودي. تعلّم كيف تُطلق حملتك الأولى بذكاء وتحوّل كل ريال تنفقه إلى عميل حقيقي.",
+      en: "Google Ads is one of the most powerful marketing tools in Saudi Arabia. Learn how to launch your first campaign intelligently and turn every riyal you spend into a real customer.",
+    },
+    tags: ["إعلانات جوجل", "Google Ads", "تسويق رقمي", "الرياض", "وكالة تسويق"],
+    contentAr: `
+<h2>لماذا إعلانات جوجل؟</h2>
+<p>جوجل تُعالج أكثر من 8.5 مليار عملية بحث يومياً حول العالم، وجزء كبير منها من المملكة العربية السعودية. عندما يبحث شخص عن "وكالة تسويق في الرياض" أو "أفضل مطعم في حي النخيل"، تظهر إعلانات جوجل في أعلى النتائج فوراً. هذا يجعلها أداة لا غنى عنها لكل شركة تريد عملاء جدد بسرعة.</p>
+
+<h2>أنواع حملات جوجل التي تناسب الشركات السعودية</h2>
+<ul>
+<li><strong>حملات البحث (Search Campaigns):</strong> تظهر عندما يبحث شخص بكلمة مفتاحية تحددها أنت</li>
+<li><strong>حملات الشبكة الإعلانية (Display):</strong> صور وبانرات تظهر على ملايين المواقع</li>
+<li><strong>حملات التسوّق (Shopping):</strong> مثالية لمتاجر التجارة الإلكترونية في السعودية</li>
+<li><strong>حملات يوتيوب:</strong> مقاطع فيديو قبل وأثناء المحتوى الذي يشاهده جمهورك</li>
+</ul>
+
+<h2>الكلمات المفتاحية: قلب الحملة الناجحة</h2>
+<p>اختيار الكلمات المفتاحية الصحيحة هو الفارق بين حملة ناجحة وأخرى مُهدِرة للميزانية. الكلمات "عالية النية" مثل "وكالة تسويق رقمي الرياض" أو "شركة تصميم شعار السعودية" تجلب عملاء أكثر استعداداً للشراء مقارنة بكلمات عامة.</p>
+
+<h2>كيف تضبط ميزانيتك بذكاء؟</h2>
+<p>ابدأ بميزانية يومية متواضعة (200-500 ريال) لاختبار الحملة وتحديد الكلمات الأكثر جدوى، ثم زيادة الإنفاق تدريجياً على ما يُثبت نجاحه. <strong>وبر الإبداعية</strong> تُدير حملات جوجل لعملائها بنظام الشفافية الكاملة — ترى كل ريال أين ذهب وماذا أنتج.</p>
+
+<h2>قياس النجاح: المؤشرات التي تهم</h2>
+<p>نسبة النقر (CTR)، تكلفة النقرة (CPC)، ومعدل التحويل (Conversion Rate) هي المؤشرات الثلاثة الأهم لتقييم حملتك. الوكالة المحترفة لا تكتفي بعرض هذه الأرقام عليك — بل تُفسّرها وتُترجمها إلى قرارات تُحسّن أداء حملتك باستمرار.</p>
+    `,
+    contentEn: `
+<h2>Why Google Ads?</h2>
+<p>Google processes over 8.5 billion searches daily worldwide, with a significant share from Saudi Arabia. When someone searches for "marketing agency in Riyadh" or "best restaurant in Al Nakheel district," Google Ads appear immediately at the top of results. This makes it an indispensable tool for any company wanting new customers quickly.</p>
+
+<h2>Campaign Types That Suit Saudi Companies</h2>
+<p>Search campaigns target active searchers, Display campaigns build brand awareness across millions of sites, Shopping campaigns serve e-commerce stores, and YouTube campaigns reach audiences through video. The right mix depends on your goals and budget.</p>
+
+<h2>Conclusion</h2>
+<p><strong>Waber Creative Agency</strong> manages Google Ads campaigns for clients with complete transparency — you see exactly where every riyal went and what it produced.</p>
+    `,
+  },
+  {
+    slug: "afdal-manasaat-altawasul-lilaamal-alsaudia",
+    publishedAt: "2026-07-22",
+    readTime: 6,
+    category: { ar: "منصات", en: "Platforms" },
+    accentColor: "#7c3aed",
+    title: {
+      ar: "أفضل منصات التواصل الاجتماعي للأعمال في السعودية 2026",
+      en: "Best Social Media Platforms for Business in Saudi Arabia 2026",
+    },
+    excerpt: {
+      ar: "ليست كل المنصات مناسبة لكل نشاط تجاري. اكتشف أي المنصات تناسب أعمالك في السوق السعودي وكيف تُوظّف كل منها لتحقيق أهدافك التسويقية.",
+      en: "Not every platform suits every business. Discover which platforms fit your business in the Saudi market and how to leverage each to achieve your marketing goals.",
+    },
+    tags: ["سوشيال ميديا", "سناب شات", "إنستجرام", "تيك توك", "تسويق رقمي السعودية"],
+    contentAr: `
+<h2>السوشيال ميديا في السعودية: أرقام مذهلة</h2>
+<p>المملكة العربية السعودية تتصدر المنطقة العربية في معدلات استخدام منصات التواصل الاجتماعي. بيانات 2025 تُظهر أن 95% من مستخدمي الإنترنت السعوديين نشطون على منصة واحدة أو أكثر، مما يجعل السوشيال ميديا قناة تسويقية لا يمكن لأي <strong>وكالة تسويق في السعودية</strong> تجاهلها.</p>
+
+<h2>إنستجرام: ملك الشراء البصري</h2>
+<p>إنستجرام يُناسب بشكل مثالي: الموضة والملابس، المطاعم والمقاهي، التجميل والعناية، العقارات، والمنتجات الفاخرة. القصص (Stories) والريلز (Reels) هي الأكثر تفاعلاً. إذا كان منتجك يحكي قصة بصرية، فإنستجرام هو بيتك.</p>
+
+<h2>سناب شات: الوصول إلى الشباب السعودي</h2>
+<p>سناب شات يمتلك نسبة اختراق في السعودية من بين الأعلى عالمياً. المستخدم السعودي يقضي ساعات يومياً على سناب، مما يجعله المنصة المثلى للوصول إلى فئة 18-35 سنة. <strong>إعلانات سناب شات في السعودية</strong> تُقدّم خيارات استهداف دقيقة جداً بأسعار تنافسية.</p>
+
+<h2>تيك توك: محرك الفيروسية</h2>
+<p>تيك توك لم يعد منصة للتسلية فحسب — بل أصبح محركاً حقيقياً لاكتشاف المنتجات. مفهوم "TikTok Made Me Buy It" واقع يعيشه ملايين السعوديين. المحتوى الأصيل والترفيهي الذي يُقدّم منتجك بطريقة إبداعية يمكن أن يُحقق ملايين المشاهدات بتكلفة زهيدة.</p>
+
+<h2>لينكد إن: الكنز المخفي للـ B2B</h2>
+<p>إذا كنت تستهدف الشركات أو صانعي القرار، فلينكد إن هو المنصة. مديرو الشركات والمتخصصون يثقون بالمحتوى على لينكد إن أكثر من أي منصة أخرى. <strong>وبر الإبداعية</strong> تُساعد عملاءها على بناء استراتيجية متكاملة تشمل المنصة المناسبة لكل جمهور.</p>
+    `,
+    contentEn: `
+<h2>Social Media in Saudi Arabia: Remarkable Numbers</h2>
+<p>Saudi Arabia leads the Arab region in social media usage rates. 2025 data shows that 95% of Saudi internet users are active on one or more platforms, making social media a marketing channel no <strong>marketing agency in Saudi Arabia</strong> can ignore.</p>
+
+<h2>Instagram, Snapchat, TikTok, and LinkedIn</h2>
+<p>Each platform serves a different purpose: Instagram for visual products, Snapchat for youth engagement, TikTok for virality, and LinkedIn for B2B marketing. The key is choosing the right mix based on your target audience and marketing goals.</p>
+
+<h2>Conclusion</h2>
+<p><strong>Waber Creative Agency</strong> helps clients build integrated social media strategies that leverage the right platform for every audience segment in Saudi Arabia.</p>
+    `,
+  },
+  {
+    slug: "kaifa-takhtar-sharika-tasweek-mawthooqa",
+    publishedAt: "2026-07-21",
+    readTime: 5,
+    category: { ar: "استراتيجية", en: "Strategy" },
+    accentColor: "#0d9488",
+    title: {
+      ar: "كيف تختار شركة تسويق رقمي موثوقة في السعودية: 7 معايير لا تتنازل عنها",
+      en: "How to Choose a Reliable Digital Marketing Company in Saudi Arabia: 7 Non-Negotiable Criteria",
+    },
+    excerpt: {
+      ar: "السوق مليء بشركات التسويق الرقمي في السعودية، لكن الموثوق منها أقل مما تظن. إليك 7 معايير دقيقة تفصل بين الوكالة الحقيقية والمزيّف.",
+      en: "The market is full of digital marketing companies in Saudi Arabia, but the reliable ones are fewer than you think. Here are 7 precise criteria that separate a real agency from a fake.",
+    },
+    tags: ["وكالة تسويق موثوقة", "شركة تسويق رقمي", "السعودية", "الرياض", "اختيار وكالة"],
+    contentAr: `
+<h2>المعيار الأول: الشفافية في التسعير والعقود</h2>
+<p>الوكالة الموثوقة تُقدّم عروض أسعار واضحة ومفصّلة دون تكاليف مخفية. إذا شعرت بأن العقد يحتوي على بنود غامضة أو أن التسعير غير مبرر، فهذه إشارة تحذير واضحة. <strong>وكالة التسويق الاحترافية في الرياض</strong> تضع عروضها على الطاولة بوضوح تام.</p>
+
+<h2>المعيار الثاني: أعمال موثّقة وقابلة للتحقق</h2>
+<p>اطلب نماذج أعمال حقيقية مع أرقام أداء فعلية. الوكالة الجيدة تعتز بنتائجها وتُشاركها بفخر. إذا لم تجد أعمالاً موثقة أو كانت الأمثلة مبهمة، فانتبه جيداً قبل التوقيع.</p>
+
+<h2>المعيار الثالث: فريق متخصص حقيقي</h2>
+<p>اسأل عن الفريق الذي سيُدير مشروعك: هل هناك متخصص SEO؟ مصمم جرافيك؟ منتج محتوى؟ كاتب نسخ إعلانية؟ الوكالة التي يعمل فيها "موظف واحد يفعل كل شيء" لن تُقدّم لك مستوى الجودة التي تستحقها علامتك التجارية.</p>
+
+<h2>المعيار الرابع: التواصل والاستجابة</h2>
+<p>قبل التعاقد، لاحظ مدى سرعة استجابة الوكالة لاستفساراتك ومدى وضوح إجاباتها. الوكالة التي تتأخر في الرد قبل التعاقد ستتأخر أكثر بعده. التواصل الفعّال هو أساس أي شراكة ناجحة.</p>
+
+<h2>المعيار الخامس: التخصص في السوق السعودي</h2>
+<p>الوكالة التي تعمل في السوق السعودي وتفهم خصوصياته الثقافية والتسويقية تُقدّم نتائج أفضل بكثير من الوكالة التي تُطبّق استراتيجيات غربية جاهزة. سلوك المستهلك السعودي، والمناسبات المحلية، واللهجات الإعلانية — كلها عوامل تُؤثّر على نجاح حملتك.</p>
+
+<h2>المعيار السادس: تقارير دورية شاملة</h2>
+<p>كيف تعرف أن استثمارك التسويقي يؤتي ثماره؟ عبر تقارير دورية واضحة تشرح ما تم تنفيذه، وما النتائج التي تحققت، وما الخطوات القادمة. الوكالة التي لا تُقدّم تقارير منتظمة تُخفي شيئاً.</p>
+
+<h2>المعيار السابع: عقد مرن وليس مُقيّداً</h2>
+<p>تجنّب العقود التي تُقيّدك لسنوات دون حق إنهاء مبكر. الوكالة الواثقة من نتائجها لا تحتاج إلى حبسك في عقد طويل الأمد. في <strong>وبر الإبداعية</strong>، نؤمن بأن استمرار العلاقة يجب أن يكون مبنياً على النتائج لا على العقود.</p>
+    `,
+    contentEn: `
+<h2>7 Criteria for Choosing a Reliable Digital Marketing Agency in Saudi Arabia</h2>
+<p>Transparency in pricing, documented and verifiable work, a real specialized team, effective communication, Saudi market expertise, regular comprehensive reports, and flexible contracts — these are the seven non-negotiable criteria for choosing a reliable <strong>digital marketing company in Saudi Arabia</strong>.</p>
+
+<h2>Conclusion</h2>
+<p>At <strong>Waber Creative Agency in Riyadh</strong>, we meet all seven criteria and welcome you to evaluate us against each one before signing anything.</p>
+    `,
+  },
+  {
+    slug: "tasweek-almuhtawa-lilsharikaat-alsaudia",
+    publishedAt: "2026-07-20",
+    readTime: 7,
+    category: { ar: "محتوى", en: "Content" },
+    accentColor: "#16a34a",
+    title: {
+      ar: "تسويق المحتوى للشركات السعودية: الدليل الشامل لعام 2026",
+      en: "Content Marketing for Saudi Companies: The Complete Guide for 2026",
+    },
+    excerpt: {
+      ar: "المحتوى هو الوقود الذي يُشغّل كل استراتيجية تسويقية ناجحة. تعلّم كيف تبني استراتيجية محتوى تُولّد عملاء حقيقيين لشركتك في السوق السعودي.",
+      en: "Content is the fuel that powers every successful marketing strategy. Learn how to build a content strategy that generates real customers for your company in the Saudi market.",
+    },
+    tags: ["تسويق المحتوى", "محتوى عربي", "استراتيجية محتوى", "وكالة محتوى السعودية"],
+    contentAr: `
+<h2>لماذا تسويق المحتوى؟</h2>
+<p>تسويق المحتوى يكلّف 62% أقل من التسويق التقليدي ويُولّد 3 أضعاف عدد العملاء المحتملين. هذه الأرقام وحدها تُبرّر التحوّل نحو المحتوى كاستراتيجية تسويقية أساسية. لكن المحتوى الناجح في السوق السعودي له معايير خاصة تختلف عن غيره.</p>
+
+<h2>أنواع المحتوى التي تنجح في السوق السعودي</h2>
+<p><strong>المحتوى التعليمي:</strong> المستهلك السعودي يُقدّر المحتوى الذي يمنحه معرفة أو مهارة جديدة. المقالات الإرشادية، والفيديوهات التعليمية، والإنفوجرافيك التوضيحي تُبني ثقة حقيقية بين علامتك وجمهورك.</p>
+<p><strong>قصص النجاح المحلية:</strong> لا شيء يُقنع السعودي أكثر من قصة نجاح لشخص مثله في بيئة مشابهة. وثّق قصص نجاح عملائك بأرقام ولقطات حقيقية.</p>
+<p><strong>المحتوى الموسمي:</strong> رمضان، واليوم الوطني السعودي، وموسم الرياض، وموسم الحج والعمرة — هذه مناسبات ذهبية لإنتاج محتوى ذو صدى عاطفي عميق لدى الجمهور السعودي.</p>
+
+<h2>تقويم المحتوى: من الفوضى إلى الانتظام</h2>
+<p>أكبر أخطاء الشركات السعودية في المحتوى هو العشوائية. النشر يحدث عندما "يتذكر أحد" لا وفق خطة مدروسة. <strong>وكالة المحتوى الاحترافية</strong> تبني لك تقويماً محتوى سنوياً يضمن الانتظام والتنوع والتوافق مع أهدافك التسويقية.</p>
+
+<h2>قياس أثر المحتوى</h2>
+<p>المحتوى الجيد يُقاس بمؤشرات واضحة: عدد الزيارات العضوية لموقعك، معدل التفاعل على المنصات، عدد العملاء المحتملين القادمين من المحتوى. في <strong>وبر الإبداعية</strong>، نربط كل محتوى بأهداف قابلة للقياس لنضمن أن استثمارك في المحتوى يُحقق عائداً حقيقياً.</p>
+    `,
+    contentEn: `
+<h2>Why Content Marketing?</h2>
+<p>Content marketing costs 62% less than traditional marketing and generates 3x as many leads. These numbers alone justify shifting toward content as a core marketing strategy. But successful content in the Saudi market has specific standards that differ from elsewhere.</p>
+
+<h2>Content Types That Work in Saudi Arabia</h2>
+<p>Educational content, local success stories, and seasonal content tied to Ramadan, National Day, and Riyadh Season are the most effective in the Saudi market. Consistency and planning through an annual content calendar are what separate brands that grow from those that stagnate.</p>
+
+<h2>Conclusion</h2>
+<p>At <strong>Waber Creative Agency</strong>, we build data-driven content strategies that generate real leads and measurable results for Saudi businesses.</p>
+    `,
+  },
+  {
+    slug: "snapchat-marketing-alsaudia-daleel",
+    publishedAt: "2026-07-19",
+    readTime: 6,
+    category: { ar: "منصات", en: "Platforms" },
+    accentColor: "#ca8a04",
+    title: {
+      ar: "سناب شات ماركتينج: الدليل السعودي الكامل للوصول إلى الشباب",
+      en: "Snapchat Marketing: The Complete Saudi Guide to Reaching Youth",
+    },
+    excerpt: {
+      ar: "سناب شات هو المنصة الأولى للشباب السعودي. تعلّم كيف تُطلق حملات سناب شات ناجحة تصل إلى ملايين الشباب السعودي بتكلفة فعّالة.",
+      en: "Snapchat is the #1 platform for Saudi youth. Learn how to launch successful Snapchat campaigns that reach millions of young Saudis cost-effectively.",
+    },
+    tags: ["سناب شات", "إعلانات سناب شات", "تسويق الشباب", "السعودية", "وكالة تسويق رقمي"],
+    contentAr: `
+<h2>سناب شات والسوق السعودي: إحصائيات مذهلة</h2>
+<p>السعودية واحدة من أعلى دول العالم في نسبة استخدام سناب شات، مع أكثر من 21 مليون مستخدم نشط شهرياً. 90% من مستخدمي سناب شات في المملكة تتراوح أعمارهم بين 13 و34 سنة — وهذه تحديداً الشريحة التي تبحث عنها معظم العلامات التجارية السعودية.</p>
+
+<h2>أنواع إعلانات سناب شات</h2>
+<ul>
+<li><strong>Snap Ads:</strong> مقاطع فيديو رأسية تظهر بين القصص</li>
+<li><strong>Story Ads:</strong> سلسلة من الصور أو مقاطع الفيديو ضمن قسم الاكتشاف</li>
+<li><strong>Collection Ads:</strong> مثالية لعرض منتجات متعددة في إعلان واحد</li>
+<li><strong>Filters وLenses:</strong> تجارب تفاعلية تُشجّع المستخدمين على المشاركة</li>
+</ul>
+
+<h2>استهداف الجمهور السعودي على سناب شات</h2>
+<p>إمكانيات الاستهداف على سناب شات متطورة جداً: المنطقة الجغرافية (حتى مستوى الحي في الرياض)، الفئة العمرية، الاهتمامات، وحتى سلوك الشراء. <strong>وكالة وبر الإبداعية</strong> تُتقن توظيف هذه الإمكانيات للوصول إلى الجمهور الدقيق بتكلفة منخفضة وعائد مرتفع.</p>
+
+<h2>أفضل أوقات الإعلان على سناب شات في السعودية</h2>
+<p>بيانات السوق السعودي تُشير إلى أن أعلى معدلات التفاعل تحدث مساءً بين 8 و11 مساءً، وخلال فترة الظهيرة في أيام الإجازات. في رمضان، تتحول أوقات الذروة إلى ما بعد الإفطار وحتى السحور — وهي فرصة ذهبية للعلامات التجارية التي تُدرك هذا التحول.</p>
+    `,
+    contentEn: `
+<h2>Snapchat and the Saudi Market: Remarkable Statistics</h2>
+<p>Saudi Arabia is one of the world's highest Snapchat usage countries, with over 21 million monthly active users. 90% of Saudi Snapchat users are aged 13-34 — exactly the demographic most Saudi brands want to reach.</p>
+
+<h2>Snapchat Ad Types and Targeting</h2>
+<p>Snap Ads, Story Ads, Collection Ads, and AR Filters offer diverse ways to engage Saudi youth. Advanced targeting by geography (down to neighborhood level in Riyadh), age, interests, and purchase behavior makes Snapchat one of the most precise platforms for Saudi advertisers.</p>
+
+<h2>Conclusion</h2>
+<p><strong>Waber Creative Agency</strong> specializes in Snapchat campaigns for the Saudi market, delivering real reach and measurable results among Saudi youth audiences.</p>
+    `,
+  },
+  {
+    slug: "tasweek-almuthaththireen-alsaudia-daleel",
+    publishedAt: "2026-07-18",
+    readTime: 6,
+    category: { ar: "تسويق المؤثرين", en: "Influencer Marketing" },
+    accentColor: "#db2777",
+    title: {
+      ar: "كيف ينجح تسويق المؤثرين في السعودية؟ دليل العلامات التجارية",
+      en: "How Does Influencer Marketing Succeed in Saudi Arabia? A Brand Guide",
+    },
+    excerpt: {
+      ar: "السعودية من أكبر أسواق تسويق المؤثرين في العالم العربي. تعلّم كيف تختار المؤثر المناسب وتُطلق حملة تُحقق عائداً حقيقياً لا مجرد متابعين.",
+      en: "Saudi Arabia is one of the largest influencer marketing markets in the Arab world. Learn how to choose the right influencer and launch a campaign that generates real ROI, not just followers.",
+    },
+    tags: ["تسويق المؤثرين", "مؤثرون سعوديون", "وكالة مؤثرين", "سوشيال ميديا السعودية"],
+    contentAr: `
+<h2>لماذا تسويق المؤثرين في السعودية قوي بشكل خاص؟</h2>
+<p>المجتمع السعودي مجتمع اجتماعي بطبيعته — يثق في توصيات من يعرفهم ويتابعهم. هذا يجعل تسويق المؤثرين في السعودية يُحقق تأثيراً يتجاوز الإعلانات التقليدية بمراحل. الدراسات تُشير إلى أن 71% من المستهلكين السعوديين يثقون بتوصيات المؤثرين أكثر من الإعلانات المدفوعة المباشرة.</p>
+
+<h2>Mega vs Micro: أيهما يناسبك؟</h2>
+<p><strong>المؤثرون الكبار (Mega Influencers):</strong> أكثر من مليون متابع، وصول واسع، لكن تكلفة مرتفعة ومعدل تفاعل أقل نسبياً. مناسبون لحملات الوعي بالعلامة التجارية الكبيرة.</p>
+<p><strong>المؤثرون الصغار (Micro Influencers):</strong> من 10 آلاف إلى 100 ألف متابع، معدل تفاعل أعلى بكثير، وجمهور أكثر تخصصاً وثقة. أفضل عائداً للاستثمار في كثير من الحالات.</p>
+
+<h2>كيف تختار المؤثر المناسب؟</h2>
+<p>لا تنخدع بعدد المتابعين وحده. انظر إلى: معدل التفاعل الحقيقي (Engagement Rate)، تركيبة الجمهور الديموغرافية، مدى توافق قيم المؤثر مع قيم علامتك، وتاريخ تعاملاته مع علامات تجارية مشابهة.</p>
+
+<h2>دور وكالة التسويق في إدارة المؤثرين</h2>
+<p><strong>وبر الإبداعية</strong> تُدير علاقات المؤثرين لعملائها من الألف إلى الياء: من الاختيار الدقيق والتفاوض، إلى بريف المحتوى ومتابعة الأداء وتحليل النتائج. نضمن أن كل ريال تُنفقه على تسويق المؤثرين يُحقق أثراً حقيقياً وقابلاً للقياس.</p>
+    `,
+    contentEn: `
+<h2>Why Influencer Marketing Is Particularly Powerful in Saudi Arabia</h2>
+<p>Saudi society is inherently social — trusting recommendations from people they know and follow. This makes influencer marketing in Saudi Arabia achieve impact that far exceeds traditional advertising. Studies indicate that 71% of Saudi consumers trust influencer recommendations more than direct paid ads.</p>
+
+<h2>Choosing the Right Influencer and Measuring Results</h2>
+<p>Don't be deceived by follower count alone. Look at real engagement rates, audience demographic composition, alignment of influencer values with your brand values, and their history with similar brands. Micro-influencers often deliver better ROI than mega-influencers for targeted campaigns.</p>
+
+<h2>Conclusion</h2>
+<p><strong>Waber Creative Agency</strong> manages influencer relationships from selection to briefing to performance analysis, ensuring every riyal spent on influencer marketing generates measurable impact.</p>
+    `,
+  },
+  {
+    slug: "seo-almawaqe-alarabiya-khutuat-amaliya",
+    publishedAt: "2026-07-17",
+    readTime: 7,
+    category: { ar: "SEO", en: "SEO" },
+    accentColor: "#b45309",
+    title: {
+      ar: "SEO للمواقع العربية في السعودية: خطوات عملية تصعد بك في نتائج جوجل",
+      en: "SEO for Arabic Websites in Saudi Arabia: Practical Steps to Climb Google Rankings",
+    },
+    excerpt: {
+      ar: "تحسين محركات البحث للمواقع العربية له أسرار وتقنيات مختلفة. اكتشف كيف تُوظّف SEO لتظهر علامتك التجارية في أعلى نتائج جوجل عندما يبحث عملاؤك في السعودية.",
+      en: "SEO for Arabic websites has different secrets and techniques. Discover how to leverage SEO to make your brand appear at the top of Google results when your customers search in Saudi Arabia.",
+    },
+    tags: ["SEO", "تحسين محركات البحث", "مواقع عربية", "جوجل السعودية", "وكالة SEO"],
+    contentAr: `
+<h2>لماذا SEO مختلف في السوق السعودي؟</h2>
+<p>جوجل السعودي يُعالج مئات الملايين من عمليات البحث شهرياً، معظمها بالعربية. تحسين موقعك لمحركات البحث في السوق السعودي يعني الظهور أمام عملاء يبحثون بنشاط عن خدمتك — وهذا النوع من الزيارات أعلى قيمة بكثير من أي إعلان مدفوع.</p>
+
+<h2>الخطوة الأولى: بحث الكلمات المفتاحية باللغة العربية</h2>
+<p>البحث عن الكلمات المفتاحية للسوق السعودي يختلف تماماً عن البحث الإنجليزي. السعودي يبحث بلهجات متعددة وطرق كتابة مختلفة. "وكالة تسويق الرياض" و"وكالة تسويق في الرياض" و"شركة تسويق رقمي الرياض" كلها كلمات مختلفة يجب أن تُحسّن موقعك لكل منها.</p>
+
+<h2>الخطوة الثانية: تحسين المحتوى داخل الصفحة</h2>
+<p>كل صفحة في موقعك يجب أن تُحسَّن وفق كلمة مفتاحية رئيسية. عنوان الصفحة (Title Tag)، والوصف التعريفي (Meta Description)، والعناوين الداخلية (H1, H2, H3)، ونص الصفحة — كلها مواضع يجب أن تُدرج فيها كلماتك المفتاحية بشكل طبيعي وغير مصطنع.</p>
+
+<h2>الخطوة الثالثة: بناء الروابط الخارجية (Backlinks)</h2>
+<p>جوجل يثق بموقعك أكثر عندما تُشير إليه مواقع أخرى موثوقة. الحصول على روابط من مواقع إخبارية سعودية، ومدونات متخصصة، وأدلة الأعمال المحلية يُقوّي سلطة موقعك في عيون محرك البحث.</p>
+
+<h2>الخطوة الرابعة: السرعة والتجربة التقنية</h2>
+<p>جوجل يُعاقب المواقع البطيئة. الموقع الذي يستغرق أكثر من 3 ثوانٍ في التحميل يفقد 53% من زواره قبل أن يرى المحتوى. في <strong>وبر الإبداعية</strong>، نُجري تدقيقاً SEO شاملاً لموقعك ونُصلح جميع المعوقات التقنية التي تمنعك من الصفحة الأولى في جوجل.</p>
+    `,
+    contentEn: `
+<h2>Why SEO Is Different in the Saudi Market</h2>
+<p>Google Saudi Arabia processes hundreds of millions of searches monthly, most in Arabic. Optimizing your site for search engines in the Saudi market means appearing in front of customers actively searching for your service — traffic far more valuable than any paid ad.</p>
+
+<h2>Four Practical Steps to Climb Google Rankings</h2>
+<p>Arabic keyword research, on-page content optimization, building authoritative backlinks, and improving technical site speed — these four pillars form the foundation of effective SEO for Arabic websites in Saudi Arabia.</p>
+
+<h2>Conclusion</h2>
+<p>At <strong>Waber Creative Agency</strong>, we conduct comprehensive SEO audits and fix all technical barriers preventing you from reaching Google's first page in the Saudi market.</p>
+    `,
+  },
+  {
+    slug: "tiktok-aalmal-alsaudia",
+    publishedAt: "2026-07-16",
+    readTime: 5,
+    category: { ar: "منصات", en: "Platforms" },
+    accentColor: "#0f172a",
+    title: {
+      ar: "تيك توك للأعمال في السعودية: كيف تُحوّل المنصة إلى آلة مبيعات",
+      en: "TikTok for Business in Saudi Arabia: How to Turn the Platform into a Sales Machine",
+    },
+    excerpt: {
+      ar: "تيك توك لم يعد مجرد تسلية — إنه منصة تسويقية قوية تُحوّل المنتجات إلى ظواهر. اكتشف كيف تستثمر تيك توك لصالح أعمالك في السوق السعودي.",
+      en: "TikTok is no longer just entertainment — it's a powerful marketing platform that turns products into phenomena. Discover how to leverage TikTok for your business in the Saudi market.",
+    },
+    tags: ["تيك توك", "TikTok marketing", "تسويق رقمي السعودية", "إعلانات تيك توك"],
+    contentAr: `
+<h2>تيك توك والمستهلك السعودي</h2>
+<p>تيك توك يضم أكثر من 17 مليون مستخدم نشط في المملكة العربية السعودية، ويتزايد هذا الرقم بسرعة مذهلة. الميزة الأكبر لتيك توك هي خوارزميته الفريدة التي تُظهر المحتوى للمستخدمين بناءً على اهتماماتهم — لا بناءً على عدد متابعيك. هذا يعني أن حسابك التجاري يمكن أن يصل إلى ملايين المشاهدين حتى لو كان عمره أسبوعاً واحداً.</p>
+
+<h2>أنواع المحتوى الأكثر نجاحاً على تيك توك السعودي</h2>
+<ul>
+<li><strong>المحتوى "خلف الكواليس":</strong> كيف تصنع منتجك؟ كيف يعمل فريقك؟ هذا النوع يبني ثقة حقيقية</li>
+<li><strong>التحديات والترندات:</strong> المشاركة في الترندات المحلية بطريقة إبداعية ترفع الوصول بشكل كبير</li>
+<li><strong>شهادات العملاء بلهجة سعودية:</strong> المراجعات بالعامية السعودية تُحقق تفاعلاً أعلى بكثير من اللهجة الرسمية</li>
+</ul>
+
+<h2>إعلانات تيك توك: الفرصة قبل ارتفاع الأسعار</h2>
+<p>تكاليف الإعلان على تيك توك لا تزال أقل مقارنة بمنصات أخرى، مما يجعلها فرصة ذهبية الآن. إعلانات In-Feed التي تظهر بين محتوى المستخدمين تُحقق معدلات تفاعل عالية لأنها تبدو طبيعية وغير مزعجة.</p>
+
+<h2>استراتيجية تيك توك مع وبر الإبداعية</h2>
+<p>في <strong>وبر الإبداعية</strong>، نبني لك استراتيجية تيك توك متكاملة تشمل: إنتاج المحتوى الأصيل، وإدارة الحملات الإعلانية المدفوعة، والتعاون مع المؤثرين السعوديين على تيك توك — كل ذلك بهدف واحد: تحويل المشاهدة إلى مبيعات حقيقية.</p>
+    `,
+    contentEn: `
+<h2>TikTok and the Saudi Consumer</h2>
+<p>TikTok has over 17 million active users in Saudi Arabia and growing rapidly. Its unique algorithm shows content based on user interests rather than follower count — meaning a new business account can reach millions within weeks with the right content.</p>
+
+<h2>Most Successful Content Types on Saudi TikTok</h2>
+<p>Behind-the-scenes content, participation in local trends, and customer testimonials in Saudi dialect achieve the highest engagement. TikTok advertising costs remain lower than other platforms, making it a golden opportunity before prices rise further.</p>
+
+<h2>Conclusion</h2>
+<p><strong>Waber Creative Agency</strong> builds integrated TikTok strategies including authentic content production, paid campaign management, and Saudi influencer collaborations — all aimed at turning views into real sales.</p>
+    `,
+  },
+  {
+    slug: "huwiya-basariya-lilsharikaat-alnaashia-riyadh",
+    publishedAt: "2026-07-15",
+    readTime: 5,
+    category: { ar: "الهوية البصرية", en: "Brand Identity" },
+    accentColor: "#9333ea",
+    title: {
+      ar: "الهوية البصرية للشركات الناشئة في الرياض: أين تبدأ ولماذا تهم؟",
+      en: "Brand Identity for Startups in Riyadh: Where to Start and Why It Matters",
+    },
+    excerpt: {
+      ar: "الشركات الناشئة كثيراً ما تُؤجّل الهوية البصرية حتى تنمو. هذا الخطأ قد يكلّفها عملاء ومصداقية. اكتشف لماذا الهوية البصرية يجب أن تكون أولى أولوياتك في الرياض.",
+      en: "Startups often postpone brand identity until they grow. This mistake can cost them customers and credibility. Discover why brand identity must be your first priority in Riyadh.",
+    },
+    tags: ["هوية بصرية", "شركات ناشئة", "الرياض", "تصميم شعار", "وكالة هوية بصرية"],
+    contentAr: `
+<h2>الخطأ الأكثر شيوعاً بين الشركات الناشئة في الرياض</h2>
+<p>"سنُصلح الهوية البصرية لاحقاً عندما نكبر" — هذه الجملة سمعناها من كثير من رواد الأعمال في الرياض، وهي واحدة من أكبر الأخطاء الاستراتيجية التي ترتكبها الشركات الناشئة. الحقيقة أن <strong>الهوية البصرية</strong> هي أول ما يراه عميلك المحتمل، وقراره بالتعامل معك يبدأ في ثوانٍ قبل أن يقرأ كلمة واحدة عن خدماتك.</p>
+
+<h2>كيف تُؤثّر الهوية البصرية على إيرادات الشركات الناشئة؟</h2>
+<p>الدراسات تُثبت أن المستهلكين يحكمون على مصداقية الشركة بناءً على مظهرها البصري في غضون 0.05 ثانية. الشركة الناشئة التي تملك هوية بصرية احترافية ومتسقة تُقنع عملاءها بجودة خدماتها قبل أن تقول كلمة واحدة. في سوق الرياض التنافسي، هذا الفارق قد يعني الفرق بين الفوز بعميل وخسارته.</p>
+
+<h2>مكوّنات الهوية البصرية التي يحتاجها كل ناشئ</h2>
+<ul>
+<li>شعار (Logo) احترافي قابل للاستخدام على كل المواد</li>
+<li>لوحة ألوان ثابتة ومعبّرة عن قيم الشركة</li>
+<li>خطوط واضحة بالعربية والإنجليزية</li>
+<li>دليل هوية (Brand Guidelines) يضمن الاتساق</li>
+<li>قوالب جاهزة للسوشيال ميديا والعروض التقديمية</li>
+</ul>
+
+<h2>الاستثمار في الهوية البصرية: تكلفة أم استثمار؟</h2>
+<p>كثيرون يرون في الهوية البصرية تكلفة. الواقع أنها استثمار يُعيد عائده عشرات الأضعاف. في <strong>وبر الإبداعية في الرياض</strong>، نُصمّم هويات بصرية للشركات الناشئة تنمو معها — هويات مرنة وقابلة للتطوير وتعكس طموح رائد الأعمال السعودي.</p>
+    `,
+    contentEn: `
+<h2>The Most Common Mistake Among Riyadh Startups</h2>
+<p>"We'll fix the brand identity later when we grow" — this is one of the biggest strategic mistakes startups make. The reality is that brand identity is the first thing a potential customer sees, and their decision to work with you begins in seconds before they read a single word about your services.</p>
+
+<h2>What Brand Identity Elements Every Startup Needs</h2>
+<p>A professional logo, consistent color palette, clear bilingual typography, brand guidelines, and ready-made social media templates — these are the foundation of a brand identity that builds credibility and drives growth for Riyadh startups.</p>
+
+<h2>Conclusion</h2>
+<p>At <strong>Waber Creative Agency in Riyadh</strong>, we design brand identities for startups that grow with them — flexible, scalable, and reflecting the ambition of the Saudi entrepreneur.</p>
+    `,
+  },
+  {
+    slug: "roi-altasweek-kaifa-taqees",
+    publishedAt: "2026-07-14",
+    readTime: 6,
+    category: { ar: "أداء", en: "Performance Marketing" },
+    accentColor: "#dc2626",
+    title: {
+      ar: "كيف تحقق عائداً حقيقياً على الاستثمار التسويقي في السعودية؟",
+      en: "How to Achieve Real ROI on Marketing Investment in Saudi Arabia",
+    },
+    excerpt: {
+      ar: "العائد على الاستثمار التسويقي ROI هو المقياس الأهم لأي ميزانية تسويقية. تعلّم كيف تُحسب وتُحسّن هذا العائد في بيئة الأعمال السعودية.",
+      en: "Marketing ROI is the most important metric for any marketing budget. Learn how to calculate and improve this return in the Saudi business environment.",
+    },
+    tags: ["ROI", "عائد الاستثمار", "أداء تسويقي", "وكالة تسويق رقمي", "السعودية"],
+    contentAr: `
+<h2>ما هو ROI التسويقي ولماذا يهم؟</h2>
+<p>عائد الاستثمار التسويقي (Marketing ROI) هو المقياس الذي يُجيب على السؤال الأهم: كم ربحت من كل ريال أنفقته على التسويق؟ الصيغة بسيطة: (الإيرادات المُولّدة من التسويق — تكلفة التسويق) ÷ تكلفة التسويق × 100. لكن الوصول إلى هذه الأرقام يتطلب تتبعاً دقيقاً وأدوات قياس احترافية.</p>
+
+<h2>أهم مؤشرات الأداء في التسويق السعودي</h2>
+<ul>
+<li><strong>تكلفة اكتساب العميل (CAC):</strong> كم تكلّفك جلب عميل جديد؟</li>
+<li><strong>القيمة الدائمة للعميل (LTV):</strong> كم سيُنفق العميل معك على مدار علاقته بك؟</li>
+<li><strong>معدل التحويل:</strong> ما نسبة زوار موقعك الذين يُصبحون عملاء؟</li>
+<li><strong>تكلفة النقرة (CPC):</strong> كم تدفع لكل نقرة على إعلاناتك؟</li>
+</ul>
+
+<h2>استراتيجيات رفع عائد الاستثمار التسويقي</h2>
+<p>رفع ROI لا يعني بالضرورة خفض الإنفاق — بل يعني إنفاق أذكى. تحسين صفحات الهبوط، واختبار إعلانات متعددة (A/B Testing)، والتركيز على القنوات الأعلى عائداً، وتحسين تجربة ما بعد الشراء — هذه كلها تُضاعف عائدك دون زيادة الميزانية.</p>
+
+<h2>كيف نعمل في وبر الإبداعية؟</h2>
+<p>في <strong>وبر الإبداعية</strong>، نربط كل حملة تسويقية بمؤشرات قابلة للقياس منذ البداية. نُقدّم تقارير شهرية واضحة تُظهر بدقة عائد كل ريال أنفقته معنا — لأننا نؤمن أن العلاقة التسويقية الناجحة مبنية على الثقة والشفافية والنتائج الحقيقية.</p>
+    `,
+    contentEn: `
+<h2>What Is Marketing ROI and Why Does It Matter?</h2>
+<p>Marketing ROI answers the most important question: how much did you earn from every riyal you spent on marketing? The formula is simple, but achieving accurate numbers requires precise tracking and professional measurement tools in the Saudi business environment.</p>
+
+<h2>Strategies to Increase Marketing ROI</h2>
+<p>Improving landing pages, A/B testing ads, focusing on highest-ROI channels, and optimizing post-purchase experience — these all multiply your return without increasing the budget.</p>
+
+<h2>Conclusion</h2>
+<p>At <strong>Waber Creative Agency</strong>, we link every marketing campaign to measurable KPIs from the start and deliver clear monthly reports showing exactly what every riyal you spent with us produced.</p>
+    `,
+  },
+  {
+    slug: "altasweek-aabar-albarid-aliliktruniy-alsaudia",
+    publishedAt: "2026-07-13",
+    readTime: 5,
+    category: { ar: "استراتيجية", en: "Strategy" },
+    accentColor: "#0369a1",
+    title: {
+      ar: "التسويق عبر البريد الإلكتروني في السوق السعودي: لا يزال الملك",
+      en: "Email Marketing in the Saudi Market: It's Still the King",
+    },
+    excerpt: {
+      ar: "في عصر السوشيال ميديا، يتجاهل كثيرون قوة البريد الإلكتروني. في السوق السعودي، قائمة بريدية جيدة قد تكون أغلى أصولك التسويقية.",
+      en: "In the era of social media, many overlook the power of email. In the Saudi market, a good email list may be your most valuable marketing asset.",
+    },
+    tags: ["بريد إلكتروني", "email marketing", "تسويق رقمي", "وكالة تسويق"],
+    contentAr: `
+<h2>لماذا البريد الإلكتروني لا يزال فعّالاً جداً؟</h2>
+<p>عائد الاستثمار في التسويق عبر البريد الإلكتروني يبلغ في المتوسط 42 دولاراً لكل دولار يُنفق — أعلى من أي قناة تسويقية رقمية أخرى. في السعودية، نسبة فتح الرسائل الإلكترونية في القطاعات B2B والتجزئة مرتفعة بشكل ملحوظ مقارنة بمناطق أخرى.</p>
+
+<h2>كيف تبني قائمتك البريدية في السعودية؟</h2>
+<p>بناء قائمة بريدية ذات جودة يحتاج إلى وقت وأسلوب ذكي. قدّم قيمة مجانية مقابل البريد الإلكتروني: دليل مجاني، خصم حصري، محتوى متميز، أو وصول مبكر لعروض موسمية. الأهم أن تحصل على موافقة صريحة من المشترك لتجنّب مشكلات الامتثال القانوني.</p>
+
+<h2>أنواع رسائل البريد الناجحة في السوق السعودي</h2>
+<ul>
+<li>رسائل الترحيب والتعريف بالعلامة التجارية</li>
+<li>النشرات الإخبارية الأسبوعية أو الشهرية بمحتوى قيّم</li>
+<li>رسائل العروض الموسمية (رمضان، اليوم الوطني، البلاك فرايدي)</li>
+<li>رسائل ما بعد الشراء وطلب التقييم</li>
+</ul>
+
+<h2>الأدوات والتكامل مع قنوات أخرى</h2>
+<p>البريد الإلكتروني يعمل بشكل ممتاز حين يتكامل مع السوشيال ميديا وواتساب بيزنس. <strong>وبر الإبداعية</strong> تُساعدك في بناء منظومة تسويقية متكاملة تُضاعف أثر كل قناة من خلال تكاملها مع الأخرى.</p>
+    `,
+    contentEn: `
+<h2>Why Email Marketing Remains Highly Effective</h2>
+<p>Email marketing ROI averages $42 for every $1 spent — higher than any other digital marketing channel. In Saudi Arabia, email open rates in B2B and retail sectors are notably high compared to other regions.</p>
+
+<h2>Building a Quality Email List in Saudi Arabia</h2>
+<p>Offer free value in exchange for email addresses: free guides, exclusive discounts, premium content, or early access to seasonal offers. Always obtain explicit subscriber consent to avoid compliance issues.</p>
+
+<h2>Conclusion</h2>
+<p><strong>Waber Creative Agency</strong> helps you build an integrated marketing system where email works alongside social media and WhatsApp Business to multiply the impact of every channel.</p>
+    `,
+  },
+  {
+    slug: "tasweek-ramadan-alyawm-alwatani-alsaudia",
+    publishedAt: "2026-07-12",
+    readTime: 7,
+    category: { ar: "محتوى", en: "Content" },
+    accentColor: "#15803d",
+    title: {
+      ar: "تسويق المواسم في السعودية: رمضان واليوم الوطني وموسم الرياض",
+      en: "Seasonal Marketing in Saudi Arabia: Ramadan, National Day, and Riyadh Season",
+    },
+    excerpt: {
+      ar: "المواسم الكبرى في السعودية فرص تسويقية لا مثيل لها. تعلّم كيف تستعد لها مبكراً وتُحقق أقصى عائد من كل موسم.",
+      en: "Saudi Arabia's major seasons are unparalleled marketing opportunities. Learn how to prepare for them early and maximize returns from each season.",
+    },
+    tags: ["تسويق رمضان", "اليوم الوطني", "موسم الرياض", "تسويق موسمي", "وكالة تسويق"],
+    contentAr: `
+<h2>لماذا المواسم السعودية فرص ذهبية للتسويق؟</h2>
+<p>السعودية تشهد مواسم استهلاكية بالغة القوة لا مثيل لها في المنطقة. شهر رمضان الكريم وحده يُشهد ارتفاعاً يصل إلى 40% في الإنفاق الاستهلاكي. اليوم الوطني السعودي يُنشّط قطاعات كاملة من الترفيه إلى الأزياء. وموسم الرياض أصبح حدثاً عالمياً يجذب الملايين من داخل المملكة وخارجها.</p>
+
+<h2>تسويق رمضان: الوصفة المثلى</h2>
+<p>رمضان ليس موسم بيع فحسب — بل موسم قيم ومشاعر. المحتوى الذي يُعبّر عن روح رمضان ويتصل بالقيم الأسرية والتكافل الاجتماعي يُحقق تفاعلاً استثنائياً. التحضير يجب أن يبدأ قبل شهرين على الأقل من بداية رمضان. <strong>الحملات العاطفية</strong> التي تُبكي وتُبهج وتُذكّر تُبني ولاءً يتجاوز الموسم بكثير.</p>
+
+<h2>اليوم الوطني السعودي 93 وما بعده</h2>
+<p>اليوم الوطني يُنشّط المشاعر الوطنية بشكل استثنائي. المحتوى الذي يُعبّر عن الفخر بالوطن ويُسلّط الضوء على الإنجازات السعودية يُحقق ملايين المشاهدات. الألوان الوطنية (الأخضر والأبيض)، والرموز السعودية، والأصالة الثقافية — هذه العناصر تجعل حملتك تتحدث مباشرة إلى القلب.</p>
+
+<h2>موسم الرياض: الفرصة الأكبر</h2>
+<p>موسم الرياض تحوّل إلى فرصة تسويقية ضخمة تجمع الترفيه والتسوق والسياحة. الشركات التي تُبني حضوراً مبكراً في موسم الرياض تُحقق نتائج تمتد لما بعد انتهاء الموسم. في <strong>وبر الإبداعية</strong>، نُخطّط لحملات المواسم مبكراً ونُنفّذها باحترافية تُميّز علامتك في أحتدم المواسم.</p>
+    `,
+    contentEn: `
+<h2>Why Saudi Seasons Are Golden Marketing Opportunities</h2>
+<p>Saudi Arabia experiences uniquely powerful consumer seasons. Ramadan alone sees spending increases of up to 40%. National Day activates entire sectors from entertainment to fashion. And Riyadh Season has become a global event attracting millions from inside and outside the Kingdom.</p>
+
+<h2>Seasonal Marketing Strategy for Saudi Arabia</h2>
+<p>Preparation must begin at least two months before each season. Ramadan campaigns require emotional authenticity, National Day content should celebrate national pride and achievements, and Riyadh Season demands early presence to build visibility that extends beyond the season itself.</p>
+
+<h2>Conclusion</h2>
+<p>At <strong>Waber Creative Agency</strong>, we plan seasonal campaigns early and execute them with the professionalism that distinguishes your brand in the most competitive seasons.</p>
+    `,
+  },
+  {
+    slug: "khuttat-tasweekiya-mutakamila-aam-kamil",
+    publishedAt: "2026-07-11",
+    readTime: 8,
+    category: { ar: "استراتيجية", en: "Strategy" },
+    accentColor: "#1d4ed8",
+    title: {
+      ar: "كيف تُنشئ خطة تسويقية متكاملة لعام كامل لشركتك في السعودية",
+      en: "How to Create a Complete Annual Marketing Plan for Your Company in Saudi Arabia",
+    },
+    excerpt: {
+      ar: "الخطة التسويقية السنوية هي الفرق بين العمل بشكل عشوائي والعمل بشكل استراتيجي. تعلّم كيف تبني خطة متكاملة تُوجّه كل قرار تسويقي طوال العام.",
+      en: "An annual marketing plan is the difference between working randomly and working strategically. Learn how to build a comprehensive plan that guides every marketing decision throughout the year.",
+    },
+    tags: ["خطة تسويقية", "استراتيجية تسويق", "تخطيط تسويقي", "وكالة تسويق السعودية"],
+    contentAr: `
+<h2>لماذا تحتاج إلى خطة تسويقية سنوية؟</h2>
+<p>الشركات التي تعمل بخطة تسويقية واضحة تُحقق أهدافها بشكل أفضل بنسبة 313% مقارنة بتلك التي تعمل عشوائياً. الخطة التسويقية ليست وثيقة ترف — بل خريطة طريق تُحدّد أين تذهب ميزانيتك وطاقتك وجهودك طوال العام في سوق الرياض التنافسي.</p>
+
+<h2>المرحلة الأولى: تحليل الوضع الراهن</h2>
+<p>قبل أن تُخطّط المستقبل، تحتاج إلى فهم الحاضر. تحليل SWOT، ودراسة المنافسين، وتحليل الجمهور المستهدف، ومراجعة أداء الحملات السابقة — هذه الخطوات تُعطيك الأساس الذي تبني عليه خطتك.</p>
+
+<h2>المرحلة الثانية: تحديد الأهداف الذكية SMART</h2>
+<p>الأهداف الجيدة: محددة (Specific)، قابلة للقياس (Measurable)، قابلة للتحقيق (Achievable)، ذات صلة (Relevant)، ومحددة زمنياً (Time-bound). "زيادة المبيعات" هدف سيئ. "زيادة مبيعات الجزء الأون لاين بنسبة 30% خلال الربع الثاني" هدف جيد.</p>
+
+<h2>المرحلة الثالثة: توزيع الميزانية بذكاء</h2>
+<p>توزيع الميزانية التسويقية على القنوات المختلفة يجب أن يعكس أولوياتك ومراحل نمو شركتك. الشركات الناشئة تُخصص أكثر للوعي بالعلامة، بينما الشركات القائمة تُركّز أكثر على التحويل والاستبقاء.</p>
+
+<h2>المرحلة الرابعة: التقويم التسويقي والتنفيذ</h2>
+<p>تقويم تسويقي شهري وأسبوعي يُجدوَل على المناسبات الوطنية والدينية والموسمية في السعودية يضمن أنك لا تفوّت أي فرصة تسويقية طوال العام. <strong>وبر الإبداعية</strong> تُساعد عملاءها في بناء هذه الخطط وتنفيذها بانضباط واحترافية.</p>
+    `,
+    contentEn: `
+<h2>Why You Need an Annual Marketing Plan</h2>
+<p>Companies that work with a clear marketing plan achieve their goals 313% better than those working randomly. The marketing plan is not a luxury document — it's a roadmap that determines where your budget, energy, and efforts go throughout the year in Riyadh's competitive market.</p>
+
+<h2>Four Phases of Building a Complete Annual Marketing Plan</h2>
+<p>Current situation analysis (SWOT, competitor study, audience analysis), SMART goal setting, intelligent budget distribution across channels, and building a marketing calendar aligned with Saudi seasons and occasions.</p>
+
+<h2>Conclusion</h2>
+<p><strong>Waber Creative Agency</strong> helps clients build these annual plans and execute them with discipline and professionalism throughout the year.</p>
+    `,
+  },
+  {
+    slug: "tasweek-almataiem-walmatahiy-riyadh",
+    publishedAt: "2026-07-09",
+    readTime: 5,
+    category: { ar: "استراتيجية", en: "Strategy" },
+    accentColor: "#b45309",
+    title: {
+      ar: "تسويق المطاعم والمقاهي في الرياض: من الإنستجرام إلى الباب الأمامي",
+      en: "Marketing Restaurants and Cafes in Riyadh: From Instagram to the Front Door",
+    },
+    excerpt: {
+      ar: "صناعة المطاعم في الرياض تشهد منافسة شرسة. تعلّم كيف تُبرز مطعمك أو مقهاك وتُحوّل المتابعين إلى زوار حقيقيين ودائمين.",
+      en: "The restaurant industry in Riyadh is fiercely competitive. Learn how to make your restaurant or cafe stand out and convert followers into real, returning visitors.",
+    },
+    tags: ["تسويق مطاعم", "تسويق رقمي الرياض", "إنستجرام مطاعم", "مقاهي الرياض"],
+    contentAr: `
+<h2>الواقع التنافسي لصناعة الأغذية في الرياض</h2>
+<p>الرياض تشهد نمواً غير مسبوق في قطاع المطاعم والمقاهي، مع آلاف المنشآت التي تتنافس على نفس الجمهور. في هذا المشهد، التسويق الرقمي الذكي ليس مجرد ميزة — بل هو ما يُحدّد الفرق بين المطعم الذي يصف عليه الناس والمطعم الذي لا يملأ طاولاته.</p>
+
+<h2>إنستجرام: قلب التسويق للمطاعم</h2>
+<p>الطعام ومنصة إنستجرام تزواج مثالي. الصور الاحترافية للأطباق والأجواء تُحقق تفاعلاً استثنائياً. لكن إنستجرام الناجح يحتاج إلى: تصوير احترافي، هاشتاقات محلية مدروسة، قصص يومية، ريلز إبداعية، والتفاعل الفوري مع التعليقات.</p>
+
+<h2>استراتيجية المؤثرين للمطاعم</h2>
+<p>دعوة مؤثري الطعام (Food Bloggers) للزيارة وإنتاج محتوى عن تجربتهم يُولّد حجوزات حقيقية. المؤثرون المحليون الذين يتابعهم سكان الرياض يُحقق تأثيراً أعمق من المؤثرين الكبار الوطنيين في أحيان كثيرة.</p>
+
+<h2>جوجل ماي بيزنس: الأداة التي يتجاهلها معظم المطاعم</h2>
+<p>عندما يبحث شخص عن "أفضل مطعم بالقرب مني" أو "مطعم سوشي الرياض"، تظهر نتائج جوجل ماي بيزنس قبل أي شيء آخر. تحسين ملفك على جوجل ماي بيزنس بصور محدّثة وتقييمات إيجابية ومعلومات دقيقة يُحوّل جوجل إلى مصدر مستمر لعملاء جدد. <strong>وبر الإبداعية</strong> تُدير هذه الجوانب بشكل احترافي لعملائها في قطاع الأغذية بالرياض.</p>
+    `,
+    contentEn: `
+<h2>The Competitive Reality of F&B in Riyadh</h2>
+<p>Riyadh's restaurant and cafe sector is experiencing unprecedented growth with thousands of establishments competing for the same audience. Smart digital marketing is not just an advantage — it's what determines the difference between a fully booked restaurant and one with empty tables.</p>
+
+<h2>Instagram, Influencers, and Google My Business</h2>
+<p>Professional food photography on Instagram, strategic collaborations with local food influencers, and an optimized Google My Business profile form the three pillars of successful restaurant marketing in Riyadh.</p>
+
+<h2>Conclusion</h2>
+<p><strong>Waber Creative Agency</strong> manages these digital aspects professionally for F&B clients in Riyadh, turning online visibility into real reservations and foot traffic.</p>
+    `,
+  },
+  {
+    slug: "iidarat-azamat-alsoshyal-midia-alsaudia",
+    publishedAt: "2026-07-07",
+    readTime: 6,
+    category: { ar: "سوشيال ميديا", en: "Social Media" },
+    accentColor: "#be123c",
+    title: {
+      ar: "إدارة الأزمات على السوشيال ميديا للعلامات التجارية السعودية",
+      en: "Social Media Crisis Management for Saudi Brands",
+    },
+    excerpt: {
+      ar: "تعليق واحد سلبي ينتشر على تويتر قد يُدمّر سمعة علامة بناها جهد سنوات. تعلّم كيف تُدير الأزمات الرقمية بحكمة واحترافية في السوق السعودي.",
+      en: "One negative comment spreading on Twitter can destroy a brand's reputation built over years of effort. Learn how to manage digital crises wisely and professionally in the Saudi market.",
+    },
+    tags: ["إدارة أزمات", "سمعة إلكترونية", "سوشيال ميديا", "وكالة تسويق السعودية"],
+    contentAr: `
+<h2>الأزمة الرقمية: متى وكيف تحدث؟</h2>
+<p>الأزمة الرقمية للعلامة التجارية يمكن أن تنشأ في ثوانٍ: تعليق غاضب من عميل، فيديو منتشر يُظهر تجربة سلبية، موقف موظف غير لائق، أو حتى سوء فهم لمنشور. في عصر تويتر (X) وسناب شات، الأخبار تنتشر قبل أن تتمكن من الاستيعاب ما حدث.</p>
+
+<h2>القاعدة الذهبية: السرعة والصدق</h2>
+<p>في إدارة الأزمات الرقمية، الصمت أسوأ من الخطأ الأصلي. الجمهور السعودي يُقدّر الاعتراف بالخطأ والتعامل معه بشكل حضاري أكثر من التجاهل والانتظار. الرد السريع (خلال ساعة من اندلاع الأزمة) والصادق يُهدّئ معظم الأزمات قبل أن تتحول إلى عاصفة.</p>
+
+<h2>خطوات إدارة الأزمة الرقمية</h2>
+<ul>
+<li><strong>الرصد الفوري:</strong> أدوات مراقبة السوشيال ميديا تُنبّهك فور بداية الأزمة</li>
+<li><strong>التقييم السريع:</strong> هل هي أزمة حقيقية أم مجرد تعليق معزول؟</li>
+<li><strong>الرد الرسمي:</strong> ردّ حضاري وصادق يُظهر أنك تأخذ الأمر بجدية</li>
+<li><strong>حل المشكلة:</strong> إجراء ملموس يُثبت التزامك بالجودة</li>
+<li><strong>المتابعة:</strong> التأكد من أن الحل وصل إلى صاحب الشكوى والجمهور</li>
+</ul>
+
+<h2>الوقاية خير من العلاج</h2>
+<p>الاستثمار في رضا العملاء ومراقبة السمعة الإلكترونية يمنع معظم الأزمات قبل حدوثها. <strong>وبر الإبداعية</strong> تُقدّم خدمات مراقبة وإدارة السمعة الإلكترونية بشكل استباقي لحماية علامتك من الأزمات المحتملة.</p>
+    `,
+    contentEn: `
+<h2>The Digital Crisis: When and How It Happens</h2>
+<p>A brand's digital crisis can erupt in seconds: an angry customer comment, a viral video showing a negative experience, or a misunderstood post. In the age of Twitter (X) and Snapchat, news spreads before you can fully comprehend what happened.</p>
+
+<h2>The Golden Rules: Speed and Honesty</h2>
+<p>In digital crisis management, silence is worse than the original mistake. The Saudi audience appreciates acknowledging errors and handling them civilly more than ignoring them. A quick, honest response within the first hour can defuse most crises before they become storms.</p>
+
+<h2>Conclusion</h2>
+<p><strong>Waber Creative Agency</strong> provides proactive online reputation monitoring and management services to protect your brand from potential crises before they occur.</p>
+    `,
+  },
+  {
+    slug: "alanfaq-almadfuu-muqabil-altasweek-alaudwi",
+    publishedAt: "2026-07-06",
+    readTime: 6,
+    category: { ar: "أداء", en: "Performance Marketing" },
+    accentColor: "#0891b2",
+    title: {
+      ar: "الإعلانات المدفوعة مقابل التسويق العضوي في السعودية: ما الأنسب لك؟",
+      en: "Paid Ads vs. Organic Marketing in Saudi Arabia: What's Right for You?",
+    },
+    excerpt: {
+      ar: "هل تُنفق ميزانيتك على الإعلانات المدفوعة أم تستثمر في التسويق العضوي؟ الإجابة ليست واحدة — بل تعتمد على مرحلة شركتك وأهدافك في السوق السعودي.",
+      en: "Should you spend your budget on paid ads or invest in organic marketing? The answer isn't one-size-fits-all — it depends on your company's stage and goals in the Saudi market.",
+    },
+    tags: ["إعلانات مدفوعة", "تسويق عضوي", "SEO", "جوجل أدز", "وكالة تسويق"],
+    contentAr: `
+<h2>فهم الفرق الجوهري</h2>
+<p><strong>الإعلانات المدفوعة (Paid):</strong> تدفع مقابل الظهور — نتائج سريعة، لكن تتوقف حين تتوقف عن الدفع. <strong>التسويق العضوي (Organic):</strong> تستثمر في المحتوى والـ SEO — بناء أبطأ، لكن أثره يتراكم ويستمر.</p>
+
+<h2>متى تختار الإعلانات المدفوعة؟</h2>
+<ul>
+<li>عند إطلاق منتج أو خدمة جديدة وتحتاج وصولاً سريعاً</li>
+<li>في المواسم والمناسبات المحدودة زمنياً كرمضان واليوم الوطني</li>
+<li>لاختبار فكرة تسويقية جديدة بسرعة</li>
+<li>عند استهداف جمهور دقيق ومحدد جغرافياً</li>
+</ul>
+
+<h2>متى تستثمر في التسويق العضوي؟</h2>
+<ul>
+<li>عندما تريد بناء سلطة ومصداقية طويلة الأمد في مجالك</li>
+<li>لتقليل تكلفة اكتساب العملاء على المدى البعيد</li>
+<li>لبناء قاعدة جمهور وفيّ يثق بعلامتك</li>
+<li>في المجالات التي يبحث فيها الناس قبل الشراء</li>
+</ul>
+
+<h2>الاستراتيجية المثلى: الدمج الذكي</h2>
+<p>الشركات الناجحة في السوق السعودي لا تختار بين الاثنين — بل تُدمجهما بذكاء. الإعلانات المدفوعة تُحقق نتائج فورية بينما تبني قنواتك العضوية تدريجياً، ثم تُقلّل الإنفاق المدفوع تدريجياً مع نمو وصولك العضوي. <strong>وبر الإبداعية</strong> تُصمّم هذه الاستراتيجية المتوازنة لكل عميل بحسب مرحلته وميزانيته وأهدافه.</p>
+    `,
+    contentEn: `
+<h2>Understanding the Core Difference</h2>
+<p>Paid ads deliver immediate visibility that stops when you stop paying. Organic marketing builds slower but creates compounding value that grows over time. The Saudi market rewards brands that master both.</p>
+
+<h2>The Optimal Strategy: Intelligent Integration</h2>
+<p>Successful companies in the Saudi market don't choose between the two — they integrate both intelligently. Paid ads deliver immediate results while organic channels build gradually, then paid spending is reduced as organic reach grows.</p>
+
+<h2>Conclusion</h2>
+<p><strong>Waber Creative Agency</strong> designs this balanced strategy for each client according to their stage, budget, and goals in the Saudi market.</p>
+    `,
+  },
+  {
+    slug: "tasweek-aiqarat-riyadh",
+    publishedAt: "2026-07-04",
+    readTime: 6,
+    category: { ar: "استراتيجية", en: "Strategy" },
+    accentColor: "#166534",
+    title: {
+      ar: "تسويق العقارات في الرياض: استراتيجيات تُحقق مبيعات حقيقية",
+      en: "Real Estate Marketing in Riyadh: Strategies That Generate Real Sales",
+    },
+    excerpt: {
+      ar: "قطاع العقارات في الرياض من أكثر القطاعات تنافسية. تعلّم كيف تُسوّق مشاريعك العقارية رقمياً وتصل إلى المشترين المؤهّلين في السوق السعودي.",
+      en: "The real estate sector in Riyadh is among the most competitive. Learn how to market your real estate projects digitally and reach qualified buyers in the Saudi market.",
+    },
+    tags: ["تسويق عقارات", "عقارات الرياض", "تسويق رقمي", "وكالة تسويق عقارات السعودية"],
+    contentAr: `
+<h2>لماذا التسويق الرقمي ضروري لقطاع العقارات في الرياض؟</h2>
+<p>74% من المشترين العقاريين في السعودية يبدأون بحثهم على الإنترنت قبل التواصل مع أي وسيط. هذا يعني أن المشروع العقاري الذي لا يملك حضوراً رقمياً قوياً يُفوّت أكثر من ثلاثة أرباع السوق المحتمل.</p>
+
+<h2>أدوات التسويق العقاري الرقمي في الرياض</h2>
+<ul>
+<li><strong>الموقع الإلكتروني المتخصص:</strong> صفحات منفصلة لكل مشروع مع صور عالية الجودة ومخططات ثلاثية الأبعاد</li>
+<li><strong>إعلانات جوجل:</strong> استهداف من يبحث عن "شقق للبيع الرياض" أو "فلل في حي النرجس"</li>
+<li><strong>يوتيوب وإنستجرام:</strong> جولات افتراضية بالفيديو تُتيح للمشتري رؤية العقار من بيته</li>
+<li><strong>لينكد إن:</strong> للوصول إلى المستثمرين والشركات التي تبحث عن مقارّ تجارية</li>
+</ul>
+
+<h2>قوة الجولات الافتراضية في التسويق العقاري</h2>
+<p>إنتاج جولات افتراضية 360 درجة أو فيديوهات احترافية للمشاريع العقارية يُقلّل من تكلفة الاستفسارات غير المؤهّلة ويُعجّل قرار الشراء. المشتري الذي شاهد العقار رقمياً يأتي للمعاينة الفعلية وفي ذهنه قرار شبه نهائي.</p>
+
+<h2>وبر الإبداعية وقطاع العقارات</h2>
+<p>في <strong>وبر الإبداعية في الرياض</strong>، نُقدّم حزمة تسويق عقاري متكاملة: من تصميم الهوية البصرية للمشروع، إلى الإنتاج المرئي الاحترافي، إلى إدارة الحملات الرقمية التي تُولّد استفسارات حقيقية وتُغلق صفقات فعلية.</p>
+    `,
+    contentEn: `
+<h2>Why Digital Marketing Is Essential for Real Estate in Riyadh</h2>
+<p>74% of real estate buyers in Saudi Arabia start their search online before contacting any broker. A real estate project without a strong digital presence misses more than three-quarters of the potential market.</p>
+
+<h2>Digital Real Estate Marketing Tools in Riyadh</h2>
+<p>Specialized project websites, Google Ads targeting active searchers, virtual tours on YouTube and Instagram, and LinkedIn for reaching investors and corporate clients — these form the complete digital marketing toolkit for Saudi real estate.</p>
+
+<h2>Conclusion</h2>
+<p>At <strong>Waber Creative Agency in Riyadh</strong>, we provide integrated real estate marketing packages: from project brand identity design to professional video production to digital campaign management that generates real inquiries and closes actual deals.</p>
+    `,
+  },
+  {
+    slug: "kaifa-tusawwiq-tatbeeqan-alsaudia",
+    publishedAt: "2026-07-03",
+    readTime: 6,
+    category: { ar: "تسويق رقمي", en: "Digital Marketing" },
+    accentColor: "#7c3aed",
+    title: {
+      ar: "كيف تُسوّق تطبيقاً للهاتف في السوق السعودي؟",
+      en: "How to Market a Mobile App in the Saudi Market?",
+    },
+    excerpt: {
+      ar: "السعوديون من أكثر مستخدمي الهواتف الذكية في العالم. تعلّم كيف تُطلق تطبيقك في السوق السعودي وتحصل على تنزيلات حقيقية من مستخدمين نشطين.",
+      en: "Saudis are among the world's most avid smartphone users. Learn how to launch your app in the Saudi market and get real downloads from active users.",
+    },
+    tags: ["تسويق تطبيقات", "App marketing", "تطبيقات سعودية", "تسويق رقمي الرياض"],
+    contentAr: `
+<h2>السوق السعودي للتطبيقات: أرقام ضخمة</h2>
+<p>السعودية تُصنَّف باستمرار من أعلى دول العالم في معدلات استخدام الهواتف الذكية وتحميل التطبيقات. الإنفاق داخل التطبيقات من بين الأعلى في المنطقة العربية. هذا يجعل السوق السعودي بيئة مثالية لإطلاق التطبيقات وتحقيق عائد حقيقي منها.</p>
+
+<h2>ASO: تحسين التطبيق لمتجري آبل وجوجل</h2>
+<p>App Store Optimization (ASO) هو الـ SEO الخاص بالتطبيقات. اسم التطبيق، والوصف بالعربية، والكلمات المفتاحية المدروسة، والصور الترويجية الجذابة — كلها تُحدد مدى ظهور تطبيقك عندما يبحث سعودي عن تطبيق مشابه.</p>
+
+<h2>الإطلاق: استراتيجية الموجات المتتالية</h2>
+<p>الإطلاق الناجح للتطبيق يعتمد على موجات تسويقية متتتالية: قبل الإطلاق (بناء الترقّب)، يوم الإطلاق (ضخ إعلاني مكثف)، وما بعد الإطلاق (تحويل المستخدمين الأوائل إلى سفراء). كل مرحلة لها أدواتها ورسائلها الخاصة.</p>
+
+<h2>استراتيجيات الاحتفاظ بالمستخدمين</h2>
+<p>جلب المستخدم للتطبيق هو نصف المعركة — الاحتفاظ به هو النصف الأصعب. الإشعارات الشخصية الذكية، وبرامج الولاء، والمحتوى الحصري داخل التطبيق — هذه الأدوات تُحوّل المستخدم المجرب إلى مستخدم دائم. <strong>وبر الإبداعية</strong> تُقدّم استراتيجيات تسويق تطبيقات متكاملة للعلامات التجارية السعودية.</p>
+    `,
+    contentEn: `
+<h2>The Saudi App Market: Massive Numbers</h2>
+<p>Saudi Arabia consistently ranks among the world's highest countries in smartphone usage rates and app downloads. In-app spending is among the highest in the Arab region, making Saudi Arabia an ideal environment for app launches and generating real returns.</p>
+
+<h2>ASO, Launch Strategy, and User Retention</h2>
+<p>App Store Optimization with Arabic keywords, a multi-wave launch strategy, and smart retention tools like personalized notifications and loyalty programs form the complete formula for successful app marketing in Saudi Arabia.</p>
+
+<h2>Conclusion</h2>
+<p><strong>Waber Creative Agency</strong> provides comprehensive app marketing strategies for Saudi brands, from pre-launch buzz building to post-launch user retention.</p>
+    `,
+  },
+  {
+    slug: "binaa-mujtamaa-aalamat-tijaariya-alsaudia",
+    publishedAt: "2026-07-02",
+    readTime: 5,
+    category: { ar: "سوشيال ميديا", en: "Social Media" },
+    accentColor: "#0d9488",
+    title: {
+      ar: "بناء مجتمع العلامة التجارية في السعودية: ولاء يتجاوز المنتج",
+      en: "Building Brand Community in Saudi Arabia: Loyalty That Goes Beyond the Product",
+    },
+    excerpt: {
+      ar: "العلامات التجارية التي تبني مجتمعاً حقيقياً حولها تُحقق ولاءً لا تستطيع أي ميزانية إعلانية شراءه. اكتشف كيف تبني هذا المجتمع في السوق السعودي.",
+      en: "Brands that build a real community around them achieve loyalty that no advertising budget can buy. Discover how to build this community in the Saudi market.",
+    },
+    tags: ["مجتمع العلامة", "ولاء العملاء", "سوشيال ميديا", "وكالة تسويق السعودية"],
+    contentAr: `
+<h2>ما الفرق بين المتابعين والمجتمع؟</h2>
+<p>ملايين المتابعين قد يعني لا شيء إذا لم يكن خلفهم تفاعل حقيقي ووولاء عميق. المجتمع الحقيقي للعلامة هو مجموعة من الناس يُشاركون قيماً مشتركة حول علامتك، يُدافعون عنها، ويُوصون بها لأصدقائهم دون أن تطلب منهم ذلك.</p>
+
+<h2>كيف تبني مجتمعاً حقيقياً في السوق السعودي؟</h2>
+<p>المجتمع السعودي اجتماعي بطبيعته، ويُقدّر الانتماء والهوية المشتركة. العلامات التي تُعبّر بصدق عن قيم يتشاركها جمهورها السعودي — سواء كانت قيماً وطنية، أو اهتماماً بالصحة، أو الفخر بالتراث — تبني تبعية تتجاوز المنتج.</p>
+
+<h2>أدوات بناء المجتمع الرقمي</h2>
+<ul>
+<li>مجموعات واتساب حصرية للعملاء المميزين</li>
+<li>هاشتاق خاص بعلامتك يشارك فيه الجمهور</li>
+<li>برامج "العميل السفير" التي تُكافئ من يُوصي بعلامتك</li>
+<li>الأحداث والتجمعات التي تجمع مجتمع العلامة وجهاً لوجه</li>
+</ul>
+
+<h2>دور وبر الإبداعية</h2>
+<p>في <strong>وبر الإبداعية</strong>، نُساعد العلامات التجارية السعودية على بناء استراتيجيات المجتمع التي تُحوّل العملاء من مشترين إلى مؤمنين. لأن العميل المؤمن بعلامتك يساوي مئة إعلان مدفوع.</p>
+    `,
+    contentEn: `
+<h2>The Difference Between Followers and Community</h2>
+<p>Millions of followers may mean nothing without real engagement and deep loyalty. A brand's true community is a group of people who share common values around your brand, defend it, and recommend it to friends without being asked.</p>
+
+<h2>Building Real Community in the Saudi Market</h2>
+<p>Saudi society is inherently social and values shared identity and belonging. Brands that authentically express values their Saudi audience shares — national pride, health consciousness, or cultural heritage — build followings that transcend the product itself.</p>
+
+<h2>Conclusion</h2>
+<p>At <strong>Waber Creative Agency</strong>, we help Saudi brands build community strategies that transform customers from buyers into believers — because a believer in your brand is worth a hundred paid ads.</p>
+    `,
+  },
+  {
+    slug: "meezniat-tasweek-sahiha-lisharikaat-alsaudia",
+    publishedAt: "2026-06-30",
+    readTime: 6,
+    category: { ar: "ميزانية", en: "Budget" },
+    accentColor: "#9333ea",
+    title: {
+      ar: "كيف تُحدّد ميزانية التسويق الصحيحة لشركتك في السعودية؟",
+      en: "How to Determine the Right Marketing Budget for Your Company in Saudi Arabia",
+    },
+    excerpt: {
+      ar: "الميزانية التسويقية الخاطئة — كبيرة كانت أم صغيرة — تضر بعملك. تعلّم كيف تُحسب ميزانيتك التسويقية المثلى بناءً على حجم شركتك وأهدافك في السوق السعودي.",
+      en: "The wrong marketing budget — too large or too small — hurts your business. Learn how to calculate your optimal marketing budget based on your company size and goals in the Saudi market.",
+    },
+    tags: ["ميزانية تسويق", "تخطيط مالي", "وكالة تسويق", "استراتيجية تسويق السعودية"],
+    contentAr: `
+<h2>السؤال الذي يطرحه كل صاحب عمل</h2>
+<p>"كم أصرف على التسويق؟" — هذا السؤال يُقلق أصحاب الأعمال السعوديين يومياً. الإجابة ليست رقماً واحداً يناسب الجميع، بل تعتمد على عوامل متعددة: حجم شركتك، وقطاعك، ومرحلة نموك، وأهدافك التسويقية.</p>
+
+<h2>المعادلات الشائعة لحساب ميزانية التسويق</h2>
+<p><strong>للشركات الناشئة:</strong> يُنصح بتخصيص 20-25% من الإيرادات المتوقعة للتسويق، لأن بناء الوعي بالعلامة يتطلب استثماراً مكثفاً في البداية.</p>
+<p><strong>للشركات القائمة:</strong> المعيار السائد في كثير من الصناعات السعودية هو 7-12% من الإيرادات السنوية.</p>
+<p><strong>للشركات في أسواق تنافسية:</strong> قطاعات كالمطاعم والتجزئة والعقارات في الرياض تتطلب ميزانيات أعلى للبقاء في المشهد التنافسي.</p>
+
+<h2>توزيع الميزانية بين القنوات</h2>
+<p>ليس الأهم كم تُنفق — بل أين تُنفق. الشركة التي تضع 80% من ميزانيتها في قناة واحدة تُعرّض نفسها لخطر كبير. التوزيع الذكي يُغطّي: الوعي (Brand Awareness)، والتفاعل (Engagement)، والتحويل (Conversion)، والاحتفاظ (Retention).</p>
+
+<h2>وبر الإبداعية: شريكك في رسم الميزانية</h2>
+<p>في <strong>وبر الإبداعية</strong>، نُساعد عملاءنا على بناء ميزانيات تسويقية واقعية ومدروسة. نُحلّل وضع الشركة ونقترح توزيعاً مثالياً يُحقق أقصى عائد من كل ريال تسويقي — لأننا نؤمن أن كل ريال يستحق أن يعمل بأقصى طاقته.</p>
+    `,
+    contentEn: `
+<h2>The Question Every Business Owner Asks</h2>
+<p>"How much should I spend on marketing?" — this question concerns Saudi business owners daily. The answer isn't one number that fits everyone; it depends on company size, sector, growth stage, and marketing objectives.</p>
+
+<h2>Common Formulas for Calculating Marketing Budget</h2>
+<p>Startups should allocate 20-25% of projected revenue to marketing. Established companies typically invest 7-12% of annual revenue. Competitive sectors like restaurants, retail, and real estate in Riyadh require higher budgets to stay visible.</p>
+
+<h2>Conclusion</h2>
+<p>At <strong>Waber Creative Agency</strong>, we help clients build realistic, well-planned marketing budgets with optimal distribution across channels to maximize return from every marketing riyal.</p>
+    `,
+  },
+  {
+    slug: "altasweek-altajreebi-wafaaaliaat-alsaudia",
+    publishedAt: "2026-06-28",
+    readTime: 5,
+    category: { ar: "استراتيجية", en: "Strategy" },
+    accentColor: "#ea580c",
+    title: {
+      ar: "التسويق التجريبي والفعاليات في الرياض: عندما يلتقي العملاء بعلامتك التجارية",
+      en: "Experiential Marketing and Events in Riyadh: When Customers Meet Your Brand",
+    },
+    excerpt: {
+      ar: "في عصر الرقمي، التجربة الحية أصبحت أندر وأقيم. الفعاليات والتسويق التجريبي في الرياض يُخلق ذكريات ترتبط بعلامتك إلى الأبد.",
+      en: "In the digital age, live experience has become rarer and more valuable. Events and experiential marketing in Riyadh create memories forever linked to your brand.",
+    },
+    tags: ["تسويق تجريبي", "فعاليات الرياض", "Brand experience", "تنظيم فعاليات"],
+    contentAr: `
+<h2>لماذا التسويق التجريبي؟</h2>
+<p>الإعلانات الرقمية يُتجاهلها المستخدمون بشكل متزايد. لكن التجربة الحية — لمس المنتج، وتذوق الطعام، والحضور في فعالية — تترك أثراً لا يُمحى. الدراسات تُثبت أن 74% من المشاركين في الفعاليات التجريبية يُصبحون أكثر ولاءً للعلامة التجارية.</p>
+
+<h2>أنواع التسويق التجريبي في الرياض</h2>
+<ul>
+<li><strong>Pop-up Stores:</strong> محلات مؤقتة في أماكن استراتيجية لتجربة المنتج مباشرة</li>
+<li><strong>فعاليات الإطلاق:</strong> إطلاق منتج أو خدمة جديدة في حفل يُشكّل ذكرى</li>
+<li><strong>التجارب الإبداعية المرتبطة بالعلامة:</strong> أنشطة وورش عمل تعكس قيم علامتك</li>
+<li><strong>المشاركة في المعارض والمهرجانات:</strong> موسم الرياض وغيره من الأحداث الكبرى</li>
+</ul>
+
+<h2>دمج التجريبي مع الرقمي</h2>
+<p>التسويق التجريبي الذكي في الرياض لا يكتفي بالحضور الجسدي — بل يُصمَّم ليُولّد محتوى رقمياً. عناصر قابلة للتصوير والنشر، ولحظات "إنستجرامية"، وتجارب تُشجع الحاضرين على المشاركة والنشر — هذا يُضاعف أثر الفعالية من المئات الحاضرين إلى الملايين الرقميين. <strong>وبر الإبداعية</strong> تُخطّط وتُنفّذ الفعاليات بهذه الرؤية المتكاملة.</p>
+    `,
+    contentEn: `
+<h2>Why Experiential Marketing?</h2>
+<p>Digital ads are increasingly ignored by users. But live experience — touching a product, tasting food, attending an event — leaves an indelible impression. Studies prove that 74% of experiential event participants become more loyal to the brand.</p>
+
+<h2>Integrating Experiential with Digital</h2>
+<p>Smart experiential marketing in Riyadh doesn't stop at physical presence — it's designed to generate digital content. Photogenic elements and "Instagrammable" moments multiply the event's impact from hundreds of attendees to millions of digital viewers.</p>
+
+<h2>Conclusion</h2>
+<p><strong>Waber Creative Agency</strong> plans and executes events with this integrated vision, creating experiences that build brand loyalty and generate organic digital reach simultaneously.</p>
+    `,
+  },
+  {
+    slug: "tasweek-b2b-alsaudia",
+    publishedAt: "2026-06-27",
+    readTime: 7,
+    category: { ar: "استراتيجية", en: "Strategy" },
+    accentColor: "#1d4ed8",
+    title: {
+      ar: "استراتيجية التسويق B2B في السوق السعودي: كيف تصل إلى صانعي القرار",
+      en: "B2B Marketing Strategy in the Saudi Market: How to Reach Decision Makers",
+    },
+    excerpt: {
+      ar: "التسويق بين الشركات في السعودية يختلف جذرياً عن التسويق للمستهلك. تعلّم كيف تبني استراتيجية B2B تصل إلى المديرين وأصحاب القرار في السوق السعودي.",
+      en: "B2B marketing in Saudi Arabia is fundamentally different from consumer marketing. Learn how to build a B2B strategy that reaches directors and decision-makers in the Saudi market.",
+    },
+    tags: ["تسويق B2B", "تسويق الشركات", "لينكد إن", "وكالة تسويق B2B السعودية"],
+    contentAr: `
+<h2>ما الخصوصية التي يتسم بها التسويق B2B في السعودية؟</h2>
+<p>في السوق السعودي، قرارات الشراء المؤسسية تختلف عن القرارات الفردية. دورة الشراء أطول، وصانع القرار في الغالب مدير أو لجنة. العلاقات الشخصية والثقة تلعب دوراً محورياً. وكثيراً ما يكون المسار من الوعي إلى الشراء يمتد لأشهر أو سنوات.</p>
+
+<h2>لينكد إن: الكنز الحقيقي للـ B2B السعودي</h2>
+<p>لينكد إن يمتلك أكثر من 7 مليون مستخدم في السعودية من المحترفين وأصحاب القرار. إنشاء محتوى متخصص يُظهر خبرتك في مجالك، والتفاعل مع مجتمعات المهنيين، وإعلانات لينكد إن المستهدفة بدقة — هذه أقوى أدوات الوصول إلى المشتري المؤسسي السعودي.</p>
+
+<h2>التسويق بالمحتوى للـ B2B</h2>
+<p>التقارير والدراسات المتخصصة، والكتب الإلكترونية المجانية، والمقالات التحليلية العميقة — هذه الأصول تُبني مصداقية علامتك في أعين المشترين المؤسسيين. الشركة التي تُقدّم معرفة وخبرة مجانية تُكسب ثقة العملاء قبل أن تطلب منهم ريالاً واحداً.</p>
+
+<h2>قاعدة البيانات والـ Account-Based Marketing</h2>
+<p>التسويق القائم على الحسابات (ABM) يُركّز جهودك التسويقية على قائمة محددة من الشركات المستهدفة بدلاً من البث العشوائي. في السوق السعودي الذي يُقدّر الشخصنة والعلاقات، ABM يُحقق نتائج استثنائية. <strong>وبر الإبداعية</strong> تُساعد شركات B2B السعودية على بناء استراتيجيات ABM متكاملة.</p>
+    `,
+    contentEn: `
+<h2>B2B Marketing Specifics in Saudi Arabia</h2>
+<p>In the Saudi market, institutional purchasing decisions differ significantly from individual decisions. The buying cycle is longer, decision-makers are typically directors or committees, and personal relationships and trust play a pivotal role — often stretching the awareness-to-purchase journey over months or years.</p>
+
+<h2>LinkedIn, Content Marketing, and Account-Based Marketing</h2>
+<p>LinkedIn with 7M+ Saudi professionals, specialized content that demonstrates expertise, and Account-Based Marketing (ABM) focused on target company lists form the most effective B2B marketing toolkit in the Saudi market.</p>
+
+<h2>Conclusion</h2>
+<p><strong>Waber Creative Agency</strong> helps Saudi B2B companies build integrated ABM strategies that reach the right decision-makers with the right message at the right time.</p>
+    `,
+  },
+  {
+    slug: "aalamat-shakhsia-alsaudia",
+    publishedAt: "2026-06-26",
+    readTime: 5,
+    category: { ar: "الهوية البصرية", en: "Brand Identity" },
+    accentColor: "#be123c",
+    title: {
+      ar: "كيف تبني علامة تجارية شخصية قوية في السعودية؟",
+      en: "How to Build a Strong Personal Brand in Saudi Arabia",
+    },
+    excerpt: {
+      ar: "الشخصية العامة ورائد الأعمال الذي يبني علامة تجارية شخصية قوية في السعودية يفتح أبواباً لا حصر لها. تعلّم كيف تبني حضوراً شخصياً يُفتح به ذراع.",
+      en: "A public figure or entrepreneur who builds a strong personal brand in Saudi Arabia opens limitless doors. Learn how to build a personal presence that opens doors.",
+    },
+    tags: ["علامة شخصية", "Personal branding", "ريادة الأعمال السعودية", "تسويق شخصي"],
+    contentAr: `
+<h2>ما هي العلامة التجارية الشخصية ولماذا تهم في السعودية؟</h2>
+<p>العلامة التجارية الشخصية (Personal Brand) هي الانطباع الذي يتركه اسمك في أذهان الآخرين. في السوق السعودي الذي تُبنى فيه كثير من الصفقات على الثقة الشخصية، امتلاك علامة شخصية قوية يجعلك أكثر مصداقية وتأثيراً في مجالك.</p>
+
+<h2>أعمدة العلامة الشخصية الناجحة</h2>
+<ul>
+<li><strong>التخصص الواضح:</strong> تحديد المجال الذي تريد أن تُعرَف فيه</li>
+<li><strong>المحتوى المستمر:</strong> مقالات، فيديوهات، أو بودكاست يُثبت خبرتك</li>
+<li><strong>الحضور الاجتماعي:</strong> لينكد إن وتويتر للمهنيين، إنستجرام للمبدعين</li>
+<li><strong>الشبكة المهنية:</strong> بناء علاقات مع صانعي القرار والمؤثرين في مجالك</li>
+</ul>
+
+<h2>قصص نجاح العلامات الشخصية في السعودية</h2>
+<p>كثير من رواد الأعمال السعوديين حوّلوا علاماتهم الشخصية إلى أعمال تجارية مزدهرة. الاتساق في المحتوى، والصدق في الرأي، والتخصص العميق في موضوع واحد — هذه مكوّنات العلامة الشخصية التي لا تُنسى.</p>
+
+<h2>وبر الإبداعية وبناء العلامة الشخصية</h2>
+<p>في <strong>وبر الإبداعية</strong>، ساعدنا عدداً من رجال ورائدات الأعمال السعوديين على بناء حضورهم الشخصي الرقمي — من تصميم هوية بصرية شخصية، إلى استراتيجية محتوى، إلى إدارة حساباتهم بشكل احترافي.</p>
+    `,
+    contentEn: `
+<h2>What Is a Personal Brand and Why Does It Matter in Saudi Arabia?</h2>
+<p>A personal brand is the impression your name leaves in others' minds. In Saudi Arabia's market where many deals are built on personal trust, owning a strong personal brand makes you more credible and influential in your field.</p>
+
+<h2>Pillars of a Successful Personal Brand</h2>
+<p>Clear specialization, consistent content demonstrating expertise, active professional social presence, and building relationships with decision-makers and influencers in your field — these form the foundation of an unforgettable personal brand in Saudi Arabia.</p>
+
+<h2>Conclusion</h2>
+<p>At <strong>Waber Creative Agency</strong>, we help Saudi entrepreneurs build their digital personal presence — from personal brand identity design to content strategy to professional account management.</p>
+    `,
+  },
+  {
+    slug: "altijara-aliktrooniya-waltasweek-riyadh",
+    publishedAt: "2026-06-25",
+    readTime: 6,
+    category: { ar: "تجارة إلكترونية", en: "E-Commerce" },
+    accentColor: "#16a34a",
+    title: {
+      ar: "التجارة الإلكترونية والتسويق الرقمي في السعودية: كيف يتكاملان لتنمو مبيعاتك",
+      en: "E-Commerce and Digital Marketing in Saudi Arabia: How They Integrate to Grow Your Sales",
+    },
+    excerpt: {
+      ar: "السوق الإلكتروني السعودي يتجاوز 15 مليار دولار ويتنامى بسرعة. تعلّم كيف تبني متجراً إلكترونياً ناجحاً وتُسوّق له بذكاء في السوق السعودي.",
+      en: "The Saudi e-commerce market exceeds $15 billion and is growing rapidly. Learn how to build a successful online store and market it intelligently in the Saudi market.",
+    },
+    tags: ["تجارة إلكترونية", "متجر إلكتروني", "تسويق رقمي", "e-commerce السعودية"],
+    contentAr: `
+<h2>السوق الإلكتروني السعودي: نمو غير مسبوق</h2>
+<p>المملكة العربية السعودية تُعدّ من أسرع أسواق التجارة الإلكترونية نمواً في المنطقة. الشباب السعودي خاصة يُفضّل التسوق الإلكتروني بسبب الراحة والسرعة وتنوع الخيارات. هذا يعني أن المتجر الإلكتروني الذي يملك استراتيجية تسويقية ذكية في متناول كل رائد أعمال سعودي.</p>
+
+<h2>قنوات التسويق الأكثر فاعلية للتجارة الإلكترونية السعودية</h2>
+<ul>
+<li><strong>إعلانات Meta (إنستجرام وفيسبوك):</strong> الأفضل للوصول إلى جمهور واسع وتحفيز الشراء الاندفاعي</li>
+<li><strong>إعلانات Google Shopping:</strong> الأفضل لاستهداف من يبحث بنشاط عن منتج محدد</li>
+<li><strong>البريد الإلكتروني وواتساب:</strong> للاحتفاظ بالعملاء الحاليين وتحفيزهم على إعادة الشراء</li>
+<li><strong>تسويق المحتوى والـ SEO:</strong> لبناء حركة مرور عضوية مستدامة</li>
+</ul>
+
+<h2>تحسين تجربة التسوق الإلكتروني للمستخدم السعودي</h2>
+<p>المستخدم السعودي يتوقع دفعاً سهلاً (مدى، آبل باي)، وشحناً سريعاً، وخدمة عملاء باللغة العربية. المتجر الذي يُوفّر هذه العناصر يُحقق معدلات تحويل أعلى بكثير من منافسيه.</p>
+
+<h2>وبر الإبداعية وقطاع التجارة الإلكترونية</h2>
+<p><strong>وبر الإبداعية</strong> تعمل مع عدد من المتاجر الإلكترونية السعودية لتطوير استراتيجياتها التسويقية الرقمية. من تصميم حملات الإعلانات إلى تحسين صفحات المنتجات لمحركات البحث — كل شيء مُصمَّم لزيادة مبيعاتك وتقليل تكلفة اكتساب العميل.</p>
+    `,
+    contentEn: `
+<h2>The Saudi E-Commerce Market: Unprecedented Growth</h2>
+<p>Saudi Arabia is among the fastest-growing e-commerce markets in the region. Saudi youth increasingly prefer online shopping for its convenience, speed, and variety. An online store with a smart marketing strategy is within reach of every Saudi entrepreneur.</p>
+
+<h2>Most Effective Marketing Channels for Saudi E-Commerce</h2>
+<p>Meta ads for wide reach and impulse purchases, Google Shopping for active product searchers, email and WhatsApp for customer retention, and SEO for sustainable organic traffic — these four pillars form the optimal marketing mix for Saudi e-commerce.</p>
+
+<h2>Conclusion</h2>
+<p><strong>Waber Creative Agency</strong> works with Saudi e-commerce brands to develop digital marketing strategies — from ad campaign design to SEO product page optimization — all designed to increase sales and reduce customer acquisition costs.</p>
+    `,
+  },
+  {
+    slug: "kaifa-takhtar-alkalimaat-almiftahia-alsaudia",
+    publishedAt: "2026-06-24",
+    readTime: 6,
+    category: { ar: "SEO", en: "SEO" },
+    accentColor: "#b45309",
+    title: {
+      ar: "كيف تختار الكلمات المفتاحية الصحيحة لموقعك في السوق السعودي",
+      en: "How to Choose the Right Keywords for Your Website in the Saudi Market",
+    },
+    excerpt: {
+      ar: "الكلمات المفتاحية الخاطئة تعني مرور حركة لا قيمة لها على موقعك. تعلّم كيف تبحث عن الكلمات التي يستخدمها عملاؤك الفعليون في السوق السعودي.",
+      en: "Wrong keywords mean worthless traffic to your website. Learn how to research the keywords your actual customers use in the Saudi market.",
+    },
+    tags: ["كلمات مفتاحية", "keyword research", "SEO عربي", "وكالة SEO الرياض"],
+    contentAr: `
+<h2>ما الفرق بين الكلمات المفتاحية الجيدة والسيئة؟</h2>
+<p>الكلمة المفتاحية الجيدة تجمع بين: حجم بحث مرتفع (كثيرون يبحثون عنها)، ونية شرائية واضحة (الشخص يريد شراء لا مجرد معلومات)، ومنافسة معقولة (يمكنك الظهور فيها دون إنفاق ملايين). الكلمة السيئة تجلب زواراً لن يشتروا منك أبداً.</p>
+
+<h2>أدوات البحث عن الكلمات المفتاحية للسوق السعودي</h2>
+<ul>
+<li><strong>Google Keyword Planner:</strong> مجاني وقوي، يُظهر حجم البحث الشهري في السعودية</li>
+<li><strong>Ahrefs وSEMrush:</strong> أدوات متقدمة تُظهر الكلمات التي يستخدمها منافسوك</li>
+<li><strong>Google Search Console:</strong> يُخبرك بالكلمات التي يأتي منها زوارك الحاليون</li>
+</ul>
+
+<h2>الكلمات المفتاحية الطويلة (Long-tail): الكنز المخفي</h2>
+<p>بدلاً من استهداف "وكالة تسويق" (منافسة شديدة)، استهدف "وكالة تسويق رقمي للمطاعم في الرياض" (منافسة أقل ونية شراء أعلى). الكلمات الطويلة تجلب زواراً أقل عدداً لكن أعلى قيمة بكثير.</p>
+
+<h2>خصوصية بحث المستخدم السعودي</h2>
+<p>المستخدم السعودي يبحث أحياناً بالعامية السعودية وأحياناً بالفصحى وأحياناً بمزيج منهما. بعضهم يبحث بالإنجليزية. استراتيجية الكلمات المفتاحية الناجحة تغطي هذه التنويعات جميعها. <strong>وبر الإبداعية</strong> تُجري بحثاً متعمقاً عن الكلمات المفتاحية لكل عميل لضمان استهداف الجمهور الصحيح بالكلمات الصحيحة.</p>
+    `,
+    contentEn: `
+<h2>Good vs. Bad Keywords</h2>
+<p>A good keyword combines high search volume, clear purchase intent, and reasonable competition. A bad keyword brings visitors who will never buy from you. The difference determines whether your SEO investment generates revenue or merely traffic.</p>
+
+<h2>Saudi User Search Behavior</h2>
+<p>Saudi users sometimes search in colloquial Saudi dialect, sometimes in formal Arabic, and sometimes in a mix of both. Some search in English. A successful keyword strategy covers all these variations to ensure you capture every potential customer searching for your services.</p>
+
+<h2>Conclusion</h2>
+<p><strong>Waber Creative Agency</strong> conducts in-depth keyword research for each client to ensure targeting the right audience with the right keywords in the Saudi market.</p>
+    `,
+  },
+  {
+    slug: "whatsapp-business-tasweek-alsaudia",
+    publishedAt: "2026-06-23",
+    readTime: 5,
+    category: { ar: "منصات", en: "Platforms" },
+    accentColor: "#15803d",
+    title: {
+      ar: "التسويق عبر واتساب بيزنس في السعودية: القناة المدهوشة التي يتجاهلها المسوّقون",
+      en: "WhatsApp Business Marketing in Saudi Arabia: The Underrated Channel Marketers Ignore",
+    },
+    excerpt: {
+      ar: "واتساب هو التطبيق الأكثر استخداماً في السعودية يومياً. أعمالك التجارية تحتاج إلى استراتيجية واتساب بيزنس محترفة تُحوّل المحادثات إلى مبيعات.",
+      en: "WhatsApp is the most used app daily in Saudi Arabia. Your business needs a professional WhatsApp Business strategy that converts conversations into sales.",
+    },
+    tags: ["واتساب بيزنس", "تسويق واتساب", "تسويق رقمي السعودية", "خدمة عملاء"],
+    contentAr: `
+<h2>واتساب في السعودية: أرقام لا يمكن تجاهلها</h2>
+<p>واتساب يُستخدم من قبل أكثر من 96% من مستخدمي الإنترنت في المملكة العربية السعودية. معدلات فتح رسائل واتساب تصل إلى 98% مقارنة بـ 20% للبريد الإلكتروني. هذا وحده يكفي لجعل واتساب بيزنس أداة تسويقية لا يمكن لأي عمل تجاري في الرياض تجاهلها.</p>
+
+<h2>إعداد واتساب بيزنس بشكل احترافي</h2>
+<p>الملف التجاري الكامل (اسم الشركة، الوصف، الموقع، ساعات العمل)، والردود التلقائية الذكية، والكتالوج الإلكتروني للمنتجات والخدمات — هذه العناصر تُحوّل واتساب من أداة تواصل إلى منصة مبيعات متكاملة.</p>
+
+<h2>استراتيجيات التسويق عبر واتساب</h2>
+<ul>
+<li><strong>قوائم البث (Broadcast Lists):</strong> إرسال رسائل مُخصّصة لشرائح محددة من عملائك</li>
+<li><strong>الرد الفوري:</strong> كل دقيقة تأخير في الرد تُقلّل فرصة الإغلاق بنسبة 10%</li>
+<li><strong>الكتالوج الرقمي:</strong> عرض منتجاتك وخدماتك بصور وأسعار واضحة</li>
+<li><strong>رسائل ما بعد الشراء:</strong> تتبع رضا العميل وطلب التقييم</li>
+</ul>
+
+<h2>واتساب بيزنس API للشركات المتوسطة والكبيرة</h2>
+<p>للشركات التي تتعامل مع مئات أو آلاف العملاء يومياً، واتساب بيزنس API يُتيح أتمتة الردود والتكامل مع أنظمة CRM وإدارة المحادثات من فريق متعدد. <strong>وبر الإبداعية</strong> تُساعد الشركات السعودية على إعداد هذه المنظومة بشكل احترافي.</p>
+    `,
+    contentEn: `
+<h2>WhatsApp in Saudi Arabia: Numbers You Can't Ignore</h2>
+<p>WhatsApp is used by over 96% of Saudi internet users, with message open rates reaching 98% compared to 20% for email. This makes WhatsApp Business an indispensable marketing tool for any business in Riyadh.</p>
+
+<h2>WhatsApp Marketing Strategies and API</h2>
+<p>Broadcast lists for segmented messaging, instant response systems, digital product catalogs, and post-purchase follow-up messages form the complete WhatsApp Business marketing toolkit. For companies handling hundreds of daily customers, WhatsApp Business API enables automation and CRM integration.</p>
+
+<h2>Conclusion</h2>
+<p><strong>Waber Creative Agency</strong> helps Saudi companies set up and operate professional WhatsApp Business systems that convert conversations into sales.</p>
+    `,
+  },
+  {
+    slug: "mustaqbal-altasweek-alsaudia-ruyia-2030",
+    publishedAt: "2026-06-22",
+    readTime: 7,
+    category: { ar: "رؤية 2030", en: "Vision 2030" },
+    accentColor: "#166534",
+    title: {
+      ar: "مستقبل التسويق في السعودية: كيف تتشكّل الفرص في ضوء رؤية 2030",
+      en: "The Future of Marketing in Saudi Arabia: How Opportunities Are Shaped by Vision 2030",
+    },
+    excerpt: {
+      ar: "رؤية 2030 تُعيد رسم خريطة الاقتصاد السعودي. القطاعات الجديدة والجمهور المتحوّل يفتحان آفاقاً تسويقية لم تكن موجودة قبل عقد. تعلّم كيف تضع شركتك في قلب هذا التحوّل.",
+      en: "Vision 2030 is redrawing Saudi Arabia's economic map. New sectors and a transforming audience open marketing horizons that didn't exist a decade ago. Learn how to position your company at the heart of this transformation.",
+    },
+    tags: ["رؤية 2030", "تسويق السعودية", "مستقبل التسويق", "فرص استثمارية"],
+    contentAr: `
+<h2>رؤية 2030 وتحوّل ملامح المستهلك السعودي</h2>
+<p>رؤية 2030 لم تُغيّر فقط اقتصاد المملكة — بل غيّرت طبيعة المستهلك السعودي نفسه. الشاب السعودي اليوم أكثر انفتاحاً على التجارب الجديدة، وأكثر ارتباطاً بالعالم الرقمي، وأكثر وعياً بالعلامات التجارية مقارنة بأي جيل سبقه. هذا يعني أن رسائل التسويق ومنصات التواصل وأساليب الإقناع تحتاج إلى مراجعة جذرية.</p>
+
+<h2>القطاعات الجديدة الواعدة للتسويق</h2>
+<ul>
+<li><strong>الترفيه والسياحة:</strong> نمو متسارع في السينما والحفلات والمهرجانات والسياحة الداخلية</li>
+<li><strong>الصحة واللياقة:</strong> وعي متنامٍ بالصحة يخلق فرصاً ضخمة في منتجات وخدمات اللياقة</li>
+<li><strong>التقنية وريادة الأعمال:</strong> نظام بيئي متنامٍ للشركات الناشئة يحتاج إلى خدمات تسويقية متطورة</li>
+<li><strong>التعليم والتدريب:</strong> الطلب على التعلّم مدى الحياة يخلق سوقاً تعليمية ضخمة</li>
+</ul>
+
+<h2>كيف تضع شركتك في قلب رؤية 2030؟</h2>
+<p>الشركة الذكية لا تنتظر حتى يتضح المشهد كاملاً — بل تبدأ الآن في بناء حضورها في القطاعات الواعدة. بناء محتوى متخصص حول الفرص الجديدة، واستهداف الجمهور المتحوّل بالرسائل المناسبة، والشراكة مع العلامات التجارية الجديدة الصاعدة — هذه مداخل التموضع الاستراتيجي.</p>
+
+<h2>وبر الإبداعية وعلامات الغد</h2>
+<p><strong>وبر الإبداعية</strong> تعمل مع شركات ورواد أعمال يبنون في قطاعات ما بعد رؤية 2030. تفهم هذا السوق المتحوّل وتُساعد عملاءها على بناء علامات تجارية تُناسب الغد لا الأمس.</p>
+    `,
+    contentEn: `
+<h2>Vision 2030 and the Transformation of the Saudi Consumer</h2>
+<p>Vision 2030 has changed not just Saudi Arabia's economy — but the nature of the Saudi consumer. Today's young Saudi is more open to new experiences, more digitally connected, and more brand-conscious than any previous generation. Marketing messages, platforms, and persuasion methods all require fundamental rethinking.</p>
+
+<h2>New Promising Sectors for Marketing</h2>
+<p>Entertainment and tourism, health and fitness, technology and entrepreneurship, and education and training are the four sectors experiencing the most rapid growth under Vision 2030, creating enormous marketing opportunities for forward-thinking brands.</p>
+
+<h2>Conclusion</h2>
+<p><strong>Waber Creative Agency</strong> works with companies and entrepreneurs building in post-Vision 2030 sectors, helping them create brands suited for tomorrow's Saudi market, not yesterday's.</p>
+    `,
+  },
+  {
+    slug: "binaa-muhtawa-arabi-qawi",
+    publishedAt: "2026-06-21",
+    readTime: 6,
+    category: { ar: "محتوى", en: "Content" },
+    accentColor: "#0891b2",
+    title: {
+      ar: "كيف تبني استراتيجية محتوى عربي قوي تُبهر جمهورك السعودي وتُدرّ عليك عملاء",
+      en: "How to Build a Strong Arabic Content Strategy That Impresses Your Saudi Audience and Generates Customers",
+    },
+    excerpt: {
+      ar: "المحتوى العربي الجيد نادر. معظم ما ينتشر في السوق السعودي إما مترجم بشكل جامد أو فاقد للروح. تعلّم كيف تبني محتوى يتحدث للقلب بالعربية الأصيلة.",
+      en: "Good Arabic content is rare. Most of what spreads in the Saudi market is either rigidly translated or soulless. Learn how to build content that speaks to the heart in authentic Arabic.",
+    },
+    tags: ["محتوى عربي", "كتابة إبداعية", "تسويق المحتوى", "وكالة محتوى السعودية"],
+    contentAr: `
+<h2>أزمة المحتوى العربي في السوق السعودي</h2>
+<p>رغم أن العربية هي اللغة الأم للمستهلك السعودي، فإن معظم المحتوى الرقمي الذي تنتجه الشركات إما مترجم بشكل جامد من الإنجليزية، أو مكتوب بلغة رسمية جافة لا تُشبه طريقة تفكير الشباب السعودي وكلامه. الفجوة بين ما يُكتب وما يُحسّ هي سبب ضعف كثير من حملات تسويق المحتوى في السعودية.</p>
+
+<h2>مكوّنات المحتوى العربي الناجح للسوق السعودي</h2>
+<p><strong>الأصالة اللغوية:</strong> لغة تجمع بين الوضوح والحيوية — لا الفصحى الجامدة ولا العامية الخالصة غير المفهومة. <strong>الارتباط الثقافي:</strong> مراجع ثقافية وقيم تنتمي للسياق السعودي. <strong>القصص الحقيقية:</strong> شهادات وتجارب حقيقية من السوق المحلي تُقنع أكثر من أي إحصائية عالمية.</p>
+
+<h2>أنواع المحتوى التي تُحقق أعلى تفاعل في السعودية</h2>
+<ul>
+<li>الفيديوهات القصيرة بالعامية السعودية (Reels, TikTok)</li>
+<li>المقالات التعليمية بالعربية الواضحة والمباشرة</li>
+<li>الإنفوجرافيك بالعربية مع تصميم يعكس الذوق المحلي</li>
+<li>البودكاست العربي المتخصص في مجال أعمالك</li>
+</ul>
+
+<h2>كيف تُنشئ تقويم محتوى عربي فعّال؟</h2>
+<p>التقويم الفعّال يُوازن بين: المحتوى التعليمي، والمحتوى الترفيهي، ومحتوى العلامة التجارية، ومحتوى المجتمع. <strong>وبر الإبداعية</strong> لديها فريق كُتّاب ومبدعين عرب يُنتجون محتوى يتحدث إلى قلب المستهلك السعودي — وليس فقط إلى عقله.</p>
+    `,
+    contentEn: `
+<h2>The Arabic Content Crisis in the Saudi Market</h2>
+<p>Despite Arabic being the Saudi consumer's mother tongue, most digital content produced by companies is either rigidly translated from English or written in dry formal language that doesn't resemble how Saudi youth think and speak. This gap is why many content marketing campaigns in Saudi Arabia underperform.</p>
+
+<h2>Components of Successful Arabic Content for the Saudi Market</h2>
+<p>Authentic language that is clear and vibrant (neither rigid formal Arabic nor impenetrable dialect), cultural connections rooted in the Saudi context, and real local success stories that persuade more than any global statistic.</p>
+
+<h2>Conclusion</h2>
+<p><strong>Waber Creative Agency</strong> has a team of Arab writers and creatives who produce content that speaks to the Saudi consumer's heart — not just their head.</p>
+    `,
+  },
+  {
+    slug: "alfark-bayna-wakalat-altasweek-wakalat-alialanaat",
+    publishedAt: "2026-06-20",
+    readTime: 5,
+    category: { ar: "استراتيجية", en: "Strategy" },
+    accentColor: "#7c3aed",
+    title: {
+      ar: "الفرق بين وكالة التسويق الرقمي ووكالة الإعلانات في السعودية",
+      en: "The Difference Between a Digital Marketing Agency and an Advertising Agency in Saudi Arabia",
+    },
+    excerpt: {
+      ar: "كثيرون يستخدمون هذين المصطلحين بشكل متبادل، لكنهما مختلفان تماماً. فهم الفرق يُساعدك على اختيار الشريك الصحيح لأعمالك في السوق السعودي.",
+      en: "Many use these two terms interchangeably, but they are fundamentally different. Understanding the difference helps you choose the right partner for your business in the Saudi market.",
+    },
+    tags: ["وكالة تسويق رقمي", "وكالة إعلانات", "وكالة إبداعية", "الرياض"],
+    contentAr: `
+<h2>وكالة الإعلانات التقليدية</h2>
+<p>وكالة الإعلانات التقليدية تُركّز على: الإبداع الإعلاني (Creative)، وإنتاج المواد الإعلانية (طباعة، تلفزيون، راديو، لافتات خارجية)، وشراء المساحات الإعلانية في الوسائط التقليدية. هي جيدة في بناء الوعي الواسع ولكن يصعب قياس نتائجها بدقة.</p>
+
+<h2>وكالة التسويق الرقمي</h2>
+<p>وكالة التسويق الرقمي تُركّز على: القنوات الرقمية (السوشيال ميديا، جوجل، البريد الإلكتروني)، والبيانات والقياس الدقيق، وتحسين الأداء باستمرار. نتائجها قابلة للقياس والتتبع في الوقت الحقيقي — وهذا ما يجعل العملاء يُفضّلونها.</p>
+
+<h2>الوكالة المتكاملة: الأفضل للشركات السعودية</h2>
+<p>الوكالة التي تجمع بين القدرتين — الإبداع الإعلاني والتنفيذ الرقمي الدقيق — هي الأمثل. الفكرة الإبداعية الرائعة مع تنفيذ رقمي دقيق هي المعادلة التي تبحث عنها الشركات السعودية الطموحة. هذا بالضبط ما تُقدّمه <strong>وبر الإبداعية</strong>: إبداع لا يُنسى مع نتائج قابلة للقياس.</p>
+    `,
+    contentEn: `
+<h2>Traditional Advertising Agency vs. Digital Marketing Agency</h2>
+<p>A traditional advertising agency focuses on creative development and buying space in traditional media (print, TV, radio, outdoor). A digital marketing agency focuses on digital channels, data-driven decision making, and continuous performance optimization with real-time measurable results.</p>
+
+<h2>The Integrated Agency: Best for Saudi Companies</h2>
+<p>The agency that combines both capabilities — creative advertising and precise digital execution — is optimal. A brilliant creative idea combined with precise digital implementation is the formula ambitious Saudi companies seek. This is exactly what <strong>Waber Creative Agency</strong> delivers.</p>
+    `,
+  },
+  {
+    slug: "ziyadat-mutabiin-instagram-alsaudia",
+    publishedAt: "2026-06-19",
+    readTime: 6,
+    category: { ar: "سوشيال ميديا", en: "Social Media" },
+    accentColor: "#db2777",
+    title: {
+      ar: "كيف تزيد متابعيك على إنستجرام بشكل حقيقي في السعودية؟",
+      en: "How to Grow Your Instagram Followers Authentically in Saudi Arabia",
+    },
+    excerpt: {
+      ar: "المتابعون الحقيقيون يختلفون كلياً عن الأرقام المزيّفة. تعلّم كيف تنمو حساب إنستجرام علامتك التجارية بشكل طبيعي وتبني جمهوراً يتفاعل ويشتري في السوق السعودي.",
+      en: "Real followers are completely different from fake numbers. Learn how to grow your brand's Instagram account organically and build an audience that engages and buys in the Saudi market.",
+    },
+    tags: ["إنستجرام", "زيادة متابعين", "سوشيال ميديا", "تسويق رقمي السعودية"],
+    contentAr: `
+<h2>لماذا المتابعون الحقيقيون أهم من الأرقام الكبيرة؟</h2>
+<p>حساب بـ 10,000 متابع حقيقي يتفاعلون ويثقون بعلامتك يُدرّ أرباحاً أكثر بكثير من حساب بـ 100,000 متابع اشتريتهم. خوارزمية إنستجرام تُكافئ التفاعل الحقيقي، والشراكات التجارية تقيس Engagement Rate لا مجرد الأرقام.</p>
+
+<h2>استراتيجيات النمو العضوي على إنستجرام في السعودية</h2>
+<p><strong>الاتساق في النشر:</strong> 4-7 منشورات أسبوعياً كحد أدنى. <strong>الريلز (Reels):</strong> أكثر أنواع المحتوى وصولاً حالياً — استثمر فيها بقوة. <strong>القصص (Stories):</strong> ابنِ علاقة يومية مع جمهورك بقصص تفاعلية. <strong>الهاشتاقات المحلية:</strong> استخدم هاشتاقات سعودية ومحلية لجمهورك المستهدف.</p>
+
+<h2>التعاون مع حسابات مشابهة</h2>
+<p>التعاون مع حسابات في مجالات مكمّلة (لا منافسة) يُعرّفك لجمهور جديد. المطعم يتعاون مع مصوّر الطعام، والمتجر الرياضي يتعاون مع المدرّب الشخصي. كل تعاون يُضيف متابعين مؤهّلين مهتمين فعلاً بما تُقدّمه.</p>
+
+<h2>الإعلانات المدفوعة لتسريع النمو</h2>
+<p>الإعلانات المدفوعة على إنستجرام لاستهداف جمهور مشابه لعملائك الحاليين (Lookalike Audiences) هي أسرع طريقة لتسريع النمو العضوي بتكلفة معقولة. <strong>وبر الإبداعية</strong> تُدير حسابات إنستجرام لعملائها بمنهجية علمية تُنمّي الجمهور الحقيقي وتُحوّله إلى مبيعات.</p>
+    `,
+    contentEn: `
+<h2>Why Real Followers Matter More Than Big Numbers</h2>
+<p>An account with 10,000 real engaged followers generates far more revenue than one with 100,000 purchased followers. Instagram's algorithm rewards real engagement, and brand partnerships measure Engagement Rate, not just follower count.</p>
+
+<h2>Organic Growth Strategies on Instagram in Saudi Arabia</h2>
+<p>Consistent posting (4-7 times weekly), heavy investment in Reels, daily relationship building through interactive Stories, strategic use of Saudi-specific hashtags, and collaborations with complementary accounts — these form the proven organic growth formula for Saudi Instagram.</p>
+
+<h2>Conclusion</h2>
+<p><strong>Waber Creative Agency</strong> manages Instagram accounts for clients using a scientific methodology that grows real audiences and converts them into measurable sales.</p>
+    `,
+  },
+  {
+    slug: "tasmeem-mawaqe-almashari-alsaudia",
+    publishedAt: "2026-06-18",
+    readTime: 6,
+    category: { ar: "تصميم مواقع", en: "Web Design" },
+    accentColor: "#1d4ed8",
+    title: {
+      ar: "تصميم المواقع الإلكترونية للمشاريع السعودية: أكثر من مجرد جمال",
+      en: "Website Design for Saudi Projects: More Than Just Beauty",
+    },
+    excerpt: {
+      ar: "موقعك الإلكتروني يعمل 24 ساعة 7 أيام ممثّلاً لعلامتك التجارية. الموقع الجيد يُحوّل الزوار إلى عملاء — والموقع السيئ يُحوّل العملاء إلى منافسيك.",
+      en: "Your website works 24/7 as a representative for your brand. A good website converts visitors into customers — a bad one converts customers to your competitors.",
+    },
+    tags: ["تصميم مواقع", "web design Riyadh", "موقع إلكتروني", "وكالة تصميم السعودية"],
+    contentAr: `
+<h2>ماذا يريد المستخدم السعودي من موقعك؟</h2>
+<p>المستخدم السعودي حين يزور موقعك يريد: سرعة تحميل تقل عن 3 ثوانٍ، تصميم يعمل بشكل مثالي على الهاتف الجوال، محتوى واضح بالعربية أولاً، وطريقة تواصل سهلة (واتساب أو نموذج بسيط). الموقع الذي يفشل في أي من هذه النقاط يفقد عميله في ثوانٍ.</p>
+
+<h2>مكوّنات الموقع الإلكتروني الناجح في السوق السعودي</h2>
+<ul>
+<li><strong>التصميم الموافق للجوال (Mobile-First):</strong> أكثر من 90% من المستخدمين السعوديين يتصفحون من الهاتف</li>
+<li><strong>السرعة:</strong> كل ثانية تأخير في التحميل تُقلّل معدل التحويل بنسبة 7%</li>
+<li><strong>واجهة المستخدم باللغة العربية:</strong> RTL design صحيح وليس مجرد عكس للتصميم الإنجليزي</li>
+<li><strong>صفحات هبوط مُحوِّلة:</strong> صفحات خاصة بكل خدمة مُصمَّمة لتحويل الزائر لعميل</li>
+</ul>
+
+<h2>SEO والموقع: شراكة لا تُفرَّق</h2>
+<p>الموقع الجميل الذي لا يُبنى على أسس SEO سليمة هو موقع غير مرئي. تحسين هيكل الموقع، وسرعته، ومحتواه، وأكواده البرمجية — كلها عوامل تُحدّد موضعك في نتائج جوجل السعودي.</p>
+
+<h2>وبر الإبداعية وتصميم المواقع</h2>
+<p>في <strong>وبر الإبداعية</strong>، نُصمّم مواقع تجمع بين الجماليات العالية والأداء التقني العالي. كل موقع نبنيه مُحسَّن للسرعة وSEO ومعدلات التحويل — لأننا نفهم أن الموقع الجيد يجب أن يبيع، لا فقط أن يبهر.</p>
+    `,
+    contentEn: `
+<h2>What the Saudi User Wants from Your Website</h2>
+<p>Saudi users expect loading times under 3 seconds, perfect mobile performance, clear Arabic-first content, and easy contact options (WhatsApp or a simple form). A website that fails on any of these points loses its visitor within seconds.</p>
+
+<h2>Website Design Components That Drive Success in Saudi Arabia</h2>
+<p>Mobile-first design (90%+ of Saudi users browse on phone), fast loading speeds, correct RTL Arabic interface design (not just mirrored English), and conversion-optimized landing pages for each service form the technical foundation of successful Saudi websites.</p>
+
+<h2>Conclusion</h2>
+<p>At <strong>Waber Creative Agency</strong>, we design websites that combine high aesthetics with high technical performance — each site built to sell, not just to impress.</p>
+    `,
+  },
+  {
+    slug: "alqisas-almuraiya-altasweek-alsaudia",
+    publishedAt: "2026-06-17",
+    readTime: 5,
+    category: { ar: "إنتاج مرئي", en: "Video Production" },
+    accentColor: "#9333ea",
+    title: {
+      ar: "القصص المرئية كأداة تسويقية للعلامات التجارية السعودية",
+      en: "Visual Storytelling as a Marketing Tool for Saudi Brands",
+    },
+    excerpt: {
+      ar: "الفيديو لا يُعرض منتجاً فحسب — بل يحكي قصة تُعيش في الذاكرة. تعلّم كيف تُوظّف الإنتاج المرئي لبناء علامة تجارية مُحبوبة في السوق السعودي.",
+      en: "Video doesn't just display a product — it tells a story that lives in memory. Learn how to leverage visual production to build a beloved brand in the Saudi market.",
+    },
+    tags: ["إنتاج مرئي", "تسويق بالفيديو", "Video marketing", "وكالة إنتاج السعودية"],
+    contentAr: `
+<h2>لماذا الفيديو يُهيمن على التسويق الرقمي؟</h2>
+<p>المحتوى المرئي يُحقق 3 أضعاف حركة المرور العضوية من المحتوى المكتوب. الإعلانات المصوّرة تُحقق معدلات تذكّر أعلى بـ 95% من الإعلانات المقروءة. في السوق السعودي حيث يقضي المستخدم ساعات على منصات الفيديو، الإنتاج المرئي الاحترافي هو الاستثمار التسويقي الأعلى عائداً.</p>
+
+<h2>أنواع الإنتاج المرئي التسويقي</h2>
+<ul>
+<li><strong>فيديوهات علامة الشركة (Brand Films):</strong> قصص عاطفية تُعرّف بقيم علامتك وتُبني ولاءً</li>
+<li><strong>فيديوهات المنتج:</strong> تعرض المنتج بشكل احترافي يُقنع المشتري المتردد</li>
+<li><strong>الشهادات المرئية:</strong> عملاء حقيقيون يحكون تجربتهم — أقوى أشكال الإقناع</li>
+<li><strong>الريلز والفيديوهات القصيرة:</strong> مخصصة للسوشيال ميديا وتحقيق الانتشار السريع</li>
+</ul>
+
+<h2>الإنتاج المرئي والثقافة السعودية</h2>
+<p>الإنتاج المرئي الناجح في السعودية يُوازن بين الاحترافية العالمية والحساسية الثقافية المحلية. الموسيقى، والألوان، وأسلوب الإخراج، واللغة المستخدمة — كلها عناصر تحتاج إلى فهم عميق للجمهور السعودي وما يتفاعل معه.</p>
+
+<h2>وبر الإبداعية: فريق إنتاج مرئي متكامل</h2>
+<p><strong>وبر الإبداعية</strong> تمتلك فريق إنتاج مرئي متكامل يغطي: كتابة السيناريو، والإخراج، والتصوير، والمونتاج، والموشن جرافيك — كل هذا تحت سقف واحد لضمان تناسق رسالتك البصرية وجودتها.</p>
+    `,
+    contentEn: `
+<h2>Why Video Dominates Digital Marketing</h2>
+<p>Visual content generates 3x the organic traffic of written content, and video ads achieve 95% higher recall rates than text ads. In the Saudi market where users spend hours on video platforms, professional visual production is the highest-ROI marketing investment.</p>
+
+<h2>Types of Marketing Visual Production</h2>
+<p>Brand films that build emotional connection, product videos that convert hesitant buyers, visual testimonials from real customers, and short-form Reels optimized for social media reach — each serves a distinct role in the Saudi brand's visual marketing mix.</p>
+
+<h2>Conclusion</h2>
+<p><strong>Waber Creative Agency</strong> has a full in-house production team covering scriptwriting, directing, filming, editing, and motion graphics — ensuring your visual message is consistent, high-quality, and culturally resonant in the Saudi market.</p>
+    `,
+  },
+  {
+    slug: "iiadat-istidaaf-alsaudia",
+    publishedAt: "2026-06-16",
+    readTime: 6,
+    category: { ar: "أداء", en: "Performance Marketing" },
+    accentColor: "#dc2626",
+    title: {
+      ar: "كيف تُعيد استهداف زوار موقعك وتُحوّلهم إلى عملاء في السوق السعودي",
+      en: "How to Retarget Website Visitors and Convert Them into Customers in the Saudi Market",
+    },
+    excerpt: {
+      ar: "97% من زوار موقعك يغادرون دون شراء. الاستهداف المعاد (Retargeting) يُذكّرهم بعلامتك ويُعيدهم في اللحظة المناسبة. تعلّم كيف تُطبّقه في السوق السعودي.",
+      en: "97% of your website visitors leave without buying. Retargeting reminds them of your brand and brings them back at the right moment. Learn how to apply it in the Saudi market.",
+    },
+    tags: ["retargeting", "إعادة استهداف", "أداء تسويقي", "وكالة تسويق رقمي الرياض"],
+    contentAr: `
+<h2>ما هو الـ Retargeting ولماذا يهم؟</h2>
+<p>الـ Retargeting هو تقنية إعلانية تُظهر إعلاناتك للأشخاص الذين زاروا موقعك الإلكتروني أو تفاعلوا مع محتواك الرقمي سابقاً. هؤلاء الأشخاص بالفعل أبدوا اهتماماً بما تُقدّمه — وبالتالي هم أكثر استعداداً للشراء مقارنة بجمهور جديد تماماً لم يسمع بعلامتك.</p>
+
+<h2>كيف يعمل الـ Retargeting في السوق السعودي؟</h2>
+<p>تقوم بتثبيت Pixel (برمجية تتبع) من فيسبوك/إنستجرام أو جوجل على موقعك. هذا الـ Pixel يُتابع الزوار ويُصنّفهم حسب سلوكهم. ثم تُطلق حملات إعلانية مُستهدفة لهؤلاء الزوار على المنصات المختلفة — يرون إعلانك وهم يتصفحون إنستجرام أو يشاهدون يوتيوب.</p>
+
+<h2>سيناريوهات Retargeting ناجحة في السوق السعودي</h2>
+<ul>
+<li>من زار صفحة منتج ولم يشترِ → أعرض له إعلاناً بخصم حصري لفترة محدودة</li>
+<li>من أضاف للسلة ولم يُكمل الشراء → ذكّره برسالة "لقد تركت شيئاً في سلتك"</li>
+<li>من زار صفحة خدمة → أعرض له شهادة عميل راضٍ في نفس المجال</li>
+</ul>
+
+<h2>التوقيت والتكرار</h2>
+<p>الـ Retargeting الفعّال لا يُغرق المستخدم بإعلانات مزعجة. تحديد سقف تكراري (Frequency Cap) يضمن أن تذكيرك يبقى مرحّباً به لا مُزعجاً. <strong>وبر الإبداعية</strong> تُدير حملات Retargeting بتوازن دقيق يُحقق أعلى تحويل بأقل ضغط على تجربة المستخدم.</p>
+    `,
+    contentEn: `
+<h2>What Is Retargeting and Why Does It Matter?</h2>
+<p>Retargeting shows your ads to people who previously visited your website or engaged with your digital content. These people have already shown interest in what you offer — making them far more likely to buy than a completely cold audience.</p>
+
+<h2>Successful Retargeting Scenarios in the Saudi Market</h2>
+<p>Showing a limited-time discount to product page visitors, reminding abandoned cart users about their items, and presenting real customer testimonials to service page visitors — these three scenarios alone can recover significant lost revenue.</p>
+
+<h2>Conclusion</h2>
+<p><strong>Waber Creative Agency</strong> manages retargeting campaigns with precise balance that achieves maximum conversion with minimal disruption to the user experience.</p>
+    `,
+  },
+  {
+    slug: "tasweek-almuntajat-alghidhaiya-alsaudia",
+    publishedAt: "2026-06-15",
+    readTime: 6,
+    category: { ar: "استراتيجية", en: "Strategy" },
+    accentColor: "#15803d",
+    title: {
+      ar: "تسويق المنتجات الغذائية في السعودية: من المطبخ إلى قلب المستهلك",
+      en: "Food Product Marketing in Saudi Arabia: From the Kitchen to the Consumer's Heart",
+    },
+    excerpt: {
+      ar: "قطاع الغذاء في السعودية ينمو بسرعة كبيرة مع تغيّر أنماط المعيشة. تعلّم كيف تُسوّق منتجاتك الغذائية في بيئة تنافسية تتطلب ابتكاراً حقيقياً.",
+      en: "Saudi Arabia's food sector is growing rapidly as lifestyle patterns change. Learn how to market your food products in a competitive environment that demands genuine innovation.",
+    },
+    tags: ["تسويق غذاء", "Food marketing", "منتجات غذائية", "تسويق رقمي السعودية"],
+    contentAr: `
+<h2>تحولات قطاع الغذاء في السعودية</h2>
+<p>المستهلك السعودي اليوم أكثر وعياً بالصحة، وأكثر انفتاحاً على الأطعمة الجديدة، وأكثر اعتماداً على الطلب عبر التطبيقات مقارنة بأي وقت مضى. رؤية 2030 وبرامج الترفيه والسياحة الداخلية أوجدت ثقافة غذائية جديدة في المملكة تفتح أبواباً واسعة للعلامات الغذائية المبتكرة.</p>
+
+<h2>استراتيجيات التسويق الغذائي الرقمي</h2>
+<p><strong>المحتوى المرئي أولاً:</strong> صور الطعام الاحترافية على إنستجرام وتيك توك هي قلب التسويق الغذائي. المنتج الغذائي الذي لا يبدو جذاباً في الصورة يصعب تسويقه رقمياً مهما كانت جودته. <strong>شهادات العملاء بالفيديو:</strong> العميل الذي يُشارك تجربته مع منتجك بالفيديو يُقنع آلاف المترددين. <strong>التعاون مع منشئي محتوى الطعام:</strong> Food bloggers و Food influencers في السعودية يُشكّلون قوة تسويقية هائلة.</p>
+
+<h2>التوزيع الرقمي وتطبيقات التوصيل</h2>
+<p>الحضور القوي على تطبيقات مثل HungerStation وCareem وNoon Food يُوسّع نطاق وصولك بشكل كبير. تحسين ملفك على هذه التطبيقات بصور جذابة وأوصاف دقيقة وتقييمات إيجابية يُحقق مبيعات إضافية بدون تكلفة إعلانية مباشرة.</p>
+
+<h2>وبر الإبداعية والقطاع الغذائي</h2>
+<p><strong>وبر الإبداعية</strong> عملت مع عدد من العلامات الغذائية السعودية لتطوير هويتها البصرية وحملاتها التسويقية الرقمية. نُقدّم حلولاً متكاملة تشمل إنتاج محتوى مرئي احترافي وإدارة حملات رقمية تُنمّي مبيعاتك في السوق السعودي.</p>
+    `,
+    contentEn: `
+<h2>Food Sector Transformations in Saudi Arabia</h2>
+<p>Today's Saudi consumer is more health-conscious, more open to new foods, and more dependent on delivery apps than ever before. Vision 2030's entertainment and tourism programs have created a new food culture in the Kingdom that opens wide doors for innovative food brands.</p>
+
+<h2>Digital Food Marketing Strategies</h2>
+<p>Professional food photography on Instagram and TikTok, video customer testimonials, collaboration with Saudi food bloggers, and optimized presence on delivery apps like HungerStation and Careem form the complete digital food marketing toolkit in Saudi Arabia.</p>
+
+<h2>Conclusion</h2>
+<p><strong>Waber Creative Agency</strong> has worked with Saudi food brands to develop their visual identity and digital marketing campaigns, delivering integrated solutions that grow sales in the Saudi market.</p>
+    `,
+  },
+  {
+    slug: "daleel-meta-ads-alsaudia",
+    publishedAt: "2026-06-14",
+    readTime: 7,
+    category: { ar: "أداء", en: "Performance Marketing" },
+    accentColor: "#2563eb",
+    title: {
+      ar: "الدليل الكامل لإدارة إعلانات ميتا (فيسبوك وإنستجرام) في السعودية",
+      en: "The Complete Guide to Managing Meta Ads (Facebook and Instagram) in Saudi Arabia",
+    },
+    excerpt: {
+      ar: "إعلانات ميتا من أقوى أدوات الوصول إلى المستهلك السعودي. تعلّم كيف تُطلق حملاتك وتُحسّنها لتحقق أعلى عائد في السوق السعودي.",
+      en: "Meta Ads are among the most powerful tools for reaching Saudi consumers. Learn how to launch and optimize your campaigns to achieve the highest ROI in the Saudi market.",
+    },
+    tags: ["إعلانات ميتا", "فيسبوك أدز", "إنستجرام أدز", "وكالة إعلانات الرياض"],
+    contentAr: `
+<h2>لماذا ميتا أدز للسوق السعودي؟</h2>
+<p>إعلانات ميتا (فيسبوك وإنستجرام) توفّر وصولاً إلى أكثر من 25 مليون مستخدم سعودي بإمكانيات استهداف لا مثيل لها: الموقع الجغرافي، والعمر، والاهتمامات، والسلوك الشرائي، والجمهور المشابه لعملائك الحاليين.</p>
+
+<h2>أنواع حملات ميتا الأكثر فاعلية في السعودية</h2>
+<ul>
+<li><strong>حملات الوعي بالعلامة التجارية:</strong> لبناء التعرف على علامتك بأوسع نطاق</li>
+<li><strong>حملات الترافيك:</strong> لجلب زوار مؤهّلين إلى موقعك</li>
+<li><strong>حملات التحويل:</strong> لتحقيق مبيعات أو تسجيلات مباشرة</li>
+<li><strong>حملات الكتالوج:</strong> لإظهار منتجات متعددة من متجرك الإلكتروني</li>
+</ul>
+
+<h2>أسرار استهداف الجمهور السعودي على ميتا</h2>
+<p>Lookalike Audiences (جمهور مشابه لعملائك الحاليين) هو أقوى أدوات الاستهداف على ميتا. تغذية النظام ببيانات عملائك الحاليين تُتيح لخوارزمية ميتا إيجاد ملايين المستخدمين السعوديين الذين يُشاركونهم الخصائص والاهتمامات.</p>
+
+<h2>التحسين المستمر: لماذا الحملة لا تُطلق وتُنسى؟</h2>
+<p>الحملة التي تُطلق ولا تُتابع تستنزف ميزانيتك دون نتائج. التحسين الأسبوعي للإعلانات (اختبار الصور، والنصوص، والجمهور) يُضاعف أداء الحملة بمرور الوقت. <strong>وبر الإبداعية</strong> تُدير حملات ميتا بمنهجية تحسين مستمر تضمن أن ميزانيتك الإعلانية تعمل بأقصى طاقتها في كل وقت.</p>
+    `,
+    contentEn: `
+<h2>Why Meta Ads for the Saudi Market?</h2>
+<p>Meta Ads provide access to over 25 million Saudi users with unparalleled targeting capabilities: geographic location, age, interests, purchase behavior, and Lookalike Audiences based on your existing customers.</p>
+
+<h2>Most Effective Meta Campaign Types in Saudi Arabia</h2>
+<p>Brand awareness campaigns, traffic campaigns, conversion campaigns, and catalog campaigns each serve specific objectives in the Saudi marketing funnel, from initial brand recognition to direct sales generation.</p>
+
+<h2>Conclusion</h2>
+<p><strong>Waber Creative Agency</strong> manages Meta campaigns with a continuous optimization methodology — ensuring your advertising budget works at maximum capacity at every moment in the Saudi market.</p>
+    `,
+  },
+  {
+    slug: "kaifa-taqees-najah-hamalaat-tasweekiya",
+    publishedAt: "2026-06-13",
+    readTime: 6,
+    category: { ar: "أداء", en: "Performance Marketing" },
+    accentColor: "#0d9488",
+    title: {
+      ar: "كيف تقيس نجاح حملاتك التسويقية في السعودية بشكل صحيح؟",
+      en: "How to Correctly Measure the Success of Your Marketing Campaigns in Saudi Arabia",
+    },
+    excerpt: {
+      ar: "القياس الخاطئ يجعلك تحتفل بالفشل وتُوقف النجاح. تعلّم كيف تختار المؤشرات الصحيحة وتفسّر البيانات بذكاء لتُحسّن حملاتك باستمرار.",
+      en: "Wrong measurement makes you celebrate failure and stop success. Learn how to choose the right metrics and intelligently interpret data to continuously improve your campaigns.",
+    },
+    tags: ["قياس أداء تسويقي", "KPIs", "تحليل بيانات", "وكالة تسويق السعودية"],
+    contentAr: `
+<h2>الخطأ الأكثر شيوعاً في قياس التسويق</h2>
+<p>كثير من الشركات السعودية تقيس "الوهم" — الإعجابات، والمشاركات، والمتابعين الجدد. هذه مؤشرات الغرور (Vanity Metrics) التي تبدو جيدة في التقارير لكنها لا تعكس بالضرورة نمو الأعمال الفعلي. السؤال الحقيقي: هل تنمو إيراداتك؟</p>
+
+<h2>المؤشرات التي تهم فعلاً (KPIs الحقيقية)</h2>
+<ul>
+<li><strong>تكلفة اكتساب العميل (CAC):</strong> كم ريالاً تكلّفك كل عميل جديد؟</li>
+<li><strong>العائد على الإنفاق الإعلاني (ROAS):</strong> كم تربح من كل ريال تُنفقه على الإعلانات؟</li>
+<li><strong>معدل التحويل (Conversion Rate):</strong> ما نسبة الزوار الذين يُصبحون عملاء؟</li>
+<li><strong>القيمة الدائمة للعميل (LTV):</strong> كم سيُنفق العميل معك طوال علاقته بك؟</li>
+</ul>
+
+<h2>الأدوات الأساسية لقياس التسويق في السعودية</h2>
+<p>Google Analytics 4، وMeta Ads Manager، وSnapchat Analytics، وGoogle Search Console — هذه الأدوات المجانية تُعطيك بيانات شاملة عن أداء حملاتك. لكن البيانات وحدها لا تكفي — التفسير الصحيح للبيانات هو ما يُفرّق بين شركة تنمو وأخرى تراوح في مكانها.</p>
+
+<h2>التقارير الشهرية: الصورة الكاملة</h2>
+<p>تقرير شهري شامل يجمع بيانات كل القنوات في مكان واحد يُعطيك الصورة الكاملة عن أداء تسويقك. <strong>وبر الإبداعية</strong> تُقدّم لعملائها تقارير شهرية واضحة تُترجم الأرقام إلى قرارات — لأنك لا تحتاج إلى أرقام، بل إلى فهم يُحرّك عملك للأمام.</p>
+    `,
+    contentEn: `
+<h2>The Most Common Mistake in Marketing Measurement</h2>
+<p>Many Saudi companies measure "vanity" — likes, shares, and new followers. These vanity metrics look good in reports but don't necessarily reflect actual business growth. The real question: are your revenues growing?</p>
+
+<h2>KPIs That Actually Matter</h2>
+<p>Customer Acquisition Cost (CAC), Return on Ad Spend (ROAS), Conversion Rate, and Customer Lifetime Value (LTV) — these four metrics give you the honest picture of whether your marketing investment is generating real business results.</p>
+
+<h2>Conclusion</h2>
+<p>At <strong>Waber Creative Agency</strong>, we provide clear monthly reports that translate numbers into decisions — because you don't need just data, you need understanding that moves your business forward.</p>
+    `,
+  },
+  {
+    slug: "altasweek-bilmaathireen-alsaudia-daleel-amaliy",
+    publishedAt: "2026-06-12",
+    readTime: 6,
+    category: { ar: "تسويق المؤثرين", en: "Influencer Marketing" },
+    accentColor: "#be123c",
+    title: {
+      ar: "دليل عملي: كيف تُطلق حملة مؤثرين ناجحة في السعودية خطوة بخطوة",
+      en: "Practical Guide: How to Launch a Successful Influencer Campaign in Saudi Arabia Step by Step",
+    },
+    excerpt: {
+      ar: "حملة المؤثرين بدون خطة واضحة هي مجرد إنفاق بلا هدف. هذا الدليل يُعطيك خريطة طريق عملية لإطلاق حملة مؤثرين تُحقق نتائج حقيقية في السعودية.",
+      en: "An influencer campaign without a clear plan is just spending without a goal. This guide gives you a practical roadmap for launching an influencer campaign that achieves real results in Saudi Arabia.",
+    },
+    tags: ["مؤثرون سعوديون", "حملة مؤثرين", "Influencer campaign", "تسويق رقمي"],
+    contentAr: `
+<h2>الخطوة الأولى: تحديد الهدف بوضوح</h2>
+<p>هل تريد زيادة الوعي بعلامتك؟ أم تحقيق مبيعات مباشرة؟ أم جمع محتوى جديد؟ الهدف يُحدّد نوع المؤثر الذي تختاره والمحتوى الذي تطلبه والمؤشرات التي تقيس بها النجاح.</p>
+
+<h2>الخطوة الثانية: اختيار المؤثرين الصحيحين</h2>
+<p>ابحث عن: توافق الجمهور مع جمهورك المستهدف، معدل تفاعل حقيقي (لا مشتری)، محتوى سابق يُعبّر عن قيم تتوافق مع علامتك، وسمعة نظيفة في المجتمع السعودي. أدوات مثل Social Blade وHypeAuditor تُساعدك في التحقق من أصالة الجمهور.</p>
+
+<h2>الخطوة الثالثة: البريف الإبداعي (Creative Brief)</h2>
+<p>البريف الجيد يُحدد: الرسائل الأساسية، والحرية الإبداعية للمؤثر، والحدود الثقافية والدينية التي يجب احترامها، والمواصفات التقنية (مدة الفيديو، أبعاد الصورة، إلخ). البريف المفصّل يُنتج محتوى أفضل ويُقلّل جولات التعديل.</p>
+
+<h2>الخطوة الرابعة: التوافق القانوني والإفصاح</h2>
+<p>هيئة الاتصالات السعودية تُلزم بالإفصاح الواضح عن المحتوى المدفوع. التأكد من أن المؤثر يُضيف "إعلان" أو "مدفوع" أو #ad يحمي علامتك ويحمي المؤثر من المسؤولية القانونية.</p>
+
+<h2>الخطوة الخامسة: القياس والتحليل</h2>
+<p>تتبّع: عدد المشاهدات، ومعدل التفاعل، ونسبة النقر على رابط خاص، والمبيعات المرتبطة بكود خصم حصري. <strong>وبر الإبداعية</strong> تُدير حملات المؤثرين من الألف إلى الياء، بما يشمل الاختيار والتفاوض والمتابعة والتقارير.</p>
+    `,
+    contentEn: `
+<h2>Five Steps to a Successful Influencer Campaign in Saudi Arabia</h2>
+<p>Clear goal definition, choosing the right influencers (checking real engagement, not just follower count), writing a detailed creative brief that respects Saudi cultural boundaries, ensuring legal compliance and disclosure, and systematic measurement of results.</p>
+
+<h2>Conclusion</h2>
+<p><strong>Waber Creative Agency</strong> manages influencer campaigns from A to Z — including selection, negotiation, briefing, performance monitoring, and comprehensive reporting for Saudi brands.</p>
+    `,
+  },
+  {
+    slug: "altasweek-alaatifiy-alsaudia",
+    publishedAt: "2026-06-11",
+    readTime: 5,
+    category: { ar: "محتوى", en: "Content" },
+    accentColor: "#9333ea",
+    title: {
+      ar: "التسويق العاطفي في السعودية: كيف تُحرّك القلوب قبل العقول",
+      en: "Emotional Marketing in Saudi Arabia: How to Move Hearts Before Minds",
+    },
+    excerpt: {
+      ar: "القرارات الشرائية تبدأ بالمشاعر وتُبرَّر بالعقل لاحقاً. العلامات التجارية التي تُتقن التسويق العاطفي في السعودية تبني ولاءً يتجاوز منطق السعر والمنتج.",
+      en: "Purchasing decisions start with emotions and are justified by logic later. Brands that master emotional marketing in Saudi Arabia build loyalty that transcends price and product logic.",
+    },
+    tags: ["تسويق عاطفي", "Emotional marketing", "علامة تجارية", "وكالة إبداعية"],
+    contentAr: `
+<h2>العلم وراء التسويق العاطفي</h2>
+<p>بحوث علم الأعصاب تُثبت أن 95% من قراراتنا الشرائية تتخذ في اللاوعي قبل أن تصل إلى الوعي الواعي. المشاعر تُحرّك القرار، والمنطق يُبرّره لاحقاً. هذا يعني أن الإعلان الذي يُثير مشاعر قوية هو الأكثر تأثيراً — بغض النظر عن الميزانية التي أُنفقت عليه.</p>
+
+<h2>المشاعر التي تُحرّك المستهلك السعودي</h2>
+<ul>
+<li><strong>الانتماء الأسري:</strong> الأسرة محور الحياة السعودية — المحتوى الذي يُعبّر عن الروابط الأسرية يُحقق صدى عاطفياً عميقاً</li>
+<li><strong>الفخر الوطني:</strong> الهوية السعودية قيمة عاطفية عالية — ربط علامتك بالفخر الوطني يُبني ولاءً</li>
+<li><strong>الطموح والنجاح:</strong> الجيل السعودي الجديد طموح — المحتوى الذي يُعبّر عن النجاح والتحقيق يُلهمه</li>
+<li><strong>الفكاهة:</strong> الروح الطيبة والفكاهة الذكية تُقرّب العلامة من جمهورها بشكل استثنائي</li>
+</ul>
+
+<h2>أمثلة على التسويق العاطفي الناجح في السعودية</h2>
+<p>إعلانات رمضان الكبرى لشركات كزين وSTC تُوظّف العاطفة ببراعة. هذه الإعلانات لا تبيع منتجاً بالأساس — بل تبيع شعوراً ترتبط به العلامة التجارية في ذاكرة المشاهد. <strong>وبر الإبداعية</strong> تُتقن بناء حملات إعلانية عاطفية تتحدث إلى قلب المستهلك السعودي وتُثبت علامتك في ذاكرته الجمعية.</p>
+    `,
+    contentEn: `
+<h2>The Science Behind Emotional Marketing</h2>
+<p>Neuroscience research proves that 95% of our purchasing decisions are made in the subconscious before reaching conscious awareness. Emotions drive the decision; logic justifies it later. This means ads that trigger strong emotions are most impactful, regardless of budget.</p>
+
+<h2>Emotions That Move the Saudi Consumer</h2>
+<p>Family belonging, national pride, ambition and achievement, and intelligent humor — these are the four emotional currents that most effectively reach and resonate with Saudi consumers across different demographics.</p>
+
+<h2>Conclusion</h2>
+<p><strong>Waber Creative Agency</strong> excels at building emotional advertising campaigns that speak to the Saudi consumer's heart and embed your brand in their collective memory.</p>
+    `,
+  },
+  {
+    slug: "tasweek-alkhidmaat-almihania-alsaudia",
+    publishedAt: "2026-06-10",
+    readTime: 6,
+    category: { ar: "استراتيجية", en: "Strategy" },
+    accentColor: "#0891b2",
+    title: {
+      ar: "تسويق الخدمات المهنية في السعودية: كيف تُسوّق ما لا يُرى؟",
+      en: "Marketing Professional Services in Saudi Arabia: How Do You Sell the Invisible?",
+    },
+    excerpt: {
+      ar: "المحامون والأطباء والمستشارون والمهندسون — الخدمات المهنية تختلف تسويقياً عن المنتجات. تعلّم كيف تجعل خدمتك غير المرئية مرئية وجذابة في السوق السعودي.",
+      en: "Lawyers, doctors, consultants, engineers — professional services differ from products in how they're marketed. Learn how to make your invisible service visible and attractive in the Saudi market.",
+    },
+    tags: ["تسويق خدمات", "خدمات مهنية", "استشارات", "وكالة تسويق الرياض"],
+    contentAr: `
+<h2>التحدي الأساسي: كيف تُسوّق شيئاً غير ملموس؟</h2>
+<p>تسويق الخدمات المهنية يواجه تحدياً جوهرياً: لا يمكن للعميل رؤية الخدمة قبل شرائها. هو يشتري وعداً، وثقة، وسمعة. هذا يجعل بناء المصداقية والثقة محور كل استراتيجية تسويقية في هذا المجال.</p>
+
+<h2>أدوات بناء الثقة للخدمات المهنية</h2>
+<ul>
+<li><strong>تقييمات العملاء الموثّقة:</strong> على جوجل وماي بيزنس ومنصة استشر وغيرها</li>
+<li><strong>قصص نجاح مُفصّلة (Case Studies):</strong> "واجه عميلنا مشكلة X، فحللنا الوضع، وطبّقنا Y، وحققنا Z"</li>
+<li><strong>المحتوى التعليمي المجاني:</strong> مقالات ومقاطع فيديو تُثبت خبرتك دون أن تُعطي "السمكة كاملة"</li>
+<li><strong>الشهادات والاعتمادات المهنية:</strong> عرضها بوضوح يُقلّل قلق الشراء</li>
+</ul>
+
+<h2>العلاقات الشخصية في السوق السعودي</h2>
+<p>في ثقافة الأعمال السعودية، العلاقات الشخصية لا تزال من أقوى محركات الأعمال. بناء شبكة علاقات مهنية قوية، والحضور في المؤتمرات والفعاليات القطاعية، والنشاط على لينكد إن — هذه كلها استثمارات في العلاقات تُؤتي ثمارها على المدى البعيد.</p>
+
+<h2>وبر الإبداعية وقطاع الخدمات المهنية</h2>
+<p><strong>وبر الإبداعية</strong> تُساعد الشركات المهنية السعودية على بناء حضور رقمي يُحوّل خبرتهم غير المرئية إلى ثقة مرئية — ويجعل عملاء جدد يجدونهم قبل أن يتصلوا بمنافسيهم.</p>
+    `,
+    contentEn: `
+<h2>The Core Challenge: Marketing the Invisible</h2>
+<p>Professional service marketing faces a fundamental challenge: clients can't see the service before buying it. They're buying a promise, trust, and reputation. This makes credibility and trust-building the center of every marketing strategy in this field.</p>
+
+<h2>Trust-Building Tools for Professional Services</h2>
+<p>Documented client reviews, detailed case studies showing problem-solution-result, free educational content demonstrating expertise, and clearly displayed professional certifications — these are the four pillars of professional service marketing in Saudi Arabia.</p>
+
+<h2>Conclusion</h2>
+<p><strong>Waber Creative Agency</strong> helps Saudi professional service firms build a digital presence that converts their invisible expertise into visible trust — ensuring new clients find them before calling their competitors.</p>
+    `,
+  },
+  {
+    slug: "alqisas-altujariya-altasweek-alsaudia",
+    publishedAt: "2026-06-09",
+    readTime: 5,
+    category: { ar: "محتوى", en: "Content" },
+    accentColor: "#ea580c",
+    title: {
+      ar: "قصص العملاء: أقوى أداة تسويقية تملكها ولا تستخدمها في السعودية",
+      en: "Customer Stories: The Most Powerful Marketing Tool You Have and Don't Use in Saudi Arabia",
+    },
+    excerpt: {
+      ar: "قصة نجاح عميل واحد قد تُغلق صفقات أكثر مما تُغلقه عشرة إعلانات مدفوعة. تعلّم كيف تجمع وتُوظّف قصص عملائك لتنمية أعمالك في السعودية.",
+      en: "One customer success story may close more deals than ten paid ads. Learn how to collect and leverage your customers' stories to grow your business in Saudi Arabia.",
+    },
+    tags: ["قصص عملاء", "case studies", "شهادات عملاء", "وكالة تسويق"],
+    contentAr: `
+<h2>لماذا قصص العملاء أقوى من الإعلانات؟</h2>
+<p>المستهلك السعودي يثق بتجربة شخص آخر أكثر بكثير من كلمات العلامة التجارية نفسها. 92% من المستهلكين يثقون بتوصيات الأشخاص — سواء كانوا يعرفونهم شخصياً أم لا — أكثر من أي نوع آخر من الإعلانات. قصة العميل الحقيقية تُجيب على السؤال الصامت: "هل هؤلاء جيدون حقاً؟"</p>
+
+<h2>كيف تجمع قصص عملائك بفاعلية؟</h2>
+<p>اسأل عملاءك الراضين بشكل استباقي — معظمهم سعداء بالمشاركة لكنهم لا يُفكّرون في ذلك من تلقاء أنفسهم. البريد الإلكتروني البسيط بعد إتمام المشروع يُعطيك فرصة ذهبية. احرص على جمع: التحدي الذي واجهه العميل قبلك، وكيف عملتم معاً، والنتائج الرقمية الفعلية التي تحققت.</p>
+
+<h2>أشكال توظيف قصص العملاء</h2>
+<ul>
+<li>فيديوهات شهادات عملاء قصيرة (60-90 ثانية) للسوشيال ميديا</li>
+<li>مقالات Case Studies مُفصّلة على موقعك وبلوجك</li>
+<li>اقتباسات مُصمَّمة بصرياً لمنشورات إنستجرام ولينكد إن</li>
+<li>قسم "عملاؤنا يقولون" بارز في صفحتك الرئيسية</li>
+</ul>
+
+<h2>التوثيق المستمر للنتائج</h2>
+<p>كل مشروع تُنجزه هو فرصة لبناء قصة نجاح جديدة. وثّق النتائج أثناء العمل — لا بعده. الأرقام الحقيقية والصور الواقعية هي ما يُميّز قصة نجاح مقنعة عن مجرد مديح. <strong>وبر الإبداعية</strong> تُساعد عملاءها في توثيق نتائجهم وتحويلها إلى أصول تسويقية قوية تُدر مبيعات جديدة.</p>
+    `,
+    contentEn: `
+<h2>Why Customer Stories Are More Powerful Than Ads</h2>
+<p>92% of consumers trust recommendations from people — whether or not they know them personally — more than any other type of advertising. A real customer story answers the silent question: "Are these people actually good?"</p>
+
+<h2>Leveraging Customer Stories in Multiple Formats</h2>
+<p>Short video testimonials for social media, detailed case study articles on your blog, visually designed quotes for Instagram and LinkedIn, and a prominent "What Our Clients Say" section on your homepage — these maximize the reach and persuasive power of your customer stories.</p>
+
+<h2>Conclusion</h2>
+<p><strong>Waber Creative Agency</strong> helps clients document their results and transform them into powerful marketing assets that generate new business in the Saudi market.</p>
+    `,
+  },
+  {
+    slug: "altasweek-bilwaan-alsaudia",
+    publishedAt: "2026-06-08",
+    readTime: 5,
+    category: { ar: "الهوية البصرية", en: "Brand Identity" },
+    accentColor: "#7c3aed",
+    title: {
+      ar: "علم الألوان في التسويق السعودي: كيف تختار الألوان الصحيحة لعلامتك التجارية",
+      en: "Color Psychology in Saudi Marketing: How to Choose the Right Colors for Your Brand",
+    },
+    excerpt: {
+      ar: "الألوان لا تُزيّن فحسب — بل تُؤثّر في القرارات الشرائية. تعلّم كيف يُفسّر المستهلك السعودي الألوان المختلفة وكيف تختار اللون الذي يخدم علامتك التجارية.",
+      en: "Colors don't just decorate — they influence purchasing decisions. Learn how Saudi consumers interpret different colors and how to choose the color that serves your brand.",
+    },
+    tags: ["علم الألوان", "هوية بصرية", "تصميم جرافيك", "وكالة تصميم السعودية"],
+    contentAr: `
+<h2>لماذا الألوان تهم في التسويق؟</h2>
+<p>85% من قرارات الشراء يؤثّر فيها اللون بشكل رئيسي. الانطباع الأول للعلامة التجارية يتكوّن في 90 ثانية فقط، ويعتمد بنسبة 60-90% على اللون. هذه الأرقام تجعل اختيار لوحة ألوان علامتك التجارية قراراً استراتيجياً لا جمالياً فحسب.</p>
+
+<h2>معاني الألوان في الثقافة السعودية</h2>
+<ul>
+<li><strong>الأخضر:</strong> الإسلام، الطبيعة، النمو، الصحة — يُستخدم كثيراً في القطاع المصرفي والغذائي</li>
+<li><strong>الأزرق:</strong> الثقة، الاحترافية، الهدوء — شائع في قطاع التكنولوجيا والصحة</li>
+<li><strong>الذهبي والبيج:</strong> الرقي، الفخامة، الأصالة — مناسب للعلامات التجارية الراقية</li>
+<li><strong>الأحمر:</strong> الطاقة، الإثارة، الإلحاح — يُستخدم للعروض والحملات الترويجية</li>
+<li><strong>الأسود:</strong> الأناقة، الفخامة، الغموض — لعلامات المنتجات الفاخرة</li>
+</ul>
+
+<h2>اتساق الألوان: المبدأ الذهبي</h2>
+<p>الاتساق في استخدام ألوانك عبر كل نقاط التواصل — الموقع، والسوشيال ميديا، والمطبوعات، والمكتب — يبني في ذهن العميل ارتباطاً لاواعياً بين هذه الألوان وعلامتك التجارية. هذا الارتباط هو ما يجعله يتعرّف فوراً على علامتك حتى قبل قراءة اسمها.</p>
+
+<h2>اختيار الألوان مع وبر الإبداعية</h2>
+<p>في <strong>وبر الإبداعية</strong>، لا نختار الألوان بناءً على الذوق الشخصي — بل ندرس الجمهور المستهدف وقيم العلامة التجارية والمنافسين في السوق السعودي ليكون اختيارنا اللوني قراراً استراتيجياً يُميّزك ويُقوّي أثرك.</p>
+    `,
+    contentEn: `
+<h2>Why Colors Matter in Marketing</h2>
+<p>85% of purchasing decisions are primarily influenced by color. The first impression of a brand forms in just 90 seconds, relying 60-90% on color. These numbers make your brand's color palette a strategic decision, not just an aesthetic one.</p>
+
+<h2>Color Meanings in Saudi Culture</h2>
+<p>Green signifies Islam, nature, and health; blue represents trust and professionalism; gold and beige convey luxury and heritage; red signals energy and urgency; and black denotes elegance and premium positioning. Each color carries cultural resonance that shapes Saudi consumer perception.</p>
+
+<h2>Conclusion</h2>
+<p>At <strong>Waber Creative Agency</strong>, we don't choose colors based on personal taste — we study the target audience, brand values, and Saudi market competitors to make color choices that strategically differentiate you and strengthen your impact.</p>
+    `,
+  },
+  {
+    slug: "podcast-tasweekiy-alsaudia",
+    publishedAt: "2026-06-07",
+    readTime: 5,
+    category: { ar: "محتوى", en: "Content" },
+    accentColor: "#0891b2",
+    title: {
+      ar: "البودكاست كأداة تسويقية للشركات السعودية: فرصة لم يُكتشف نصفها بعد",
+      en: "Podcast as a Marketing Tool for Saudi Companies: An Opportunity Half Unexplored",
+    },
+    excerpt: {
+      ar: "البودكاست العربي في السعودية ينمو بسرعة كبيرة. الشركات التي تبدأ الآن ستبني سلطة في مجالها قبل أن يُدرك منافسوها قيمة هذه القناة.",
+      en: "The Arabic podcast market in Saudi Arabia is growing rapidly. Companies that start now will build authority in their field before competitors realize the channel's value.",
+    },
+    tags: ["بودكاست", "Podcast marketing", "محتوى صوتي", "تسويق رقمي السعودية"],
+    contentAr: `
+<h2>البودكاست والمستمع السعودي</h2>
+<p>نمو استهلاك البودكاست في السعودية لافت — خاصة في أوقات التنقل ورياضة الصباح وأوقات الانتظار. المستمع السعودي يُقضي في المتوسط أكثر من 7 ساعات أسبوعياً في الاستماع إلى البودكاست، وهو جمهور يتمتع بدخل ومستوى تعليمي مرتفعين نسبياً.</p>
+
+<h2>لماذا البودكاست فرصة تسويقية ذهبية الآن؟</h2>
+<p>المنافسة في البودكاست العربي المتخصص لا تزال محدودة مقارنة بمنصات أخرى. الشركة التي تُطلق بودكاست متخصصاً في مجالها اليوم تُبني سلطة ومصداقية عميقة قبل أن يُصبح الفضاء مزدحماً. هذا هو التوقيت المثالي — تماماً كما كان إنستجرام للأعمال قبل 8 سنوات.</p>
+
+<h2>كيف تجعل البودكاست يخدم أعمالك؟</h2>
+<p>بودكاست يُقدّم محتوى قيّماً في مجال تخصصك يُبني ثقة عميقة مع المستمع. المستمع الذي يقضي 30 دقيقة أسبوعياً يستمع إلى بودكاست علامتك يُصبح بذلك عميلاً أكثر ولاءً بكثير من متابع سوشيال ميديا يمرّ على منشوراتك في ثوانٍ.</p>
+
+<h2>وبر الإبداعية وإنتاج البودكاست</h2>
+<p><strong>وبر الإبداعية</strong> تُساعد الشركات السعودية على إطلاق بودكاست احترافي — من استراتيجية المحتوى والتسمية، إلى الإنتاج الصوتي والموسيقى، إلى التوزيع على منصات الاستماع الكبرى. كل شيء تحت سقف واحد لضمان جودة تليق باسمك.</p>
+    `,
+    contentEn: `
+<h2>The Saudi Podcast Listener</h2>
+<p>Podcast consumption growth in Saudi Arabia is remarkable — especially during commutes, morning exercise, and waiting times. The Saudi listener spends over 7 hours weekly listening to podcasts, representing a relatively affluent and educated audience segment.</p>
+
+<h2>Why Podcast Is a Golden Marketing Opportunity Now</h2>
+<p>Competition in specialized Arabic podcasting remains limited compared to other platforms. A company launching a specialized podcast in its field today builds authority and credibility before the space becomes crowded — exactly like Instagram for business was 8 years ago.</p>
+
+<h2>Conclusion</h2>
+<p><strong>Waber Creative Agency</strong> helps Saudi companies launch professional podcasts — from content strategy and naming to audio production and distribution across major listening platforms.</p>
+    `,
+  },
+  {
+    slug: "almaaradh-altijaria-riyadh-tasweek",
+    publishedAt: "2026-06-06",
+    readTime: 5,
+    category: { ar: "استراتيجية", en: "Strategy" },
+    accentColor: "#b45309",
+    title: {
+      ar: "المعارض التجارية في الرياض: كيف تُحقق أقصى استفادة تسويقية؟",
+      en: "Trade Fairs in Riyadh: How to Maximize Marketing Value from Exhibitions",
+    },
+    excerpt: {
+      ar: "المشاركة في المعارض التجارية استثمار كبير. الشركات الذكية تُحوّل كل ريال تُنفقه على المعرض إلى عملاء وشراكات وحضور. تعلّم كيف.",
+      en: "Participating in trade fairs is a major investment. Smart companies turn every riyal spent on exhibitions into customers, partnerships, and brand presence. Learn how.",
+    },
+    tags: ["معارض تجارية", "الرياض", "تسويق B2B", "Brand presence"],
+    contentAr: `
+<h2>التحضير قبل المعرض: 80% من النجاح</h2>
+<p>معظم الشركات تعتقد أن المعرض يبدأ يوم الافتتاح. الحقيقة أن 80% من نجاح المعرض يُحدَّد في مرحلة التحضير. دعوات مُخصَّصة لعملاء محتملين محددين، وحضور على السوشيال ميديا قبل الحدث، وتدريب فريقك على رسائل واضحة وجذابة — هذه هي المُعادلة.</p>
+
+<h2>التصميم البصري للجناح: الجاذبية الأولى</h2>
+<p>جناحك هو واجهة علامتك التجارية للزوار. التصميم الجذاب الذي يعكس هوية علامتك ويُوجّه الزائر بشكل سلس نحو نقطة التواصل يُحقق عدداً أكبر من التفاعلات والصفقات المحتملة.</p>
+
+<h2>إنتاج محتوى أثناء المعرض</h2>
+<p>المعرض فرصة ذهبية لإنتاج محتوى رقمي: فيديوهات مباشرة، ومقابلات مع عملاء وشركاء، وخلف الكواليس من جناحك. المحتوى الذي ينتجه فريقك أثناء المعرض يُوسّع تأثيرك من حدود القاعة إلى ملايين المتابعين على السوشيال ميديا.</p>
+
+<h2>متابعة ما بعد المعرض: الخطوة التي يتجاهلها الجميع</h2>
+<p>80% من العملاء المحتملين الذين تقابلهم في المعرض لا يُتابَعون بشكل صحيح. رسالة واتساب شخصية خلال 24 ساعة من اللقاء، وبريد إلكتروني تفصيلي خلال أسبوع، ومكالمة متابعة بعد أسبوعين — هذه المنظومة تُحوّل الاتصالات إلى عقود. <strong>وبر الإبداعية</strong> تُساعد في تصميم حضور المعارض الاحترافي لعملائها من الألف إلى الياء.</p>
+    `,
+    contentEn: `
+<h2>Pre-Exhibition Preparation: 80% of Success</h2>
+<p>Most companies believe the exhibition starts on opening day. In reality, 80% of exhibition success is determined during preparation: personalized invitations to specific prospects, pre-event social media presence, and training your team on clear, compelling messages.</p>
+
+<h2>Content Production During the Exhibition and Post-Exhibition Follow-Up</h2>
+<p>Live videos, partner and client interviews, and behind-the-scenes content extend your exhibition reach from the conference hall to millions of social media followers. Systematic follow-up within 24 hours via WhatsApp and within a week via email converts exhibition contacts into signed contracts.</p>
+
+<h2>Conclusion</h2>
+<p><strong>Waber Creative Agency</strong> helps clients design professional exhibition presence from A to Z — maximizing the return on every riyal spent on Saudi trade fairs and exhibitions.</p>
+    `,
+  },
+  {
+    slug: "altasweek-alwatan-alsaudia-quwa-jadida",
+    publishedAt: "2026-06-05",
+    readTime: 6,
+    category: { ar: "رؤية 2030", en: "Vision 2030" },
+    accentColor: "#166534",
+    title: {
+      ar: "التسويق الوطني في السعودية: كيف تربط علامتك التجارية بهوية المملكة المتجددة",
+      en: "National Marketing in Saudi Arabia: How to Link Your Brand with the Kingdom's Renewed Identity",
+    },
+    excerpt: {
+      ar: "السعودية الجديدة تحمل هوية مختلفة — واثقة، طموحة، متوازنة بين الأصالة والحداثة. العلامات التجارية التي تُعبّر بصدق عن هذه الهوية تكسب ولاء لا يُشترى.",
+      en: "The new Saudi Arabia carries a different identity — confident, ambitious, balanced between heritage and modernity. Brands that authentically express this identity earn loyalty that can't be bought.",
+    },
+    tags: ["هوية وطنية", "تسويق وطني", "رؤية 2030", "علامة سعودية"],
+    contentAr: `
+<h2>الهوية السعودية الجديدة: من هي اليوم؟</h2>
+<p>المملكة العربية السعودية اليوم تُقدّم نفسها للعالم بهوية متجددة: بلد عريق بتاريخ حضاري عميق يمتد لآلاف السنين، ومجتمع شاب طموح يتطلع إلى مستقبل متميز. هذه الهوية المزدوجة — الأصالة والحداثة — هي المادة الخام للتسويق الوطني الأكثر تأثيراً في السوق السعودي.</p>
+
+<h2>كيف تربط علامتك بالهوية الوطنية بشكل أصيل؟</h2>
+<p>الربط الأصيل ليس مجرد إضافة علم سعودي على إعلانك في اليوم الوطني. الأصالة تعني: التزاماً حقيقياً بقيم الجودة والتميّز التي تُعبّر عنها الرؤية، ومساهمة في نمو الاقتصاد المحلي من خلال توظيف السعوديين وتطوير المنتج محلياً، والتعبير الصادق عن القيم السعودية في كل نقطة تواصل مع العميل.</p>
+
+<h2>صناعة المحتوى الوطني</h2>
+<p>محتوى يُعبّر عن الفخر بالتراث السعودي — الحرف اليدوية، والعمارة العريقة، والتراث الثقافي — بطريقة معاصرة وجذابة يُحقق صدى عاطفياً عميقاً لدى الجمهور السعودي. المحتوى الذي يُظهر تطور المملكة من نافذة علامتك التجارية يُبني رابطاً عاطفياً يتجاوز مجرد العلاقة التجارية.</p>
+
+<h2>وبر الإبداعية وعلامات المستقبل السعودي</h2>
+<p><strong>وبر الإبداعية</strong> تُساعد العلامات التجارية السعودية على تحديد موضعها الصحيح في خريطة الهوية الوطنية المتجددة — وبناء رسائل تسويقية تُعبّر بصدق وتأثير عن انتمائها للمملكة العربية السعودية الجديدة.</p>
+    `,
+    contentEn: `
+<h2>The New Saudi Identity: Who Is She Today?</h2>
+<p>Saudi Arabia today presents itself to the world with a renewed identity: a country with a deep civilizational history spanning thousands of years, and a young, ambitious society looking toward a distinguished future. This dual identity — heritage and modernity — is the raw material for the most impactful national marketing in the Saudi market.</p>
+
+<h2>Authentic National Marketing</h2>
+<p>Authentic brand connection with Saudi national identity goes beyond adding a flag to your National Day ad. It means a genuine commitment to quality and excellence reflecting the Vision, local employment and product development, and honest expression of Saudi values in every customer touchpoint.</p>
+
+<h2>Conclusion</h2>
+<p><strong>Waber Creative Agency</strong> helps Saudi brands find their correct positioning in the renewed national identity map — building marketing messages that authentically and powerfully express their belonging to the new Saudi Arabia.</p>
+    `,
+  },
+  {
+    slug: "altasweek-alalatroniy-alsharikaat-alsaghira",
+    publishedAt: "2026-06-04",
+    readTime: 6,
+    category: { ar: "شركات ناشئة", en: "Startups" },
+    accentColor: "#0891b2",
+    title: {
+      ar: "التسويق الإلكتروني للشركات الصغيرة والمتوسطة في السعودية: ابدأ بميزانية صغيرة",
+      en: "Digital Marketing for SMEs in Saudi Arabia: Start with a Small Budget",
+    },
+    excerpt: {
+      ar: "الميزانية الصغيرة لا تعني نتائج صغيرة. الشركات الصغيرة والمتوسطة السعودية يمكنها تحقيق نتائج تسويقية كبيرة بأقل مما تتوقع — إذا أحسنت توجيه مواردها.",
+      en: "A small budget doesn't mean small results. Saudi SMEs can achieve significant marketing results for less than you'd expect — if you direct your resources wisely.",
+    },
+    tags: ["شركات صغيرة", "SME", "ميزانية محدودة", "تسويق رقمي السعودية"],
+    contentAr: `
+<h2>الحقيقة التي يتجاهلها كثيرون</h2>
+<p>كثير من أصحاب الشركات الصغيرة في السعودية يعتقدون أن التسويق الرقمي الفعّال يتطلب ميزانيات ضخمة. الحقيقة أن التسويق الرقمي أتاح للمرة الأولى في التاريخ لشركة صغيرة الوصول إلى نفس الجمهور الذي تصله الشركات الكبيرة — ولكن بتكلفة أقل بكثير إذا أُحسن التخطيط.</p>
+
+<h2>القنوات الأكثر جدوى بميزانية محدودة</h2>
+<ul>
+<li><strong>المحتوى العضوي على السوشيال ميديا:</strong> مجاني ويبني جمهوراً حقيقياً مع الوقت</li>
+<li><strong>SEO المحلي:</strong> تحسين ملف جوجل ماي بيزنس مجاناً يُحقق نتائج ملموسة</li>
+<li><strong>واتساب بيزنس:</strong> أداة مجانية وقوية لإدارة العملاء وبناء العلاقات</li>
+<li><strong>تبادل المحتوى:</strong> التعاون مع حسابات مكمّلة لتبادل الوصول دون تكلفة</li>
+</ul>
+
+<h2>أين تضع أول 1000 ريال تسويقي؟</h2>
+<p>إذا كان ميزانيتك الأولى 1000 ريال، ابدأ بتحسين ملفك على جوجل ماي بيزنس، وإنتاج 4-6 منشورات تصميمية احترافية تُعبّر عن علامتك، وتجربة إعلانية صغيرة على إنستجرام أو سناب شات لاختبار الرسائل. هذه الخطوات تُعطيك بيانات حقيقية لتتوسّع بذكاء.</p>
+
+<h2>وبر الإبداعية والشركات الصغيرة والمتوسطة</h2>
+<p><strong>وبر الإبداعية</strong> تُقدّم حزمة تسويقية مخصصة للشركات الصغيرة والمتوسطة في السعودية — حلول تسويقية واقعية ومتناسبة مع ميزانيات الشركات الصغيرة مع الحرص على تحقيق أعلى عائد ممكن.</p>
+    `,
+    contentEn: `
+<h2>The Truth Many Ignore</h2>
+<p>Many Saudi small business owners believe effective digital marketing requires large budgets. The truth is that digital marketing has — for the first time in history — enabled a small company to reach the same audience as large corporations, but at a fraction of the cost with proper planning.</p>
+
+<h2>Best Channels for Limited Budgets</h2>
+<p>Organic social media content (free), local SEO via Google My Business (free), WhatsApp Business (free), and content exchange partnerships with complementary accounts — these zero-cost channels can drive meaningful results for Saudi SMEs before any paid advertising investment.</p>
+
+<h2>Conclusion</h2>
+<p><strong>Waber Creative Agency</strong> offers customized marketing packages for Saudi SMEs — realistic marketing solutions scaled to small business budgets while maximizing every possible return.</p>
+    `,
+  },
+  {
+    slug: "tasweek-almansafaat-alturatia-alsaudia",
+    publishedAt: "2026-06-03",
+    readTime: 5,
+    category: { ar: "رؤية 2030", en: "Vision 2030" },
+    accentColor: "#b45309",
+    title: {
+      ar: "تسويق الحرف والمنتجات التراثية السعودية في العصر الرقمي",
+      en: "Marketing Saudi Heritage Crafts and Products in the Digital Age",
+    },
+    excerpt: {
+      ar: "التراث السعودي كنز لم يُكتشف كله بعد تسويقياً. الحرف اليدوية والمنتجات الأصيلة لديها جمهور عالمي ومحلي واسع ينتظر من يُوصله بها بطريقة إبداعية.",
+      en: "Saudi heritage is a treasure not yet fully discovered from a marketing perspective. Handcrafts and authentic products have a wide local and global audience waiting to be reached with creative storytelling.",
+    },
+    tags: ["تراث سعودي", "حرف يدوية", "تسويق تراث", "وكالة إبداعية السعودية"],
+    contentAr: `
+<h2>قيمة التراث السعودي في السوق المعاصر</h2>
+<p>في ظل الانفتاح العالمي والاهتمام المتزايد بالأصالة والحرف اليدوية، أصبح التراث السعودي منتجاً تسويقياً بالغ القيمة. الأُغيّة السعودية، والخوص، والنقش على الفضة، وفن العسير، والقهوة السعودية — كل هذه عناصر تحمل قصصاً جميلة تنتظر من يُعيد روايتها بأسلوب إبداعي معاصر.</p>
+
+<h2>كيف تُسوّق المنتجات التراثية رقمياً؟</h2>
+<p><strong>قصص الصنّاع:</strong> الفيديوهات التي توثّق قصة الحِرفي وعشقه لصناعته تُحرّك العاطفة وتُبني قصة علامة تجارية أصيلة. <strong>إتسي وأمازون هاندميد:</strong> منصات عالمية متخصصة في الحرف والمنتجات اليدوية تُوسّع جمهورك لما وراء السوق السعودي. <strong>محتوى "صُنع في السعودية":</strong> ربط منتجك بهوية "Made in Saudi Arabia" يمنحه قيمة مضافة لدى الجمهور المحلي والدولي.</p>
+
+<h2>التجارة الإلكترونية للمنتجات التراثية</h2>
+<p>بناء متجر إلكتروني متخصص بالمنتجات التراثية السعودية مع توصيل سريع داخل المملكة وشحن دولي لمن يبحث عن أصالة سعودية في كل أنحاء العالم — هذا نموذج ناجح بدأت به عدة علامات سعودية تراثية وحققت نجاحاً مبهراً. <strong>وبر الإبداعية</strong> تُساعد في بناء هوية بصرية تعكس الأصالة وتُقنع المشتري المعاصر في آنٍ واحد.</p>
+    `,
+    contentEn: `
+<h2>Saudi Heritage Value in the Contemporary Market</h2>
+<p>Saudi heritage items — traditional weaving, silver engraving, Aseer art, Saudi coffee culture — carry beautiful stories waiting to be retold through creative contemporary marketing that connects authenticity with modern aesthetic sensibility.</p>
+
+<h2>Digital Marketing for Heritage Products</h2>
+<p>Artisan story videos that document the craftsperson's love for their craft, presence on platforms like Etsy and Amazon Handmade, and "Made in Saudi Arabia" content that adds value for both local and international audiences form the most effective marketing approach for Saudi heritage products.</p>
+
+<h2>Conclusion</h2>
+<p><strong>Waber Creative Agency</strong> helps Saudi heritage brands build visual identities that reflect authenticity while convincing the modern buyer — bridging the timeless and the contemporary in compelling marketing.</p>
+    `,
+  },
+  {
+    slug: "iidarat-hosabat-alsosyal-midia-mutamiz",
+    publishedAt: "2026-06-02",
+    readTime: 6,
+    category: { ar: "سوشيال ميديا", en: "Social Media" },
+    accentColor: "#2563eb",
+    title: {
+      ar: "إدارة حسابات السوشيال ميديا للشركات السعودية: دليل من الداخل",
+      en: "Social Media Account Management for Saudi Companies: An Inside Guide",
+    },
+    excerpt: {
+      ar: "الإدارة الاحترافية لحسابات السوشيال ميديا ليست مجرد نشر منشور يومي. إنها استراتيجية متكاملة تُبني حضوراً يستحق الثقة ويُولّد عملاء حقيقيين.",
+      en: "Professional social media account management is not just posting daily. It's an integrated strategy that builds a trustworthy presence and generates real customers.",
+    },
+    tags: ["إدارة سوشيال ميديا", "Social media management", "تسويق رقمي", "وكالة سوشيال ميديا"],
+    contentAr: `
+<h2>ما الذي تتضمّنه الإدارة الاحترافية للسوشيال ميديا؟</h2>
+<p>كثيرون يظنون أن إدارة السوشيال ميديا مجرد "نشر منشور بين الفينة والأخرى". الحقيقة أن الإدارة الاحترافية لحسابات الشركة على السوشيال ميديا تشمل: استراتيجية محتوى شهرية، وتصميم جرافيك احترافي، وكتابة نصوص إعلانية، وجدولة ونشر، وتفاعل مع التعليقات، وتقارير أداء دورية. كل هذه العناصر تعمل معاً لتبني حضوراً رقمياً يليق بعلامتك.</p>
+
+<h2>العناصر التي تُميّز الإدارة الاحترافية من الهواوية</h2>
+<ul>
+<li><strong>التناسق البصري:</strong> كل منشور يعكس هوية العلامة التجارية بنفس المستوى</li>
+<li><strong>الصوت الموحّد:</strong> طريقة الكتابة والحديث مع الجمهور ثابتة ومعبّرة</li>
+<li><strong>الاستجابة السريعة:</strong> الرد على التعليقات والاستفسارات خلال ساعة أو أقل</li>
+<li><strong>التحليل والتحسين:</strong> ماذا نشر؟ ما المحتوى الأكثر تفاعلاً؟ كيف نحسّن؟</li>
+</ul>
+
+<h2>هل تحتاج إلى موظف داخلي أم وكالة؟</h2>
+<p>الموظف الداخلي يفهم شركتك جيداً لكنه قد يفتقر إلى المهارات الشاملة (تصميم + كتابة + تحليل + استراتيجية + إنتاج). الوكالة المتخصصة تُوفّر فريقاً متكاملاً من المهارات المتنوعة. <strong>وبر الإبداعية</strong> تُدير حسابات شركات سعودية متعددة بمنهجية احترافية تُحقق نمواً حقيقياً وقابلاً للقياس.</p>
+    `,
+    contentEn: `
+<h2>What Professional Social Media Management Includes</h2>
+<p>Professional management of a company's social media accounts encompasses: monthly content strategy, professional graphic design, advertising copywriting, scheduling and publishing, comment engagement, and regular performance reporting — all working together to build a digital presence worthy of your brand.</p>
+
+<h2>Agency vs. In-House Employee</h2>
+<p>An in-house employee understands your company well but may lack comprehensive skills (design + writing + analytics + strategy + production). A specialized agency provides a complete team of diverse skills at a competitive cost per result.</p>
+
+<h2>Conclusion</h2>
+<p><strong>Waber Creative Agency</strong> manages social media accounts for multiple Saudi companies using a professional methodology that achieves real, measurable growth in audience, engagement, and business leads.</p>
+    `,
+  },
+  {
+    slug: "altasweek-bialdhakaa-alistinaai-alsaudia",
+    publishedAt: "2026-06-01",
+    readTime: 6,
+    category: { ar: "تسويق رقمي", en: "Digital Marketing" },
+    accentColor: "#0891b2",
+    title: {
+      ar: "الذكاء الاصطناعي في التسويق السعودي: كيف تستفيد منه الآن دون أن تفقد إنسانيتك؟",
+      en: "Artificial Intelligence in Saudi Marketing: How to Leverage It Now Without Losing Your Humanity",
+    },
+    excerpt: {
+      ar: "الذكاء الاصطناعي غيّر قواعد التسويق الرقمي. الشركات السعودية التي تعرف كيف تستخدمه بذكاء ستنافس بكفاءة أعلى — لكن الإنسانية لا تزال هي العامل الأهم.",
+      en: "AI has changed the rules of digital marketing. Saudi companies that know how to use it intelligently will compete more efficiently — but humanity remains the most important factor.",
+    },
+    tags: ["ذكاء اصطناعي", "AI marketing", "تسويق رقمي", "مستقبل التسويق السعودية"],
+    contentAr: `
+<h2>كيف يُغيّر الذكاء الاصطناعي التسويق في السعودية؟</h2>
+<p>الذكاء الاصطناعي أصبح حاضراً في كل مرحلة من مراحل التسويق الرقمي: من توليد المحتوى النصي، إلى تحليل بيانات الجمهور، إلى تحسين الإعلانات تلقائياً في الوقت الحقيقي. الشركات السعودية التي تُدرك هذا التحول وتتكيّف معه مبكراً ستملك ميزة تنافسية حقيقية.</p>
+
+<h2>تطبيقات عملية للذكاء الاصطناعي في التسويق</h2>
+<ul>
+<li><strong>توليد محتوى أولي:</strong> أدوات مثل ChatGPT لبدء كتابة المقالات والمنشورات ثم تحريرها بشرياً</li>
+<li><strong>تحليل بيانات الجمهور:</strong> تحديد الأنماط والفرص في بيانات العملاء بسرعة مذهلة</li>
+<li><strong>تحسين الإعلانات التلقائي:</strong> خوارزميات ميتا وجوجل تُحسّن استهدافك تلقائياً بناءً على الأداء</li>
+<li><strong>Chatbots للخدمة:</strong> الرد الفوري على استفسارات العملاء 24/7</li>
+</ul>
+
+<h2>الخط الأحمر: ما يجب أن يظل إنسانياً</h2>
+<p>الذكاء الاصطناعي أداة قوية، لكن الأصالة والعاطفة والفهم الثقافي العميق للسوق السعودي لا يمكن تصنيعها آلياً. المحتوى الذي يُشعر العميل السعودي بأنه يتحدث مع بشر يفهمون ثقافته وتطلعاته يبقى التحدي الأكبر للذكاء الاصطناعي. <strong>وبر الإبداعية</strong> تُوظّف الذكاء الاصطناعي كأداة لرفع الكفاءة — مع الإبقاء على الروح الإنسانية في قلب كل ما تُنتجه لعملائها.</p>
+    `,
+    contentEn: `
+<h2>How AI Is Changing Marketing in Saudi Arabia</h2>
+<p>AI is now present across every stage of digital marketing: from generating initial content to analyzing audience data to automatically optimizing ads in real time. Saudi companies that recognize and adapt to this transformation early will gain a genuine competitive advantage.</p>
+
+<h2>The Red Line: What Must Remain Human</h2>
+<p>AI is a powerful tool, but authenticity, emotional resonance, and deep cultural understanding of the Saudi market cannot be manufactured algorithmically. Content that makes the Saudi customer feel they're speaking with humans who understand their culture and aspirations remains AI's greatest challenge.</p>
+
+<h2>Conclusion</h2>
+<p><strong>Waber Creative Agency</strong> leverages AI as an efficiency tool — while keeping the human spirit at the heart of everything we produce for our clients in the Saudi market.</p>
+    `,
+  },
 ];
 
 export function getBlogPost(slug: string): BlogPost | undefined {
