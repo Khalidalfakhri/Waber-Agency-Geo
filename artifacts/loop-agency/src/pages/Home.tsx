@@ -81,7 +81,7 @@ export default function Home() {
   const [showreelOpen, setShowreelOpen] = useState(false);
   const [contactOpen, setContactOpen] = useState(false);
   const [activeFaq, setActiveFaq] = useState<number | null>(null);
-  const [formData, setFormData] = useState({ name: "", phone: "", service: "", message: "" });
+  const [formData, setFormData] = useState({ name: "", phone: "", service: "", message: "", _honey: "" });
   const [formErrors, setFormErrors] = useState<{ name?: string; phone?: string; service?: string }>({});
   const [formStatus, setFormStatus] = useState<"idle" | "submitting" | "success" | "error">("idle");
 
@@ -1230,6 +1230,17 @@ export default function Home() {
                 </div>
               ) : (
                 <form onSubmit={handleFormSubmit} noValidate data-testid="contact-form">
+                  {/* Honeypot — hidden from humans, bots fill it and get silently rejected */}
+                  <input
+                    type="text"
+                    name="website"
+                    value={formData._honey}
+                    onChange={(e) => setFormData((p) => ({ ...p, _honey: e.target.value }))}
+                    aria-hidden="true"
+                    tabIndex={-1}
+                    autoComplete="off"
+                    style={{ position: "absolute", left: "-9999px", opacity: 0, pointerEvents: "none" }}
+                  />
                   {/* Name */}
                   <div className="mb-4">
                     <label className="block text-sm font-bold text-foreground/70 mb-1.5" htmlFor="contact-name">

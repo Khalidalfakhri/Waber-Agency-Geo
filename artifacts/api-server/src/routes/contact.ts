@@ -1,4 +1,5 @@
 import { Router, type IRouter } from "express";
+import rateLimit from "express-rate-limit";
 import nodemailer from "nodemailer";
 import { logger } from "../lib/logger";
 import { db } from "@workspace/db";
@@ -8,6 +9,21 @@ import { desc } from "drizzle-orm";
 const router: IRouter = Router();
 
 const CONTACT_EMAIL = "Info@waberagency.com";
+
+// ── Rate limiter: 5 submissions per IP per 15 minutes ──────────────────────
+// req.ip resolves to the real client IP because app.set("trust proxy", 1) is
+// set in app.ts, so express-rate-limit's default key generator works correctly.
+const contactLimiter = rateLimit({
+  windowMs: 15 * 60 * 1000, // 15 minutes
+  max: 5,
+  standardHeaders: true,
+  legacyHeaders: false,
+  handler: (_req, res) => {
+    res.status(429).json({
+      error: "لقد تجاوزت الحد المسموح به من الطلبات. يرجى المحاولة بعد 15 دقيقة.",
+    });
+  },
+});
 
 function createTransporter() {
   const host = process.env.SMTP_HOST;
@@ -28,13 +44,21 @@ function createTransporter() {
 }
 
 // POST /api/contact — receive form submission, persist to DB, attempt email
-router.post("/contact", async (req, res) => {
-  const { name, phone, service, message } = req.body as {
+router.post("/contact", contactLimiter, async (req, res) => {
+  const { name, phone, service, message, _honey } = req.body as {
     name?: string;
     phone?: string;
     service?: string;
     message?: string;
+    _honey?: string; // honeypot — humans leave this empty; bots fill it
   };
+
+  // Honeypot check: silently succeed so bots don't learn they were blocked
+  if (_honey) {
+    logger.warn({ ip: req.ip }, "honeypot triggered — bot submission discarded");
+    res.status(200).json({ success: true });
+    return;
+  }
 
   if (!name?.trim() || !phone?.trim() || !service?.trim()) {
     res.status(400).json({ error: "الاسم والهاتف والخدمة مطلوبة" });
@@ -82,7 +106,7 @@ router.post("/contact", async (req, res) => {
 الرسالة: ${submission.message || "—"}
 
 التاريخ: ${new Date().toISOString()}
-رقم السجل: #${savedId ?? "—"}
+رقم السجل: #${savedId}
       `.trim();
 
       await transporter.sendMail({
