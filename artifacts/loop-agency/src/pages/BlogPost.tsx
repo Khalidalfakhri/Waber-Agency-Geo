@@ -38,6 +38,20 @@ function formatDateAr(iso: string) {
 
 const BANNER_SESSION_KEY = "waber_cta_banner_dismissed";
 
+/** Push a GTM dataLayer event. Works whether GTM has loaded yet or not. */
+function trackEvent(event: string, extra?: Record<string, string>) {
+  try {
+    (window as unknown as { dataLayer?: object[] }).dataLayer =
+      (window as unknown as { dataLayer?: object[] }).dataLayer ?? [];
+    (window as unknown as { dataLayer: object[] }).dataLayer.push({
+      event,
+      ...extra,
+    });
+  } catch {
+    // Never let analytics errors surface to the user
+  }
+}
+
 export default function BlogPost() {
   const params = useParams<{ slug: string }>();
   const post = getBlogPost(params.slug);
@@ -77,6 +91,7 @@ export default function BlogPost() {
   }, [bannerDismissed, params.slug]);
 
   function dismissBanner() {
+    trackEvent("cta_banner_dismiss", { blog_slug: params.slug ?? "" });
     setBannerDismissed(true);
     setBannerVisible(false);
     sessionStorage.setItem(BANNER_SESSION_KEY, "1");
@@ -355,6 +370,7 @@ export default function BlogPost() {
                   href="https://wa.me/966511830757?text=مرحباً%20وبر%20الإبداعية،%20أود%20الحصول%20على%20استشارة%20مجانية"
                   target="_blank"
                   rel="noopener noreferrer"
+                  onClick={() => trackEvent("cta_banner_click", { blog_slug: params.slug ?? "" })}
                   className="flex items-center gap-1.5 bg-accent text-accent-foreground rounded-full px-3.5 py-1.5 text-xs font-bold hover:bg-accent/90 transition-all whitespace-nowrap"
                   data-testid="sticky-cta-whatsapp"
                 >
@@ -384,6 +400,7 @@ export default function BlogPost() {
                   href="https://wa.me/966511830757?text=مرحباً%20وبر%20الإبداعية،%20أود%20الحصول%20على%20استشارة%20مجانية"
                   target="_blank"
                   rel="noopener noreferrer"
+                  onClick={() => trackEvent("cta_banner_click", { blog_slug: params.slug ?? "" })}
                   className="flex items-center gap-2 bg-accent text-accent-foreground rounded-full px-6 py-2.5 text-sm font-bold hover:bg-accent/90 transition-all hover:scale-[1.03] whitespace-nowrap"
                   data-testid="sticky-cta-whatsapp"
                 >
