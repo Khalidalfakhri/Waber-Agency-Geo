@@ -99,7 +99,7 @@ export default function BlogPost() {
 
   if (!post) return <NotFound />;
 
-  const shareUrl = `https://www.waberagency.com/blog/${post.slug}`;
+  const shareUrl = `https://waberagency.com/blog/${post.slug}`;
   const shareText = `${post.title.ar} — وبر الإبداعية`;
 
   return (
