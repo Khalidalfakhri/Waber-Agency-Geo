@@ -88,7 +88,7 @@ export default function Home() {
   const handleContactClose = () => {
     setContactOpen(false);
     setTimeout(() => {
-      setFormData({ name: "", phone: "", service: "", message: "" });
+      setFormData({ name: "", phone: "", service: "", message: "", _honey: "" });
       setFormErrors({});
       setFormStatus("idle");
     }, 300);
@@ -229,7 +229,7 @@ export default function Home() {
             className="w-full h-full object-cover"
             poster="/hero-riyadh.png"
           >
-            <source src="/clients/jotun-color-trend.mp4" type="video/mp4" />
+            <source src="/api/storage/public-objects/agency/showreel.mp4" type="video/mp4" />
             <img src="/hero-riyadh.png" alt="Riyadh Skyline" className="w-full h-full object-cover" />
           </video>
         </motion.div>
@@ -743,7 +743,7 @@ export default function Home() {
           >
             {/* Full-bleed video background */}
             <video
-              src="/clients/jotun-video.mp4"
+              src="/api/storage/public-objects/agency/showreel.mp4"
               autoPlay
               muted
               loop
@@ -1383,7 +1383,7 @@ export default function Home() {
               onClick={(e) => e.stopPropagation()}
             >
               <video
-                src="/showreel.mp4"
+                src="/api/storage/public-objects/agency/showreel.mp4"
                 controls
                 autoPlay
                 className="w-full rounded-2xl shadow-2xl"

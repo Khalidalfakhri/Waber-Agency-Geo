@@ -1,0 +1,1 @@
+- [GitHub upload and large media](github-media-upload.md) — bootstrap empty repos with a Contents commit; keep duplicate oversized videos in App Storage.

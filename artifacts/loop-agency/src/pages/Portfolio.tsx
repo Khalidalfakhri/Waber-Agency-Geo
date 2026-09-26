@@ -193,7 +193,7 @@ function PortfolioContent() {
             transition={{ duration: 0.8 }}
             className="rounded-3xl overflow-hidden relative min-h-[600px]"
           >
-            <video src="/clients/jotun-video.mp4" autoPlay muted loop playsInline className="absolute inset-0 w-full h-full object-cover" />
+            <video src="/api/storage/public-objects/agency/showreel.mp4" autoPlay muted loop playsInline className="absolute inset-0 w-full h-full object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-black/20" />
             <div className="relative z-10 h-full min-h-[600px] flex flex-col justify-end p-8 lg:p-14">
               <div className="flex items-center gap-2 mb-5">

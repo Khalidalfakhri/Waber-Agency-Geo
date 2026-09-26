@@ -10,6 +10,8 @@ servers:
 tags:
   - name: health
     description: Health operations
+  - name: storage
+    description: Public media serving
 paths:
   /healthz:
     get:
@@ -24,6 +26,35 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/HealthStatus"
+  /storage/public-objects/{filePath}:
+    get:
+      operationId: getPublicObject
+      tags: [storage]
+      summary: Serve public media from object storage
+      parameters:
+        - name: filePath
+          in: path
+          required: true
+          schema:
+            type: string
+          description: Relative path within the configured public storage search path.
+      responses:
+        "200":
+          description: Public media bytes, optionally as a byte range.
+          content:
+            "*/*":
+              schema:
+                type: string
+                format: binary
+        "206":
+          description: Partial public media bytes.
+          content:
+            "*/*":
+              schema:
+                type: string
+                format: binary
+        "404":
+          description: Public media asset not found.
 components:
   schemas:
     HealthStatus:
