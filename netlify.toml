@@ -1,0 +1,27 @@
+# Netlify deploy for the Wabar agency site (artifacts/loop-agency)
+[build]
+  base = "/"
+  command = "pnpm --filter @workspace/loop-agency run build"
+  publish = "artifacts/loop-agency/dist/public"
+  functions = "netlify/functions"
+
+[build.environment]
+  NODE_VERSION = "22"
+  PNPM_VERSION = "10.28.0"
+
+# Showreel used to be served from Replit object storage; it now ships with the site.
+[[redirects]]
+  from = "/api/storage/public-objects/agency/showreel.mp4"
+  to = "/showreel.mp4"
+  status = 200
+
+# SPA fallback (blog posts and any non-prerendered route)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
