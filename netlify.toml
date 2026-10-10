@@ -9,6 +9,19 @@
   NODE_VERSION = "22"
   PNPM_VERSION = "10.28.0"
 
+# Send the secondary domain wabermarketing.com to the main site
+[[redirects]]
+from = "https://wabermarketing.com/*"
+to = "https://waberagency.com/:splat"
+status = 301
+force = true
+
+[[redirects]]
+from = "https://www.wabermarketing.com/*"
+to = "https://waberagency.com/:splat"
+status = 301
+force = true
+
 # Showreel used to be served from Replit object storage; it now ships with the site.
 [[redirects]]
   from = "/api/storage/public-objects/agency/showreel.mp4"
