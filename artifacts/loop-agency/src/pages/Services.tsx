@@ -7,7 +7,7 @@ import PageLayout, { useContact } from "@/components/PageLayout";
 const PAGE_META = {
   title: "خدماتنا | Services – وبر الإبداعية Waber Creative Agency",
   description: "خدمات وبر الإبداعية: هوية بصرية، تسويق رقمي، إدارة السوشيال ميديا، إنتاج مرئي، تصميم مواقع وتطبيقات، وتنظيم فعاليات — مصممة خصيصاً للسوق السعودي.",
-  canonical: "https://waberagency.com/services",
+  canonical: "https://wabermarketing.com/services",
 };
 
 const services = [

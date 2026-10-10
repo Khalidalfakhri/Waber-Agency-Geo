@@ -180,7 +180,7 @@ export default function Blog() {
         <div className="container mx-auto px-6 md:px-12 flex flex-col md:flex-row justify-between items-center gap-4">
           <img src="/wabar-logo.png" alt="Waber Agency" className="h-10 w-auto" />
           <p className="en text-sm text-foreground/40">© {new Date().getFullYear()} Waber Agency. All rights reserved.</p>
-          <Link href="/" className="en text-sm text-accent hover:underline">waberagency.com</Link>
+          <Link href="/" className="en text-sm text-accent hover:underline">wabermarketing.com</Link>
         </div>
       </footer>
     </div>

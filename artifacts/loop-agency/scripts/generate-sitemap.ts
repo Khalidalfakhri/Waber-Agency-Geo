@@ -12,7 +12,7 @@ import { fileURLToPath } from "url";
 import { blogPosts } from "../src/data/blog.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const BASE_URL = "https://waberagency.com";
+const BASE_URL = "https://wabermarketing.com";
 const today = new Date().toISOString().slice(0, 10);
 
 // ---------------------------------------------------------------------------

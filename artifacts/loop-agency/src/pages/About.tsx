@@ -6,7 +6,7 @@ import PageLayout, { useContact } from "@/components/PageLayout";
 const PAGE_META = {
   title: "من نحن | About – وبر الإبداعية Waber Creative Agency",
   description: "وبر الإبداعية — وكالة إبداعية من الرياض. نساعد الشركات على بناء هوية قوية وحضور رقمي واضح. 15 سنة خبرة، 2500+ مشروع، 1000+ عميل سعيد.",
-  canonical: "https://waberagency.com/about",
+  canonical: "https://wabermarketing.com/about",
 };
 
 const stats = [

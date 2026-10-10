@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 const PAGE_META = {
   title: "أعمالنا | Portfolio – وبر الإبداعية Waber Creative Agency",
   description: "استعرض أعمال وبر الإبداعية: موطن، مواسم، كادن، كامبلي، أرز العائلة، جوتن. هوية بصرية، إنتاج مرئي، وتسويق رقمي للسوق السعودي.",
-  canonical: "https://waberagency.com/portfolio",
+  canonical: "https://wabermarketing.com/portfolio",
 };
 
 const portfolioProjects = [

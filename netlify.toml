@@ -9,16 +9,16 @@
   NODE_VERSION = "22"
   PNPM_VERSION = "10.28.0"
 
-# Send the secondary domain wabermarketing.com to the main site
+# Send the Netlify subdomain and www to the main domain so Google sees one site
 [[redirects]]
-from = "https://wabermarketing.com/*"
-to = "https://waberagency.com/:splat"
+from = "https://waberagency.netlify.app/*"
+to = "https://wabermarketing.com/:splat"
 status = 301
 force = true
 
 [[redirects]]
 from = "https://www.wabermarketing.com/*"
-to = "https://waberagency.com/:splat"
+to = "https://wabermarketing.com/:splat"
 status = 301
 force = true
 

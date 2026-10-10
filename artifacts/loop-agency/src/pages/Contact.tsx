@@ -7,7 +7,7 @@ import PageLayout from "@/components/PageLayout";
 const PAGE_META = {
   title: "تواصل معنا | Contact – وبر الإبداعية Waber Creative Agency",
   description: "تواصل مع وبر الإبداعية في الرياض. البريد الإلكتروني: Info@waberagency.com — واتس آب: 00966511830757. سنرد عليك خلال 24 ساعة.",
-  canonical: "https://waberagency.com/contact",
+  canonical: "https://wabermarketing.com/contact",
 };
 
 function ContactForm() {

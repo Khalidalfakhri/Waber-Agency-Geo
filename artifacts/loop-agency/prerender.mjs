@@ -71,8 +71,8 @@ if (typeof window === "undefined") {
     pathname: "/",
     search: "",
     hash: "",
-    href: "https://waberagency.com/",
-    origin: "https://waberagency.com",
+    href: "https://wabermarketing.com/",
+    origin: "https://wabermarketing.com",
   };
 }
 
@@ -80,7 +80,7 @@ if (typeof window === "undefined") {
 const serverBundle = resolve(__dirname, "dist/server/entry-server.js");
 const { render } = await import(serverBundle);
 
-const BASE_URL = "https://waberagency.com";
+const BASE_URL = "https://wabermarketing.com";
 
 // ---------------------------------------------------------------------------
 // Static route definitions — add new routes here to include them in sitemap
@@ -190,7 +190,7 @@ for (const route of STATIC_ROUTES) {
   // Update the location stub so wouter reads the correct pathname during SSR.
   if (global.location) {
     global.location.pathname = route.url;
-    global.location.href = `https://waberagency.com${route.url}`;
+    global.location.href = `https://wabermarketing.com${route.url}`;
   }
 
   const appHtml = render(route.url);

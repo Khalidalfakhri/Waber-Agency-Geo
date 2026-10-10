@@ -99,7 +99,7 @@ export default function BlogPost() {
 
   if (!post) return <NotFound />;
 
-  const shareUrl = `https://waberagency.com/blog/${post.slug}`;
+  const shareUrl = `https://wabermarketing.com/blog/${post.slug}`;
   const shareText = `${post.title.ar} — وبر الإبداعية`;
 
   return (
@@ -344,7 +344,7 @@ export default function BlogPost() {
         <div className="container mx-auto px-6 md:px-12 flex flex-col md:flex-row justify-between items-center gap-4">
           <img src="/wabar-logo.png" alt="Weber Agency" className="h-10 w-auto" />
           <p className="en text-sm text-foreground/40">© {new Date().getFullYear()} Waber Agency. All rights reserved.</p>
-          <Link href="/" className="en text-sm text-accent hover:underline">waberagency.com</Link>
+          <Link href="/" className="en text-sm text-accent hover:underline">wabermarketing.com</Link>
         </div>
       </footer>
 
