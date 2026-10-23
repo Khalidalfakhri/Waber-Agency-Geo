@@ -78,7 +78,7 @@ if (typeof window === "undefined") {
 
 // Import the SSR bundle built by vite.ssr.config.ts
 const serverBundle = resolve(__dirname, "dist/server/entry-server.js");
-const { render } = await import(serverBundle);
+const { render, extraRoutes = [] } = await import(serverBundle);
 
 const BASE_URL = "https://wabermarketing.com";
 
@@ -129,6 +129,10 @@ const STATIC_ROUTES = [
   },
 ];
 
+// Lead pages (Brand Inspection + pricing) are defined in src/entry-server.tsx
+// so their meta and JSON-LD come from the same data as the page.
+STATIC_ROUTES.push(...extraRoutes);
+
 // ---------------------------------------------------------------------------
 // Read the built index.html template once
 // ---------------------------------------------------------------------------
@@ -138,10 +142,18 @@ const template = readFileSync(indexPath, "utf-8");
 // ---------------------------------------------------------------------------
 // Helper: inject SSR content + per-route meta into the template
 // ---------------------------------------------------------------------------
+const HOME_FAQ_LD = /<!-- ═══ FAQ STRUCTURED DATA ═══ -->\s*<script type="application\/ld\+json">[\s\S]*?<\/script>/;
+
 function buildHtml(route, appHtml) {
   const canonical = `${BASE_URL}${route.url}`;
+  // The homepage FAQ schema only describes the homepage; other pages carry their own.
+  const base = route.url === "/" ? template : template.replace(HOME_FAQ_LD, "");
+  const ld = (route.jsonLd || [])
+    .map((o) => `<script type="application/ld+json">${JSON.stringify(o).replace(/</g, "\\u003c")}</script>`)
+    .join("\n    ");
 
-  return template
+  return base
+    .replace("</head>", ld ? `    ${ld}\n  </head>` : "</head>")
     // SSR content
     .replace('<div id="root"></div>', `<div id="root">${appHtml}</div>`)
     // Title
@@ -166,6 +178,8 @@ function buildHtml(route, appHtml) {
       /<meta property="og:description" content="[^"]*"/,
       `<meta property="og:description" content="${route.ogDescription}"`
     )
+    // hreflang alternates
+    .replace(/(<link rel="alternate" hreflang="[^"]+" href=")[^"]*"/g, `$1${canonical}"`)
     // OG URL
     .replace(
       /<meta property="og:url" content="[^"]*"/,
