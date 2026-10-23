@@ -8,9 +8,12 @@
 export function trackEvent(event: string, extra?: Record<string, string>) {
   if (typeof window === "undefined") return;
   try {
-    const w = window as unknown as { dataLayer?: object[] };
+    const w = window as unknown as { dataLayer?: object[]; gtag?: (...args: unknown[]) => void };
     w.dataLayer = w.dataLayer ?? [];
+    // for GTM triggers
     w.dataLayer.push({ event, ...extra });
+    // straight to GA4 (G-HVC4SH5G64), so events count even without a GTM tag
+    if (typeof w.gtag === "function") w.gtag("event", event, extra ?? {});
   } catch {
     // analytics must never break the page
   }
