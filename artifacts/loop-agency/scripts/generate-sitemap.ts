@@ -10,6 +10,8 @@ import { writeFileSync } from "fs";
 import { resolve, dirname } from "path";
 import { fileURLToPath } from "url";
 import { blogPosts } from "../src/data/blog.js";
+import { pricingPages } from "../src/data/pricing.js";
+import { INSPECTION } from "../src/data/offers.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const BASE_URL = "https://wabermarketing.com";
@@ -34,6 +36,10 @@ const STATIC_ROUTES: Array<{
   { path: "/about",   changefreq: "monthly", priority: "0.8" },
   { path: "/contact", changefreq: "monthly", priority: "0.8" },
   { path: "/portfolio", changefreq: "monthly", priority: "0.8" },
+  // Lead pages
+  { path: INSPECTION.slug, changefreq: "monthly", priority: "0.9" },
+  { path: "/asaar", changefreq: "monthly", priority: "0.85" },
+  ...pricingPages.map((p) => ({ path: p.slug, changefreq: "monthly", priority: "0.9" })),
 ];
 
 function urlEntry(

@@ -10,6 +10,7 @@ const navLinks = [
   { ar: "من نحن", en: "About", href: "#about" },
   { ar: "خدماتنا", en: "Services", href: "#services" },
   { ar: "عملاؤنا", en: "Clients", href: "#clients" },
+  { ar: "الأسعار", en: "Pricing", href: "/asaar" },
   { ar: "المدونة", en: "Blog", href: "/blog" },
 ];
 
